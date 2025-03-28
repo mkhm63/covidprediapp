@@ -1,17 +1,12 @@
-# app/app.py
+# app.py (flattened)
 import os
-import sys
 import streamlit as st
+import matplotlib.pyplot as plt
 
-# ✅ Ensure Streamlit can find the src folder
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
-
-from src.extract_text import extract_pdfs_to_txt
-from src.classify import update_labels_csv, load_texts_with_labels, classify_texts
-from src.visualize import load_texts_by_label, plot_wordclouds_by_label
-from src.keyword_barcharts import plot_top_keywords_by_label
-
-import matplotlib.pyplot as plt  # Required for st.pyplot()
+from extract_text import extract_pdfs_to_txt
+from classify import update_labels_csv, load_texts_with_labels, classify_texts
+from visualize import load_texts_by_label, plot_wordclouds_by_label
+from keyword_barcharts import plot_top_keywords_by_label
 
 st.set_page_config(page_title="COVID Research Classifier", layout="wide")
 st.title("🦠 COVID Scientific Article Classifier")
