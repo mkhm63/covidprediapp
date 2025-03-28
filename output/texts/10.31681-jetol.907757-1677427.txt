@@ -1,0 +1,1175 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/351988975
+English language teaching and learning during Covid-19: A global perspective
+on the ﬁrst year
+Article  in  Journal of Educational Technology and Online Learning · May 2021
+DOI: 10.31681/jetol.907757
+CITATIONS
+92
+READS
+9,672
+1 author:
+Ali Erarslan
+Alanya Alaaddin Keykubat University
+33 PUBLICATIONS   477 CITATIONS   
+SEE PROFILE
+All content following this page was uploaded by Ali Erarslan on 02 August 2021.
+The user has requested enhancement of the downloaded file.
+ 
+Journal of Educational 
+Technology & Online Learning 
+Volume 4 │Issue 2│2021 
+http://dergipark.org.tr/jetol 
+ 
+ 
+Doi: http://doi.org/10.31681/jetol.907757  
+Received 1 Apr 2021; Revised 30 May 2021; Accepted 30 May 2021 
+ISSN: 2618-6586 . This is an open Access article under the CC BY license. 
+English language teaching and learning during Covid-19: A global perspective 
+on the first year 
+Ali Erarslan a*
+ 
+a  Alanya Alaaddin Keykubat University, Department of English Language Teaching, Antalya, Turkey. 
+Suggested citation:  Erarslan, A. (2021). English language teaching and learning during Covid-19: A global perspective on the first year. 
+Journal of Educational Technology & Online Learning, 4(2), 349-367 
+Article Info 
+ 
+Abstract  
+Keywords:  
+Pandemic 
+Covid-19 
+Emergency online teaching 
+English language teaching and 
+learning 
+First year analysis 
+ 
+The world recently witnessed the unexpected emergence of a coronavirus that caused the 
+Covid-19 pandemic and severely impacted all aspects of human life. The sudden 
+lockdown that came with the announcement of the pandemic affected health systems, the 
+world economy and, inevitably, education systems across the globe.  Due to the 
+pandemic, schools and universities were closed, face-to-face education was suspended 
+and a shift to emergency online teaching was instituted. English language training took 
+its share in this transition and several studies were conducted to investigate the effects of 
+the pandemic on emergency online teaching and the learning of English. This integrative 
+literature review study analyses and synthesizes the research studies conducted between 
+March 2020 and February 2021 to illustrate the first year of the pandemic in terms of 
+English language teaching and learning globally. Thus, 69 research studies were selected 
+for analysis. Findings show that the emergency online teaching and learning of English 
+mainly created challenges due to the internet connection problems and students’ access 
+to computer or smart phones. On the other hand, contributing the teachers’ digital literacy 
+skills, the significance of online teaching and learning in case of emergency situations 
+was highlighted as the findings showed. The studies produced conflicting results in terms 
+of the implementation of emergency online teaching and learning practices, English 
+language teachers and students’ perceptions and attitudes, the affective, motivational and 
+cognitive aspects, and the impact of emergency online teaching on the language 
+development of students. 
+Research Article 
+1. Introduction 
+The emergence of the novel coronavirus known as Covid-19 and the pandemic announced by the World 
+Health Organization (WHO, 2020) following the rapid spread of the virus across borders created an 
+unexpected lockdown in nearly all parts of the world. The uncertainty caused by the pandemic challenged 
+almost all aspects of human life, including the field of education. In this situation, schools and higher 
+education institutions across the globe needed to end face-to-face education and continue through online 
+courses, which created confusion and directly impacted all stakeholders such as students, teachers, families 
+and administrators. According to UNESCO (2020), more than 90% of students all over the world were 
+affected directly or indirectly by school closures and emergency online learning. New data reported by 
+UNESCO (2021) shows that nearly 1.5 billion students across the world have been affected by this sudden 
+change in instructional delivery, and more than 800 million students have experienced serious challenges 
+in terms of disruption to their education. According to this report, 31 countries implemented full school 
+ 
+* Ali Erarslan. Department of English Language Teaching, Alanya Alaaddin Keykubat University, Antalya, Turkey  
+e-mail adress: ali.erarslan@alanya.edu.tr 
+ 
+JETOL 2021, Volume 4 Issue 2, 349-367 
+Erarslan, A.
+ 
+ 
+ 
+ 
+ 
+350 
+closures while 48 countries continued their education via reduced and part-time schedules. At the same 
+time, to mitigate the pandemic in this transition period, several academic fields were seriously affected, and 
+the teaching of English was not an exception.   
+Due to English being the lingua franca, it is taught in almost all segments of education from kindergarten 
+to higher education across the world (Baird & Baird, 2018; Deniz et al., 2016; Nunan, 2003). Considering 
+this long-established value of English among other world languages (Li et al., 2020), the teaching and 
+learning of English proportionally shared the problems caused by the pandemic. However, one advantage 
+that most language teachers and learners gained during this period of uncertainty is that online teaching of 
+English was already being practised prior to the Covid-19 outbreak and some English language teachers 
+and learners have become accustomed to online lessons in English courses (Atmojo & Nugroho, 2020). In 
+fact, as Bailey and Lee (2020) assert, Computer Assisted Language Learning (CALL) has been used for 
+language teaching and learning purposes for more than 40 years. With the advances in technology, English 
+language teaching and learning evolved considerably, which paved the way for online language learning. 
+Thus, the teaching of English through online or distance courses is not a new phenomenon, yet the urgent 
+transition to emergency online language teaching may exhibit certain challenges for teachers and students.    
+The transition to remote teaching worldwide created a need to differentiate the terms used for the modes of 
+instructional delivery. Generally, online learning and emergency remote teaching are used interchangeably 
+to refer to the case of teachers and students’ practices during the pandemic period, which started in March 
+2020 and has continued since then. However, Hodges et al., (2020a) explained that online teaching, like 
+face-to-face teaching, was a planned activity from the very beginning. Nevertheless, they highlighted that 
+emergency remote teaching (ERT) is a solution provided as an alternative to customary education modes 
+due to the crisis circumstances. Emergency remote teaching is different from online and face-to-face 
+education in a number of ways; it is a temporary change in educational delivery and occurs suddenly in an 
+unplanned manner. The temporary nature of emergency remote teaching comes from the fact that when the 
+crisis mitigates or ends, then face-to-face, online, or blended education will take the place of emergency 
+remote teaching. Thus, creating an alternative and temporary solution to provide access to education in a 
+reliable way during times of emergency, the emergency remote teaching approach differs from online 
+teaching, although they may be considered the same in some respects. Although emergency remote teaching 
+may not necessarily require online instruction or technology in its delivery, as Moser et al. (2021) stated, 
+the remote teaching implemented during the Covid-19 pandemic has mostly been based on the online 
+format. Thus, throughout this study, emergency online teaching or learning (EOT-L) will be referred to for 
+any emergency remote teaching activity based on online teaching.  
+From the onset of the Covid-19 pandemic, several research studies were conducted that focused on various 
+aspects of emergency online teaching in different disciplines and fields in education. Ranging from science 
+to geography in different segments of education, the effects of Covid-19 were studied in the literature (see, 
+for example, Schultz & DeMers, 2020; Naji et al., 2020). On the other hand, due to the unplanned nature 
+of emergency online teaching, the studies focused on various aspects of education involving, for instance, 
+the availability of online teaching resources and tools (Dhawan, 2020), the effects of the pandemic on 
+teachers (Talidong & Toquero, 2020), instructors’ teaching practices, strategies and activities (König et al., 
+2020; Mahmood, 2020; Noor et al., 2020; Rapanta et al., 2020), the students (Coman et al., 2020; Shahzad 
+et al., 2020; Son et al., 2020), key challenges or opportunities (Adedoyin & Soykan, 2020; Donitsa-Schmidt 
+& Ramot, 2020; Heng & Sol, 2020), and policy management in education (Zhang et al., 2020).  
+Regarding English language teaching and learning through emergency online teaching, several research 
+studies were conducted dealing with various aspects involving teachers, students, teaching practices, 
+technological resources, teaching platforms, and the teaching of language skills from primary to university 
+education (see, for example, Andriivna et al., 2020; Jones, 2020; Maican & Cocoradă, 2021; Nartiningrum 
+& Nugroho, 2020; Russell, 2020; Sepulveda-Escobar & Morrison, 2020). In fact, not only for the existing 
+situation of English language teaching during emergency online teaching but also for the occurrence of a 
+JETOL 2021, Volume 4 Issue 2, 349-367 
+Erarslan, A.
+ 
+ 
+ 
+ 
+ 
+351 
+crisis in the future necessitating a sudden shift to emergency teaching, the evidence and experience gathered 
+from research studies may provide valuable insights into the nature of English language teaching in such 
+periods.  
+Building upon research findings based on the challenges faced, solutions to problems, the advantages or 
+disadvantages of emergency online teaching, teaching practices and platforms, technological resources and 
+student and teacher-related issues, the general picture of English language teaching requires a 
+comprehensive study based on an integrative literature review. When the literature is reviewed, it is seen 
+that there is a critical gap in terms of an integrative literature review study reviewing and synthesizing 
+studies in the existing literature for this critical period. The first-year experience of the Covid-19 pandemic 
+taking language teaching and learning within emergency online education is significant for some reasons. 
+Initially, it is critical for the researchers, academics, English language teachers, students and the related 
+stakeholders to understand the global impact of the pandemic specifically on language education. Next, 
+learning from the weaknesses and strengths of the emergency online teaching and learning from a global 
+perspective may guide the program designers, teachers, students, families and school administrators in 
+increasing the effectiveness and efficiency of language teaching during such critical periods. From the 
+research perspective, drawing generalizable conclusions is possible through integrative review studies. 
+Thus, a review study illuminating the world’s experience of emergency online teaching of English language 
+in the first year of the Covid-19 pandemic may provide critical insights into the pedagogical and techno-
+pedagogical aspects. With this aim in mind, and based on English language teaching/learning related 
+studies, this study seeks answers to the following research questions: 
+1- What are the commonalities of the Covid-19 studies regarding their focus, participants, education 
+segment and country?  
+2- What is the impact of the Covid-19 pandemic on English language learning and teaching on a 
+global scale in terms of the implementation of emergency online teaching and learning based on; 
+a) strengths, weaknesses, and challenges as well as opportunities 
+b) the effectiveness of online platforms and learning management systems 
+c) language skills development and language courses?  
+3- What are language teachers and students’ attitudes and motivations towards emergency online 
+teaching and learning? 
+2. Methodology 
+The primary purpose of this study is to gain a deeper understanding of the global aspects of English 
+language teaching during the first year of the Covid-19 pandemic. This study was therefore designed as a 
+descriptive study making use of the qualitative approach based on a systematic integrative literature review. 
+Integrative literature review as a distinctive research method aims at creating new knowledge by reviewing, 
+synthesizing, evaluating, and setting new frameworks making use of the representative literature on a 
+specific topic (Torraco, 2005). Integrative literature studies are conducted in a systematically way to 
+generate generalizable data on the topic that is under scrutiny. In this integrative literature review study, 
+document analysis was used to collect the necessary data. According to Bowen (2009), document analysis 
+is a procedure for reviewing or evaluating documents which is then used for interpreting and eliciting the 
+meaning to gain an understanding and develop empirical knowledge. At the same time, the integrative 
+literature review aims at synthesizing the existing research knowledge by identifying gaps in the current 
+research, answering new questions, and determining the direction of research tendencies in future studies 
+(Russell, 2005). 
+JETOL 2021, Volume 4 Issue 2, 349-367 
+Erarslan, A.
+ 
+ 
+ 
+ 
+ 
+352 
+2.1. Procedure 
+From the onset of Covid-19 until the present, namely, in the first year of the pandemic, many studies were 
+conducted and published in various countries regarding English language teaching and learning. The data 
+used in this study comes from those studies conducted within the first year of the pandemic. In selecting 
+the documents, the research studies published were examined and processed every three months based on 
+certain criteria. Starting from March 2020, the online databases were checked every three months to find 
+new research documents. While searching for research papers, firstly, the studies that were conducted 
+during the pandemic based on English language teaching were selected. In this process, peer-reviewed and 
+data-driven research studies in various indexed journals were utilized. Mainly, SSCI (Social Sciences 
+Citation Index), ERIC (Education Resources Information Centre), Scopus, ESCI, DOAJ (Directory of Open 
+Access Journals), ERIH Plus, Index Copernicus, ULAKBIM, and other related indexed journals were 
+searched while selecting studies as the documents for this review.  
+The search for research studies as the documents to be used for the analysis in this study was conducted 
+online with a number of keyword combinations. While searching for the documents, “Covid-19 + English 
+language + teaching”, “Covid-19 + English language + learning”, “pandemic + English + language + 
+learning/teaching”, “coronavirus + English language + learning”, “lockdown + English language + 
+learning/teaching”, “English”, “language”, “teaching”, “learning”, “EFL”, and “ESL” key word 
+combinations were used interchangeably and separately in each search on Clarivate, Wiley online, Taylor 
+and Francis Online, Elsevier, MDPI, Springer, Emerald Insight, De Gruyter, Sage, Frontiers, ERIC, Google 
+Scholar, Mendeley, ResearchGate, academia.edu and Dergipark (Turkey) online websites as well as other 
+related journal websites on the net. The studies found were carefully checked based on the inclusion criteria, 
+and those which were published in languages other than English, ones that did not include the keywords 
+above in their titles or abstracts, and papers that were not based on research data (such as reports, etc.), 
+conference proceedings and book chapters were omitted as being outside the scope of this study.  
+Following the search for documents in the form of research studies focusing on English language teaching 
+and learning during the pandemic, several studies were excluded as not fitting into the scope of the research. 
+Finally, a total of 69 research studies carried out in different countries around the world were selected for 
+analysis, as shown in Table 1 below.  
+Table 1.  
+Studies analyzed as the documents of this study. 
+Study Focus 
+Authors 
+N 
+English 
+language 
+related studies during 
+the Covid-19 process 
+(between 
+March 
+2020 and February 
+2021)  
+(Aji et al., 2020; Allo, 2020; Almekhlafy, 2020; Andriivna et al., 
+2020; Ariyanti, 2020; Astuti & Solikhah, 2021; Atmojo & Nugroho, 
+2020; Bailey & Lee, 2020; Chiatoh & Chia, 2020; Dahmash, 2020; 
+Davies et al., 2020; Destianingsih & Satria, 2020; Farrah & Al-
+Bakry, 2020; Fatima, 2020; Fitria, 2020; Forrester, 2020; Fuad et al., 
+2020; Fuentes Hernández et al., 2020; Gao & Zhang, 2020; Hadianti 
+& Arisandi, 2020; Hafidz, 2020; Hakim, 2020; Hamid, 2020; 
+Hartshorn & Mcmurry, 2020; Hazaea et al., 2021; Hodges et al., 
+2020b; Hopp & Thoma, 2020; Huang et al., 2021; Kamhi-Stein et 
+al., 2020; Karakuzu et al., 2020; Karataş & Tuncer, 2020; Karim & 
+Hasan, 2020; Kawinkoonlasate, 2020; Khafaga, 2021; Kholis, 2020; 
+Krishan et al., 2020; Kusumawati, 2020; Li et al., 2020; Lie et al., 
+2020; Loo, 2020; Luporini, 2020; MacIntyre et al., 2020; Maican & 
+Cocoradă, 2021; Marstaller, 2020; Mohanad Alfiras et al., 2020; 
+Moser et al., 2021; Mustadi et al., 2021; Nartiningrum & Nugroho, 
+2020; Ng, 2020; Novikov, 2020; Patricia Aguilera-Hermida, 2020; 
+69 
+JETOL 2021, Volume 4 Issue 2, 349-367 
+Erarslan, A.
+ 
+ 
+ 
+ 
+ 
+353 
+Popova & Rozhdestvenskaya, 2020; Pustika, 2020; Rahayu & 
+Wirza, 2020; Rahman, 2020; Rifiyanti, 2020; Rinekso & Muslim, 
+2020; Şendoğan Erdoğan, 2020; Sepulveda-Escobar & Morrison, 
+2020; Setyaningrum et al., 2020; Shaaban, 2020; Shahzad et al., 
+2020; Situmorang et al., 2020; Svalina & Ivić, 2020; Turchi et al., 
+2020; Wen & Hua, 2020; Wong, 2020; Yi & Jang, 2020; Zboun & 
+Farrah, 2021) 
+The selected studies shown in Table 1 were analyzed in terms of English language teaching and learning 
+on a global scale during the Covid-19 pandemic. In the analysis of the data based on which research 
+questions were formulated, recurrent themes and sub-themes were identified and tabulated using a six-step 
+iterative and reflective thematic analysis for reliability with the help of a co-analyzer: 
+Step 1: familiarization with data 
+Step 2: generating initial codes 
+Step 3: searching for themes  
+Step 4: reviewing themes 
+Step 5: defining and naming themes 
+Step 6: producing the report (Nowell et al., 2017). 
+In the thematic analysis, the documents as the research articles utilized in this study were initially grouped 
+by two analyzers and based on their findings they were coded in terms of their focus. The analyzers 
+individually created their own themes and categories. While doing so, the recurring themes were grouped 
+for categories and reviewed by more focused re-reading as specified by Bowen (2009). In case of 
+disagreement in terms of selecting the recurrent themes and categories, the analyzers worked on the themes 
+from the beginning and tried to reach agreement through discussing the classification of the data. The final 
+themes of the analyzers were compiled then, and the final version following the constant comparison was 
+tabulated.  
+2.2. Findings  
+This integrative review aimed at understanding the features and findings of research studies carried out 
+specifically during the Covid-19 pandemic period focusing on English language teaching and learning 
+across the world. In the analysis of research papers covering the first year of the pandemic in terms of 
+English language teaching and learning from the global perspective, the findings conflicted somewhat in 
+the addressed research questions.  
+2.2.1. Findings of the first research question based on the commonalities of the studies based on their study 
+focus, participants, education segment and country 
+Analysis of the papers revealed that the focus of the studies utilized as the documents of this study was 
+grouped under two major themes along with their sub-themes. The major focus of the studies was related 
+to ‘the impact of Covid-19 on English language teaching and learning’ (n=47, 68.1%) which included four 
+different sub-themes, as seen in Table 2. Also, the second recurrent theme was perceptions and attitudes 
+towards online language teaching and learning (n=22, 31.9%). It should be noted here that some studies 
+included a focus in other categories. However, this categorization was made considering the main purpose 
+of the studies and their research questions.  
+When the participants of the studies were examined, findings showed that the data from Covid-19-related 
+studies in the field of English language teaching were collected from students studying in various segments 
+of education (K-12 or university) (n=33, 47.8%), teachers (n=31, 44.9%) and both (n=5, 7.2%). In terms of 
+the educational segments from primary to tertiary education, a great majority of the studies were conducted 
+JETOL 2021, Volume 4 Issue 2, 349-367 
+Erarslan, A.
+ 
+ 
+ 
+ 
+ 
+354 
+in tertiary education (n=53, 76.8%) and the others in K-12 (n=16,23.2%) during the pandemic. Finally, the 
+examined studies as the research documents of this study were conducted in various countries around the 
+world including Bahrain, Cameroon, Chile, China, Colombia, Croatia, Germany, Hong Kong, Indonesia 
+(as the country where the highest number of language related studies were conducted), Ireland, Italy, 
+Malaysia, Oman, Pakistan, Palestine, Romania, Russia, Saudi Arabia, Singapore, South Korea, Thailand, 
+the USA, Turkey and Ukraine. In this respect, it can be said that this integrative study strongly reflects the 
+teaching and learning of the English language on a global perspective during the Covid-19 outbreak and its 
+impact on this field across the world.  
+The thematic analysis of the data for the research questions below was tabulated to make data and findings 
+manageable. For recurrent themes and sub-themes based on the research questions, please see Table 2. 
+Table 2.  
+Summary of thematic analysis for studies related to English language teaching and learning worldwide 
+during Covid-19 
+Themes 
+Sub-themes 
+n 
+% 
+The impact 
+of Covid-19 
+on English 
+language 
+teaching and 
+learning 
+Implementation of emergency online teaching & learning. 
+ 
+Strengths, Challenges, Weaknesses, Opportunities. 
+ 
+Effectiveness of online platforms and educational technologies. 
+ 
+Impact of pandemic on language skills and language related courses. 
+ 
+47 
+68.1 
+Perceptions 
+and attitudes 
+towards 
+emergency 
+online 
+teaching & 
+learning 
+Perceptions and attitudes of teachers and students. 
+ 
+Affective, cognitive, motivational, and other related aspects. 
+22 
+31.9 
+2.2.2. Findings of the second research question based on the impact of Covid-19 on English language 
+teaching and learning from the global perspective   
+As evidenced by almost all the findings, the abrupt transition to emergency online teaching was the most 
+direct impact of the Covid-19 pandemic on English language teaching (Moser et al., 2021; Novikov, 2020; 
+Turchi et al., 2020). Specifically, results showed that online teaching has gained a permanent status as the 
+preferred mode of teaching for English, even for the post-pandemic period, although it was, initially, an 
+option to mitigate the effects of the pandemic (Andriivna et al., 2020; Karakuzu et al., 2020; Scully et al., 
+2021).  
+The transition to online teaching or emergency remote teaching impacted the teaching of English from 
+several viewpoints. The findings showed that the institutions, teachers and students as well as other 
+stakeholders were caught off-guard, and due to the unplanned abrupt transition to remote teaching, the 
+teaching and learning practices of English language courses were transformed (Andriivna et al., 2020; 
+Moser et al., 2021; Turchi et al., 2020). One of the basic concerns in this process was sustaining the quality 
+of language education in spite of the clear effects of the pandemic on English language teaching programs, 
+pedagogy and evaluation aspects (Atmojo & Nugroho, 2020). More specifically, the findings indicate that 
+the Covid-19 pandemic presented strengths, weaknesses and opportunities for language teachers and 
+students (Hadianti & Arisandi, 2020; Huang et al., 2021; Karakuzu et al., 2020; Moser et al., 2021; 
+Situmorang et al., 2020; Svalina & Ivić, 2020). In emergency online teaching, the teachers used online 
+teaching platforms and applications (Zoom, Google Meet, etc.) and teaching management systems that 
+JETOL 2021, Volume 4 Issue 2, 349-367 
+Erarslan, A.
+ 
+ 
+ 
+ 
+ 
+355 
+required technological literacy from the teachers and students. In this respect, one of the strengths of online 
+teaching was that technological and digital resources were already integrated into English language 
+teaching (Turchi et al., 2020). It is clear that language teachers and learners had been familiar with CALL 
+(Computer Assisted Language Learning) for quite a long time and this turned out to be a strength during 
+the pandemic (Bailey & Lee, 2020; Fatima, 2020; Huang et al., 2021). Teachers with prior experience in 
+the online teaching of English made use of more engaging activities for the students in addition to being 
+role guides and models for their students and colleagues (Bailey & Lee, 2020).  
+Emergency online teaching of English also involves certain constraints, as the findings show. The sudden 
+and unplanned transition to emergency remote teaching left all parties in education, including language 
+teachers, students and their families, in a challenging situation (Hadianti & Arisandi, 2020) since online 
+teaching necessitated access to a stable internet connection, an effective online platform or learning 
+management system and access to smartphones, computers and desks that were reported to be lacking, 
+hindering the effectiveness and efficiency of English language teaching during the pandemic (Almekhlafy, 
+2020; Atmojo & Nugroho, 2020; Huang et al., 2021; Nartiningrum & Nugroho, 2020; Novikov, 2020; 
+Rahman, 2020; Shahzad et al., 2020; Turchi et al., 2020). Apart from these, teachers and learners having 
+insufficient knowledge about online teaching and learning, teachers’ lack of control over online teaching 
+platforms, and making use of less varied and engaging teaching activities or lack of direct interaction during 
+the courses were among the most reported weaknesses of online teaching during the pandemic (Bailey & 
+Lee, 2020; Huang et al., 2021; Nartiningrum & Nugroho, 2020; Sepulveda-Escobar & Morrison, 2020; 
+Shaaban, 2020).  
+Based on the findings of this study, two groups of countries were identified in terms of the challenges of 
+online teaching during this period: high-tech and low-tech countries. While technical and pedagogical 
+challenges were seen in the former, technological infrastructure was the main obstacle in the latter (Hazaea 
+et al., 2021). Another significant finding regarding the challenges of online teaching is that due to the 
+teachers’ lack of knowledge and experience in online learning, they are unprepared for this mode of 
+instruction and feel that online teaching is simply moving face-to-face teaching into an online environment, 
+which makes it frustrating and less effective (Atmojo & Nugroho, 2020; Sepulveda-Escobar & Morrison, 
+2020). From the students’ perspective, lack of technological literacy as well as the inability to afford a 
+computer, smartphone and internet access yields negative consequences, even causing a complete 
+suspension of education as a whole (Atmojo & Nugroho, 2020). It was also highlighted that some students 
+are negatively affected by the pandemic for reasons such as having low language proficiency, being 
+unmotivated to actively participate in online English courses, misperceptions regarding online learning 
+(seeing it as informal and a holiday due to lack of responsibility), concentration and behavioural problems 
+as well as low self-regulation in the online learning environment (Atmojo & Nugroho, 2020; Chiatoh & 
+Chia, 2020; Huang et al., 2021).  
+In spite of the weaknesses and challenges, online teaching and learning of English offers a number of 
+opportunities, as the findings show. The transition to online teaching of the English language created an 
+alternative online English communitive means that has enabled learners to have the opportunity to practice 
+English through supplemental media. Through being part of this online community, students continue to 
+be exposed to the language, which could be said to be unique to the pandemic era (Hadianti & Arisandi, 
+2020). At the same time, online teaching of English during the pandemic created an opportunity, 
+particularly for disabled students who needed special care. The findings suggest that when courses are 
+designed in an inclusive way, students with disabilities benefit from such an online program (Svalina & 
+Ivić, 2020). Apart from these benefits, the transition to online teaching due to the pandemic has increased 
+the experience and knowledge of the teachers and students by envisioning new possibilities for the richness 
+of language teaching, since this period necessitated creativity and collaboration in teaching from a global 
+perspective (Yi & Jang, 2020). Additionally, the digital literacy of the students as a 21st century skill was 
+triggered by this transition, which also contributed positively to the experience of future language teachers 
+JETOL 2021, Volume 4 Issue 2, 349-367 
+Erarslan, A.
+ 
+ 
+ 
+ 
+ 
+356 
+in terms of them being equipped with new language teaching platforms and technologies (Chiatoh & Chia, 
+2020; Sepulveda-Escobar & Morrison, 2020).  
+The researchers who studied the effects of the Covid-19 pandemic on the teaching and learning of the 
+English language focused inevitably on educational technologies and online teaching platforms, since the 
+schools and teachers facilitated various online platforms for teaching and social media applications for 
+smartphones. The findings show that Zoom, Moodle, Google Meet, WhatsApp, Facebook, Blackboard and 
+other platforms were commonly used for delivering the courses and providing intra-communication during 
+the pandemic (Almekhlafy, 2020; Fitria, 2020; Hakim, 2020; Hamid, 2020; Nartiningrum & Nugroho, 
+2020; Ritonga et al., 2020; Shaaban, 2020). Based on the online platforms and social media networks, 
+teachers adopted various teaching practices and methods to comply with the aims of the course and turn 
+them into achievable outcomes. As Andriivna et al. (2020) reported, educational technologies and online 
+platforms were more than just an alternative to face-to-face classrooms; teachers used them for various 
+purposes, namely, communicative teaching, modular instruction, individualized teaching, testing and 
+assessment, and teaching materials. In fact, in the transition process, online teaching platforms and learning 
+management systems proved to be helpful for the teachers and students (Fitria, 2020) by making students 
+feel confident and attracting their attention to learning the language, thereby increasing their motivation, 
+while providing a richness of free online materials for teachers (Kawinkoonlasate, 2020; Shahzad et al., 
+2020).  
+The studies show that teachers mostly made use of online video conferencing platforms such as Zoom, 
+Google Meet and Microsoft Teams for the interactive features they offered in synchronous teaching of the 
+language (Almekhlafy, 2020; Destianingsih & Satria, 2020; Hakim, 2020; Hamid, 2020; Nartiningrum & 
+Nugroho, 2020). These platforms took the place of brick-and-mortar classrooms in the offered course 
+subjects and engaged the students by providing a sense of the online classroom environment. One of the 
+most remarkable findings of this study is that Zoom, Google Meet and Microsoft Teams were also favoured 
+for some of their default features, such as recording the sessions, which contributes to the flexibility of 
+online teaching and learning, narrowing the power/status distance between students and teachers, and 
+offering screen sharing opportunities and chat rooms (Destianingsih & Satria, 2020; Hamid, 2020; Wong, 
+2020). Apart from these, WhatsApp was also much favoured by students and WhatsApp created an online 
+language community where language use continued even while everyone was staying at home during 
+quarantine (Hadianti & Arisandi, 2020; Kholis, 2020). Findings also show that learning management 
+systems such as Blackboard and mixed reality learning environments such as Mursion were reported to 
+contribute positively to student learning during the pandemic (Almekhlafy, 2020; Hakim, 2020; Kamhi-
+Stein et al., 2020).   
+The studies conducted to measure the impact of emergency online teaching on students’ language 
+development, based on language skills and areas, found some important effects, although the findings of 
+the studies utilized for this study were conflicting. Initially, the school closures and temporary suspension 
+of lessons during the pandemic were found to have no clear effect on students’ foreign language 
+development, particularly language areas (grammar and vocabulary), when compared to the pre-pandemic 
+period (Hopp & Thoma, 2020). In terms of language skills, it was found that listening and writing skills 
+developed less in online teaching (Şendoğan Erdoğan, 2020), yet for the development of writing skills, 
+blended teaching or synchronous online teaching were found to be effective (Dahmash, 2020). The listening 
+skill was reported to be the most difficult skill for the students to develop (Rifiyanti, 2020). In another 
+study, it was revealed that the speaking skill was mostly ignored and the writing skill was fostered most 
+since it was the skill used in online communication for homework and assignments in online environments 
+such as WhatsApp (Hartshorn & Mcmurry, 2020; Karataş & Tuncer, 2020). On the other hand, the speaking 
+performance of the students in ESP classes was found to be satisfactory in online teaching (Kusumawati, 
+2020). In this regard, for the speaking skill to develop in emergency online teaching, synchronous online 
+discussion sessions with proper task negotiation, task planning and other teaching methods such as question 
+JETOL 2021, Volume 4 Issue 2, 349-367 
+Erarslan, A.
+ 
+ 
+ 
+ 
+ 
+357 
+and answer sessions was reported to increase students’ speaking skills (Rinekso & Muslim, 2020). Also, 
+social media-based blended teaching contributed positively to improving the active English skills of the 
+students during the pandemic (Mustadi et al., 2021).  
+ 
+2.2.3. Findings of the third research question based on the attitudes and motivations of teachers and 
+students towards emergency online teaching 
+Regarding the teachers and students’ perceptions and attitudes in terms of the effectiveness and 
+implementation of the emergency online teaching of English, some conflicting findings came to light. While 
+some teachers of English upheld the idea that the transition to emergency online teaching would sustain the 
+quality of language teaching and develop students’ language skills, other teachers held negative opinions. 
+On the beneficial side, findings showed that the usefulness and ease of online teaching platforms and 
+learning management systems as an alternative to sustain education during times of emergency, such as 
+with Covid-19, were regarded positively by the teachers (Rahayu & Wirza, 2020; Rifiyanti, 2020). One of 
+the aspects that the teachers valued is that during this pandemic they adopted new roles as remote instructors 
+and gained experience in terms of teaching online, while also increasing their technological knowledge to 
+integrate pedagogical and content knowledge, an important component of teacher competencies (Lie et al., 
+2020; Moser et al., 2021). Apart from teaching purely online, blended teaching was regarded positively by 
+English language teachers, which they believed to be effective and contributed to autonomous learning (Aji 
+et al., 2020; Dahmash, 2020).  
+Students favored emergency online learning more than teachers of English around the globe; however, 
+some studies also found inconsistencies (Allo, 2020; Karim & Hasan, 2020). These studies showed that 
+students view learning English online during the pandemic positively because of the flexibility and 
+autonomy provided, as well as the confidence that students gained. At the same time, students found online 
+learning motivating. The interactive course environment improved not only their language skills but also 
+their ICT skills (Aji et al., 2020; Rahman, 2020). The students’ tendency to adapt to online learning was 
+also enhanced by social media; this helped to focus the online learning community, in which they 
+reproduced linguistic content by making use of free online resources and were involved in social interaction 
+with their peers and teachers (Krishan et al., 2020; Mustadi et al., 2021). It was also reported that another 
+aspect the students regarded positively is that online learning was appropriate for visually-impaired 
+students, who were learning English remotely at home (Hamid, 2020).  
+In spite of all the positive attitudes towards emergency online teaching, teachers and students also held 
+negative perceptions and attitudes towards the effectiveness of emergency online teaching. Findings show 
+that the sudden and unplanned transition to emergency online teaching was not a seamless one. Although 
+teachers tried hard to provide productive online teaching by engaging students in learning to increase their 
+competence and to find new alternatives in their teaching sessions, they did not agree on the effectiveness 
+of emergency online teaching. Among the reasons for teachers and students’ negative attitudes are lack of 
+prior experience and knowledge in online teaching or learning and lack of affinity with technology, 
+particularly in the case of older teachers (Aji et al., 2020; Astuti & Solikhah, 2021; Fuad et al., 2020; Lie 
+et al., 2020; Moser et al., 2021; Novikov, 2020; Rahayu & Wirza, 2020). It was found that although the 
+students were ready to adapt to emergency remote learning, the unvaried and monotonous online learning 
+environment (Fuad et al., 2020) made face-to-face learning more favourable for students (Patricia Aguilera-
+Hermida, 2020; Zboun & Farrah, 2021). The quality of online education was reported to be low and the 
+courses were found less facilitating because of unclear learning instructions and tasks (Hamid, 2020; 
+Rahman, 2020; Rinekso & Muslim, 2020). Accessibility-related factors such as possession of a reliable 
+internet connection, smart phones and computers were also reported to contribute to students’ negative 
+attitudes towards emergency remote learning (Ariyanti, 2020). Thus, due to certain problems encountered 
+JETOL 2021, Volume 4 Issue 2, 349-367 
+Erarslan, A.
+ 
+ 
+ 
+ 
+ 
+358 
+equally worldwide, findings show that language teachers generally voiced their concern about the lower 
+outcomes resulting from online teaching of English.  
+The studies in the literature related to English language teaching and learning during the Covid-19 crisis 
+focused also on the affective, motivational, and cognitive aspects. It was found that this challenged all 
+parties. Teachers explored solutions to the problems faced based on their cognitive perspective in terms of 
+emergency online teaching. Exploiting new ways of overcoming the challenges of this new method was an 
+important part of their coping strategies (Gao & Zhang, 2020). Findings also show that some teachers 
+applied active coping strategies rather than avoidance strategies while increased levels of stress and 
+negative emotions necessitated avoidant coping strategies (MacIntyre et al., 2020). Emergency online 
+learning of English increased defeatist emotions and brought out certain stressors for the teachers and 
+students (Hartshorn & Mcmurry, 2020; Maican & Cocoradă, 2021). Due to this new and unfamiliar form 
+of teaching during the pandemic, most teachers experienced worry and anxiety (Gao & Zhang, 2020). 
+Among the stressors during the Covid-19 outbreak were the heavy workload, irregular hours and online 
+teaching itself (MacIntyre et al., 2020).  
+In this respect, some teachers and students regarded emergency online learning and teaching as an obstacle 
+to language development (Hartshorn & Mcmurry, 2020). The problems encountered during the emergency 
+online teaching caused a decrease in students’ motivation to learn English (Hafidz, 2020; Zboun & Farrah, 
+2021), as well as other aspects such as lack of concentration and self-discipline during the crisis (Popova 
+& Rozhdestvenskaya, 2020). Not only student motivation but also their self-efficacy and engagement in 
+online learning were negatively affected (Patricia Aguilera-Hermida, 2020). Online learning was reported 
+to pose certain threats such as coping with strategy use, control of learning and decreased self-efficacy, 
+particularly for low achieving students. They reported positive emotions in terms of attending online classes 
+but had negative feelings due to the stress caused by worries regarding their progress in language learning, 
+as well as the change in their study habits (Maican & Cocoradă, 2021). 
+3. Discussion and Conclusions 
+The surfacing of the illness Covid-19 followed by the pronouncement of a worldwide pandemic altered and 
+affected many aspects of daily life all around the world. The partial or full lockdown due to Covid-19 that 
+was imposed in March 2020 adversely impacted people’s lives in all fields including health, economy, and 
+education. English, as a global language, is taught in all segments of education in most countries in the 
+world. With the rapid changeover to emergency online instruction, the teaching and learning of English 
+was provided either in blended form or fully online. With this shift, it became clear that in order to continue 
+teaching and learning activity without interruption or cancellation, online teaching was not just an option 
+but a necessity, as stated by Andriivna et al. (2020). Although online teaching was already being applied 
+within language education, the Covid-19 pandemic secured the place of online teaching, even in emergency 
+situations. It can be assumed that online teaching will dominate education practice worldwide, even in the 
+post-Covid-19 period. Thus, the experience gained in the first year of the pandemic, as reflected in this 
+study, may provide valuable insights for the future. 
+This study has a number of significant findings which can be grouped under three categories: access, 
+implementation and pedagogical aspects. The first year of Covid-19 in terms of teaching English through 
+emergency online teaching showed that the education systems in many countries were not ready for a global 
+crisis that necessitated implementing the planned teaching of English (Andriivna et al., 2020; Atmojo & 
+Nugroho, 2020). Findings showed that although emergency online teaching is somewhat unplanned and 
+used during times of pandemics and a global crisis, it is different from conventional online teaching because 
+the latter is planned and not an extension of face-to-face teaching. Teachers of English across the world 
+tended to carry out online teaching synchronously or asynchronously as an extension of face-to-face 
+teaching, yet findings generally showed that several problems emerged in teaching English remotely. Hence 
+the emergency online teaching of English raised some contextual concerns regarding the accessibility of 
+JETOL 2021, Volume 4 Issue 2, 349-367 
+Erarslan, A.
+ 
+ 
+ 
+ 
+ 
+359 
+the necessary infrastructure (internet connection, computer, or smart phones), educational planning, 
+management, guidance and expertise in the use of educational technologies (Andriivna et al., 2020). It 
+should be emphasized here that access to the internet and computers or smart phones was one of the biggest 
+challenges in delivering effective English courses online. The inequalities between countries and societies 
+created challenges in students’ access of the necessary infrastructure to receive the courses online, which 
+also leaves teachers helpless in reaching them. It can therefore be concluded that unequal contextual 
+conditions will inevitably continue to pose difficulties for the effective and efficient online delivery of 
+English courses, even in the post-pandemic period.   
+The findings in this study showed that the teaching of English online did not yield the intended outcomes 
+due to pedagogical factors such as lack of preparation, planning, educational policies for emergency cases 
+and teachers’ insufficient technological and pedagogical content knowledge.  Atmojo and Nugroho (2020) 
+highlighted how some teachers were not knowledgeable and skillful enough to teach English online since 
+they did not have adequate awareness regarding the distinction between face-to-face and online teaching. 
+Our findings show that teachers were particularly weak in teaching English online since most of them had 
+little inexperience prior to transition. On the other hand, while this was also true for students, they were 
+more experienced in dealing with technological issues. Despite this, most teachers and students regarded 
+emergency online teaching as a hindrance for language development (Hartshorn & Mcmurry, 2020; Moser 
+et al., 2021; Patricia Aguilera-Hermida, 2020). In fact, it is seen that the research studies analysed in this 
+study all yielded conflicting results for the aspects investigated. While some teachers saw emergency online 
+teaching as an opportunity to increase their expertise and knowledge in the remote teaching of English 
+(Chiatoh & Chia, 2020; Hadianti & Arisandi, 2020), others regarded it as an obstacle which raised their 
+anxiety level (Gao & Zhang, 2020). Expectations regarding the effectiveness of emergency online teaching 
+were diverse. The findings indicate that unless a number of factors are carefully handled, such as preparing 
+a good plan for online teaching, supporting teachers and students in accessing the necessary infrastructure, 
+taking the necessary precautions in motivating the students, and lowering teacher anxieties, as reflected in 
+this study, global practices of teaching English online may yield similar weaknesses in terms of teaching 
+and learning.  
+Consequently, for quality online teaching of English in schools, the policy makers and teacher training 
+programs need to make alterations in terms of equipping the teachers with the necessary pedagogical 
+knowledge on these different modes of teaching. Apart from this, not only the teachers but also students 
+worldwide came up against several obstacles. Among these globally-reported obstacles were non-
+accessibility of the internet or computers and low digital literacy; these were the most reported problems in 
+several studies. Because few teachers and students had experience of online teaching and learning, both 
+parties could not adapt properly to the new conditions and their new roles (Moser et al., 2021). It seems 
+that even after one year of global experience in teaching and learning under pandemic conditions, these 
+hindrances will continue and will not be solved before the end of the Covid-19 pandemic.  
+It can be concluded that both the teachers and students need to be prepared for emergency teaching and 
+learning in the future. To do this, the first major precaution should be to redesign English language teacher 
+education programs at universities. Although a  common strength ensuing from the pandemic for teachers 
+and learners of English was to gain experience in online teaching and learning of English on a global scale, 
+findings revealed that this was a novel experience for them (Bailey & Lee, 2020; Carrillo & Flores, 2020; 
+Heng & Sol, 2020; Moser et al., 2021). From the teachers’ perspective, this indicates that they received 
+little or no theoretical and practical knowledge in teaching English online. Therefore, teacher education 
+programs should equip them not only for classroom teaching, but also for online teaching. Courses which 
+are devoted to educational technologies or directly address online teaching with the necessary pedagogical 
+contributions should be increased in English language teaching departments. At the same time, in-service 
+teachers need to be given training and practice to ready them for teaching online effectively and efficiently. 
+This study, concerning the teachers and students as well as other stakeholders’ first year experience in 
+JETOL 2021, Volume 4 Issue 2, 349-367 
+Erarslan, A.
+ 
+ 
+ 
+ 
+ 
+360 
+emergency online teaching, provides a global insight into the general picture of English language teaching; 
+the results of which may guide researchers and the future practice of teachers, students, policy makers, 
+teaching programs and governments in the event of ongoing or new crises and emergencies affecting 
+educational activities.      
+4. Limitations of the study 
+This study has some limitations. It is limited to the studies as the documents used as the data of this 
+integrative literature review study. Apart from this, the study is limited to the studies conducted from the 
+onset of the pandemic until February 2021 when the compilation of the research studies was finalized. 
+Another limitation of the study is the methodology as the integrative literature review study. The study can 
+be conducted as a meta-analysis study in the further studies.  
+References 
+Adedoyin, O. B., & Soykan, E. (2020). Covid-19 pandemic and online learning: The challenges and 
+opportunities. 
+Interactive 
+Learning 
+Environments, 
+0(0), 
+1–13. 
+https://doi.org/10.1080/10494820.2020.1813180 
+Aji, W. K., Ardin, H., & Arifin, M. A. (2020). Blended learning during pandemic corona virus: Teachers’ 
+and students’ perceptions. IDEAS: Journal on English Language Teaching and Learning, 
+Linguistics and Literature, 8(2), 632–646. https://doi.org/10.24256/ideas.v8i2.1696 
+Allo, M. D. G. (2020). Is the online learning good in the midst of Covid-19 pandemic ? The case of EFL 
+learners. Jurnal Sinestesia, 10(1), 1–10. 
+Almekhlafy, S. S. A. (2020). Online learning of English language courses via blackboard at Saudi 
+universities in the era of COVID-19: perception and use. PSU Research Review. 
+https://doi.org/10.1108/PRR-08-2020-0026 
+Andriivna, B. O., Vasylivna, K. O., Pavlivna, K. O., & Mykhaylivna, S. V. (2020). Using distance EdTech 
+for remote foreign language teaching during the COVID-19 lockdown in Ukraine. Arab World 
+English Journal: Special Issue on English in Ukrainian Context, 4–15. 
+Ariyanti, A. (2020). EFL students’ challenges towards home learning policy during Covid-19 outbreak. 
+Indonesian Journal of English Language Teaching and Applied Linguistics (IJELTAL), 5(1), 167–
+175. http://ijeltal.org/index.php/ijeltal/article/view/649 
+Astuti, M., & Solikhah, I. (2021). Teacher perception in teaching English for SMP in Klaten regency during 
+Covid-19 outbreak. IJOTL-TL, 6(1), 1–13. https://doi.org/10.30957/ijotl-tl.v6i1.645.Teacher 
+Atmojo, A. E. P., & Nugroho, A. (2020). EFL classes must go online! Teaching activities and challenges 
+during 
+COVID-19 
+pandemic 
+in 
+Indonesia. 
+Register 
+Journal, 
+13(1), 
+49–76. 
+https://doi.org/10.18326/rgt.v13i1.49-76 
+Bailey, D. R., & Lee, A. R. (2020). Learning from experience in the midst of Covid-19: Benefits, 
+challenges, and strategies in online teaching. Computer Assisted Language Learning Electronic 
+Journal (CALL-EJ), 21(2), 176–196. 
+Baird, R., & Baird, M. (2018). English as a lingua franca. The Routledge Handbook of English as a Lingua 
+Franca, 531–543. https://doi.org/10.4324/9781315717173-43 
+Bowen, G. A. (2009). Document analysis as a qualitative research method. Qualitative Research Journal, 
+9(2), 27–40. https://doi.org/10.3316/QRJ0902027 
+JETOL 2021, Volume 4 Issue 2, 349-367 
+Erarslan, A.
+ 
+ 
+ 
+ 
+ 
+361 
+Carrillo, C., & Flores, M. A. (2020). COVID-19 and teacher education: A literature review of online 
+teaching and learning practices. European Journal of Teacher Education, 43(4), 466–487. 
+https://doi.org/10.1080/02619768.2020.1821184 
+Chiatoh, A.-A. B., & Chia, J. K. (2020). The Covid-19 pandemic and the challenge of teaching English 
+online in higher institutions of learning in Cameroon. Journal of English Language Teaching and 
+Applied Linguistics, 2(5), 35–42. https://doi.org/10.32996/jeltal 
+Coman, C., Țîru, L. G., Meseșan-Schmitz, L., Stanciu, C., & Bularca, M. C. (2020). Online teaching and 
+learning in higher education during the coronavirus pandemic: Students’ perspective. Sustainability 
+(Switzerland), 12(24), 1–22. https://doi.org/10.3390/su122410367 
+Dahmash, N. Bin. (2020). ‘I couldn’t join the session’: Benefits and challenges of blended learning amid 
+COVID-19 from EFL students. International Journal of English Linguistics, 10(5), 221–230. 
+https://doi.org/10.5539/ijel.v10n5p221 
+Davies, J. A., Davies, L. J., Conlon, B., Emerson, J., Hainsworth, H., & Mcdonough, H. G. (2020). 
+Responding to COVID-19 in EAP contexts: A comparison of courses at four Sino-Foreign 
+universities. 
+International 
+Journal 
+of 
+TESOL 
+Studies, 
+2(2), 
+32–51. 
+https://doi.org/10.46451/ijts.2020.09.04 
+Deniz, E., Özkan, Y., & Bayyurt, Y. (2016). English as a lingua franca: Reflections on ELF-related issues 
+by pre-service English language teachers in Turkey. Reading Matrix: An International Online 
+Journal, 16(2), 144–161. 
+Destianingsih, A., & Satria, A. (2020). Investigating students’ needs for effective English online learning 
+during Covid-19 for Polbeng students. ELT-Lectura: Studies and Perspectives in English Language 
+Teaching, 7(2), 147–153. 
+Dhawan, S. (2020). Online Learning: A Panacea in the time of COVID-19 Crisis. Journal of Educational 
+Technology Systems, 49(1), 5–22. https://doi.org/10.1177/0047239520934018 
+Donitsa-Schmidt, S., & Ramot, R. (2020). Opportunities and challenges: teacher education in Israel in the 
+Covid-19 
+pandemic. 
+Journal 
+of 
+Education 
+for 
+Teaching, 
+46(4), 
+586–595. 
+https://doi.org/10.1080/02607476.2020.1799708 
+Farrah, M., & Al-Bakry, G. H. (2020). Online learning for EFL students in Palestinian universities during 
+corona pandemic : Advantages, challenges and solutions. Indonesian Journal of Learning and 
+Instruction, 3(2), 65–78. 
+Fatima, N. (2020). English language teaching during the times of COVID-19- challenges and opportunities: 
+A brief study of GFP students in Muscat College. Journal for Research Scholars and Professionals 
+of English Language Teaching, 4(21). http://www.elsevier.com/locate/scp 
+Fitria, T. N. (2020). Teaching English through online learning system during Covid-19 pandemic. 
+Pedagogy : 
+Journal 
+of 
+English 
+Language 
+Teaching, 
+8(2), 
+138–148. 
+https://doi.org/10.32332/pedagogy.v8i2.2266 
+Flores, M. A., & Swennen, A. (2020). The COVID-19 pandemic and its effects on teacher education. 
+European 
+Journal 
+of 
+Teacher 
+Education, 
+43(4), 
+453–456. 
+https://doi.org/10.1080/02619768.2020.1824253 
+Forrester, A. (2020). Addressing the challenges of group speaking assessments in the time of the 
+coronavirus. 
+International 
+Journal 
+of 
+TESOL 
+Studies, 
+2(2), 
+74–88. 
+https://doi.org/10.46451/ijts.2020.09.07 
+JETOL 2021, Volume 4 Issue 2, 349-367 
+Erarslan, A.
+ 
+ 
+ 
+ 
+ 
+362 
+Fuad, M., Ariyani, F., Suyanto, E., & Shidiq, A. S. (2020). Exploring teachers’ TPCK: Are Indonesian 
+language teachers ready for online learning during the Covid-19 outbreak? Universal Journal of 
+Educational Research, 8(11B), 6091–6102. https://doi.org/10.13189/ujer.2020.082245 
+Fuentes Hernández, S. S., Naren, A., & Flórez, S. (2020). Online teaching during Covid-19: How to 
+maintain students motivated in an EFL class. Linguistics and Literature Review, 6(2), 157–171. 
+Gao, L. X., & Zhang, L. J. (2020). Teacher learning in difficult times: Examining foreign language teachers’ 
+cognitions about online teaching to tide over Covid-19. Frontiers in Psychology, 11, 1–14. 
+https://doi.org/10.3389/fpsyg.2020.549653 
+Hadianti, S., & Arisandi, B. (2020). The role of online English community during Covid-19 pandemic. 
+Language Literacy: Journal of Linguistics, Literature, and Language Teaching, 4(2), 271–279. 
+https://doi.org/10.30743/ll.v4i2.3104 
+Hafidz, M. (2020). The dilematic on-line English learning during the Covid-19 pandemy in rural area. 
+Journal of English Teaching, Applied Linguistics and Literatures (JETALL), 3(2), 43–48. 
+https://doi.org/10.20527/jetall.v3i2.8884 
+Hakim, B. (2020). Technology integrated online classrooms and the challenges faced by the EFL teachers 
+in Saudi Arabia during the Covid-19 pandemic. International Journal of Applied Linguistics and 
+English Literature, 9(5), 33–39. https://doi.org/10.7575/aiac.ijalel.v.9n.5p.33 
+Hamid, S. M. (2020). Online digital platforms during covid-19 in EFL classes: Visual impairment student’ 
+perception. ETERNAL (English, Teaching, Learning, and Research Journal), 6(2), 328–339. 
+https://doi.org/10.24252/eternal.v62.2020.a10 
+Hartshorn, K. J., & Mcmurry, B. L. (2020). The effects of the COVID-19 pandemic on ESL learners and 
+TESOL practitioners in the United States. International Journal of TESOL Studies, 2, 140–156. 
+https://doi.org/10.46451/ijts.2020.09.11 
+Hazaea, A. N., Bin-Hady, W. R. A., & Toujan, M. M. (2021). Emergency remote English language teaching 
+in the Arab league countries: Challenges and remedies. Computer-Assisted Language Learning 
+Electronic Journal(CALL-EJ), 22(1), 201–222. 
+ Hodges, C., Moore, S., Lockee, B., Trust, T., & Bond, A. (2020a). The difference between emergency re- 
+mote teaching and online learning. Educause. Retrieved from https://er.educa use.edu/artic 
+les/2020/3/the-diffe rence -betwe en-emerg ency-remot e-teach ing-and-onlin e-learning 
+Hodges, T., Kerch, C., & Fowler, M. (2020b). Teacher education in the time of COVID-19: Creating digital 
+networks as university school-family partnerships. Middle Grades Review, 6(2), 1–10. 
+Hopp, H., & Thoma, D. (2020). Foreign language development during temporary school closures in the 
+2020 
+Covid-19 
+pandemic. 
+Frontiers 
+in 
+Education, 
+5, 
+1–4. 
+https://doi.org/10.3389/feduc.2020.601017 
+Huang, M., Shi, Y., & Yang, X. (2021). Emergency remote teaching of English as a foreign language during 
+COVID-19: Perspectives from a university in China. International Journal of Educational Research 
+and Innovation (Ijerı), 15, 400–418. 
+Jones, K. (2020). Notes on a Crisis: The Pandemic and English Schools. Changing English: Studies in 
+Culture and Education, 27(3), 235–243. https://doi.org/10.1080/1358684X.2020.1791691 
+Kamhi-Stein, L. D., Lao, R. S., & Issagholian, N. (2020). The future is now: Implementing mixed-reality 
+learning environments as a tool for language teacher preparation. TESL-EJ, 24(3), 1–18. 
+JETOL 2021, Volume 4 Issue 2, 349-367 
+Erarslan, A.
+ 
+ 
+ 
+ 
+ 
+363 
+Karakuzu, M., Canli, Z., & Canli, B. (2020). Effects of lockdown period of the covid-19 pandemic on 
+Turkish academicians’ academic writing productivity performance in ELT. Turkish Online Journal 
+of English Language Teaching (TOJELT), 5(3), 179–194. 
+Karataş, T. Ö., & Tuncer, H. (2020). Sustaining language skills development of pre-service EFL teachers 
+despite the COVID-19 interruption: A case of emergency distance education. Sustainability 
+(Switzerland), 12(19), 1–34. https://doi.org/10.3390/su12198188 
+Karim, M. R., & Hasan, M. (2020). Virtual classes during Covid 19 pandemic in tertiary level in Saudi 
+Arabia: Challenges and prospects from the students’ perspective. Asian EFL Journal, 27(5), 205–
+219. 
+Kawinkoonlasate, P. (2020). Online language learning for Thai EFL learners: An analysis of effective 
+alternative learning methods in response to the Covid-19 outbreak. English Language Teaching, 
+13(12), 15–26. https://doi.org/10.5539/elt.v13n12p15 
+Khafaga, A. F. (2021). The perception of blackboard collaborate-based instruction by EFL majors / teachers 
+amid COVID-19 : A case study of Saudi universities. Journal of Language and Linguistic Studies, 
+17(2), 1160–1173. 
+Kholis, A. (2020). The use of WhatsApp app in distance language learning in pandemic Covid-19: A case 
+study in Nahdlatul Ulama University of Yogyakarta. LET: Linguistics, Literature and English 
+Teaching Journal, 10(2), 24–43. 
+Heng, K. & Sol, K. (2020). Online learning during COVID-19: Key challenges and suggestions to enhance 
+effectiveness. 
+Cambodian 
+Education 
+Forum 
+(CEF), 
+1, 
+1–15. 
+https://www.researchgate.net/publication/346719308_Online_learning_during_COVID-
+19_Key_challenges_and_suggestions_to_enhance_effectiveness 
+König, J., Jäger-Biela, D. J., & Glutsch, N. (2020). Adapting to online teaching during COVID-19 school 
+closure: teacher education and teacher competence effects among early career teachers in Germany. 
+European 
+Journal 
+of 
+Teacher 
+Education, 
+43(4), 
+608–622. 
+https://doi.org/10.1080/02619768.2020.1809650 
+Krishan, I. A., Ching, H. S., Ramalingam, S., Maruthai, E., Kandasamy, P., Mello, G. De, Munian, S., & 
+Ling, W. W. (2020). Challenges of learning English in 21st century: Online vs. traditional during 
+Covid-19. Malaysian Journal of Social Sciences and Humanities (MJSSH), 5(9), 1–15. 
+https://doi.org/10.47405/mjssh.v5i9.494 
+Kusumawati, A. J. (2020). Redesigning face-to-face into online learning for speaking competence during 
+covid-19: ESP for higher education in Indonesia. International Journal of Language Education, 
+4(2), 276–288. https://doi.org/10.26858/ijole.v4i2.14745 
+Li, J., Xie, P., Ai, B., & Li, L. (2020). Multilingual communication experiences of international students 
+during the COVID-19 pandemic. Multilingua, 39(5), 529–539. https://doi.org/10.1515/multi-2020-
+0116 
+Lie, A., Tamah, S. M., Gozali, I., Triwidayati, K. R., Utami, T. S. D., & Jemadi, F. (2020). Secondary 
+school language teachers’ online learning engagement during the Covid-19 pandemic in Indonesia. 
+Journal 
+of 
+Information 
+Technology 
+Education: 
+Research, 
+19, 
+803–832. 
+https://doi.org/10.28945/4626 
+Loo, D. B. (2020). Integrating critical thinking in online language tasks: Considerations for an academic 
+writing 
+class. 
+International 
+Journal 
+of 
+TESOL 
+Studies, 
+2(2), 
+52–61. 
+https://doi.org/10.46451/ijts.2020.09.05 
+JETOL 2021, Volume 4 Issue 2, 349-367 
+Erarslan, A.
+ 
+ 
+ 
+ 
+ 
+364 
+Luporini, A. (2020). Implementing an online English linguistics course during the Covid-19 emergency in 
+Italy: Teacher’s and students’ perspectives. ASp, 78, 1–13. https://doi.org/10.4000/ASP.6682 
+MacIntyre, P. D., Gregersen, T., & Mercer, S. (2020). Language teachers’ coping strategies during the 
+Covid-19 conversion to online teaching: Correlations with stress, wellbeing and negative emotions. 
+System, 94, 1–13. https://doi.org/10.1016/j.system.2020.102352 
+Mahmood, S. (2020). Instructional strategies for online teaching in COVID-19 pandemic. Human Behavior 
+and Emerging Technologies, August 2020, 199–203. https://doi.org/10.1002/hbe2.218 
+Maican, M. A., & Cocoradă, E. (2021). Online foreign language learning in higher education and its 
+correlates during the covid‐19 pandemic. 
+Sustainability (Switzerland), 13(2), 1–21. 
+https://doi.org/10.3390/su13020781 
+Marstaller, M. (2020). Student experiences of the Covid-19 lockdown. Changing English: Studies in 
+Culture and Education, 27(3), 231–234. https://doi.org/10.1080/1358684X.2020.1777533 
+Mohanad Alfiras, Bojiah, J., & Yassin, A. A. (2020). COVID-19 pandemic and the changing paradigms of 
+higher education: A Gulf university perspective. Asian EFL Journal, 27(5), 1–9. 
+http://mpoc.org.my/malaysian-palm-oil-industry/ 
+Moser, K. M., Wei, T., & Brenner, D. (2021). Remote teaching during COVID-19: Implications from a 
+national 
+survey 
+of 
+language 
+educators. 
+System, 
+97, 
+102431. 
+https://doi.org/10.1016/j.system.2020.102431 
+Mustadi, A., Annisa, F. C., & Mursidi, A. P. (2021). Blended learning innovation of social media based 
+active English during the COVID-19 pandemic. Elementary Education Online, 20(2), 74–88. 
+https://doi.org/10.17051/ilkonline.2021.02.01 
+Naji, K. K., Du, X., Tarlochan, F., Ebead, U., Hasan, M. A., & Al-Ali, A. K. (2020). Engineering Students’ 
+Readiness to Transition to Emergency Online Learning in Response to COVID-19: Case of Qatar. 
+Eurasia Journal of Mathematics, Science and Technology Education, 16(10), 1-17. 
+https://doi.org/10.29333/ejmste/8474 
+Nartiningrum, N., & Nugroho, A. (2020). Online learning amidst global pandemic: EFL students’ 
+challenges, suggestions, and needed materials. ENGLISH FRANCA: Academic Journal of English 
+Language and Education, 4(2), 115–140. https://doi.org/10.29240/ef.v4i2.1494 
+Ng, C. H. (2020). Communicative Language Teaching (CLT) through synchronous online teaching in 
+English language preservice teacher education. International Journal of TESOL Studies, 2(2), 62–
+73. https://doi.org/10.46451/ijts.2020.09.06 
+Noor, S., Isa, F. M., & Mazhar, F. F. (2020). Online teaching practices during the COVID-19 pandemic. 
+Educational 
+Process: 
+International 
+Journal, 
+9(3), 
+169–184. 
+https://doi.org/10.22521/edupij.2020.93.4 
+Novikov, P. (2020). Impact of COVID-19 emergency transition to on-line learning on international 
+students’ perceptions of educational process at Russian University. Journal of Social Studies 
+Education Research, 11(3), 270–302. 
+Nowell, L. S., Norris, J. M., White, D. E., & Moules, N. J. (2017). Thematic analysis: Striving to meet the 
+trustworthiness criteria. 
+International Journal of Qualitative Methods, 16(1), 1–13. 
+https://doi.org/10.1177/1609406917733847 
+Nunan, D. (2003). The impact of English as a global language on educational policies and practices in the 
+Asia-Pacific Region. TESOL Quarterly, 37(4), 589. https://doi.org/10.2307/3588214 
+JETOL 2021, Volume 4 Issue 2, 349-367 
+Erarslan, A.
+ 
+ 
+ 
+ 
+ 
+365 
+Patricia Aguilera-Hermida, A. (2020). College students’ use and acceptance of emergency online learning 
+due to COVID-19. International Journal of Educational Research Open, 1(September), 100011. 
+https://doi.org/10.1016/j.ijedro.2020.100011 
+Popova, M. V., & Rozhdestvenskaya, E. I. (2020). The impact of the coronavirus pandemic (covid-19) 
+consequences on phonetic aspect of a foreign language teaching in specialized linguistic specialties 
+at universities. Advances in Social Science, Education and Humanities Research, 486, 293–298. 
+https://doi.org/10.2991/assehr.k.201105.052 
+Pustika, R. (2020). Future English teachers’ perspective towards the implementation of e-learning in Covid-
+19 pandemic era. JELTL (Journal of English Language Teaching and Linguistics), 5(3), 383–391. 
+Rahayu, R. P., & Wirza, Y. (2020). Teachers’ perception of online learning during pandemic Covid-19. 
+The 
+Journal 
+of 
+Educational 
+Research 
+(JPP), 
+20(3), 
+392–406. 
+http://www.embase.com/search/results?subaction=viewrecord&from=export&id=L2004889463%
+0Ahttp://dx.doi.org/10.1007/s12098-020-03327-7 
+Rahman, K. (2020). Learning amid crisis: EFL students’ perception on online learning during Covid-19 
+outbreak. ETERNAL (English, Teaching, Learning, and Research Journal), 6(2), 179–194. 
+https://doi.org/10.24252/eternal.v62.2020.a1 
+Rapanta, C., Botturi, L., Goodyear, P., Guàrdia, L., & Koole, M. (2020). Online university teaching during 
+and after the Covid-19 Crisis: Refocusing teacher presence and learning activity. Postdigital Science 
+and Education, 1–23. https://doi.org/10.1007/s42438-020-00155-y 
+Rifiyanti, H. (2020). Learners’ perceptions of online English learning during Covid-19 pandemic. Scope: 
+Journal of English Language Teaching, 5(1), 31–35. 
+Rinekso, A. B., & Muslim, A. B. (2020). Synchronous online discussion: teaching English in higher 
+education amidst the covid-19 pandemic. Journal of English Educators Society, 5(2), 155–162. 
+https://doi.org/10.21070/jees.v5i2.646 
+Ritonga, A. W., Ritonga, M., Nurdianto, T., Kustati, M., Rehani, Lahmi, A., Yasmadi, & Pahri. (2020). E-
+learning process of maharah qira’ah in higher education during the COVID-19 pandemic. 
+International Journal of Higher Education, 9(6), 227–235. https://doi.org/10.5430/ijhe.v9n6p227 
+Russell, C. L. (2005). An overview of the integrative research review. Progress in transplantation (Aliso 
+Viejo, Calif.), 15(1), 8–13. 
+Russell, V. (2020). Language anxiety and the online learner. Foreign Language Annals, 53(2), 338–352. 
+https://doi.org/10.1111/flan.12461 
+Schultz, R., & DeMers, M. (2020). Transitioning from emergency remote learning to deep online learning 
+experiences 
+in 
+geography 
+education. 
+Journal 
+of 
+Geography, 
+11, 
+142-146. 
+10.1080/00221341.2020.1813791. 
+Scully, D., Lehane, P., & Scully, C. (2021). ‘It is no longer scary’: digital learning before and during the 
+Covid-19 pandemic in Irish secondary schools. Technology, Pedagogy and Education, 00(00), 1–
+23. https://doi.org/10.1080/1475939X.2020.1854844 
+Şendoğan Erdoğan, K. (2020). Foreign language education during Covid-19 pandemic: An evaluation from 
+the perspectives of preparatory class students. Milli Eğitim, 49(1), 1079–1090. 
+Sepulveda-Escobar, P., & Morrison, A. (2020). Online teaching placement during the COVID-19 pandemic 
+in Chile: Challenges and opportunities. European Journal of Teacher Education, 43(4), 587–607. 
+https://doi.org/10.1080/02619768.2020.1820981 
+JETOL 2021, Volume 4 Issue 2, 349-367 
+Erarslan, A.
+ 
+ 
+ 
+ 
+ 
+366 
+Setyaningrum, R. W., Setiawan, S., Anam, S., & Retnaningdyah, P. (2020). Content and language 
+integrated learning (CLIL) in science class during Covid-19 outbreak: A narrative inquiry. English 
+Review: Journal of English Education, 9(1), 35–46. 
+Shaaban, S. S. A. (2020). TEFL professors’ e-learning experiences during the Covid 19 pandemic. 
+European 
+Journal 
+of 
+Foreign 
+Language 
+Teaching, 
+5(1), 
+82–97. 
+https://doi.org/10.46827/ejfl.v5i1.3202 
+Shahzad, A., Hassan, R., Aremu, A. Y., Hussain, A., & Lodhi, R. N. (2020). Effects of COVID-19 in E-
+learning on higher education institution students: the group comparison between male and female. 
+Quality and Quantity, 0123456789. https://doi.org/10.1007/s11135-020-01028-z 
+Situmorang, K., Nugroho, D. Y., & Pramusita, S. M. (2020). English teachers’ preparedness in technology 
+enhanced language learning during covid-19 pandemic – students’ voice. Jo-ELT (Journal of 
+English Language Teaching), 7(2), 57–67. https://doi.org/10.33394/jo-elt.v7i2.2973 
+Son, C., Hegde, S., Smith, A., Wang, X., & Sasangohar, F. (2020). Effects of COVID-19 on college 
+students’ mental health in the United States: Interview survey study. Journal of Medical Internet 
+Research, 22(9), 1–14. https://doi.org/10.2196/21279 
+Svalina, V., & Ivić, V. (2020). Case study of a student with disabilities in a vocational school during the 
+period of online virtual classes due to Covid-19. World Journal of Education, 10(4), 115–123. 
+https://doi.org/10.5430/wje.v10n4p115 
+Talidong, K. J. B., & Toquero, C. M. D. (2020). Philippine teachers’ practices to deal with anxiety amid 
+COVID-19. 
+Journal 
+of 
+Loss 
+and 
+Trauma, 
+25(6–7), 
+573–579. 
+https://doi.org/10.1080/15325024.2020.1759225 
+Torraco, R. J. (2005). Writing integrative literature reviews: Guidelines and examples. Human Resource 
+Development Review, 4(3), 356–367. https://doi.org/10.1177/1534484305278283 
+Turchi, L. B., Bondar, N. A., & Aguilar, L. L. (2020). What really changed? Environments, instruction, and 
+21st century tools in emergency online English language arts teaching in United States schools 
+during 
+the 
+first 
+pandemic 
+response. 
+Frontiers 
+in 
+Education, 
+5, 
+1–13. 
+https://doi.org/10.3389/feduc.2020.583963 
+UNESCO (United Nations Educational, Scientific and Cultural Organization). (2020). Global education 
+coalition: 
+Covid-19 
+education 
+response. 
+Retrieved 
+from: 
+https://en.unesco.org/covid19/educationresponse/globalcoalition/ 
+UNESCO (United Nations Educational, Scientific and Cultural Organization). (2021). Coivd-19 impact on 
+education. https://en.unesco.org/covid19/educationresponse/globalcoalition. 
+Wen, K. Y. K., & Hua, T. K. (2020). ESL teachers’ intention in adopting online educational technologies 
+during covid-19 pandemic. Journal of Education and E-Learning Research, 7(4), 387–394. 
+https://doi.org/10.20448/journal.509.2020.74.387.394 
+WHO 
+(World 
+Health 
+Organization). 
+(2020). 
+Retrieved 
+from 
+https://www.who.int/director-
+general/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-
+19---11-march-2020. 
+Wong, J. O. (2020). A pandemic in 2020, Zoom and the arrival of the online educator. International Journal 
+of TESOL Studies, 2(3), 82–99. 
+Yi, Y., & Jang, J. (2020). Envisioning possibilities amid the COVID-19 pandemic: Implications from 
+English 
+language 
+teaching 
+in 
+South 
+Korea. 
+TESOL 
+Journal, 
+11(3), 
+1–5. 
+https://doi.org/10.1002/tesj.543 
+JETOL 2021, Volume 4 Issue 2, 349-367 
+Erarslan, A.
+ 
+ 
+ 
+ 
+ 
+367 
+Zboun, J. S., & Farrah, M. (2021). Students ’ perspectives of online language learning during corona 
+pandemic: Benefits and challenges. Indonesian EFL Journal (IEFLJ), 7(1), 13–20. 
+https://doi.org/10.25134/ieflj.v7i1.3986 
+Zhang, W., Wang, Y., Yang, L., & Wang, C. (2020). Suspending classes without stopping learning: China’s 
+education emergency management policy in the COVID-19 outbreak. Journal of Risk and Financial 
+Management, 13(3), 1-6. https://doi.org/10.3390/jrfm13030055 
+ 
+View publication stats

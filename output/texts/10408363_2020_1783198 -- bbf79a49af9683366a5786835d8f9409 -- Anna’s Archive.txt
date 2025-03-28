@@ -1,0 +1,3290 @@
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=ilab20
+Critical Reviews in Clinical Laboratory Sciences
+ISSN: (Print) (Online) Journal homepage: https://www.tandfonline.com/loi/ilab20
+The COVID-19 pandemic
+Marco Ciotti , Massimo Ciccozzi , Alessandro Terrinoni , Wen-Can Jiang ,
+Cheng-Bin Wang & Sergio Bernardini
+To cite this article: Marco Ciotti , Massimo Ciccozzi , Alessandro Terrinoni , Wen-Can Jiang ,
+Cheng-Bin Wang & Sergio Bernardini (2020): The COVID-19 pandemic, Critical Reviews in Clinical
+Laboratory Sciences, DOI: 10.1080/10408363.2020.1783198
+To link to this article:  https://doi.org/10.1080/10408363.2020.1783198
+Published online: 09 Jul 2020.
+Submit your article to this journal 
+View related articles 
+View Crossmark data
+REVIEW ARTICLE
+The COVID-19 pandemic
+Marco Ciottia, Massimo Ciccozzib, Alessandro Terrinonic, Wen-Can Jiangd, Cheng-Bin Wangd and
+Sergio Bernardinic,e
+aVirology Unit, Tor Vergata University Covid-Hospital, Rome, Italy; bUnit of Medical Statistics and Molecular Epidemiology, University
+Campus Bio-Medico of Rome, Italy; cDepartment of Experimental Medicine, University of Tor Vergata, Rome, Italy; dDepartment of
+Laboratory Medicine, Chinese PLA General Hospital, Beijing, China; eEmerging Technologies Division, International Federation of
+Clinical Chemistry and Laboratory Medicine (IFCC), Milano, Italy
+ABSTRACT
+In December 2019, an outbreak of pneumonia of unknown origin was reported in Wuhan, Hubei
+Province, China. Pneumonia cases were epidemiologically linked to the Huanan Seafood
+Wholesale Market. Inoculation of respiratory samples into human airway epithelial cells, Vero E6
+and Huh7 cell lines, led to the isolation of a novel respiratory virus whose genome analysis
+showed it to be a novel coronavirus related to SARS-CoV, and therefore named severe acute
+respiratory syndrome coronavirus 2 (SARS-CoV-2). SARS-CoV-2 is a betacoronavirus belonging to
+the subgenus Sarbecovirus. The global spread of SARS-CoV-2 and the thousands of deaths caused
+by coronavirus disease (COVID-19) led the World Health Organization to declare a pandemic on
+12 March 2020. To date, the world has paid a high toll in this pandemic in terms of human lives
+lost, economic repercussions and increased poverty. In this review, we provide information
+regarding the epidemiology, serological and molecular diagnosis, origin of SARS-CoV-2 and its
+ability to infect human cells, and safety issues. Then we focus on the available therapies to fight
+COVID-19, the development of vaccines, the role of artificial intelligence in the management of
+the pandemic and limiting the spread of the virus, the impact of the COVID-19 epidemic on our
+lifestyle, and preparation for a possible second wave.
+Abbreviations: ACE2: angiotensin converting enzyme 2; AI: artificial intelligence; ARDS: acute
+respiratory distress syndrome; CatL: cathepsin L; CRRT: continuous renal replacement therapy;
+CDC: Centers for Disease Control and Prevention; CI: confidence interval; CLIA: chemilumines-
+cence assays; COVID-19: Corona virus disease 19; ECMO: extracorporeal membrane pulmonary
+oxygenation; ELISA: enzyme-linked immunosorbent assays; HCoV: human coronavirus; ICU:
+Intensive Care Unit; IL: interleukin; MERS-CoV: middle East respiratory syndrome coronavirus;
+POCT: point of care test; PCR: polymerase chain reaction; RBD: receptor binding domain; rRT-PCR:
+reverse real-time PCR; S protein: spike protein; SARS-CoV: severe acute respiratory syndrome cor-
+onavirus; SARS-CoV-2: severe acute respiratory syndrome coronavirus 2; TCM: traditional Chinese
+medicine; TMPRSS: surface transmembrane protease/serine protease; WHO: World Health
+Organization
+ARTICLE HISTORY
+Received 20 May 2020
+Revised 7 June 2020
+Accepted 12 June 2020
+KEYWORDS
+SARS-CoV-2; rRT-PCR;
+COVID-19; cytokine storm;
+pneumonia; ACE2; serology
+1. Introduction
+Severe acute respiratory syndrome coronavirus 2 (SARS-
+CoV-2), the seventh human coronavirus, was discovered
+in Wuhan, Hubei province, China, during the recent epi-
+demic of pneumonia in January 2020 [1,2]. Since then,
+the virus has spread all over the world, and as of 20
+May 2020, it has infected 4,806,299 people, and caused
+318,599 deaths [3]. SARS-CoV-2 as well as SARS-CoV
+and Middle East respiratory syndrome coronavirus
+(MERS-CoV) cause severe pneumonia with a fatality rate
+of 2.9%, 9.6% and 36%, respectively [4–6]. The other
+four human coronaviruses, OC43, NL63, HKU1 and
+229E, generally cause self-limited disease with mild
+symptoms [7].
+In this review, we summarize the state of art of
+COrona VIrus Disease 19 pandemic (COVID-19, as
+defined by the World Health Organization [WHO] in
+February 2020), including the origin of SARS-CoV-2, its
+ability to infect human cells, epidemiology, clinical
+pathological and laboratory findings, molecular and
+serological diagnosis and safety issues. We also provide
+information on available therapies, vaccine develop-
+ment, and the potential role of artificial intelligence in
+CONTACT Sergio Bernardini
+bernardini@med.uniroma2.it
+Department of Experimental Medicine, University of Tor Vergata, Via Montpellier 1,
+Rome, 00133, Italy
+ 2020 Informa UK Limited, trading as Taylor & Francis Group
+CRITICAL REVIEWS IN CLINICAL LABORATORY SCIENCES
+https://doi.org/10.1080/10408363.2020.1783198
+the governance of health care systems and its useful-
+ness in fighting the COVID-19 outbreak.
+2. Origin of SARS-CoV-2
+Since the discovery of the novel coronavirus, SARS-CoV-
+2, scientists have debated its origin [8]. It has been
+speculated that SARS-CoV-2 is the product of laboratory
+manipulations. However, genetic data does not support
+this hypothesis and shows that SARS-CoV-2 did not
+derive from a previously known virus backbone [9].
+Genomes analysis and comparison with previously
+known coronavirus genomes indicate that SARS-CoV-2
+presents unique features that distinguish it from other
+coronaviruses: optimal affinity for angiotensin convert-
+ing enzyme 2 (ACE2) receptor and a polybasic cleavage
+site at the S1/S2 spike junction that determines infectiv-
+ity and host range [8,10].
+SARS-CoV-2 is highly similar to bat SARS-like corona-
+viruses [2] and bat might be the reservoir host. RaGT13
+is 96% identical to SARS-CoV-2 with some differences
+in the spike receptor binding domain (RBD) that could
+explain the differences in ACE2 affinity between SARS-
+CoV-2 and SARS-like coronaviruses.
+The polybasic cleavage site of SARS-CoV-2 is not pre-
+sent in pangolin beta-coronavirus, which share similar-
+ities with SARS-CoV-2. Also, the sequence of RBD of the
+spike protein (S) suggests that it arose from a natural
+evolutionary process [8].
+Estimates of the most recent common ancestor of
+SARS-CoV-2
+date
+the
+epidemic
+to
+between
+late
+November 2019 and the beginning of December 2019,
+which is compatible with the first reported cases [11].
+Thus, there was unnoticed human transmission after
+the zoonotic event and before the acquisition of the
+polybasic furin cleavage site [8].
+3. Epidemiology
+3.1. Disease presentation
+Patients with SARS-CoV-2 infection may present symp-
+toms ranging from mild to severe with a large portion
+of the population being asymptomatic carriers. The
+most common reported symptoms include fever (83%),
+cough (82%) and shortness of breath (31%) [12]. In
+patients with pneumonia, chest X-ray usually shows
+multiple mottling and ground-glass opacity [12,13].
+Gastrointestinal symptoms such as vomiting, diar-
+rhea, and abdominal pain are described in 2–10% of
+the patients with COVID-19 [12,14], and in 10% of
+patients, diarrhea and nausea precede the development
+of fever and respiratory symptoms [12].
+COVID-19 patients usually show decrease lympho-
+cyte and eosinophils counts, lower median hemoglobin
+values as well as increases in WBC, neutrophil counts,
+and serum levels of CRP, LDH, AST, and ALT [15].
+Moreover, initial CRP serum levels have been reported
+to be an independent predictor for the development of
+severe COVID-19 infection [16,17].
+Although the main target of coronavirus infection is
+the lung, the wide distribution of ACE2 receptors in
+organs [18] may lead to cardiovascular, gastrointestinal,
+kidney, liver, central nervous system and ocular damage
+that has to be closely monitored [19].
+The cardiovascular system is often affected, with
+complications including myocardial injury, myocarditis,
+acute myocardial infarction, heart failure, dysrhythmias,
+and venous thromboembolic events, and monitoring
+with high sensitivity cardiac troponin may be use-
+ful [20].
+Patients presenting with acute respiratory distress
+syndrome may worsen rapidly and die of multiple
+organ
+failure
+[12]
+induced
+by
+the
+so-called
+“cytokine storm”.
+Indeed, a cytokine profile resembling the secondary
+hemophagocytic
+lymphohistiocytosis
+syndrome
+has
+been described in severe COVID-19 cases, and is charac-
+terized by increased interleukin (IL)-2, IL-7, granulocyte
+colony stimulating factor, interferon-c inducible pro-
+tein-10, monocyte chemoattractant protein 1, macro-
+phage inflammatory protein 1-a, and tumor necrosis
+factor-a [11]. In addition, elevated levels of ferritin and
+IL-6 are predictors of fatality, and death is likely due to
+hyperinflammation induced by the virus [21]. Based on
+this evidence, tocilizumab (IL-6 receptor blockade) is
+administered to patients with COVID-19 pneumonia
+and elevated serum IL-6 to reduce inflammation in
+the lungs.
+Elevation of D-dimer levels has been associated with
+the severity of COVID-19. Subjects with severe COVID-
+19 have significantly higher values of D-dimer than
+those without (weighted mean difference 2.97 mg/L;
+95% CI: 2.47–3.46 mg/L) [22]. The elevated D-dimer lev-
+els may reflect the risk of disseminated coagulopathy in
+patients with severe COVID-19, which may require anti-
+coagulant therapy [22].
+The Italian Agency of Medicine (AIFA) has recently
+approved a clinical trial (INHIXACOVID19 study) in
+which enoxeparin is given subcutaneously to patients
+with COVID-19 to prevent thromboembolism-related
+complications. Heparin also has antiviral activity. It is
+known for its ability to prevent viral infection including
+coronaviruses infection. Indeed, heparin has a structure
+similar to that of heparan sulfate that is present on
+2
+M. CIOTTI ET AL.
+mammalian cellular surfaces and that is utilized by
+coronaviruses to enter cells [23,24]. In the presence of
+heparin, the interaction of the S protein with heparan
+sulfate may be blocked, thus preventing cell entry.
+Furthermore, heparin may inhibit proteases involved
+in virus infectivity [25]. Indeed, SARS-CoV-2 entry
+requires the cleavage of the S1–S2 subunits followed
+by the fusion of S2 to the cell membrane. The latter
+requires the action of host proteases such as cathe-
+psins, cell surface transmembrane protease/serine pro-
+teases (TMPRSS), furin, trypsin and factor Xa that are
+inhibited by heparin.
+The course of COVID-19 disease in children is gener-
+ally asymptomatic or mild compared to that seen in
+adults, for reasons that are yet to be clearly elucidated.
+Nonetheless, severe and fatal cases have been reported
+in children. Clinical laboratory data in children is quite
+different from adults as reported in a recent meta-
+analysis that showed an inconsistent alteration of the
+leukocyte index [26]; however, elevations in the levels
+of CRP, procalcitonin and LDH were also found in chil-
+dren with severe disease. Interestingly, creatine kinase-
+MB was elevated in one-third of patients and this raised
+the suspicion of cardiac involvement in COVID-19 pedi-
+atric patients, as recently reported [27].
+3.2. SARS-COV-2 transmission
+As with other respiratory viruses, SARS-CoV-2 transmis-
+sion occurs with high efficacy and infectivity mainly
+through the respiratory route. Droplet transmission is
+the main recognized route, although aerosols may rep-
+resent another important route [28,29]. Estimates of the
+reproduction number (R0) of SARS-CoV-2 range from
+1.4
+to
+2.5
+[Statement
+on
+the
+meeting
+of
+the
+International
+Health
+Regulations
+(2005)
+Emergency
+Committee regarding the outbreak of novel coronavirus
+(2019-nCoV), https://www.who.int/news-room/detail/23-
+01-2020-statement-on-the-meeting-of-the-international-
+health-regulations-(2005)-emergency-committee-regard-
+ing-the-outbreak-of-novel-coronavirus-(2019-ncov)]
+to
+2.24–3.58 [30].
+Similar to SARS-CoV, the oral-fecal route may be
+another route of transmission of the virus. SARS-CoV-2
+RNA has been detected in the stool of patient with
+COVID-19 pneumonia [31]. Therefore, sewage may have
+a role in the transmission of SARS-CoV-2. In light of
+that, technical treatment such as biosorbents capable
+of retaining and inactivating the virus should be consid-
+ered [32].
+SARS-CoV-2 has been detected in saliva of infected
+individuals [33]; this can be attributed to the presence
+of ACE2 receptors in epithelial cells lining the salivary
+gland ducts [34].
+In some studies, patient urine has been tested for
+SARS-CoV-2 viral RNA. Amongst these studies, the
+pooled rate of RNA positivity was about 5–6%; never-
+theless, the duration of viral shedding in urine samples
+as well as the infectivity of urine remains to be estab-
+lished [35].
+SARS-CoV-2 RNA has also been detected on inani-
+mate surfaces such as door handles and the surface of
+cell phones in residential sites of patients with con-
+firmed COVID-19. Thus, individuals who have come into
+contact with infected surfaces could be infected if they
+touch their eyes, mouth or nose [29].
+The vertical transmission of SARS-CoV-2 is debated; a
+series of nine pregnant women with confirmed COVID-
+19 showed no mother to child transmission. In addition,
+SARS-CoV-2 was not detected in breast milk, indicating
+that the virus cannot be transmitted with breastfeeding
+[36]. Nevertheless, a newborn with elevated IgM against
+SARS-CoV-2 born to a mother with COVID-19 has been
+recently reported. IgM antibodies along with IgG anti-
+bodies were detected 2 h after delivery. Il-6 and IL-10
+were also elevated, while polymerase chain reaction
+(PCR) performed on consecutive nasopharyngeal swabs
+from 2 h to 16 days of age was always negative.
+Considering that IgM cannot cross the placenta and be
+transferred to the fetus, it could be hypothesized that
+the infant was infected in utero even if amniotic fluid
+was not tested for SARS-CoV-2 RNA [37].
+Finally, the eyes may be a route of transmission of
+SARS-CoV-2. SARS-CoV-2 RNA was detected in ocular
+swabs of a patient with confirmed COVID-19 3 days
+after onset of symptoms and at 27 days when a naso-
+pharyngeal swab tested negative by PCR. Interestingly,
+the virus from an ocular swab was propagated in Vero
+E6 cells, suggesting that ocular secretions could be
+infectious [38]. Although no conclusive data is available,
+goggles should be worn when examining patients with
+suspected or confirmed COVID-19 [39].
+3.3. SARS-CoV-2 incubation period
+Determination of the incubation period of SARS-CoV-2
+infection is crucial for determining the duration of quar-
+antine, to evaluate the efficacy of entry screening and
+contact tracing. Based on a Weibull distribution, it was
+estimated that the mean incubation period is 6.4 days
+(95% confidence interval (CI): 5.6–7.7), with a range of
+2.1–11.1 days (2.5th–97.5th percentile) [40]. Similar esti-
+mates have been made by other authors. In a study by
+Lauer et al. [41], it was estimated that the median
+CRITICAL REVIEWS IN CLINICAL LABORATORY SCIENCES
+3
+incubation period was 5.1 days (95% CI, 4.5–5.8 days),
+and that 97.5% of infected individuals would develop
+symptoms within 11.5 days (CI, 8.2–15.6 days) of infec-
+tion. Therefore, the 14-day period of active monitoring
+recommended by health authorities is justified by the
+evidence [42,43]. Longer monitoring can be required in
+particular cases. It was estimated that 101 out of every
+10,000 cases (99th percentile, 482) may develop symp-
+toms after 14 days of active monitoring or quaran-
+tine [41].
+4. Viral testing
+4.1. Reverse real-time PCR assays
+Suspected cases of SARS-CoV-2 infection are confirmed
+by detection of specific and unique viral sequences
+using
+a
+reverse
+real-time
+PCR
+(rRT-PCR)
+assay.
+Immediately after the declaration by the Chinese Health
+Authorities, on 7 January 2020, that the pneumonia
+outbreak in Wuhan was caused by a novel coronavirus,
+a European network of laboratories developed an rRT-
+PCR protocol based on the alignment and comparison
+of available bat-related coronavirus and SARS-CoV gen-
+ome sequences plus five sequences from the novel cor-
+onavirus SARS-CoV-2 that were released by the Chinese
+authorities [44]. Three rRT-PCR assays were developed.
+The first line assay targets the E gene common to the
+coronaviruses belonging to Sarbecovirus subgenus and
+encoding the envelope protein. The second assay tar-
+gets the RdRp gene encoding the RNA-dependent-RNA-
+polymerase. This assay contains two molecular probes:
+one reacts with the SARS-CoV and SARS-CoV-2 RdRp
+gene, while the second one (RdRP_SARSr-P2) reacts
+with SARS-CoV-2 RdRp gene. The third assay targets the
+N (nucleocapsid) gene. This protocol was adopted in 30
+European countries [45].
+Recently, a new PCR protocol targeting a different
+region of the RdRp/Hel gene showed a higher sensitivity
+and specificity than the RdRP_SARSr-P2 assay [46].
+The US Centers for Disease Control and Prevention
+(CDC) protocol targets the N gene of SARS-CoV-2. Two
+primer/probe sets directed toward different regions of
+N gene were selected. In addition, a primer/probe set
+that detects the human RNase P gene in control sam-
+ples and clinical specimens is included (https://www.
+fda.gov/media/134922/download.
+Revision
+3,
+30
+March 2020).
+Although amplification tests are sensitive, some
+infections are missed. The reasons for this may be the
+quality of the collected specimen, time of collection
+(very early phase of infection or too late during infec-
+tion), viral load below the limit of detection of the
+assay, incorrect handling of the specimen or shipping
+issues. In the case of low viral load in the upper respira-
+tory tract, a deeper specimen may be required to make
+a diagnosis [47]. Indeed, in SARS and MERS patients,
+viral RNA in the upper respiratory tract peaked in the
+first 7–10 days after symptoms onset, while in the lower
+respiratory tract, viral RNA was still detected 2–3 weeks
+after disease onset [47,48]. Repeat testing can also be
+performed in the case of nasopharyngeal swabs initially
+being negative as this increases the chance of detecting
+SARS-CoV-2 in the nasopharynx [49].
+Several real-time PCR assays obtained the CE mark for
+in vitro diagnostics and are available on the market. Table
+1 summarizes the gene targets, the technical features of
+the assays and the validated specimen types of the real-
+time PCR assays cleared by the Italian Ministry of Health.
+Point of care tests (POCT) such as XpertV
+R Xpress
+SARS-CoV-2 (Cepheid, Sunnyvale, CA, USA) QIAstat-Dx
+Respiratory
+2019-nCoV
+Panel
+(QIAGEN,
+Hilden,
+Germany),
+and
+SimplexaTM
+COVID-19
+Direct
+kit
+(DiaSorin Molecular LLC, Cypress, CA, USA) deliver
+results in about 30-60 min. They do not require skilled
+technicians and the hands-on time is less than 1 min.
+These tests can be very useful when clinicians have to
+make rapid treatment decisions.
+A sensitive rRT-PCR assay could be performed on
+pooled
+samples.
+In
+the
+present
+situation
+where
+Table 1. Real-time PCR assays cleared by the Italian Ministry of Health for detection of SARS-CoV-2.
+Manufacturer
+Specimen type
+Method
+Gene target
+Sensitivity
+Bosphore Novel Coronavirus
+(2019-Ncov) Detection Kit
+Nasopharyngeal swab, oropharyngeal swab,
+sputum, bronchoalveolar lavage
+Fluorescence RT-PCR
+E, orf1ab
+25 copies/reaction
+STANDARD M nCoV Real-
+Time Detection Kit
+Nasopharyngeal swab and throat
+swab, sputum
+Fluorescence RT-PCR
+E, orf1ab
+NA
+Allplex 2019-nCoV assay
+Sputum, nasopharyngeal swab,
+nasopharyngeal aspirate, bronchoalveolar
+lavage, throat swab
+Fluorescence RT-PCR
+E, RdRp, N
+100 copies/reaction
+QUANTY COVID-19
+Nasopharyngeal swab, oropharyngeal swab,
+sputum, serum
+Fluorescence RT-PCR
+N
+NA
+GENEFINDER COVID-19 PLUS
+REALAMP KIT
+Bronchoalveolar lavage fluid, throat
+swab, sputum
+Fluorescence RT-PCR
+E, RdRp, N
+10 copies/reaction
+NA: not available.
+4
+M. CIOTTI ET AL.
+shortage of reagents can be a problem, sample pooling
+can be a valid alternative to allow the screening of a
+large number of people in a short time frame. In a
+recent
+study,
+a
+positive
+single
+sample
+could
+be
+detected in a pool of up 32 samples with an estimated
+false negative rate of 10% [50]. Pooled screening could
+be implemented to detect SARS-CoV-2 in the commu-
+nity [50,51].
+A recent paper showed that in confirmed COVID-19
+patients, saliva may be a more sensitive specimen for
+SARS-CoV-2 detection than nasopharyngeal swab. The
+authors also reported less variability in self-sample col-
+lection of saliva compared to nasopharyngeal swabs.
+This observation could open the way to at-home self-
+administered sample collection for large-scale screening
+of SARS-CoV-2 [52].
+The use of urine for diagnostic purposes is still the
+object of debate. The receptor ACE2, which is used by
+SARS-CoV-2 to infect human cells, is present not only in
+the respiratory tract but also in the urogenital system:
+renal proximal tubule cells, bladder urothelial cells,
+Leydig cells and cells in the testicular seminiferous
+ducts in testis [53]. Indeed, patients with COVID-19 may
+present with kidney damage (proteinuria, elevated
+serum creatinine, high urea) or severe acute kidney fail-
+ure. Damage to the reproductive system may occur as
+well [53]. Taken together, these data suggest that the
+urogenital system may represent a route of transmis-
+sion of SARS-CoV2. Some authors reported the identifi-
+cation of the virus in urine [54]. Nevertheless, to date,
+there is insufficient evidence that urine can be used as
+a biological specimen for COVID-19 diagnosis.
+4.2. CRISPR-Cas12-based lateral flow assay for
+detection of SARS-CoV-2
+Recently, a CRISPR-Cas12-based assay called SARS-CoV-
+2 DNA endonuclease-targeted CRISPR Trans Reporter
+(DETECTR) has been developed for the diagnosis of
+SARS-CoV-2 infection. This assay performs simultaneous
+reverse transcription and isothermal amplification of
+RNA extracted from nasopharyngeal or oropharyngeal
+swabs using loop-mediated amplification (RT-LAMP)
+[55],
+followed
+by
+Cas12
+detection
+of
+coronavirus
+sequences. Detection of the virus is confirmed by cleav-
+age of a reporter molecule. The assay targets the E and
+N regions but unlike the CDC assay, this one does not
+target the N1 and N3 regions. Amplification of the E
+region allows the identification of three SARS-like coro-
+naviruses
+[SARS-CoV-2
+(accession
+NC_045512),
+bat
+SARS-like
+coronavirus
+(bat-SL-CoVZC45,
+accession
+MG772933)
+and
+SARSCoV
+(accession
+NC_004718)],
+whereas the N region specifically detects SARS-CoV-2.
+The DETECTR assay can be run in 30–40 min and is
+visualized on a lateral flow strip. The test is positive if
+both E and N genes are detected or presumptive posi-
+tive if either E or N gene is detected. The limit of detec-
+tion (LOD) of this DETECTR assay is 10 copies/ml vs 1
+copy/ml for the CDC assay. The positive predictive
+agreement and the negative predictive agreement of
+DETECTR assay versus the CDC assay were 95% and
+100%, respectively [56].
+4.3. Viral load in respiratory samples
+Viral load determination performed on nasopharyngeal
+swabs demonstrated that mild clinical cases had a
+lower viral load in their respiratory specimens com-
+pared with severe cases. The mean viral load in severe
+cases was 60-fold higher than mild cases. Stratification
+of the data in relation at the time of sampling after dis-
+ease onset showed that delta cycle threshold (delta Ct)
+values were significantly lower in severe cases than
+mild cases in the first 12 days of disease. In mild cases,
+viral clearance occurred earlier and after 10 days, 90%
+of the patients repeatedly tested negative by PCR. By
+contrast, PCR was still positive at day 10 or beyond in
+all severe cases. These preliminary data suggest that
+determination of SARS-CoV-2 load may be useful for
+monitoring the patients with COVID-19 disease and
+for predicting prognosis and assessing disease sever-
+ity [57].
+5. Serology
+Several
+serological
+assays,
+including
+enzyme-linked
+immunosorbent
+assays
+(ELISA),
+chemiluminescence
+assays (CLIA), rapid antibody tests, and western blot-
+ting, have been developed since the beginning of the
+SARS-CoV-2 pandemic. The ELISA test developed by
+Wantai Biological Pharmacy Enterprise Co. (Beijing,
+China) detects total antibody, IgM and IgG against
+SARS-CoV-2 [58]. Total antibodies were detected based
+on a double-antigen sandwich immunoassay using
+recombinant antigens containing the RBD of the S pro-
+tein of SARS-CoV-2 as the immobilized antigen and
+horse radish peroxidase (HRP) as the conjugated anti-
+gen. The IgM l-chain capture method was used to
+detect IgM antibodies (IgM-ELISA), using the same HRP-
+conjugate RBD antigen as in the double-antigen sand-
+wich immunoassay. The IgG antibodies were detected
+by an indirect ELISA test (IgG-ELISA) based on the
+recombinant nucleoprotein antigen. The specificity of
+CRITICAL REVIEWS IN CLINICAL LABORATORY SCIENCES
+5
+the assays was determined by testing plasma samples
+of healthy individuals collected before the SARS-CoV-2
+outbreak, and was 99.1%, 98.6% and 99.0% for total
+antibody, IgM and IgG, respectively [58]. Comparing the
+results obtained by real-time PCR with those generated
+by the antibody assays in the first week of illness, PCR
+showed a higher sensitivity than antibodies assays,
+66.7% vs 38.3%. However, from days 8 to 12, the sensi-
+tivity of the antibody tests overtook that of the RNA
+test, and in the late phase of disease, the sensitivity of
+the antibody tests increased even further compared to
+the RNA test [58]. Nevertheless, to date, all the inter-
+national professional organizations, the US Food and
+Drug Administration and the CDC do not recommend
+that serology tests be used for diagnosis.
+Other research groups developed ELISA assays that
+used as antigens a modified full-length S protein and
+the RBD of SARS-CoV2. Using this approach, COVID-19
+seroconverters were identified as early as 3 days post
+symptom onset. Similarly, an antibody test designed to
+detect E and N antigens detected IgM within one week
+from disease onset. IgM was detectable for about a
+month and then gradually disappeared, while IgG was
+detected after 10 days and was detected for a longer
+period of time [59].
+Using
+a
+magnetic
+chemiluminescence
+enzyme
+immunoassay, 100% of patients with COVID-19 were
+found to be IgG positive 19 days after symptom onset.
+The median day for both IgG and IgM seroconversion
+was 13 days post symptoms. Seroconversion for IgM
+and IgG occurred simultaneously or sequentially. Three
+groups of patients were identified: patients with syn-
+chronous seroconversion of IgG and IgM, patients with
+IgM seroconversion earlier than IgG seroconversion,
+and patients with IgG seroconversion earlier than IgM
+seroconversion. IgM and IgG plateaued 6 days after the
+first determination. Interestingly, screening of close
+contacts of patients with COVID-19 showed that few
+individuals with negative RT-PCR and no symptoms
+tested positive to IgG and/or IgM, confirming that ser-
+ology can help in obtaining better estimates of the
+spread of SARS-CoV-2 [60].
+In the case of coronaviruses infection, neutralizing
+antibodies are elicited by the RBD region of the S pro-
+tein [61,62]. This subset of antibodies is particularly
+important because they can prevent the entry of the
+virus into the cell by binding to epitopes on the surface
+of the viral particle and blocking their interaction with
+the receptor. Neutralizing antibodies were first detected
+in the serum of a hospitalized Chinese female tourist
+between day 4 and 9 from onset of symptoms [61].
+In the past, a cocktail of neutralizing antibodies has
+been used in the treatment of SARS-CoV and Ebola
+virus infections. The combination of neutralizing anti-
+bodies was more effective than a single antibody
+[63,64]. It is likely that a similar approach will be under-
+taken in the treatment of SARS-CoV-2 infection. A
+recently
+developed
+human
+monoclonal
+antibody,
+47D11, against SARS-CoV-2 is able to neutralize the
+infection of Vero E6 cells by SARS-CoV and SARS-CoV-2
+in vitro [65]. The capacity of 47D11 to cross-react with
+SARS-CoV and SARS-CoV-2 suggests that the antibody
+likely targets the conserved structure of the S1B RBD
+[65]. It is important to know whether this antibody can
+be useful in the development of serological assays for
+SARS-CoV-2 or antigen detection assays. At the clinical
+level, the 47D11 monoclonal antibody could represent
+a new therapeutic option for treating COVID-19 disease
+or for preventing infection.
+Many in-house ELISA assays that are able to detect
+antibodies against S1, RBD and N of SARS-CoV-2 have
+been developed, although cross-reaction with SARS-
+CoV was observed [66] due to the high degree of simi-
+larity between the S1 and RBD proteins of the two coro-
+naviruses as well as between the N proteins (90%
+similarity). However, it should be pointed out that
+SARS-CoV antibodies have been reported to have
+waned in the 17 years since the SARS-CoV epidemic,
+making it unlikely that antibodies against SARS-CoV
+could still be detectable in the population and create
+false positive results. Moreover, a study performed
+6 years after the SARS epidemic showed that 91% of
+the serum samples of the patients previously infected
+by SARS-CoV were negative for specific IgG [67].
+Detection of neutralizing antibodies against SARS-
+CoV-2 is also important for identifying individuals who
+mount a strong immuneresponse against the virus and
+whose serum/plasma could be used therapeutically to
+fight SARS-CoV-2 infection.
+Major IVD companies [68] have introduced SARS-
+CoV-2 serology tests and offer IgA, IgG, IgM or mixed
+assays on automated immunoassay analyzers in the
+clinical laboratory.
+Considering the numerous immunoassays (ELISA and
+CLIA) already developed by several research groups
+and those that will become available in the near future,
+it is mandatory to standardize the assays using recog-
+nized reference standards or at least to harmonize
+them. Until standardization/harmonization are realized,
+it would be appropriate that each laboratory calculate
+its own cutoff using receiver operating characteristic
+curves. In many countries, serological assays are also in
+6
+M. CIOTTI ET AL.
+use to identify people who can return to work safely as
+soon as the lockdown eases. Indeed, it is possible that
+we may have to cohabit with the virus for a significant
+period of time, and it is mandatory to develop strat-
+egies for reopening economic activities. A possible
+algorithm is outlined in Figure 1. According to this algo-
+rithm, a serological IgM/IgG assay should be performed
+on asymptomatic workers before returning to work. In
+the case of a negative result, the serological assay is
+repeated after 10 days and if confirmed negative, the
+subject returns to work. In case of positivity, a real-time
+PCR assay on a nasopharyngeal swab is performed. If
+positive, the subject is quarantined for 14 days, and at
+the end of quarantine, a real-time PCR assay is per-
+formed on a new nasopharyngeal swab. A negative
+result must be confirmed by a second PCR carried out
+24 h apart before the individual can return to work.
+However, considering the limitations of the current
+serological tests and the possibility of cross-reaction
+with SARS-CoV (that shares 82% nucleotide identity
+with SARS-CoV-2 [69]) and other coronaviruses, real-
+time PCR remains, to date, the main and most effective
+diagnostic test for COVID-19 worldwide.
+5.1. Rapid immunochromatographic tests
+Reliable rapid tests could alleviate the pressure on
+molecular biology laboratories where SARS-CoV-2 RNA
+is tested and could help in developing countries. In the
+European Union, licensed rapid tests include both quali-
+tative and semi-quantitative tests [70].
+There are two types of rapid tests: the SARS-CoV-2
+antigen detection tests and antibody detection tests. To
+date, 10 CE-marked rapid SARS-CoV-2 antigen detection
+tests conform to the EU legislation FIND (https://www.
+finddx.org/), Directive 98/79/EC on IVDs. The sensitivity
+of these assays is generally low. For instance, the
+COVID-19 Ag Respi-Strip (Coris BioConcept, Brussels,
+Belgium), has a sensitivity of 60% with 100% specifi-
+city (95% CI: 93.5-100%). Its positive predictive value is
+100% (95% CI: 86.7–1.00%) and negative predictive
+value, 85.4% (95% CI: 75.4–91.9%). Agreement with
+real-time PCR is 88%.
+As of 20 May 2020, there are over 60 rapid antibody
+detection tests. These tests have limited usefulness in
+the early diagnosis of COVID-19 disease because it may
+take 7–10 days after onset of symptoms for patients to
+become positive [62,66].
+Rapid tests need validation on large number of sam-
+ples before they can be introduced for diagnosis of
+SARS-CoV-2, and a comparison with CLIA or ELISA assays
+should be required. WHO referral laboratories are con-
+ducting validation studies on commercial assays [70].
+These assays can be run on venous whole blood, finger-
+stick whole blood, serum and plasma. The sensitivities,
+specificities and accuracy vary with to the manufacturer.
+Figure 1. Flowchart proposal to overcome lockdown. The lower “Negative” path describes serological assays (IgG/IgM) performed
+on asymptomatic workers. In case of a negative result, after 10 days of preventive quarantine, a second negative IgG/IgM sero-
+logical test is required to return to work. In case of a positive result, a real-time PCR assay on a nasopharyngeal swab is per-
+formed. A negative result must be confirmed by a second real-time PCR assay performed 24 h apart before returning to work.
+The upper “Positive” path describes a positive real-time PCR assay performed on an individual who is IgG/IgM positive for SARS-
+CoV-2. The subject is quarantined for 14 days, and at the end of this period, a real-time PCR assay is performed on a new naso-
+pharyngeal swab. A negative result must be confirmed by a second PCR assay carried out 24 h apart before the individual can
+return to work. Serological testing should be done with assays using coated spike protein or its subcomponents such as S1, S2
+or RBD, which may elicit neutralizing antibodies against SARS-CoV-2.
+CRITICAL REVIEWS IN CLINICAL LABORATORY SCIENCES
+7
+As an example, the sensitivity of BasePointTM COVID-
+19 IgG/IgM rapid Test Device (Abbott, Chicago, USA)
+is 86.43% (95% CI: 82.51–89.58%); specificity, 99.57%
+(95% CI: 97.63–99.92%); and accuracy, 91.61% (95%
+CI: 89.10–93.58%). In the case of the COVID-19 IgG/
+IgM Rapid Test (PRIMA Lab SA, Balerna, Switzerland),
+the accuracy of the test for IgG is 98.6% (specificity
+98.0%, sensitivity 100.0%) whereas the accuracy for
+IgM is 92.9% (specificity 96.0%, sensitivity 85.0%). The
+2019-nCoV IgG/IgM Rapid test Cassette (All Test
+Biotech Co., LTD, Hangzhou, China) states a sensitivity
+for IgM detection of 85.0% (95% CI: 82.1–96.8%), spe-
+cificity of 96.0% (95% CI: 86.3–99.5%), and accuracy of
+92.9% (95% CI: 84.1–97.6%). On the other hand, the
+sensitivity, specificity and accuracy for IgG detection
+is
+100%
+(95%
+CI:
+86.0–100%),
+98.0%
+(95%
+CI:
+89.4–99.9%),
+and
+98.6%
+(95%
+CI:
+92.3–99.96%)
+respectively. In any case, clinical validation in the
+field,
+performed
+by
+laboratory
+professionals,
+is
+strongly recommended for these rapid tests before
+their introduction in outpatient clinics or their use as
+direct-to-consumer testing. Recently, we compared
+rapid tests and a CLIA assay: the sensitivity for IgG
+was 90% for the immunochromatographic tests and
+95% for CLIA, while the sensitivity for IgM ranged
+from 61.4% to 87.8% for the immunochromatographic
+tests and was 91% for CLIA; the specificity was 100%
+for all [71].
+Colloidal gold-based lateral flow immunoassays
+have been developed to detect antibody response
+against
+SARS-CoV-2
+infection.
+These
+assays
+are
+typically qualitative (positive or negative), portable, easy
+to use, and rapid, and can be used at the point of care
+[72]. In a recent study, a colloidal gold lateral flow
+immunoassay was developed to detect IgM for SARS-
+CoV-2. The assay showed high sensitivity (100%) and
+specificity (93.3%) when compared to a real-time PCR
+assay performed on the serum of COVID-19 patients
+and healthy individuals, and almost a perfect agree-
+ment by K statistics (k coefficient ¼ 0.872) [73]. In
+another study, a test for detecting IgM/IgG antibodies
+showed a sensitivity of 71.1% [95% CI 60.9–0.79.7%]
+and a specificity of 96.2% [95% CI 85.9–99.3%] [74].
+Considering these technical features along with the
+ease of testing, low cost and delivery of results in a
+short time frame (10–15 min), colloidal gold-based lat-
+eral flow immunoassay, if properly validated, may be a
+suitable method for serologic screening in the context
+where a large number of samples have to be tested in
+a short time or where whole blood sampling is
+not possible.
+6. Sars-CoV-2 and cellular infection
+6.1. SARS-CoV-2 receptor
+Several biochemical and structural studies have shown
+that SARS-CoV-2 binds the human receptor for angio-
+tensin-converting-enzyme 2 (ACE2) [75–77]. The spike
+protein of SARS-CoV-2 contains a polybasic furin cleav-
+age site at the boundary between subunit S1 and S2 of
+the spike protein that is processed during biogenesis
+and that distinguishes this virus from SARS-CoV and
+SARS-related coronavirus. This cleavage site is import-
+ant for virus infectivity and host range. Six amino acids
+within the RBD of the spike protein are critical for bind-
+ing to the ACE2 receptor and for determining the host
+range of SARS-like coronaviruses. Five of these six
+amino acids differ between SARS-CoV and SARS-CoV-2.
+Structural studies carried out on the SARS-CoV-2
+RBD/ACE2 complex showed that SARS-CoV-2 RBD binds
+ACE2 with higher affinity than SARS-CoV RBD. Indeed,
+SARS-CoV-2 RBD forms a larger binding interface and
+more contacts with ACE2 than SARS-CoV RBD [78].
+From a structural point of view, there is a significant dif-
+ference in the conformation of the loops in the ACE2
+binding ridge that may explain this difference in recep-
+tor binding affinity between the two viruses. The SARS-
+CoV loop contains a three-residue motif, proline-pro-
+line-alanine, while SARS-CoV-2 and bat coronavirus
+RaGT13 contain a four-residue motif, glycine-valine/glu-
+tamine-glutamate/threonine-glycine.
+Due
+to
+these
+structural differences, the ridge in the SARS-CoV-2 RBD
+makes more contacts with the N-terminal helix of ACE2.
+The importance of this structure in determining the
+higher binding affinity of SARS-CoV-2 RBD for the ACE2
+receptor
+was
+confirmed
+by
+mutations
+studies.
+Mutations at position 481–487, 493 and 501 of SARS-
+CoV-2, where the amino acids were mutated to those in
+SARS-CoV, reduced the surface of the SARS-CoV-2 spike
+available for binding to ACE2 [78]. The authors also
+showed that bat RaTG13 is able to bind ACE2. RaTG13
+contains a four-residue motif in the ACE2 binding-ridge
+that is similar to SARS-CoV-2, suggesting that SARS-
+CoV-2 may have evolved from this virus or a bat-related
+coronavirus. Amino acid changes L486F and Y493Q
+from RaTG13 to SARS-CoV-2 facilitate ACE2 binding and
+support the idea that these changes enabled bat to
+human transmission. Also, L455 and N501, present both
+in RaTG13 and SARS-CoV-2, contribute to ACE2 binding
+and perhaps to bat to human transmission [78].
+The intermediate host of SARS-CoV-2 is unknown.
+Pangolin has been proposed as the intermediate host
+for coronavirus transmission between bat and humans.
+The RBD of CoV-pangolin isolated in Guandong shows
+8
+M. CIOTTI ET AL.
+that it has several amino acids that favor binding to the
+human ACE2 receptor, supporting the hypothesis of
+pangolin as the intermediate host [78].
+Taken together, these observations show that the
+SARS-CoV-2 RBD may be a useful target for antiviral
+drugs. By blocking the RBD region, the virus could be
+prevented from binding to the ACE2 receptor and
+entering the cell. Another possible target is TMPRSS2, a
+cellular serine protease used by SARS-CoV-2 for S pri-
+ming and cell entry. Inhibition of TMPRSS2 by Camostat
+mesylate blocks SARS-CoV-2 infection in human hair
+cells [79].
+6.2. Induction of T-cell lymphocytes apoptosis
+during human coronavirus infection
+SARS-CoV-2 can infect T-cells lymphocytes via S protein
+mediated endocytosis and internalization [80], although
+the virus is not able to replicate in these cells.
+Interestingly, the translation of viral RNA proteins indu-
+ces apoptosis in T-lymphocytes, as demonstrated for
+MERS coronavirus [81]. Induction of apoptosis may rep-
+resent a mechanism of immune-evasion that contrib-
+utes to the immune-pathogenicity of the virus as a
+result of the lymphocytopenia observed in COVID-
+19 patients.
+Apoptosis, or programed cell death, is characterized
+by the controlled disassembly of cellular structures that
+are released as apoptotic bodies; these apoptotic
+bodies are then engulfed in the membranes of neigh-
+boring cells or by phagocytes [82]. Because the released
+material is surrounded by cellular membrane, this pro-
+cess is not inflammatory or immunogenic, in contrast to
+the process of necrosis in which the uncontrolled
+release of cytoplasmic cellular contents activates an
+inflammatory response. Fundamentally apoptosis can
+be activated by two pathways, the intrinsic pathway in
+which the cells receive an intrinsic death stimulus
+(oncogene activation, DNA damage or others), and the
+extrinsic pathway in which the death stimulus can be
+due to external factors such as Fas or TNF-a receptor
+activation during immuneresponse. Both pathways con-
+verge on the mitochondria, specifically to the outer
+membrane, and are controlled by the Bcl2 family pro-
+teins [82–84].
+The apoptosis process has been studied in human
+coronavirus
+(HCoV)
+infected
+cells
+from
+SARS-CoV
+infected patients. Apoptotic cells have been detected in
+other tissues such as thyroid tissues [85], spleen and
+kidney [86], in addition to lung and upper airway epi-
+thelial
+cells.
+Apoptosis
+by
+human
+coronaviruses
+(HCoVs), including SARS-CoV, has been also described
+in in vitro systems and animals [87,88]. Recently, apop-
+tosis was demonstrated in the spleen and lymph nodes
+of SARS-CoV-2 patients [89].
+SARS-CoV
+infection
+is
+able
+to
+induce
+caspase
+dependent apoptosis, but even if this phenomenon is
+generated by the infection, apoptosis does not inhibit
+virus replication [90]. Apoptosis has been demonstrated
+in an in vitro experiment using cultured cell by trans-
+fecting single SARS-CoV coding regions, including S, E,
+M, N, and accessory protein 3a, 3b, 6, 7a, 8a, and 9b.
+The membrane protein, M, modulates the Akt survival
+pathway and release of mitochondrial cytochrome c
+[91], protein 3b activates bcl-2-like protein 4 (BAX), and
+both processes are able to induce apoptosis [92]. Even
+if the ablation of gene 7 from the SARS-CoV genome
+did not show an effect on replication of the virus in
+transformed cell lines, it showed a reduction in apop-
+tosis if DNA fragmentation was evaluated [93]. The
+induction of apoptosis by protein 7a is blocked by Bcl-
+XL [94]. The proteins, E and 7a, are able to activate the
+intrinsic pathway by sequestering antiapoptotic Bcl-XL
+to the endoplasmic reticulum [87]. Protein 3 b is able to
+induce cell G0/G1 arrest and apoptosis [95]. Protein 3a
+is also pro-apoptotic, and possesses three major protein
+signatures,
+the
+cysteine-rich,
+Yxx/
+and
+diacidic
+domains, that are essential for its apoptotic function
+[96]. Other mechanisms of apoptosis induction by HCoV
+involve the activation of endoplasmic reticulum stress
+response and the mitogen-activated protein kinase
+pathway [97].
+7. Safety issues
+7.1. General safety recommendations
+Since the outbreak of SARS-CoV-2, the use of face
+masks has become ubiquitous. The fear of being
+infected has caused everyone who can wear face mask
+to do so and this has contributed to the shortage of
+this product. Policies on wearing face masks differ
+among countries. WHO discourages the use of face-
+mask among healthy people unless they are taking care
+of a person with suspected SARS-CoV-2 infection or
+with respiratory symptoms. However, the use of face
+mask is always recommended because it could prevent
+infection transmission from asymptomatic carriers. In
+China, national policy encourages the use of face masks
+among people with low or moderate risk of infection
+but discourages those with a very low risk of infection
+from wearing a mask. People in quarantine should wear
+a face mask if they leave their home for any reason to
+prevent potential transmission in the asymptomatic
+phase. In addition, vulnerable populations such as the
+CRITICAL REVIEWS IN CLINICAL LABORATORY SCIENCES
+9
+elderly or those with underlying medical conditions
+should wear a mask [98].
+A recent study by Leung et al. showed that wearing
+face mask significantly reduced the shedding of respira-
+tory viruses such as influenza virus and coronavirus
+[28]. Based on these recent findings and in an attempt
+to reduce the spread of SARS-CoV-2 in the so-called
+second phase of the epidemic, many EU governments
+have made it mandatory to wear face masks in public.
+The
+potential
+air
+propagation
+of
+SARS-CoV-2
+depends on many factors including the particle size,
+the speed of exhaled air (increased by breathing
+< speaking < coughing < sneezing) as well as tempera-
+ture and humidity.
+The WHO, CDC and European Center for Disease
+Prevention and Control strongly recommend that peo-
+ple perform hand hygiene frequently and avoid touch-
+ing their eyes, nose and mouth.
+7.2. Blood specimens handling
+Routine blood testing should be performed on auto-
+mated analyzers using standard practices and proce-
+dures at containment level 2 for suspected/confirmed
+cases of COVID-19. Automated analyzers should be
+disinfected following sample processing, and actions
+that could generate infectious aerosols should be
+avoided. The opening of test tubes is usually not con-
+sidered a high-risk procedure for generating aerosols.
+However, risk assessment should be undertaken to
+determine whether a microbiological safety cabinet
+should be used.
+Blood samples from patients with COVID-19 disease
+are usually negative for SARS-CoV-2 RNA. Thus, viremia
+does not seem to be a major problem for SARS-CoV-2
+infection. The virus has been detected only in a limited
+number of cases [11,31,99–102]. Furthermore, there is
+no clear correlation between the presence of viral RNA
+in the blood and the severity of disease [11,100,101].
+The infectiousness of blood from patients with COVID-
+19 as well as SARS and MERS has not been demon-
+strated. No reports that show transmission of these
+three viruses by blood or blood products exist in
+the literature.
+Based on this evidence, blood samples can be
+handled using standard laboratory practice at contain-
+ment level 2. As a precaution, in case of severe COVID-
+19 disease, if laboratory procedures may result in
+splashes, spills or aerosol generation, a microbiological
+safety cabinet can be used to protect the operator
+[https://www.gov.uk/government/publications/wuhan-
+novel-coronavirus-guidance-for-clinical-diagnostic-labo-
+ratories/wuhan-novel-coronavirus-handling-and-proc-
+essing-of-laboratory-specimens].
+7.3. Respiratory samples
+Respiratory samples may contain SARS-CoV-2, and
+therefore they must be processed in a microbiological
+safety cabinet at containment level 2; this includes
+preparation of specimens for molecular testing prior to
+sample inactivation, aliquoting or dilution of respiratory
+samples, and rapid antigen testing of respiratory speci-
+mens. Propagation or culturing of SARS-CoV-2 for diag-
+nostic or research purposes must be conducted at
+containment level 3 [https://www.gov.uk/government/
+publications/wuhan-novel-coronavirus-guidance-for-clin-
+ical-diagnostic-laboratories/wuhan-novel-coronavirus-
+handling-and-processing-of-laboratory-specimens].
+7.4. Surfaces disinfection
+SARS-CoV-2 may persist on surfaces for a time ranging
+from hours to days [103]. Therefore, surfaces may repre-
+sent a source of infection transmission. To minimize
+this risk, it is important to use disinfectants and deter-
+gents to kill SARS-COV-2. Several disinfectants are avail-
+able on the market and can be used to clean surfaces
+that may be contaminated by the viruses: alcohols, per-
+oxide and peroxy acids, quaternary ammonium com-
+pounds
+and
+inorganic
+compounds
+(chlorine,
+hypochlorite, hypochlorous acid) [104].
+Recently the IFCC Task Force on Covid-19 published
+a set of recommendations, adapted from official docu-
+ments of international and national health agencies, on
+biosafety measures for routine clinical chemistry labora-
+tories [105].
+8. Treatment
+8.1. Determine the treatment site according to the
+condition of the patient
+According to the severity of a patient’s symptoms and
+the medical resources available in a region, different
+treatment sites may be selected to observe and isolate
+patients. The specific classification, from Chinese guide-
+lines, is as follows:
+A.
+Asymptomatic cases: They have not been con-
+firmed and should not be considered as new
+cases. The main treatment measure is centralized
+10
+M. CIOTTI ET AL.
+quarantine for 14 days and further monitoring by
+the local Public Health Department [13]. If these
+cases are in home isolation, household members
+should stay in a different room, or if this is not
+possible, maintain a distance for at least 1 meter
+from the quarantined person [106];
+B.
+Suspected cases: After informed consent, patients
+who have the ability to self-care, age 65 years
+old, without primary diseases such as respiratory
+diseases,
+cardiovascular
+diseases
+and
+mental
+health issues, should go to a health care facility
+voluntarily [107,108]. During quarantine observa-
+tion, the person should in principle stay in a sin-
+gle room and not leave the room at random;
+C.
+Mild cases: They are treated in a mobile cabin
+hospital if available or at home if hospitalization is
+not possible because of the heavy burden on the
+health care system. In this case, they should be
+followed up and cared for by family members
+[13]. If patients are in the same room, the space
+between beds should not be less than 1.2 m, and
+the room should be equipped with its own facili-
+ties. At the same time, family visits and nursing
+should be declined [108];
+D.
+Severe/critically ill cases: Patients who are initially
+diagnosed as critically ill should be admitted into
+the Intensive Care Unit (ICU) immediately for treat-
+ment. For patients whose status changes from
+mild to severe, after hospital triage and prescreen-
+ing expert consultation in the mobile cabin hos-
+pital or at home, they should be transferred to
+the critical observation and treatment area of a
+sheltered
+hospital,
+and
+following
+consultation,
+they should be transferred to a designated hos-
+pital for treatment [109].
+Facing the COVID-19 pandemic, China creatively
+adopted large-scale mobile cabin hospitals to prevent
+and control the epidemic and achieved satisfactory
+results. Since the epidemic rapidly spread to many
+other countries around the world, China’s experience is
+recommended and should be considered in their
+national strategy and at the local level. Thus, countries
+such as Serbia, Britain, Italy, Spain, France, Iran acceler-
+ated the construction of mobile cabin hospitals, which
+are used mainly to treat mild or asymptomatic patients.
+According to WHO guidelines, if patient symptoms are
+mild, providing care at home may be considered as
+long as patients can be followed up and cared for by
+family members [106]. However, severe cases should be
+admitted to designated hospitals for treatment at
+first diagnosis.
+8.2. Treatment for mild COVID-19 cases
+The clinical symptoms of these cases are mild and there
+is no pneumonia manifested on chest imaging. Patients
+should stay in bed, which is the principle for treatment
+of mild COVID-19 cases. According to the protocol by
+Prof. Tingbo Liang, blood oxygen saturation monitoring
+and oxygen therapy with nasal cannula should be con-
+ducted regularly for these patients.
+8.3. Treatment for moderate COVID-19 cases
+The clinical symptoms are moderate, with fever, respira-
+tory tract symptoms and pneumonia manifestations on
+chest imaging. Treatment principles include bed rest,
+supportive treatment to maintain energy supply, main-
+taining water and electrolyte balance and monitoring
+vital signs and oxygen saturations.
+Patients should be given oxygen therapy as needed.
+Firstly, they can be provided with nasal cannula ther-
+apy. If this does not work, patients should be treated
+with mask oxygen and cannula oxygen therapy. As
+well, inhalation of hydrogen-oxygen (O2/H2: 33.3%/
+66.6%) can be used.
+Patients should also be given antiviral therapy.
+Lopinavir/ritonavir is an approved antiviral drug that
+blocks the cleavage of Gag-Pol polyprotein. Lopinavir is
+used to treat human immunodeficiency virus-1 infec-
+tion, and its application in COVID-19 infection is mainly
+based on the treatment of MERS-CoV. Ribavirin is a syn-
+thetic nucleoside antiviral agent with broad-spectrum
+antiviral activity that can inhibit DNA and RNA viruses
+[110]. For the new coronavirus pneumonia, the latest
+Chinese clinical guidance recommends the combined
+application of ribavirin and interferon or lopinavir/
+ritonavir. Redoxivir has shown significant effect in the
+treatment of SARS and MERS virus infections. Holshue
+et al. treated the first case of COVID-19 infection in the
+United States with remdesivir, and the clinical symp-
+toms and signs improved significantly after that [30]. In
+addition, antiviral drugs such as darunavir, abidor and
+fapiravir can theoretically be used in the therapy of
+COVID-19 infection, but their specific efficacy still needs
+to be verified by animal and clinical experiments.
+A randomized double-blind, placebo-controlled, mul-
+ticenter trial at ten hospitals in Hubei, China, was per-
+formed
+with
+remdesivir.
+The
+treatment
+was
+not
+associated with statistically significant clinical benefits.
+However, the duration of invasive mechanical ventila-
+tion, although also not significantly different between
+groups, was numerically shorter in remdesivir than pla-
+cebo recipients [111].
+CRITICAL REVIEWS IN CLINICAL LABORATORY SCIENCES
+11
+During the treatment of MERS, a-interferon, a bio-
+logic drug, played an important role because of its anti-
+viral
+activity
+[112].
+The
+chinese
+clinical
+guidance
+recommends a-interferon for the treatment of COVID-
+19. Use of three or more antiviral drugs at the same
+time is not recommended, and blind or inappropriate
+use of antibacterial drugs (especially broad-spectrum
+antibacterial drugs) should be avoided [113].
+8.4. Treatment for severe/critical COVID-19 cases
+Severe cases have severe respiratory symptoms such as
+shortness of breath, a decrease of oxygen levels and a
+decrease of PaO2/FiO2. The general treatment principles
+for these cases are active prevention and treatment of
+complications, prevention of secondary infections while
+treating basic diseases, and organ function support
+treatment in a timely manner [114,115].
+Detection of nucleic acid should be performed to
+monitor the replication of the virus (43). A series of indi-
+ces should be tested including blood counts, plasma
+biochemical profile, routine urinalysis, stool, coagula-
+tion function, blood gas analysis, ASO, RF, CPR, cyclic
+citrullinated peptide, ESR, PCT, blood type, cardiac
+enzymes, respiratory virus tests, and cytokines [108].
+The usefulness of serum (1, 3)-b-D-glucan and galacto-
+mannan assay in a suspected case of invasive pulmon-
+ary aspergillosis infection in a critically ill COVID-19
+patient has been reported [116].
+An ultrasound of the liver, gallbladder, pancreas and
+spleen should be done, and an echocardiogram and
+lung CT scan should be performed [108,113].
+If the respiratory distress and/or hypoxemia cannot
+be relieved, high-flow nasal cannula oxygen therapy or
+noninvasive ventilation should be used. If the condition
+of the patient does not improve or if it worsens within
+1–2 h, tracheal intubation and invasive mechanical ven-
+tilation should be performed. Sedation and muscle
+relaxants should be used for patients who have a prob-
+lem with man-machine synchronization. Closed sputum
+suction should be considered according to airway
+secretions. For patients with severe acute respiratory
+distress syndrome (ARDS), lung expansion is recom-
+mended, and prone ventilation should be performed
+for more than 12 h every day. If it is not effective, extra-
+corporeal membrane pulmonary oxygenation (ECMO)
+should be considered. The indications of ECMO are as
+follows: (1) when FiO2>90%, the oxygenation index is
+less than 80 mmHg for 3–4 h; (2) patients with simple
+respiratory failure with plateau 35 cm H2O, the VV-
+ECMO mode is selected; if circulatory support is needed
+at the same time, the VA-ECMO mode is preferred.
+Weaning off ECMO can be considered when the under-
+lying disease is under control and cardiopulmonary
+function shows signs of recovery [116,117].
+For severe and critical cases, circulatory support ther-
+apy, renal function replacement therapy and blood
+purification therapy should be performed. For circula-
+tory support therapy, improvement of the microcircula-
+tion and the use of vasoactive drugs can be considered
+based on adequate fluid resuscitation; attention should
+be paid to changes in the patient’s heart rate, blood
+pressure, urine volume, arterial blood gas levels, and
+fluid balance. If the heart rate or blood pressure
+changes by more than 20% from baseline values, atten-
+tion should be paid to septic shock, severe heart failure,
+or gastrointestinal bleeding [118]. Regarding renal func-
+tion, the causes of renal function insufficiency (such as
+drugs and hypoperfusion) should be assessed, and
+treatment should focus on fluid balance, electrolyte bal-
+ance and acid-base balance. Continuous renal replace-
+ment therapy (CRRT) can be used in severe cases to
+treat hyperkalemia, acidosis, pulmonary edema or exces-
+sive water load, and fluid management when multiple
+organ dysfunction occurs [119]. As the disease pro-
+gresses, the patient will produce large amounts of
+inflammatory factors. The use of blood purification sys-
+tems (such as plasma exchange, blood filtration, etc.) can
+remove inflammatory factors and reduce their damage
+to the patient. The indications for blood purification
+treatment for patients with severe COVID-19 can be div-
+ided into renal and non-renal. Blood purification treat-
+ment needs to be considered when patients with severe
+COVID-19 have acute kidney injury, (particularly stage
+2 that meets the criteria of kidney disease), severe fluid
+overload, and electrolyte and acid-base balance disor-
+ders. Hemodialysis patients with hemodynamic instabil-
+ity should to change to CRRT. Non-renal indications
+include patients with severe ARDS, acute liver failure,
+multiple organ dysfunction syndrome, or septic shock,
+excessive inflammatory response and uncontrollably
+high fever (rectal temperature >39.5 C) [120].
+In
+addition,
+for
+the
+severe
+and
+critical
+cases,
+immunotherapy can be performed. For patients with
+extensive lung lesions and persistently elevated IL-6,
+monoclonal antibody therapy can be tried, but atten-
+tion
+should
+be
+paid
+to
+allergic
+reactions.
+Immunotherapy is not recommended for patients with
+active infections, e.g. tuberculosis [116].
+For patients with deterioration of oxygenation, rapid
+imaging changes and excessive inflammatory response,
+glucocorticoids can be used as appropriate. Experts
+from the Chinese Thoracic Society developed a consen-
+sus statement that patients can be treated with
+12
+M. CIOTTI ET AL.
+glucocorticoids when they meet the following four con-
+ditions at the same time: (1) adult (age 18 years old);
+(2) diagnosed with new coronavirus infection by PCR or
+serum antibodies; (3) symptoms (including fever, cough
+or other related infection symptoms) occur within
+10 days, radiographically confirmed pneumonia and
+rapid progress; and (4) blood oxygen saturation (SpO2)
+93% or shortness of breath (breath rate 30 breaths/
+min) or oxygenation index 300 mmHg [121]. For
+patients with secondary infection, intestinal microeco-
+logical regulators and broad-spectrum antibacterial
+drugs can be used. Immunoglobulin infusion therapy
+can also be used to improve patient immunity [122]. It
+is recommended that pregnant women with severe
+COVID-19 infection end their pregnancy as soon as pos-
+sible. In addition, anxiety and fear are often present in
+severe and critical cases, and the psychiatric service
+must have a specific approach for dealing with these
+problems including hospital resource management,
+mental health intervention, and guidance for family
+members [123].
+8.5. Traditional Chinese medicine treatment
+Traditional Chinese medicine (TCM) is a unique diagnos-
+tic method with a systematic approach, abundant histor-
+ical literature and materials. It formulates treatment
+based on symptom-based diagnosis, an approach that is
+increasingly emphasized by modern medicine. In the
+treatment of COVID-19, TCM is proposed as an important
+option by national and provincial guidelines with sub-
+stantial utilization. According to TCM theory, COVID-19
+belongs to the category of “dampness plague”, and its
+core pathogenesis is correlated to “epidemic virus.” The
+“state” of cold and humidity is the basis of the disease,
+and “stagnation of qi” is the key to disease progression.
+The corresponding treatment at the early stage targets
+eliminating dampness, and the strategy focuses on elimi-
+nating dampness, releasing lungs and expelling patho-
+genic
+factors,
+to
+shorten
+fever
+duration,
+relieve
+symptoms, prevent disease progression, reduce mortality
+and assist rehabilitation. For TCM treatment, the 7th edi-
+tion of China National Clinical Guideline divided COVID-
+19 into a medical observation period and treatment
+period. The latter is further stratified into four manifesta-
+tions including mild, intermediate, severe, and critical,
+followed by a rehabilitation stage [124].
+8.6. Prospects for COVID-19 drug research
+At present, there is no specific drug for the treatment
+of COVID-19, and the main treatment methods are
+supportive
+and
+symptomatic
+treatment
+[125].
+The
+mechanisms
+of
+different
+therapeutic drugs
+mainly
+include blocking virus invasion, inhibiting virus replica-
+tion and protein expression and regulating the patient’s
+immunity. Up to 21 April 2020, there were 159 drugs,
+including 49 antibody drugs, 20 antiviral drugs, 12 cell-
+based therapy drugs, 5 RNA therapy drugs, and others,
+in various stages of research [126]. In addition to the
+therapeutic drugs mentioned above, the antimalarial
+drugs, chloroquine and hydroxychloroquine, are also
+considered as candidates for the treatment of patients
+with COVID-19. Both drugs exert an inhibitory effect on
+the virus by interfering with the binding of ACE2 [127].
+Chloroquine
+phosphate
+drug
+treatment
+has
+been
+included in clinical trials, and a phase III clinical trial for
+the drug was started in the United States on 31 March
+2020 [128].
+A potential promising treatment target is cathepsin L
+(CatL), an endosomal cysteine protease that mediates
+the cleavage of the S1 subunit of the coronavirus sur-
+face spike glycoprotein. While TMPRSS2 acts locally at
+the host cell plasma membrane and possibly during
+endocytotic vesicle trafficking, CatL continues S1 sub-
+unit degradation in the acidic endosome and lysosome
+compartments. Therefore, CatL inhibition could provide
+two sequential blocks for coronavirus infection: block-
+age of virus entry on the host cell surface and blockage
+of viral material release and replication inside the host
+cell endosomes [129].
+Finally, plasma provided by COVID-19 convalescent
+patients may be used as therapy in critically ill patients
+infected by SARS-CoV-2. Convalescent plasma therapy
+played a role in the treatment of SARS [130]. Clinical tri-
+als
+have
+shown
+that
+after
+receiving
+convalescent
+plasma therapy, the patient’s inflammation index and
+viral load decreased significantly, and blood oxygen sat-
+uration improved. A strict protocol to enroll convales-
+cent
+volunteers
+and
+to
+assess
+the
+level
+of
+immunogenicity of plasma is needed [131].
+We believe that with the joint efforts of various
+countries on the research and development of COVID-
+19 drugs, we will soon find the most effective drugs for
+its therapy.
+9. Prevention and vaccination
+According to the infection prevention and control strat-
+egies from the WHO, standard precautions for all
+patients, which are also appropriate for public preven-
+tion, include hand and respiratory hygiene, the use of
+appropriate personal protective equipment, safe injec-
+tion practices, safe waste management, clean linens,
+CRITICAL REVIEWS IN CLINICAL LABORATORY SCIENCES
+13
+environmental cleaning, and sterilization of patient-care
+equipment [132]. A vaccine to prevent COVID-19 is per-
+haps the best hope for ending the pandemic, and vac-
+cines are especially needed by health care workers on
+the front lines and other vulnerable members of the
+population who have a higher risk of contracting
+the infection.
+Currently, researchers are racing to develop such a
+vaccine. With international alliances and government
+efforts to organize resources to make multiple vaccines
+urgently on shortened timelines, 115 vaccine candi-
+dates are in development, with several vaccines in clin-
+ical trials by now [133]. According to China’s National
+Health Commission, there are currently five techno-
+logical approaches to develop COVID-19 vaccines in
+China, namely inactivated vaccines, genetic engineering
+subunit vaccines, adenovirus vector vaccines, nucleic
+acid vaccines, and vaccines using attenuated influenza
+virus as vectors [134]. Most teams completed preclinical
+research in April 2020.
+Coronaviruses have a spike-like structure, the S pro-
+tein, on their surface. The S protein is considered to be
+the key molecule that binds to the ACE2 receptor to
+attach onto the surface of human cells and that forces
+the virus through the cell membrane, mediating the
+process of virus infection and membrane fusion to host
+cells [135]. With the exception of inactivated vaccines
+and attenuated virus vaccines, other vaccines are
+designed based on the S protein. The S protein could
+be expressed in vivo using vectors carrying the S gene,
+and the expressed protein would induce the synthesis
+of specific antibodies that could block the entry of the
+virus to the cells. These approaches are expected to
+prevent the virus from binding to human cells and to
+stop the virus from reproducing so as to achieve
+immune protection. The most advanced candidates
+that have moved into clinical development are shown
+in Table 2 [133,136].
+While injection is the most widely used way for vac-
+cine delivery, there are also some novel approaches to
+deliver vaccine. For example, a fingertip-sized micro-
+needle
+array
+vaccine,
+PittCoVacc,
+a
+vaccine
+from
+University of Pittsburgh School of Medicine, delivers the
+spike protein pieces into the skin to stimulate the body
+to
+produce
+antibodies
+against
+SARS-CoV-2
+[137];
+INO-4800 delivers DNA into the host’s cells by a hand-
+held smart device, CELLECTRA [138]; and Symvivo
+COVID-19 products are presented as oral lyophilized
+gel-capsules [139].
+Different types of technological platforms have their
+own characteristics regarding speed of research and
+development, production cycle, equipment require-
+ments, etc. The safety, stability and effectiveness of vac-
+cine
+candidates
+still
+need
+to
+be
+evaluated
+and
+compared through clinical experiments. Advantages
+and disadvantages of different COVID-19 vaccine tech-
+nology strategies are listed in Table 3 [140].
+During the global emergency of the COVID-19 pan-
+demic, the effort in response is unprecedented in terms
+of scale and speed. However, much work remains unfin-
+ished. The vaccine candidates might prove to be not
+safe or effective in any phase of development; for
+instance,
+the
+Coalition
+for
+Epidemic
+Preparedness
+Innovations indicates a potential success rate of only
+10% for vaccine development [133].
+Recently a study about the safety, tolerability and
+immunogenicity of a recombinant adenovirus type-5
+vectored COVID-19 vaccine was performed in Wuhan;
+neutralizing antibodies increased significantly at day 14
+and peaked 28 days post-vaccination whereas the T-cell
+response peaked at day 14 post-vaccination [141].
+Strong international coordination and cooperation
+among research groups involved in vaccine research
+and development will be needed to ensure that promis-
+ing vaccines can be manufactured in sufficient quanti-
+ties and equitably supplied to all affected areas,
+particularly low-resource regions.
+A prophylactic vaccine against SARS-CoV-2 is particu-
+larly urgent because SARS-CoV-2 is a novel virus of zoo-
+notic origin [1,2] that started spreading among human
+beings, probably in late November 2019 [11], to which
+the population does not have an existing level of
+immunity that is able to limit or stop the circulation of
+the virus. Assuming a R0 of 3 for SARS-CoV-2, the herd
+immunity threshold for SARS-CoV-2 is about 67% [142].
+This means the infection will start declining once the
+number of individuals with acquired immunity to SARS-
+CoV-2 exceeds 0.67 [142]. Acquisition of herd immunity
+via natural infection is ethically unacceptable because it
+would cause millions of deaths around the globe.
+Furthermore, the unchecked spread of SARS-CoV-2
+will quickly paralyze our health care systems, increasing
+not only the COVID-19 mortality but also all causes
+mortality. In light of this, and because the development
+of an effective vaccine will take at least 12–18 months,
+it will be important to adhere strictly to preventive
+measures indicated by the WHO and to maintain
+social distancing.
+Another important aspect that merits consideration
+is the duration of protective immunity. To date, we do
+not know how long protective immunity will last.
+Previous studies have demonstrated that neutralizing
+14
+M. CIOTTI ET AL.
+Table 2. Clinical-phase vaccine candidates for COVID-19.
+Vaccine candidate
+Technology
+Vaccine
+characteristics
+Trail status
+Developer
+Location
+References
+Inactivated Novel
+Coronavirus
+Pneumonia vaccine
+(Vero cells)
+Inactivated virus
+Inactivated SARS-CoV-
+2 virus (Vero cells)
+Phase
+I(ChiCTR2000031809)
+Beijing Institute of
+Biological Products,
+Wuhan Institute of
+Biological Products
+China
+-Wuhan Institute of Virology, Wuhan Institute of Biological
+Products co., LTD. A randomized, double-blind, placebo
+parallel-controlled phase I/II clinical trial for inactivated
+Novel Coronavirus Pneumonia vaccine (Vero cells)
+(Registration number: ChiCTR2000031809) [EB/OL]. (2020-
+04-13) [2020/04/29]. http://www.chictr.org.cn/showprojen.
+aspx?proj=52227.
+- Tuna Y I. Wuhan Institute of Biological Products’ COVID-19
+Vaccine Enters Phase II Trials[J]. EqualOcean, 2020.
+PiCoVacc
+Inactivated virus
+Inactivated SARS-CoV-
+2 virus
+Phase I-II(NCT04352608)
+Sinovac Biotech Ltd,
+Institute of Laboratory
+Animal Science, China
+China
+- Sinovac Biotech Co., Ltd. Safety and Immunogenicity Study
+of Inactivated Vaccine for Prophylaxis of SARS CoV-2
+Infection (COVID-19) (ClinicalTrials.gov Identifier:
+NCT04352608) [EB/OL]. (2020-04-28) [2020/04/29]
+- Gao Qiang, Bao Linlin, Mao Haiyan, et al. Rapid development
+of an inactivated vaccine candidate for SARS-CoV-2[J].
+Science, 2020:c1932. DOI:10.1126/science.abc1932.
+Ad5-nCov
+Non-replicating
+viral vector
+Recombinant
+adenovirus type
+5 vector
+Phase I(NCT04313127);
+Phase II interventional
+trial for dosing and
+side effects
+(NCT04341389)
+CanSino Biologics,
+Institute of
+Biotechnology of the
+Academy of Military
+Medical Sciences
+China
+- Institute of Biotechnology, Academy of Military Medical
+Sciences, PLA of China, CanSino Biologics Inc. A Phase II
+Clinical Trial to Evaluate the Recombinant Vaccine for COVID-
+19 (Adenovirus Vector) (CTII-nCoV) (ClinicalTrials.gov
+Identifier: NCT04341389) [EB/OL]. (2020-04-21) [2020/04/29/].
+https://www.clinicaltrials.gov/ct2/show/NCT04341389.
+- Institute of Biotechnology, Academy of Military Medical
+Sciences, PLA of China, CanSino Biologics Inc. Phase I Clinical
+Trial of a COVID-19 Vaccine in 18-60 Healthy Adults
+(CTCOVID-19) (ClinicalTrials.gov Identifier: NCT04313127) [EB/
+OL]. (2020-04-14) [2020/04/29]. https://www.clinicaltrials.gov/
+ct2/show/NCT04313127.
+- Keown A. China’s CanSino Prepares to Advance COVID-19
+Vaccine Candidate into Phase II[J]. BioSpace, 2020.
+ChAdOx1 nCoV-19
+Non-replicating
+viral vector
+Adenovirus vector
+Phase I-II(NCT04324606)
+University of Oxford
+United Kingdom
+- University of Oxford. A Study of a Candidate COVID-19
+Vaccine (COV001) (ClinicalTrials.gov Identifier:
+NCT04324606) [EB/OL]. (2020-04-24) [2020/04/29]. https://
+www.clinicaltrials.gov/ct2/show/NCT04324606.
+- COVID-19 Oxford Vaccine Trial [EB/OL]. (2020-04-25) [2020/
+04/29]. https://www.covid19vaccinetrial.co.uk/about.
+- U.K. Starts Oxford Coronavirus Vaccine Trial as Germany
+Green-Lights BioNTech and Pfizer [EB/OL]. (2020-04-23)
+[2020/04/29/]. https://www.genengnews.com/news/uk-
+starts-oxford-coronavirus-vaccine-trial-as-germany-green-
+lights-clinical-trial-for-biontech-and-pfizer.
+INO-4800
+DNA
+DNA plasmid
+encoding S protein
+delivered by
+electroporation
+(hand-held smart
+device
+“CELLECTRA”)
+Phase I-II(NCT04336410)
+Inovio Pharmaceuticals,
+CEPI,
+Korea National Institute
+of Health,
+International
+Vaccine Institute
+United States,
+South Korea
+- Inovio Pharmaceuticals I. Inovio Accelerates Timeline for
+COVID-19 DNA Vaccine INO-4800[J]. PR Newswire, 2020.
+- Inovio Pharmaceuticals. Safety, Tolerability and
+Immunogenicity of INO-4800 for COVID-19 in Healthy
+Volunteers (ClinicalTrials.gov Identifier: NCT04336410) [EB/
+OL]. (2020-04-24)[2020/04/29]. https://www.clinicaltrials.
+gov/ct2/show/NCT04336410.
+(continued)
+CRITICAL REVIEWS IN CLINICAL LABORATORY SCIENCES
+15
+Table 2. Continued.
+Vaccine candidate
+Technology
+Vaccine
+characteristics
+Trail status
+Developer
+Location
+References
+bacTRL-Spike
+DNA
+Bacterial medium
+with
+Bifidobacterium
+longum
+engineered to
+deliver DNA
+plasmid encoding
+S protein (oral)
+Phase I(NCT04334980)
+Symvivo Corporation,
+University of British
+Columbia,
+Dalhousie University
+Canada
+- Symvivo. COVID-19 Program Vision [EB/OL]. (2020-04-29)
+[2020/04/29/]. https://www.symvivo.com/covid-19.
+- Corporation S. Evaluating the Safety, Tolerability and
+Immunogenicity of bacTRL-Spike Vaccine for Prevention of
+COVID-19 (ClinicalTrials.gov Identifier: NCT04334980) [EB/
+OL]. (2020-04-22)[2020/04/29/]. https://clinicaltrials.gov/ct2/
+show/NCT04334980.
+mRNA-1273
+RNA
+LNP-encapsulated
+mRNA vaccine
+encoding S protein
+Phase I (NCT04283461)
+Moderna,
+US National Institute of
+Allergy and
+Infectious Diseases
+United States
+- Moderna Therapeutics, US NIAID. Safety and Immunogenicity
+Study of 2019-nCoV Vaccine (mRNA-1273) for Prophylaxis
+SARS CoV-2 Infection (COVID-19) (ClinicalTrials.gov Identifier:
+NCT04283461) [EB/OL] (2020-04-13) [2020/04/29/]. https://
+www.clinicaltrials.gov/ct2/show/NCT04283461.
+- Grady D. Trial of Coronavirus Vaccine Made by Moderna
+Begins in Seattle[J]. New York Times, 2020.
+BNT162 (a1, b1,
+b2, c2)
+RNA
+LNP-encapsulated
+mRNA vaccine
+encoding S protein
+Phase I-II (UTRN: U1111-
+1249-4220)
+BioNTech,
+Fosun Pharma,
+Pfizer
+Germany,
+China,
+United States
+- Pharmaceuticals B R G. A Multi-site Phase I/II, 2-Part, Dose-
+Escalation Trial Investigating the Safety and
+Immunogenicity of four Prophylactic SARS-CoV-2 RNA
+Vaccines Against COVID-2019 Using Different Dosing
+Regimens in Healthy Adults (UTRN: U1111-1249-4220) [EB/
+OL]. (2020-04-20) [2020/04/29]. https://www.
+clinicaltrialsregister.eu/ctr-search/trial/2020-001038-36/DE.
+- Reuters. Germany Approves Trials of COVID-19 Vaccine
+Candidate[J]. New York Times, 2020.
+LV-SMENP-DC
+Unknown
+DCs modified with
+lentiviral vector
+expressing
+synthetic minigene
+based on domains
+of selected viral
+proteins;
+administered with
+antigen
+specific CTLs
+Phase I(NCT04276896)
+Shenzhen Geno-Immune
+Medical Institute
+China
+Shenzhen Geno-Immune Medical Institute. Immunity and
+Safety of Covid-19 Synthetic Minigene Vaccine
+(ClinicalTrials.gov Identifier: NCT04276896) [EB/OL]. (2020-
+03-19)[2020/04/29]. https://www.clinicaltrials.gov/ct2/show/
+NCT04276896.
+Covid-19/aAPC
+Unknown
+aAPCs modified with
+lentiviral vector
+expressing
+synthetic minigene
+based on domains
+of selected
+viral proteins
+Phase I(NCT04299724)
+Shenzhen Geno-Immune
+Medical Institute
+China
+Shenzhen Geno-Immune Medical Institute. Safety and
+Immunity of Covid-19 aAPC Vaccine (ClinicalTrials.gov
+Identifier: NCT04299724) [EB/OL]. (2020-03-09)[2020/04/29].
+https://www.clinicaltrials.gov/ct2/show/record/
+NCT04299724.
+16
+M. CIOTTI ET AL.
+Table 3. Advantages and disadvantages of different COVID-19 vaccine technology strategies.
+Technology
+Characteristics
+Advantages
+Disadvantages
+Inactivated vaccine
+Consisting of virus particles with
+immunogenicity but reduced
+infectivity (virulence) which have
+been grown in culture and fully
+destroyed using heat, chemicals,
+or radiation.
+
+Similar antigenicity to live virus
+due to unchanged structure
+virus particles
+
+No virulence rebound risk
+
+Non-replicatable in host
+
+No virus transmission risk
+among people
+
+Relatively mature technology
+
+Ease of preparation
+and production
+
+Multiple-dose and adjuvants
+may be required due to
+insufficient immunogenicity
+
+Uncontrollable protective effect
+
+BSL-3 laboratory required
+Genetic engineering
+subunit vaccines
+A subunit vaccine is a fragment of
+a pathogen, typically a surface
+protein, that is used to trigger
+an immune response and
+stimulate acquired immunity
+against the pathogen from which
+it is derived. For COVID-19, the
+subunit vaccine is the
+recombinant Spike protein or its
+peptide prepared in vitro
+through genetic engineering.
+
+Ability to induce robust
+transgene-specific T cell and
+antibody responses
+
+Safety guaranteed because of
+no virus genome being injected
+
+Multiple-dose and adjuvants
+may be required
+Adenovirus vector vaccines
+Adenoviruses as vectors for
+delivering genes or vaccine
+antigens to the target host
+
+Broad range of tissue tropism
+
+Well-characterized genome
+
+Ease of genetic manipulation
+including acceptance of large
+transgene DNA insertions
+
+Inherent adjuvant properties
+
+Ability to induce robust
+transgene-specific T cell and
+antibody responses
+
+Non-replicative nature in host
+
+Ease of production at
+large scale
+
+Pre-existing immunity in
+humans,
+inflammatory responses
+
+Sequestering of the vector to
+liver and spleen
+
+Immunodominance of the
+vector genes over transgenes.
+Nucleic acid vaccines
+Genetically engineered plasmid
+containing the DNA sequence or
+RNA containing vector which
+could produce the Spike protein
+of SARS-COV-2 upon the delivery
+of the vaccine into the body.
+
+No risk for infection
+
+Immune response focused on
+antigen of interest
+
+Ease of development
+and production
+
+Stability for storage
+and shipping
+
+Cost-effectiveness
+
+Obviates need for peptide
+synthesis, expression and
+purification of recombinant
+proteins and use of
+toxic adjuvants
+
+Long-term persistence
+of immunogen
+
+In vivo expression ensures
+protein more closely resembles
+normal eukaryotic structure,
+with accompanying post-
+translational modifications
+
+Limited to protein immunogens
+
+Risk of affecting genes
+controlling cell growth
+
+Possibility of inducing antibody
+production against DNA
+
+Possibility of tolerance to the
+antigen (protein) produced
+
+Unclear vaccine delivery
+efficiency and safety problem
+Vaccines using attenuated influenza
+virus as vectors
+Attenuated influenza virus as
+vectors for delivering the Spike
+protein of SARS-COV-2 to the
+target host
+
+Protect against COVID-19 and
+influenza at the same time
+
+Convenient inoculation by
+nasal drip
+
+The vector is little influence by
+the human immune system
+
+No risk of integrating vector’s
+DNA into the host genome
+
+Vector capacity limits the range
+of exogenous genes inserted
+
+Less targeted
+Live attenuated virus vaccine
+Reducing the virulence of a
+pathogen, but still keeping
+it viable.
+
+Activates all phases of the
+immune system
+
+Provides more durable
+immunity; boosters are required
+less frequently
+
+Low cost
+
+Some are easy to transport and
+administer (for instance orally)
+
+Vaccines have strong beneficial
+nonspecific effects
+
+Possibilities that the virus can
+revert to wild type or develop
+into an entirely new strain
+
+Safety problems.Potentially
+severe complications
+
+Live strains typically require
+advanced maintenance, making
+transport difficult and costly
+
+BSL-3 laboratory required
+CRITICAL REVIEWS IN CLINICAL LABORATORY SCIENCES
+17
+antibodies toward SARS-CoV lasted several months to
+two years, although low antibody titers were measured
+in all patients after about 15 months [143]. A decrease
+in antibody titer has also been reported for the 229E
+coronavirus that is responsible for the common cold
+[144], and this antibody titer was not sufficient to pre-
+vent reinfection. If this scenario applies to SARS-CoV-2,
+protective immunity will decrease over time and herd
+immunity will never be attained unless there is recur-
+rent vaccination.
+10. Artificial intelligence and mobile
+health tools
+Artificial intelligence (AI) may have a role in the govern-
+ance of health care systems and in coping with health
+emergencies such as the current COVID-19 outbreak. AI
+may help in analyzing a huge amount of data in a
+timely way as required during periods of crisis, allowing
+a prompt response by health authorities. Analysis of
+medical records, therapies, and laboratory findings may
+speed up using AI, hasten the decision-making process
+and improve patient management [145]. For instance, it
+has been proposed that AI could support radiologists in
+reading CT scans. While a manual read takes about
+15 min, AI can complete the reading in a few seconds.
+Thus, AI could be designed to detect lesions resembling
+coronavirus pneumonia, to measure the density, vol-
+ume and shape, and to compare multiple lung lesions
+from the image. This information should support phys-
+ician in making a more rapid diagnosis [146]. In the
+work by Li and colleagues, AI allowed the detection of
+COVID-19 pneumonia and distinguished it from com-
+munity
+acquired
+pneumonia
+and
+other
+lung
+lesions [147].
+Block chain and AI could be used for remote patient
+monitoring and the transfer of clinical information to
+health authorities [145]. A positive SARS-CoV-2 patient
+could be referred to a quarantine site for monitoring
+and treatment to limit virus spread. Similarly, informa-
+tion from a certain geographic area could be used for
+tracking positive patients and/or quarantining that geo-
+graphic area to limit the spread of the virus.
+A mobile-phone based survey along with an AI
+framework has been proposed to collect travel history
+along with the common clinical manifestations to iden-
+tify people with suspected SARS-CoV-2 infection. The
+collected information should stratify individuals under
+investigation into no-risk, minimal-risk, moderate-risk,
+and
+high-risk
+of
+being
+infected
+by
+the
+virus.
+Identification of the high-risk individuals should trigger
+immediate quarantine to contain the spread of the
+virus [148]. In Italy, the mobile-phone app, Immuni, was
+introduced and can be downloaded to trace contacts of
+an infected individual using Bluetooth technology. In
+case of positivity to SARS-CoV-2, the individual uploads
+the laboratory result on the platform, and an instant
+message is sent to all close contacts who must remain
+in quarantine for at least 14 days [www.salute.gov.it].
+A pre-trained deep learning-based drug-target inter-
+action model called Molecule Transformer-Drug Target
+Interaction (MT-DTI) was used to identify molecules
+already available on the market that could be used
+against SARS-CoV-2. Several molecules were identified
+including atazanavir, remdesivir, efavirenz, ritonavir,
+and
+dolutegravir.
+Atazanavir,
+the
+best
+compound,
+showed an inhibitory potency with a Kd of 94.94 nmol/L
+against the SARS-CoV-2 3C-like proteinase, followed by
+remdesivir (113.13 nmol/L), efavirenz (199.17 nmol/L)
+and ritonavir (204.05 nmol/L). Lopinavir and ritonavir
+target proteases, and based on this model could also
+inhibit the replication components of SARS-CoV-2 with
+a Kd < 1000 nmol/L [149].
+DeepMInd developed an AlphaFold algorithm to pre-
+dict protein structures starting from their amino acid
+sequences, thus avoiding long and intensive laboratory
+experiments. Using a deep neural network, the system
+can make accurate predictions of the distances and
+angles between amino acid residues and provide more
+information about the structure than contact predic-
+tions. The information obtained might be used as a
+platform for the development of therapeutics [150].
+This algorithm works well even on sequences with
+fewer homologous sequences, as is the case of SARS-
+CoV-2.
+11. Preparedness and lifestyle after COVID-
+19 pandemic
+The COVID-19 pandemic has shown that even the most
+advanced health care systems cannot sustain a massive
+influx of critically ill patients in their emergency depart-
+ments. Italy, with its 3.2 hospital beds per 1000 persons
+vs 2.8 in the United States had enormous difficulty to
+meet the needs of critically ill patients arriving in the
+hospitals in a short time frame [151]. As a consequence,
+elective or semi-elective surgical procedures were can-
+celed or postponed, wards were reorganized to treat
+COVID-19 patients, and follow up visits were delayed.
+To prevent this massive influx to emergency depart-
+ments in a possible second wave, the implementation
+of regional assistance is crucial. A large number of naso-
+pharyngeal swabs and serological testing should be
+performed in the region to identify infected people and
+18
+M. CIOTTI ET AL.
+to allow contact tracing. Then, patients with mild symp-
+toms or asymptomatic carriers could stay at home and
+be monitored by health operators, thus reducing visits
+to clinics. Limiting access to hospitals will save resour-
+ces, make them available to those who really need
+them and reduce the risk of exposure. In light of that,
+the Italian government has recently decided to increase
+the number of nurses in the region, bringing the ratio
+to 8 nurses/50,000 persons. Special units of continuing
+care (Italian, urban search and rescue) have been cre-
+ated to assist patients at home.
+In addition, the number of beds in the ICUs will be
+increased by 70% and to a lesser extent, those in sub-
+ICUs. Finally, 600 beds will be made available for mov-
+able
+structures
+in
+the
+case
+of
+epidemic
+peaks.
+Meantime, it is necessary to increase the numbers of
+ventilators, ECMO machines, and personal protect-
+ive equipment.
+COVID-19 prevalence is currently determined by the
+number of subjects with positive RT-qPCR nasopharyn-
+geal swabs, but the real prevalence is probably much
+higher. Testing for the presence of IgG anti-SARS-CoV-2
+may identify those who have been exposed and asymp-
+tomatic carriers, giving us more reliable case counts
+and mortality estimates, and a useful tool to control the
+restarting phase.
+Indeed, in a very short time, all countries will be
+challenged by phase two. However, until the effect of
+the neutralizing antibodies detected by all the different
+methods and the antibody serum levels that are
+needed for individuals to be fully protected against
+reinfection are known, we could not consider sero-
+logical positivity as a “license” to stop social distancing
+rules and the use of protective devices.
+Then, during this second phase, it will be important
+to maintain social distancing, which remains the major
+preventive measure in the absence of a vaccine and
+effective antiviral drugs. Social distancing implies a
+massive reorganization of our society and lifestyle.
+Telecommuting (working at a distance) and smart
+working should be pursued whenever possible. When
+this is not possible, social distancing and protective
+measures (protective equipment, hand hygiene, disin-
+fectants) must be provided in the workplace. Since
+large gatherings will not be permitted, commercial
+activities such as restaurants, cafes, cinemas, etc. will
+have to reduce the number of employees with conse-
+quent
+social
+repercussions
+and
+increased
+poverty.
+Welfare will be essential for such workers.
+Schools and universities will be required to reorgan-
+ize themselves to provide education and safety for their
+students. Access to the Internet will be crucial for all
+students and should be provided to enable them to
+pursue education and take exams remotely if necessary.
+Finally, communication will be important to live
+through
+this
+difficult
+time.
+Clear
+messages
+from
+national authorities will be necessary to increase aware-
+ness in the population and to support them in follow-
+ing new norms.
+Conclusions
+The COVID-19 pandemic has stressed our health care
+systems in an unprecedented way and underlined once
+more the essential role of laboratory medicine in tack-
+ling the spread of new transmissible agents.
+Almost all over the world, networks of COVID labora-
+tories have been set up to support the specific needs of
+citizens and patients, and they will continue to be fun-
+damental
+during
+the
+re-starting
+of
+social
+and
+work activities.
+Traditionally laboratory medicine has been consid-
+ered to be an integral part of the decision making pro-
+cess that supports 70% of clinical decisions [152]; in the
+COVID-19 era, this contribution may be even higher
+and close to 100% because decisions like patient admis-
+sion, isolation and/or discharge are taken based on
+laboratory results [153].
+The COVID-19 pandemic has revealed the weak-
+nesses of our health systems that were unprepared to
+cope with a very large number of patients requiring
+respiratory support therapy in a short time frame. This
+emergency forced health authorities to stop all non-
+urgent medical procedures and convert wards in ICUs
+or sub-ICUs. On the other hand, the pandemic has
+prompted the scientific community to join together in
+efforts to fight this novel pathogen. Within a few days
+from the first reported cases of unknown pneumonia,
+the virus was isolated, sequenced, identified and genet-
+ically characterized. It was named SARS-CoV-2 because
+of its phylogenetic relationship with SARS-CoV and bat
+SARS-like coronaviruses. Based on its genetic features,
+molecular and serological assays were developed and
+have
+been
+introduced
+in
+routine
+diagnostics.
+Furthermore, several vaccine strategies have been
+developed or are in development, and trials are
+ongoing or will be begun to determine their effective-
+ness. In the absence of effective and specific antiviral
+therapy
+against
+SARS-CoV-2,
+the
+availability
+of
+a
+prophylactic vaccine is crucial.
+Finally, a contribution in the governance of such an
+emergency could come from AI. Faster processing of
+clinical data may allow physicians to speed up the deci-
+sion making process and improve the management of
+CRITICAL REVIEWS IN CLINICAL LABORATORY SCIENCES
+19
+patients. AI and blockchain already used to trace con-
+tacts to contain the spread of the virus. In the near
+future, this technology will become an integral part of
+our health care systems.
+Acknowledgements
+Italy was the first country engaged in fighting SARS-CoV-2
+pandemic after China. This is the reason we wrote this
+review with our Chinese colleagues. We thank them for their
+support that came from their experience, for their scientific
+contribution, and for their friendship.
+Disclosure statement
+No
+potential
+conflict
+of
+interest
+was
+reported
+by
+the author(s).
+ORCID
+Sergio Bernardini
+http://orcid.org/0000-0003-1984-6834
+References
+[1]
+Zhou P, Yang XL, Wang XG, et al. A pneumonia out-
+break associated with a new coronavirus of probable
+bat origin. Nature. 2020;579(7798):270–273.
+[2]
+Wu F, Zhao S, Yu B, et al. A new coronavirus associ-
+ated
+with
+human
+respiratory
+disease
+in
+China.
+Nature. 2020; 579(7798):265–269.
+[3]
+World Health Organization Coronavirus Disease 2019
+(COVID-19)
+Situation
+Report-97.
+Available
+from:
+https://www.who.int/docs/default-source/coronavir-
+use/situation-reports/20200426-sitrep-97-covid-19.pdf
+[4]
+Wang C, Horby PW, Hayden FG, et al. A novel cor-
+onavirus outbreak of global health concern. Lancet.
+2020;395(10223):470–473.
+[5]
+Hui DSC, Zumla A. Severe acute respiratory syn-
+drome: historical, epidemiologic, and clinical features.
+Infect Dis Clin North Am. 2019;33(4):869–889.
+[6]
+Azhar EI, Hui DSC, Memish ZA, et al. The Middle East
+respiratory syndrome (MERS). Infect Dis Clin North
+Am. 2019;33(4):891–905.
+[7]
+Corman VM, Muth D, Niemeyer D, et al. Hosts and
+sources of endemic human coronaviruses. Adv Virus
+Res. 2018;100:163–188.
+[8]
+Andersen KG, Rambaut A, Lipkin WI, et al. The prox-
+imal
+origin
+of
+SARS-CoV-2.
+Nat
+Med.
+2020;26:
+450–452.
+[9]
+Almazan F, Sola I, Zu~niga S, et al. Coronavirus
+reverse genetic systems: infectious clones and repli-
+cons. Virus Res. 2014;189:262–270.
+[10]
+Nao N, Yamagishi J, Miyamoto H, et al. Genetic pre-
+disposition to acquire a polybasic cleavage site for
+highly pathogenic avian influenza virus hemagglu-
+tinin. mBio. 2017;8(1):e02298.
+[11]
+Huang C, Wang Y, Li X, et al. Clinical features of
+patients infected with 2019 novel coronavirus in
+Wuhan, China. Lancet. 2020;395(10223):497–506.
+[12]
+Wang D, Hu B, Hu C, et al. Clinical characteristics of
+138 hospitalized patients with 2019 novel corona-
+virus-infected pneumonia in Wuhan, China. JAMA.
+2020;323(11):1061.
+[13]
+Zhu N ,Zhang D ,Wang W, et al. A novel coronavirus
+from patients with pneumonia in China, 2019. N
+Engl J Med. 2020;382(8):727–733.
+[14]
+Chen N, Zhou M, Dong X, et al. Epidemiological and
+clinical characteristics of 99 cases of 2019 novel cor-
+onavirus pneumonia in Wuhan, China: a descriptive
+study. Lancet. 2020;395(10223):507–513.
+[15]
+Lippi G, Plebani M. The critical role of laboratory
+medicine during coronavirus disease 2019 (COVID-
+19) and other viral outbreaks. Clin Chem Lab Med.
+2020;58(7):1063–1069.
+[16]
+Bhargava
+A,
+Fukushima
+EA,
+Levine
+M,
+et
+al.
+Predictors for severe COVID-19 infection. Clin Infect
+Dis. 2020. DOI:10.1093/cid/ciaa674
+[17]
+Wang CZ, Hu SL, Wang L, et al. Early risk factors of
+the exacerbation of coronavirus disease 2019 pneu-
+monia. J Med Virol. 2020. DOI:10.1002/jmv.26071
+[18]
+Hamming I, Timens W, Bulthuis ML, et al. Tissue dis-
+tribution of ACE2 protein, the functional receptor for
+SARS coronavirus. A first step in understanding SARS
+pathogenesis. J Pathol. 2004;203(2):631–637.
+[19]
+Renu K, Prasanna PL, Valsala Gopalakrishnan A.
+Coronaviruses
+pathogenesis,
+comorbidities
+and
+multi-organ damage - a review. Life Sci. 2020;255:
+117839.
+[20]
+Long B, Brady WJ, Koyfman A, et al. Cardiovascular
+complications in COVID-19. Am J Emerg Med. 2020.
+DOI:10.1016/j.ajem.2020.04.048
+[21]
+Ruan Q, Yang K, Wang W, et al. Clinical predictors of
+mortality due to COVID-19 based on an analysis of
+data of 150 patients from Wuhan, China. Intensive
+Care Med. 2020;46(5):846–848.
+[22]
+Lippi G, Favaloro EJ. D-dimer is associated with
+severity of coronavirus disease 2019: a pooled ana-
+lysis. Thromb Haemost. 2020;120(05):876–878.
+[23]
+Lang J, Yang N, Deng J, et al. Inhibition of SARS
+pseudovirus cell entry by lactoferrin binding to hep-
+aran
+sulfate
+proteoglycans.
+Plos
+One.
+2011;6(8):
+e23710.
+[24]
+Vicenzi E, Canducci F, Pinna D, et al. Coronaviridae
+and
+SARS-associated
+coronavirus
+strain
+HSR1.
+Emerging Infect Dis. 2004;10(3):413–418.
+[25]
+Belen-Apak FB, Sarialioglu F. The old but new: can
+unfractioned heparin and low molecular weight hep-
+arins inhibit proteolytic activation and cellular intern-
+alization of SARSCoV2 by inhibition of host cell
+proteases? Med Hypotheses. 2020;142:109743.
+[26]
+Henry BM, Benoit SW, Santos de Oliveira MH, et al.
+Laboratory abnormalities in children with mild and
+severe
+coronavirus
+disease
+2019
+(COVID-19):
+a
+pooled analysis and review. Clin Biochem. 2020.;81:
+1–8. DOI:10.1016/j.clinbiochem.2020.05.012
+[27]
+Sanna G, Serrau G, Bassareo PP, et al. Children’s
+heart and COVID-19: Up-to-date evidence in the
+form of a systematic review. Eur J Pediatr. 2020. DOI:
+10.1007/s00431-020-03699-0
+20
+M. CIOTTI ET AL.
+[28]
+Leung NHL, Chu DKW, Shiu EYC, et al. Respiratory
+virus shedding in exhaled breath and efficacy of face
+masks. Nature Med. 2020;26(5):676–680.
+[29]
+Han Q, Lin Q, Ni Z, et al. Uncertainties about the
+transmission
+routes
+of
+2019
+novel
+coronavirus.
+Influenza Other Respir Viruses. 2020;14(4):470–471.
+[30]
+Zhao S, Lin Q, Ran J, et al. Preliminary estimation of
+the basic reproduction number of novel coronavirus
+(2019-nCoV) in China, from 2019 to 2020: a data-
+driven analysis in the early phase of the outbreak.
+Int J Infect Dis. 2020;92:214–217.
+[31]
+Holshue ML, DeBolt C, Lindquist S, et al. First case of
+2019 novel coronavirus in the United States. N Engl J
+Med. 2020;382(10):929–936.
+[32]
+Nu~nez-Delgado A. What do we know about the
+SARS-CoV-2 coronavirus in the environment? Sci
+Total Environ. 2020;727:138647.
+[33]
+To KK, Tsang OT, Chik-Yan Yip C, et al. Consistent
+detection of 2019 novel coronavirus in saliva. Clin
+Infect Dis. 2020. DOI:10.1093/cid/ciaa149
+[34]
+Liu L, Wei Q, Alvarez X, et al. Epithelial cells lining
+salivary gland ducts are early target cells of severe
+acute respiratory syndrome coronavirus infection in
+the upper respiratory tracts of rhesus macaques. J
+Virol. 2011;85(8):4025–4030.
+[35]
+Chan VW, Chiu PK, Yee CH, et al. A systematic review
+on COVID-19: urological manifestations, viral RNA
+detection and special considerations in urological
+conditions. World J Urol. 2020. DOI:10.1007/s00345-
+020-03246-4
+[36]
+Chen H, Guo J, Wang C, et al. Clinical characteristics
+and intrauterine vertical transmission potential of
+COVID-19 infection in nine pregnant women: a retro-
+spective review of medical records. Lancet. 2020;
+395(10226):809–815.
+[37]
+Dong L, Tian J, He S, et al. Possible vertical transmis-
+sion of SARS-CoV-2 from an infected mother to her
+newborn. JAMA. 2020;323(18):1846–1848.
+[38]
+Colavita F, Lapa D, Carletti F, et al. SARS-CoV-2 isola-
+tion from ocular secretions of a patient with COVID-
+19 in Italy with prolonged viral RNA detection.
+Annals Intern Med. 2020. DOI:10.7326/M20-1176
+[39]
+Lu CW, Liu XF, Jia ZF. 2019-nCoV transmission
+through the ocular surface must not be ignored.
+Lancet. 2020;395(10224):e39.
+[40]
+Backer JA, Klinkenberg D, Wallinga J. Incubation
+period of 2019 novel coronavirus (2019-nCoV) infec-
+tions among travellers from Wuhan, China, 20–28
+January 2020. Euro Surveill. 2020;25(5):2000062.
+[41]
+Lauer SA, Grantz KH, Bi Q, et al. The incubation
+period of coronavirus disease 2019 (COVID-19) from
+publicly reported confirmed cases: estimation and
+application. Ann Intern Med. 2020;172(9):577–582.
+[42]
+The White House. Press Briefing by Members of the
+President’s Coronavirus Task Force. [cited 2020 Jan
+31]. Available from: www.whitehouse.gov/briefings-
+statements/press-briefing-members-presidents-cor-
+onavirus-task-force
+[43]
+European Centre for Disease Prevention and Control.
+Algorithm for the management of contacts of prob-
+able or confirmed COVID-19 cases. [cited 2020 Feb
+25]. Available from: https://www.ecdc.europa.eu/en/
+publications-data/algorithm-management-contacts-
+probableor-confirmed-covid-19-cases.
+[44]
+Corman VM, Landt O, Kaiser M, et al. Detection of
+2019 novel coronavirus (2019-nCoV) by real-time RT-
+PCR. Euro Surveill. 2020;25(3):2000045.
+[45]
+Reusken
+C,
+Broberg
+EK,
+Haagmans
+B,
+et
+al.
+Laboratory readiness and response for novel corona-
+virus (2019-nCoV) in expert laboratories in 30 EU/EEA
+countries. Euro Surveill. 2020;25(6):2000082.
+[46]
+Chan JF, Yip CC, To KK, et al. Improved molecular
+diagnosis of COVID-19 by the novel, highly sensitive
+and specific COVID-19-RdRp/Hel real-time reverse
+transcription-polymerase chain reaction assay vali-
+dated in vitro and with clinical specimens. J Clin
+Microbiol. 2020;58(5):pii: e0031020.
+[47]
+Cheng PK, Wong DA, Tong LK, et al. Viral shedding
+patterns of coronavirus in patients with probable
+severe acute respiratory syndrome. Lancet. 2004;
+363(9422):1699–1700.
+[48]
+Al-Abdely HM, Midgley CM, Alkhamis AM, et al.
+Middle East respiratory syndrome coronavirus infec-
+tion dynamics and antibody responses among clinic-
+ally diverse patients, Saudi Arabia. Emerging Infect
+Dis. 2019;25(4):753–766.
+[49]
+Loeffelholz MJ, and, Tang Y-W. Laboratory diagnosis
+of emerging human coronavirus infections – the
+state
+of
+the
+art.
+Emerg
+Microb
+Infect.
+2020;9:
+747–756.
+[50]
+Yelin I, Aharony N, Shaer Tamar E, et al. Evaluation
+of COVID-19 RT-qPCR test in multi-sample pools. Clin
+Infect Dis. 2020. DOI:10.1093/cid/ciaa531
+[51]
+Hogan CA, Sahoo MK, Pinsky BA. Sample pooling as
+a strategy to detect community tTransmission of
+SARS-CoV-2. JAMA. 2020;323(19):1967.
+[52]
+Wyllie AL, Fournier J, Casanovas-Massana A, et al.
+Saliva is more sensitive for SARS-CoV-2 detection in
+COVID-19
+patients
+than
+nasopharyngeal
+swabs.
+medRxiv. 2020. DOI:10.1101/2020.04.16.20067835
+[53]
+Wu Z-S, Zhang Z-Q, Wu S. Focus on the crosstalk
+between COVID-19 and urogenital systems. J Urol.
+2020;204(1):7–8.
+[54]
+Guan W-J, Ni Z-Y, Hu Y, et al. Clinical characteristics
+of 2019 novel coronavirus infection in China. New
+Engl J Med. 2020;382(18):1708–1720.
+[55]
+Notomi T, Okayama H, Masubuchi H, et al. Loop-
+mediated isothermal amplification of DNA. Nucleic
+Acids Res. 2000;28(12):E63.
+[56]
+Broughton JP, Deng X, Yu G, et al. CRISPR–Cas12-
+based detection of SARS-CoV-2. Nat Biotech. 2020.
+DOI:10.1038/s41587-020-0513-4
+[57]
+Liu Y, Yan L-M, Wan L, et al. Viral dynamics in mild
+and severe cases of COVID-19. Lancet Infect Dis.
+2020;20(6):656–657.
+[58]
+Zhao J, Yuan Q, Wang H, et al. Antibody responses
+to SARS-CoV-2 in patients of novel coronavirus dis-
+ease 2019. Lancet. 2020. DOI:10.1093/cid/ciaa344
+[59]
+Zhang G, Nie S, Zhang Z, et al. Longitudinal change
+of SARS-Cov2 antibodies in patients with COVID-19. J
+Infect Dis. 2020. DOI:10.1093/infdis/jiaa229
+[60]
+Long
+Q-X,
+Liu
+B-Z,
+Deng
+H-J,
+et
+al.
+Antibody
+responses to SARS-CoV-2 in patients with COVID-19.
+Nature Med. 2020;26:845–848.
+CRITICAL REVIEWS IN CLINICAL LABORATORY SCIENCES
+21
+[61]
+Haveri A, Smura T, Kuivanen S, et al. Serological and
+molecular findings during SARS-CoV-2 infection: the
+first case study in Finland, January to February. Euro
+Surveill. 2020;25(11):2000266.
+[62]
+Amanat F, Stadlbauer D, Strohmeier S, et al. A sero-
+logical assay to detect SARS-CoV-2 seroconversion in
+humans.
+Nat
+Med.
+2020.
+DOI:10.1101/2020.03.17.
+20037713
+[63]
+Elshabrawy
+HA,
+Coughlin
+MM,
+Baker
+SC,
+et
+al.
+Human monoclonal antibodies against highly con-
+served HR1 and HR2 domains of the SARS-CoV spike
+protein are more broadly neutralizing. PLoS One.
+2012;7(11):e50366.
+[64]
+Group PIW, Multi-National P, Davey RT, Jr, et al. A
+randomized, controlled trial of zmapp for Ebola virus
+infection. N Engl J Med. 2016;375:1448–14456.
+[65]
+Wang C, Li W, Drabek D, et al. A human monoclonal
+antibody
+blocking
+SARS-CoV-2
+infection.
+Nat
+Commun. 2020;11(1):2251.
+[66]
+Okba NMA, M€uller MA, Li W, et al. Severe acute
+respiratory syndrome coronavirus 2-specific antibody
+responses
+in
+coronavirus
+disease
+2019
+patients.
+Emerg Infect Dis. 2020. DOI:10.3201/eid2607.200841
+[67]
+Tang F, Quan Y, Xin ZT, et al. Lack of peripheral
+memory B cell responses in recovered patients with
+severe acute respiratory syndrome: a six-year follow-
+up study. JI. 2011;186(12):7264–7268.
+[68]
+Foundation for Innovative New Diagnostics (FIND).
+2020. Available from: https://www.finddx.org/covid-
+19/sarscov2-eval-immuno/
+[69]
+Chan JF, Kok KH, Zhu Z, et al. Genomic characteriza-
+tion of the 2019 novel human-pathogenic corona-
+virus
+isolated
+from
+a
+patient
+with
+atypical
+pneumonia after visiting Wuhan. Emerg Microbes
+Infect. 2020;9(1):221–236.
+[70]
+An overview of the rapid test situation for COVID-19
+diagnosis in the EU/EEA. Technical Report, 1 April
+2020. European Centre for Disease Prevention and
+Control. Stockholm, 2020. Available from: https://
+www.ecdc.europa.eu/sites/default/files/documents/
+Overview-rapid-test-situation-for-COVID-19-diagnosis-
+EU-EEA.pdf
+[71]
+Nuccetelli M, Grelli S, Ciotti M, et al. SARS-CoV-2
+infection serology: a useful tool to overcome lock-
+down? Cell Death Discov. 2020;6:38.
+[72]
+Carter LJ, Garner LV, Smoot JW, et al. Assay techni-
+ques and test development for COVID-19 diagnosis.
+ACS Cent Sci. 2020;6(5):591–605.
+[73]
+Huang C, Wen T, Shi F-J, et al. Rapid detection of
+IgM antibodies against the SARS-CoV-2 virus via col-
+loidal gold nanoparticle-based lateral-flow assay. ACS
+Omega. 2020;5(21):12550–12556.
+[74]
+Shen B, Zheng Y, Zhang X, et al. Clinical evaluation
+of a rapid colloidal gold immunochromatography
+assay for SARS-Cov-2 IgM/IgG. Am J Transl Res. 2020;
+12(4):1348–1354.
+[75]
+Wrapp D, Wang N, Corbett KS, et al. Cryo-EM struc-
+ture of the 2019-nCoV spike in the prefusion con-
+formation. Science. 2020;367(6483):1260–1263.
+[76]
+Letko M, Marzi A, Munster V. Functional assessment
+of cell entry and receptor usage for SARS-CoV-2 and
+other lineage B betacoronaviruses. Nat Microbiol.
+2020;5(4):562–569.
+[77]
+Walls AC, Park YJ, Tortorici MA, et al. Structure, func-
+tion, and antigenicity of the SARS-CoV-2 spike glyco-
+protein.
+Cell.
+2020;181(2):281–292.e6.
+pii:
+S0092-
+8674(20)30262-2.
+[78]
+Shang J, Ye G, Shi K, et al. Structural basis of recep-
+tor
+recognition
+by
+SARS-CoV-2.
+Nature.
+2020;
+581(7807):221–224.
+[79]
+Hoffmann M, Kleine-Weber H, Schroeder S, et al.
+SARS-CoV-2
+cell
+entry
+depends
+on
+ACE2
+and
+TMPRSS2 and is blocked by a clinically proven prote-
+ase inhibitor. Cell. 2020;181(2):271–280.
+[80]
+Wang W, Su B, Pang L, et al. High-dimensional
+immune
+profiling
+by
+mass
+cytometry
+revealed
+immunosuppression and dysfunction of immunity in
+COVID-19 patients. Cell Mol Immunol. 2020;17(6):
+650–652.
+[81]
+Chu H, Zhou J, Wong BH, et al. Middle East respira-
+tory syndrome coronavirus efficiently infects human
+primary T lymphocytes and activates the extrinsic
+and intrinsic apoptosis pathways. J Infect Dis. 2016;
+213(6):904–914.
+[82]
+Taylor RC, Cullen SP, Martin SJ. Apoptosis: controlled
+demolition at the cellular level. Nat Rev Mol Cell Biol.
+2008;9(3):231–241.
+[83]
+Youle RJ, Strasser A. The BCL-2 protein family: oppos-
+ing activities that mediate cell death. Nat Rev Mol
+Cell Biol. 2008;9(1):47–59.
+[84]
+Hardwick JM, Youle RJ. SnapShot: BCL-2 proteins.
+Cell. 2009;138(2):404, 404.e1.
+[85]
+Wei L, Sun S, Xu CH, et al. Pathology of the thyroid
+in severe acute respiratory syndrome. Hum Pathol.
+2007;38(1):95–102.
+[86]
+Yeung M-L, Yao Y, Jia L, et al. MERS coronavirus
+induces apoptosis in kidney and lung by upregulat-
+ing Smad7 and FGF2. Nat Microbiol. 2016;1(3):16004.
+[87]
+Tan Y-X, Tan THP, Lee M-R, et al. Induction of apop-
+tosis by the severe acute respiratory syndrome cor-
+onavirus 7a protein is dependent on its interaction
+with
+the
+Bcl-XL
+protein.
+J
+Virol.
+2007;81(12):
+6346–6355.
+[88]
+Tao X, Hill TE, Morimoto C, et al. Bilateral entry and
+release of Middle East respiratory syndrome corona-
+virus induces profound apoptosis of human bron-
+chial epithelial cells. J Virol. 2013;87(17):9953–9958.
+[89]
+Chen Y, Feng Z, Diao B, et al. The novel severe acute
+respiratory syndrome coronavirus 2 (SARS-CoV-2) dir-
+ectly decimates human spleens and lymph nodes.
+medRxiv. DOI:10.1101/2020.03.27.20045427
+[90]
+Bordi L, Castilletti C, Falasca L, et al. Bcl-2 inhibits
+the caspase-dependent apoptosis induced by SARS-
+CoV without affecting virus replication kinetics. Arch
+Virol. 2006;151(2):369–377.
+[91]
+Chan CM, Ma CW, Chan WY, et al. The SARS-corona-
+virus membrane protein induces apoptosis through
+modulating the Akt survival pathway. Arch Biochem
+Biophys. 2007;459(2):197–207.
+[92]
+Khan S, Fielding BC, Tan TH, et al. Over-expression of
+severe acute respiratory syndrome coronavirus 3b
+protein induces both apoptosis and necrosis in Vero
+E6 cells. Virus Res. 2006;122(1–2):20–27.
+22
+M. CIOTTI ET AL.
+[93]
+Schaecher SR, Touchette E, Schriewer J, et al. Severe
+acute respiratory syndrome coronavirus gene 7 prod-
+ucts contribute to virus-induced apoptosis. J Virol.
+2007;81(20):11054–11068.
+[94]
+Tan YJ, Fielding BC, Goh PY, et al. Overexpression of
+7a, a protein specifically encoded by the severe
+acute
+respiratory
+syndrome
+coronavirus,
+induces
+apoptosis via a caspase-dependent pathway. J Virol.
+2004;78(24):14043–14047.
+[95]
+Yuan X, Shan Y, Zhao Z, et al. G0/G1 arrest and
+apoptosis induced by SARS-CoV 3b protein in trans-
+fected cells. Virol J. 2005;2:66.
+[96]
+Chan C-M, Tsoi H, Chan W-M, et al. The ion channel
+activity of the SARS-coronavirus 3a protein is linked
+to its pro-apoptotic function. Int J Biochem Cell Biol.
+2009;41(11):2232–2239.
+[97]
+Versteeg GA, Van De Nes PS, Bredenbeek PJ, et al.
+The coronavirus spike protein induces endoplasmic
+reticulum stress and upregulation of intracellular
+chemokine
+mRNA
+concentrations.
+J
+Virol.
+2007;
+81(20):10981–10990.
+[98]
+Feng S, Shen C, Xia N, et al. Rational use of face
+masks in the COVID-19 pandemic. Lancet Respir
+Med. 2020;8(5):434–436.
+[99]
+Chan JF, Yuan S, Kok KH, et al. A familial cluster of
+pneumonia associated with the 2019 novel corona-
+virus
+indicating
+person-to-person
+transmission:
+a
+study of a family cluster. Lancet. 2020;395(10223):
+514–523.
+[100]
+Zhang W, Du RH, Li B, et al. Molecular and sero-
+logical investigation of 2019-nCoV infected patients:
+implication
+of
+multiple
+shedding
+routes.
+Emerg
+Microbes Infect. 2020;9(1):386–389.
+[101]
+Chen W, Lan Y, Yuan X, et al. Detectable 2019-nCoV
+viral RNA in blood is a strong indicator for the fur-
+ther clinical severity. Emerg Microbes Infect. 2020;
+9(1):469–473.
+[102]
+Young
+BE,
+Ong
+SWX,
+Kalimuddin
+S,
+et
+al.
+Epidemiologic features and clinical course of patients
+infected with SARS-CoV-2 in Singapore. JAMA. 2020;
+323(15):1488.
+[103]
+van Doremalen N, Bushmaker T, Morris DH, et al.
+Aerosol and surface stability of SARS-CoV-2 as com-
+pared with SARS-CoV-1. New Engl J Med. 2020;382:
+1564–1567.
+[104]
+Suman R, Javaid M, Haleem A, et al. Sustainability of
+coronavirus on different surfaces. J Clin Exp Hepatol.
+2020. DOI:10.1016/j.jceh.2020.04.020
+[105]
+Lippi G, Adeli K, Ferrari M, et al. Biosafety measures
+for preventing infection from COVID-19 in clinical
+laboratories: IFCC Taskforce Recommendations.
+[106]
+World Health Organization. Home care for patients
+with COVID-19 presenting with mild symptoms and
+management
+of
+their
+contacts.
+Available
+from:
+https://www.who.int/publications-detail/home-care-
+for-patients-with-suspected-novel-coronavirus-(ncov)-
+infection-presenting-with-mild-symptoms-and-man-
+agement-of-contacts
+[107]
+Ahn D-G, Shin H-J, Kim M-H, et al. Current status of
+epidemiology, diagnosis, therapeutics, and vaccines
+for novel coronavirus disease 2019 (COVID-19). J
+Microbiol Biotechnol. 2020;30(3):313–324.
+[108]
+Handbook of COVID-19 Prevention and Treatment.
+Available
+from:
+https://www.alnap.org/help-library/
+handbook-of-covid-19-prevention-and-treatment
+[109]
+World Health Organization. Global surveillance for
+COVID-19 caused by human infection with COVID-19
+virus: interim guidance. Available from: https://www.
+who.int/publications-detail/global-surveillance-for-
+human-infection-with-novel-coronavirus-(2019-nCov)
+[110]
+Knowles SR, Phillips EJ, Dresser L, et al. Common
+adverse events associated with the use of ribavirin
+for severe acute respiratory syndrome in Canada.
+Clin Infect Dis. 2003;37(8):1139–1142.
+[111]
+Wang Y, Zhang D, Du G, et al. Remdesivir in adults
+with severe COVID-19: a randomised, double-blind,
+placebo-controlled, multicentre trial. Lancet. 2020;
+395(10236):1569–1578. [Published correction appears
+in Lancet. 2020;395(10238):1694.
+[112]
+Li HS, Kuok DIT, Cheung MC, et al. Effect of inter-
+feron alpha and cyclosporine treatment separately
+and in combination on Middle East respiratory syn-
+drome
+coronavirus
+(MERS-CoV)
+replication
+in
+a
+human in-vitro and ex-vivo culture model. Antiviral
+Res. 2018;155:89–96.
+[113]
+Chinese clinical guidance for COVID-19 pneumonia
+diagnosis and treatment (7th ed). [cited 2020 May
+11].
+Available
+from:
+http://kjfy.meetingchina.org/
+msite/news/show/cn/3337.html
+[114]
+Xu CY, Lu SD, Ye X, et al. Combined treatment of
+tocilizumab and chloroquine on severe COVID-19: a
+case report. QJM. 2020. DOI:10.1093/qjmed/hcaa153
+[115]
+Shen C, Wang Z, Zhao F, et al. Treatment of 5 critic-
+ally ill patients with COVID-19 with convalescent
+plasma. JAMA. 2020;323(16):1582–1589.
+[116]
+Prattes J, Valentin T, Hoenigl M, et al. Invasive pul-
+monary aspergillosis complicating COVID-19 in the
+ICU - a case report. Med Mycol Case Rep. 2020. DOI:
+10.1016/j.mmcr.2020.05.001
+[117]
+Pham DT, Toeg H, De Paulis R, et al. Establishment
+and management of mechanical circulatory support
+during the COVID-19 pandemic. Circulation. 2020.
+DOI:10.1161/CIRCULATIONAHA.120.047415
+[118]
+Gopalakrishnan A, Mossaid A, Lo KB, et al. Fulminant
+acute kidney injury in a young patient with novel
+coronavirus 2019. Cardiorenal Med. 2020. DOI:10.
+1159/000508179
+[119]
+Dastan F, Saffaei A, Mortazavi SM, et al. Continues
+renal replacement therapy (CRRT) with disposable
+hemoperfusion cartridge: a promising option for
+severe COVID-19. J Glob Antimicrob Resist. 2020;21:
+340–341.
+[120]
+Yang XH, Sun RH, Zhao MY, et al. Expert recommen-
+dations on blood purification treatment protocol for
+patients with severe COVID-19: recommendation and
+consensus. Chronic Dis Transl Med. 2020;6(2):106-114.
+[121]
+Zhao JP, Hu Y, Du TH, et al. Expert consensus on the
+use of corticosteroid in patients with 2019-nCoV
+pneumonia. Chin J Tuber Respir Dis. 2020; 43:
+183–184.
+[122]
+Jin YH, Cai L, Cheng ZS, et al. A rapid advice guide-
+line for the diagnosis and treatment of 2019 novel
+coronavirus (2019-nCoV) infected pneumonia (stand-
+ard version). Mil Med Res. 2020;7(1):4.
+CRITICAL REVIEWS IN CLINICAL LABORATORY SCIENCES
+23
+[123]
+Correa H, Malloy-Diniz LF, Da Silva AG. Why psychi-
+atric treatment must not be neglected during the
+COVID-19 pandemic. Braz J Psychiatry. 2020. DOI:10.
+1590/1516-4446-2020-0995
+[124]
+Huang YF, Bai C, He F, et al. Review on the potential
+action mechanisms of Chinese medicines in treating
+coronavirus disease 2019 (COVID-19). Pharmacol Res.
+2020;158:104939.
+[125]
+Chen Y, Liu Q, Guo D. Emerging coronaviruses: gen-
+ome structure, replication, and pathogenesis. J Med
+Virol. 2020;92(4):418–423.
+[126]
+FasterCures. COVID-19 treatment and vaccine tracker.
+Available from: https://milkeninstitute.org/covid-19-
+tracker
+[127]
+Colson P, Rolain J-M, Raoult D. Chloroquine for the
+2019 novel coronavirus SARS-CoV-2. Int J Antimicrob
+Agents. 2020;55(3):105923.
+[128]
+Study to ask: Does antimalarial drug prevent COVID-
+19? Available from: https://newsroom.uw.edu/news/
+does-antimalarial-drug-pre-vent-covid-19-study-seeks-
+answers
+[129]
+Liu T, Luo S, Libby P, et al. Cathepsin L-selective
+inhibitors:
+a
+potentially
+promising
+treatment
+for
+COVID-19 patients. Pharmacol Ther. 2020. DOI:10.
+1016/j.pharmthera.2020.107587
+[130]
+Cheng Y, Wong R, Soo YOY, et al. Use of convales-
+cent plasma therapy in SARS patients in Hong Kong.
+Eur J Clin Microbiol Infect Dis. 2005;24(1):44–46.
+[131]
+Accorsi P, Berti P, de Angelis V, et al. Position paper
+on the preparation of immune plasma to be used in
+the treatment of patients with COVID-19. Blood
+Transfus. 2020;18(3):163–166.
+[132]
+World Health Organization. Infection prevention and
+control
+during
+health
+care
+when
+novel
+coronavirus(nCoV)
+infection
+is
+suspected
+interim
+guidance. [cited 2020 Jan 25]. Available from: https://
+apps.who.int/iris/handle/10665/330674
+[133]
+Thanh Le T, Andreadakis Z, Kumar A, et al. The
+COVID-19 vaccine development landscape. Nat Rev
+Drug Discov. 2020;19(5):305–306.
+[134]
+China’s development of vaccines against novel cor-
+onavirus.
+National
+Health
+Commission
+of
+the
+People’s Republic of China. Available from: http://en.
+nhc.gov.cn/2020-03/26/c_78336.htm
+[135]
+Ahmed SF, Quadeer AA, McKay MR. Preliminary iden-
+tification of potential vaccine targets for the COVID-
+19 coronavirus (SARS-CoV-2) based on SARS-CoV
+immunological studies. Viruses. 2020;12(3):254.
+[136]
+COVID-19 vaccine. Wikipedia. [2020 Apr 25; cited
+2020 Apr 27]. Available from: https://en.wikipedia.
+org/w/index.php?title=COVID-19_vaccine&oldid=
+953116109
+[137]
+Kim E, Erdos G, Huang S, et al. Microneedle array
+delivered
+recombinant
+coronavirus
+vaccines:
+immunogenicity
+and
+rapid
+translational
+develop-
+ment. EBioMedicine. 2020;55:102743.
+[138]
+Nunneley DCE. COVID-19 vaccine candidates: 6 front-
+runners. ABC News. 2020. Available from: https://
+abcnews.go.com/Health/covid-19-vaccine-candidates-
+front-runners/story?id=69881230
+[139]
+Symvivo. COVID-19 program vision. Available from:
+https://www.symvivo.com/covid-19
+[140]
+Singh S, Kumar R, Agrawal B. Adenoviral vector-
+based vaccines and gene therapies: current status
+and future prospects. London: IntechOpen; 2018.
+[141]
+Zhu FC, Li YH, Guan XH, et al. Safety, tolerability, and
+immunogenicity of a recombinant adenovirus type-5
+vectored COVID-19 vaccine: a dose-escalation, open-
+label, non-randomised, first-in-human trial. Lancet.
+2020;395(10240):1845–1854.
+[142]
+Randolph HE, Barreiro LB. Herd immunity: under-
+standing COVID-19. Immunity. 2020;52(5):737–741.
+[143]
+Mo H, Zeng G, Ren X, et al. Longitudinal profile of
+antibodies against SARS-coronavirus in SARS patients
+and their clinical significance. Respirology. 2006;
+11(1):49–53.
+[144]
+Callow KA, Parry HF, Sergeant M, et al. The time
+course of the immune response to experimental cor-
+onavirus infection of man. Epidemiol Infect. 1990;
+105(2):435–446.
+[145]
+Mashamba-Thompson TP, Crayton ED. Blockchain
+and artificial intelligence technology for novel cor-
+onavirus disease 2019 self-testing. Diagnostics. 2020;
+10(4):198.
+[146]
+McCall B. COVID-19 and artificial intelligence: pro-
+tecting health-care workers and curbing the spread.
+Lancet Digit Health. 2020;2(4):e166–e167.
+[147]
+Li L, Qin L, Xu Z, et al. Artificial intelligence distin-
+guishes COVID-19 from community acquired pneu-
+monia on chest CT. Radiology. 2020. DOI:10.1148/
+radiol.2020200905
+[148]
+Rao A, Vazquez JA. Identification of COVID-19 can be
+quicker
+through
+artificial
+intelligence
+framework
+using a mobile phone-based survey in the popula-
+tions when cities/towns are under quarantine. Infect
+Control Hosp Epidemiol. 2020;3:1–18.
+[149]
+Beck BR, Shin B, Choi Y, et al. Predicting commer-
+cially available antiviral drugs that may act on the
+novel coronavirus (SARS-CoV-2) through a drug-tar-
+get interaction deep learning model. Comput Struct
+Biotechnol J. 2020;18:784–790.
+[150]
+Senior AW, Evans R, Jumper J, et al. Improved pro-
+tein structure prediction using potentials from deep
+learning. Nature. 2020;577(7792):706–710.
+[151]
+Rosenbaum L. Facing Covid-19 in Italy — ethics,
+logistics, and therapeutics on the epidemic’s front
+line. N Engl J Med. 2020;382(20):1873–1875.
+[152]
+Forsman RW. Why is the laboratory an afterthought
+for managed care organizations? Clin Chem. 1996;
+42(5):813–816.
+[153]
+Dietzen DJ. Unleashing the power of laboratory
+developed tests: CLOSING gaps in COVID diagnosis
+and beyond. J Applied Lab Med. 2020. DOI:10.1093/
+jalm/jfaa077
+24
+M. CIOTTI ET AL.

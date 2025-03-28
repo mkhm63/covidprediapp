@@ -1,0 +1,922 @@
+INVITED REVIEW
+Is COVID-19 Gender-sensitive?
+Shreya Mukherjee1,2 & Kalipada Pahan1,3
+Received: 16 October 2020 /Accepted: 26 November 2020 /Published online: 6 January 2021
+Abstract
+While clinical characteristics exhibit that susceptibility to COVID-19 infection is equally likely between males and females,
+clinical outcomes show that males experience both a higher severity and fatality for COVID-19 infection than females. This
+review examines the evidence for these sex and gender differences and aims to illustrate possible mechanisms behind such
+sensitivity. Successful entry of SARS-CoV-2 into the body is dependent on the angiotensin-converting enzyme 2 (ACE2)
+receptor and the transmembrane protease serine 2 (TMPRSS2). Thus, sex-based differences in the expression of the ACE2
+receptor and TMPRSS2 may explain the disparities in COVID-19 severity and fatality. Furthermore, these disparities may also be
+attributed to sex-based difference in immunological responses. Finally, the differences in clinical outcomes of COVID-19
+infections between men and women may be due to gendered differences in behaviors, such as smoking, and prevalence to
+comorbidities. An understanding of the sex and gender sensitivities of COVID-19 infection is a necessary component towards the
+creation of effective treatment options and therapies for the virus.
+Keywords COVID-19 . Gender . ACE-2 . TMPRSS2 . Hypertension
+Introduction
+In December 2019, several cases of pneumonia from an un-
+identified origin emerged in Wuhan, Hubei, China. These
+cases were attributed to the novel betacoronavirus named
+SARS-CoV-2 (severe acute respiratory syndrome coronavirus
+2) (Guan et al. 2020). SARS-CoV-2 is the virus responsible
+for the severe respiratory disease referred to as coronavirus
+disease 19 (COVID-19), which has been declared a pandemic
+by the World Health Organization (WHO) on March 11, 2020
+(Gebhard et al. 2020; Machhi et al. 2020; Yuen et al. 2020).
+As of October 13, 2020, there have been 38,032,320 reported
+cases of COVID-19 and 1,084,336 deaths, representing a
+2.85% worldwide fatality rate.
+Additionally, as early as March 2020, reports began to
+suggest differences in prevalence to and severity of COVID-
+19 infection (Cai 2020). Early studies indicated a higher sus-
+ceptibility of males to COVID-19 infection, but accumulating
+epidemiological evidence has not shown sex or gender dispar-
+ities in COVID-19 susceptibility (Ambrosino et al. 2020).
+Furthermore, recent studies and examinations of clinical char-
+acteristics corroborated early observations that males tend to
+experience higher severity and fatality of COVID-19 cases
+(Gebhard et al. 2020; Jin et al. 2020). In fact, a recent analysis
+of COVID-19-related deaths found that mortality was 1.77
+times higher for males than females (Yanez et al. 2020).
+At present, there are no specific treatments or antiviral
+agents for SARS-CoV-2, but many possible therapies are be-
+ing investigated. These include targeting axes of the renin-
+angiotensin system (RAS), blocking the receptor binding do-
+main of the viral S-protein, camostat mesylate, and cathepsin
+L/B inhibitor (Gheblawi et al. 2020). The most common
+symptoms of COVID-19 infection are fever, cough, fatigue,
+and shortness of breath (Ambrosino et al. 2020; Tian et al.
+2020). Deaths from COVID-19 are associated with acute re-
+spiratory distress syndrome (ARDS), acute respiratory failure,
+coagulopathy, septic shock, and metabolic acidosis (Wortham
+et al. 2020). Several comorbidities have been shown to in-
+crease severity of the disease and risk of death (Pahan and
+* Kalipada Pahan
+Kalipada_Pahan@rush.edu
+1
+Department of Neurological Sciences, Rush University Medical
+Center, 1735 West Harrison St Suite Cohn 310, Chicago, IL 60612,
+USA
+2
+Present address: Honors Program in Medical Education,
+Northwestern University, Chicago, IL, USA
+3
+Division of Research and Development, Jesse Brown Veterans
+Affairs Medical Center, Chicago, IL, USA
+Journal of Neuroimmune Pharmacology (2021) 16:38–47
+https://doi.org/10.1007/s11481-020-09974-z
+# The Author(s), under exclusive licence to Springer Science+Business Media, LLC part of Springer Nature 2021
+Pahan 2020; Zhou et al. 2020). The most common comorbid-
+ities include hypertension, diabetes, cardiovascular disease,
+chronic lung disease, and chronic kidney disease (Gebhard
+et al. 2020; Wortham et al. 2020; Zhou et al. 2020).
+Additionally, age has been associated with greater risk for
+poor clinical outcomes (Vaduganathan et al. 2020; Wortham
+et al. 2020). Of the entire patient population, the poorest out-
+come was observed in elderly populations with cardiovascular
+disease with a case fatality rate of 10.5% (Gebhard et al.
+2020).
+Given the disparities of clinical outcomes on the basis of
+sex and gender, there is a need to identify possible gender-
+specific factors in COVID-19 and thus target these factors for
+therapies as well. Therefore, we have devoted the following
+sections to analyze sex and gender differences in COVID-19
+with possible molecular mechanisms and avenues to control
+such pathways.
+Gender Sensitivity in COVID-19 Infection
+Clinical data regarding COVID-19 show no significant sex
+differences in susceptibility to COVID-19 infection. An anal-
+ysis of the public data set from the Chinese Public Health
+Science Data Center contained the first 37 fatalities from
+COVID-19 and 1,109 cases of COVID-19 survivors. The
+analysis showed that male and female patients displayed the
+same susceptibility to COVID-19 infection (Jin et al. 2020). In
+a study of 44,672 confirmed cases taken from China’s
+Infectious Disease Information System through February 11,
+2020, it was found that 51.4% of patients with confirmed
+cases of COVID-19 were male (Team 2020). In a contract-
+tracing effort in the United States, the Maine Center for
+Disease Control and Prevention (CDC) enrolled 1,622 con-
+tacts of 614 patients with COVID-19 in an automated
+symptom-monitoring tool between May 14, 2020 and
+June 26, 2020. Among these enrollees, 190 developed
+COVID-19; and, among these patients, 52.1% were female,
+and 47.9% were male (Krueger et al. 2020). Furthermore, an
+analysis of the 1,320,488 confirmed COVID-19 cases in the
+United States reported from January 22, 2020 to May 30, 2020
+found that the incidence of cases was similar between females
+and males. Among the total reported patients, 646,358
+(48.9%) were male, and 674,130 (51.1%) were female.
+Furthermore, the cumulative incidence for males was 401.1
+cases per 100,000, and that of females was 406.0 cases per
+100,000 (Stokes et al. 2020). Interestingly, this particular re-
+port from the United States shows a higher percentage of cases
+in females than males. Data regarding confirmed COVID-19
+cases, as of April 1, 2020, from China, Italy, Spain, France,
+Germany, and Switzerland showed that there were no signif-
+icant sex disparities in the absolute number of cases of
+COVID-19. However, it was noted that this could indicate a
+higher incidence of COVID-19 among older males, as the
+absolute number of older males is less than that of females.
+Data from Germany and Switzerland support this assertion; it
+was found that there was an increased incidence of COVID-19
+infection in males greater than 60 years old (Gebhard et al.
+2020).
+Gender Sensitivity in COVID-19 Mortality
+There is substantial evidence that points to gender and sex
+sensitivities in COVID-19 severity, and males experience
+more severe COVID-19 cases. In addition to increased sever-
+ity, several studies have shown that male COVID-19 patients
+have a higher fatality rate than female patients.
+Greater Death Among Males Than Females From COVID-19
+in China
+A case series analysis of 43 patients in Wuhan, China found
+that male patients’ cases of COVID-19 were more likely to be
+serious than those of female patients. The median age of these
+patients was 62 years old, and there was no significant differ-
+ence in the ages of the male and female patients. Furthermore,
+among this data set, 37.2% had underlying disorders including
+hypertension, cardiovascular diseases, diabetes, and lung dis-
+eases; however, there were no significant differences in co-
+morbidities between the male and female patients.
+Additionally, an analysis of COVID-19 cases from the
+Chinese Public Health Science Data Center found that, among
+the deceased patients, the number of male patients was 2.4
+times greater than that of female patients. The median age
+for the deceased patients was 70.3 years old, and there were
+no significant differences in ages between the male and female
+patients in this data set. Furthermore, among the deceased
+patients, 64.9% had comorbidities (Jin et al. 2020). Analysis
+of a data set of 41 COVID-19 patients from December 16,
+2019 to January 2, 2020, found that there was a greater pro-
+portion of male patients admitted to the intensive care unit
+(ICU). The median age of these patients was 49 years old.
+Furthermore, 32% of the patients had underlying conditions,
+including diabetes, hypertension, and cardiovascular disease.
+Among all the patients in this data set, 30 were male (73%)
+and 11 were female (27%). However, among the 13 patients
+admitted to the ICU, 11 were male (85%) and 2 were female
+(15%) (Huang et al. 2020).
+A study of 262 COVID-19 patients in Beijing between
+January 20, 2020 and February 10, 2020 also found that males
+made up a greater percentage of those with severe cases. The
+age range of patients was from 6 months to 94 years old, and
+the median was 47.5 years old. Additionally, 77.4% of the
+patients were aged between 13 and 64 years old. Among the
+total cases, 48.5% were male; however, among the 46 severe
+cases, 56.5% were male patients (Tian et al. 2020). A retro-
+spective study was conducted regarding 191 patients
+J Neuroimmune Pharmacol (2021) 16:38–47
+39
+diagnosed with COVID-19 in Wuhan, China between
+December 29, 2019 and January 31, 2020. The age range for
+all of the patients was 18 to 87 years old, and the median age
+was 56 years old. Nearly half (48%) of the patients had co-
+morbidities, the most common being hypertension.
+Additionally, while 62% of the total patients were male, the
+study found that males made up 70% of the deceased patients
+(Zhou et al. 2020). In the study of 44,672 COVID-19 cases
+from China’s Infectious Disease Information System, taken
+through February 11, 2020, a total of 1,023 deaths occurred.
+Among these patients, 77.8% were between the ages of 30 and
+69 years old. Furthermore, data regarding comorbidities was
+collected for 20,812 patients, and about 25.5% of those pa-
+tients had comorbidities. Furthermore, while 51.4% of the
+total patient population was male, 63.8% of the deceased pop-
+ulation was male. Additionally, it was found that the case
+fatality rate for males was higher than that of females: 2.8%
+versus 1.7%, respectively (Team 2020).
+Gender Difference in COVID-19-related Deaths in USA
+These gendered differences are also observed in the United
+States. In one study, the COVID-19-Associated Hospital
+Surveillance Network (COVID-NET) monitored COVID-
+19-related hospitalizations between March 1, 2020 and
+March 28, 2020. Majority of the patients that were hospital-
+ized were over the age of 50 (74.5%). Data regarding under-
+lying conditions was only collected for 178 hospitalized pa-
+tients, and 89.3% of those patients had one or more underlying
+conditions. Furthermore, among the 1,482 patients hospital-
+ized with COVID-19, 54.4% were male. The population
+makeup of the COVID-NET area is about 49% male and
+51% female, showing that males were disproportionately hos-
+pitalized with COVID-19 in comparison to females (Garg
+et al. 2020). Between February 12, 2020 and May 18, 2020,
+52,166 deaths from 47 jurisdictions were reported to the CDC.
+In this data set, majority of the patients were above 65 years
+old (79.6%), and the median age was 78 years old. Data re-
+garding comorbidities was not collected for this data set.
+Among the deceased patients, 55.4% were male.
+Furthermore, the CDC collected data regarding 10,647 deaths
+from 56 public health departments regarding deaths related to
+COVID-19 between February 12, 2020 and April 24, 2020. In
+this report, the median age was 75 years old, and at least one
+comorbidity was reported for 76.4% of the patients. Among
+these deceased patients, 60.6% were male. In both cases, male
+patients made up a larger percentage of the deceased patients
+(Wortham et al. 2020). Furthermore, an analysis of 1,320,488
+cases of COVID-19 in the United States reported between
+January 22, 2020 to May 30, 2020 was conducted. The medi-
+an age of the patients was 48 years old, and 22% of these cases
+were associated with underlying conditions. The most com-
+mon conditions were cardiovascular disease, diabetes, and
+chronic lung disease; and, the proportion of these comorbidi-
+ties in male and female patients were comparable. Analysis of
+these cases found that male patients experienced more severe
+outcomes than female patients. The report showed that males
+had a higher rate of hospitalization than female patients
+(15.6% vs. 12.4%, respectively); males had a higher rate of
+admission to the ICU than female patients (2.8% vs. 1.7%,
+respectively); and, males had a higher fatality rate than female
+patients (6.0% vs. 4.8%) (Stokes et al. 2020).
+COVID-19 is More Deadly Among Males Than Females
+in Europe
+These trends are seen in European countries, as well. In
+Switzerland and France, data regarding COVID-19-related
+hospitalization find that, although there is no displayed gender
+or sex sensitivity in incidence of COVID-19, there are 50%
+more male patients hospitalized than female patients. In
+Switzerland, incidence of COVID-19 in males and females
+is similar across age groups, but hospitalization is 1.5 times
+higher for male patients. Furthermore, composite COVID-19
+data from Germany, Italy, Spain, and Switzerland, comprising
+of 14,364 deaths, consistently show that the case fatality rate
+for males is higher than that of females across all age groups.
+This greater case fatality in male patients was observed across
+all age groups (Gebhard et al. 2020). In the Lombardy region
+of Italy, a retrospective study of ICU patients in 72 hospitals
+was conducted. Among the 1591 patients treated between
+February 20, 2020 and March 18, 2020, 82% were male and
+18% were female, displaying a higher proportion of males
+among the ICU patients. In this data set, the median age was
+63 years old, and the relative proportions of males and females
+in each age group was similar. Furthermore, of the patients on
+whom data regarding comorbidities were collected, 68% had
+at least one comorbidity (Grasselli et al. 2020). Finally, reports
+from Germany as recent as September 2, 2020 show that male
+patients represent a greater proportion of deceased patients.
+Though males make up 49% of total cases in Germany, they
+make up 55% of the total deaths related to COVID-19
+(COVID-19 daily situation report of the Robert Koch
+Institute 2020).
+Possible Underlying Mechanisms Behind Gender
+Sensitivity
+Gender Difference in ACE2 Distribution
+SARS-CoV-2, the virus responsible for COVID-19, enters the
+body through the angiotensin-converting enzyme 2 (ACE2)
+(Hoffmann et al. 2020). Differences in the expression of
+ACE2 caused by sex hormones may help in explaining the
+sex disparities in COVID-19 infection, severity, and fatality.
+ACE2 is an enzyme that is involved in the renin-angiotensin
+40
+J Neuroimmune Pharmacol (2021) 16:38–47
+aldosterone system (RAAS), a hormone system that plays a
+role in the regulation of blood pressure, tissue perfusion, and
+balance of the body’s extracellular environment. In the pro-
+cess of the RAAS, the hormone renin converts
+angiotensinogen to the hormone angiotensin I (Ang I), the
+biologically inert precursor to angiotensin II (Ang II), a vaso-
+constrictor. The conversion of Ang I to Ang II is mediated by
+the angiotensin-converting enzyme (ACE). ACE2, on the oth-
+er hand, negatively regulates the formation of Ang II in the
+RAAS by hydrolyzing it to the hormone Ang-(1–7), a vaso-
+dilator (Vickers et al. 2002; Zaman et al. 2002).
+Though COVID-19 is largely understood to be a respirato-
+ry disease, emerging evidence has shown that it can directly
+affect other organs in the body. ACE2 is expressed throughout
+the body and can be found in the lungs, cardiovascular system,
+central nervous system, gut, kidneys, and adipose tissue
+(Gheblawi et al. 2020). Because of the wide expression of
+ACE2 throughout the body, studies have suggested that
+SARS-CoV-2 can impact all of these organs (Jain 2020).
+Particularly, one study regarding postmortem COVID-19 pa-
+tients found SARS-CoV-2 antigens in the tubular epithelial
+cells of the kidneys, suggesting that SARS-CoV-2 can directly
+infect the kidney (Martinez-Rojas et al. 2020). Furthermore,
+another study found that SARS-CoV-2 infected human in-
+duced pluripotent stem cell-derived cardiomyocytes,
+displaying the direct effects of SARS-CoV-2 on the heart cells
+(Sharma et al. 2020). Thus, variable expression of ACE2
+throughout the body due to sex hormones may elucidate the
+sex differences in COVID-19 outcomes. Data suggest that a
+higher expression and activity of ACE2 may increase vulner-
+ability to COVID-19 infection and fatality. For example, one
+study found that ACE2 expression was high in the lungs of
+patients with comorbidities associated with higher risk to
+COVID-19 infection (Pinto et al. 2020).
+It has been found that higher ACE2 expression and activity
+in males than females may contribute to sex differences in
+COVID-19 infection and fatality. Many studies have noted that
+ACE2 activity is higher in males than in females (Cai 2020;
+Gargaglioni and Marques 2020). In a model of hypertensive
+rats, it was found that cardiac ACE2 activity was higher in male
+rats (Chappell et al. 2014). Another model on spontaneously
+hypertensive rats found that overall ACE2 activity was signif-
+icantly higher in male rats than females (Dalpiaz et al. 2015).
+This study also found that orchiectomy reduced cardiac ACE2
+activity in male rats, and ovariectomy increased ACE2 activity
+in female rats, suggesting the influence of sex hormones on
+ACE2 activity in the heart (Dalpiaz et al. 2015). Another study
+showed that ACE2 activity in the kidney was 1.9 times higher
+in male mice than females; and, expression of ACE2 in the
+kidney was 1.5 times higher in male mice than females (Liu
+et al. 2010). It was also found that ovariectomy of female mice
+increased renal ACE2 expression. Furthermore, in comparison
+to gonadectomized mice, estradiol reduced ACE2 activity in
+the kidneys by 56–59%. This suggests that estrogen has an
+inhibitory effect on renal ACE2 activity under non-
+pathological conditions. Though there was an observable sex
+difference in renal ACE2 activity, this study found no sex dif-
+ferences in ACE2 activity in the heart or lungs under non-
+pathological conditions (Liu et al. 2010). A recent study found
+that estrogen regulated the expression of ACE2 in human bron-
+chial epithelial cells. In this study, 17β-estradiol was applied to
+normal human bronchial epithelial cells from a female donor,
+resulting lower levels of ACE2 mRNA. Given that ACE2 is the
+entry point of SARS-CoV-2 in the body, the decrease in ACE2
+mRNA by estradiol may explain the lower severity and fatality
+of COVID-19 in female patients. However, this study only
+examined ACE2 mRNA, so further research needs to be done
+regarding ACE2 expression and activity in the human bronchial
+epithelium, and with a greater sample size of donors (Stelzig
+et al. 2020). These slight discrepancies in ACE2 expression
+throughout the body warrant additional research, specifically
+regarding the effects of sex hormones on the expression of
+ACE2 in heart and lungs. Additionally, studies have revealed
+the expression of ACE2 in the human male testes, which may
+suggest another route to COVID-19 infection. This may also
+explain the increased vulnerability of males to COVID-19 in-
+fection (Liu et al. 2020; Wang and Xu 2020).
+Another study on patients who suffered from heart failure
+found that the plasma concentrations of ACE2 were higher in
+males than in females (Sama et al. 2020). One study regarding
+patients with diabetes, a common comorbidity of COVID-19
+infection, found that serum ACE2 activity was nearly 30%
+higher in male patients than female patients (Soro-Paavonen
+et al. 2012; Garg et al. 2020). In patients with comorbidities
+associated with COVID-19 infection, male patients have a
+higher expression and activity of ACE2, which could explain
+increased COVID-19 severity and fatality.
+Regulatory effects of estrogen on ACE2 may also explain the
+lower severity and fatality among female patients. When SARS-
+CoV-2 binds to ACE2, the expression of ACE2 is downregulat-
+ed, which exacerbates respiratory infection and severity
+(Hoffmann et al. 2020). Studies have shown that estrogen can
+upregulate the expression of ACE2, and one such study using
+atrial tissue from elderly males undergoing heart surgery found
+that the administration of estradiol to atrial tissue raised ACE2
+expression (Bukowska et al. 2017; Gagliardi et al. 2020). This
+display of an up-regulatory mechanism may provide an explana-
+tion for better outcomes in females. This upregulation may be
+able to counteract the downregulation caused by viral entry of
+SARS-CoV-2, leading to better outcomes in female patients.
+However, some argue that soluble plasma ACE2 levels
+do not provide an indication of COVID-19 risk. Instead,
+because SARS-CoV-2 binds to membrane ACE2, the level
+of membrane ACE2 gives a more relevant insight in this
+matter (Leow 2020). Nonetheless, more research needs to
+be done in this area.
+J Neuroimmune Pharmacol (2021) 16:38–47
+41
+Crosstalk Between Androgen and Transmembrane Protease
+Serine 2 (TMPRSS2)
+Another key feature in the entry of COVID-19 into the cell is
+the transmembrane protease serine 2 (TMPRSS2). TMPRSS2
+is necessary for the priming of the viral S protein of COVID-
+19, and it essential for the spread of COVID-19 in the body
+(Hoffmann et al. 2020). Androgen receptors (ARs) play a key
+role in the transcription of TMPRSS2 (Fig. 1). This may ex-
+plain the predominance of males to COVID-19 infection, fa-
+tality, and severity because males tend to have a higher ex-
+pression and activation of ARs than females, which is due to
+the presence of dihydrotestosterone (DHT) (Fig. 1).
+Furthermore, SARS-CoV-2 has been shown to infect Type
+II pneumocytes in the lungs, and the presence of androgens
+and ARs in these cells is correlated with TMPRSS2 expres-
+sion (Goren et al. 2020; Montopoli et al. 2020; Wambier et al.
+2020). The positive effects of androgens on TMPPRSS2 ex-
+pression may provide further explanation for increased likeli-
+hood of disparate outcomes of COVID-19 in male patients.
+Greater Immune Responses in Females Than Males
+Female COVID-19 patients may also experience lower sever-
+ity and fatality rates than male patients due to their enhanced
+immune responses (Ruggieri et al. 2016). It is widely accepted
+that females have more vigorous cell-mediated and humoral
+immune responses (Fish 2008). Studies have shown that sev-
+eral immune cells—including macrophages, T cells, natural
+killer cells, and B cells—contain estrogen receptors, which
+shows that they can be regulated by estrogen (Klein et al.
+2015). The enhanced features of the female immune response
+tend to decrease with age, further corroborating estrogen’s
+positive effects on the immune system (Giefing-Kroll et al.
+2015). Additionally, several studies have shown that estrogens
+promote antibody responses (Ruggieri et al. 2016). One study
+on birds found that, in response to an activation of the immune
+system, female birds displayed a higher antibody response.
+Furthermore, a study regarding the female rhesus macaque
+found that both antibody secreting-cells and antibody levels
+were highest before ovulation, illustrating the positive effects
+of female sex hormones on antibody levels (Klein and
+Flanagan 2016). Furthermore, studies have shown found that
+human females have an increased antibody response to vacci-
+nations compared to males (Klein et al. 2015; Klein and
+Flanagan 2016). In fact, estrogen has been shown to promote
+Immunoglobin G (IgG) and Immunoglobin M (IgM), while
+testosterone inhibited this expression (Ruggieri et al. 2016). A
+recent study of COVID-19 patients has shown increased
+levels of IgG and IgM after COVID-19 infection, indicating
+that presence of these antibodies can influence the outcome of
+Fig. 1 Regulation of COVID-19
+severity and fatality by sex
+hormones. Females have
+aromatase, the enzyme that
+converts androgen substrates into
+estrogen. On the other hand,
+males have steroid 5α reductase,
+the enzyme that is responsible for
+the conversion of testosterone
+into dihydrotestosterone (DHT).
+In case of males, DHT activates
+androgen receptor (AR) that binds
+to the androgen response element
+(ARE) present in the promoter of
+TMPRSS2 gene, leading to its
+transcription. This ultimately
+results into enhanced processing
+of viral spike protein for greater
+entry and spread of SARS-CoV-2
+into host cells. On the other hand,
+in females, estrogen activates
+estrogen receptor (ER), which
+binds to the estrogen response
+element (ERE) present in the
+promoter of eNOS gene to drive
+its transcription and catalyze the
+formation of nitric oxide (NO)
+from L-arginine. This NO is
+involved in vasodilation as well as
+inhibition of viral replication
+42
+J Neuroimmune Pharmacol (2021) 16:38–47
+COVID-19 infection (Hou et al. 2020). In all, females see
+enhanced immune responses compared to males due to sex
+hormone influences, which explains the sex disparities in
+COVID-19 outcomes.
+Greater Levels of Nitric Oxide (NO) in Females Than Males: A
+Weapon in the Fight Against Viral Infections
+Nitric oxide (NO) is a gaseous component of the immune
+system that assists in the elimination of pathogens and foreign
+species from the body. More importantly, NO is capable of
+inhibiting the replication of viruses (Rimmelzwaan et al.
+1999; Saura et al. 1999). Studies have shown that the produc-
+tion of NO is enhanced by estrogen via estrogen receptor-
+mediated transcriptional upregulation of endothelial nitric ox-
+ide synthase (eNOS) (MacRitchie et al. 1997) (Fig. 1). A study
+on bronchial epithelial cells in humans found that biologically
+relevant concentrations of estrogens significantly increased
+the expression of eNOS and the production of NO in these
+cells (Townsend et al. 2011; Wink et al. 2011). The impact of
+estrogen on NO may provide a further layer of protection
+against COVID-19, and the role of nitric oxide as virus repli-
+cation inhibitor can explain why females tend to experience
+less severe outcomes of COVID-19 infection (Fig. 1).
+Moreover, it has been found that NO is an important phys-
+iological vasodilator where it exerts vasodilation via activa-
+tion of the guanylyl cyclase – cyclic GMP pathway (Archer
+et al. 1994). It has been found that COVID-19 infection usu-
+ally becomes severe and deadly in persons with preexisting
+cardiovascular problems and hypertension (Cao et al. 2020;
+Pahan and Pahan 2020). Therefore, estrogen-dependent
+eNOS-NO-cGMP-vasodilation pathway could be a boon for
+female COVID-19 patients.
+Smoking, Prevalence of Comorbidities, and Decreased
+Physician Consultation Do Not Help Males in the Fight
+Against COVID-19
+Finally, gendered differences in behaviors may also provide
+an explanation for the gender disparity seen in COVID-19
+outcomes. For example, studies have shown that smoking is
+associated with an increased risk for adverse outcomes of
+COVID-19. Research has shown that smoking increases the
+expression of the SARS-CoV-2 receptor, ACE2, in the lungs,
+which increases the possible sites of viral entry. Patterns from
+the United States, Italy, and China—the most affected
+nations— show that men have higher rates of smoking than
+women (Cai et al. 2020; Cai 2020; Walter and McGregor
+2020). This trend is depicted globally, as well, which can
+provide additional rationale for the gendered differences in
+COVID-19 outcomes (Pampel 2006). Furthermore, there exist
+some social norms that discourage men from seeking treat-
+ment or physician consultation. As a result, men often delay
+seeking treatment, which can increase the probability of ad-
+verse outcomes after COVID-19 infection (Banks 2001;
+Gebhard et al. 2020). Finally, the presence of comorbidities
+increases the risk of adverse outcomes to COVID-19, and
+males are overrepresented compared to females in patients
+with the common comorbidities for COVID-19.
+Hypertension is often listed as the most common comorbidity
+in patients hospitalized with COVID-19, and a study has
+shown that males under the age of 65 have higher levels of
+hypertension than females (Everett and Zajacova 2015;
+Gebhard et al. 2020). Taken together, males are more suscep-
+tible to severity and fatality from COVID-19 than females
+probably due to the activation of the DHT-AR-TMPRSS2
+pathway, lack of protection from female sex hormone estro-
+gen, higher levels of ACE2 in different organs, greater inci-
+dence of smoking, lesser levels of NO, and decreased immune
+response (Fig. 2).
+Possible Therapeutic Avenues for Controlling Gender-
+specific COVID-19 Cases
+Currently, research regarding possible therapeutic options for
+COVID-19 cases is focused on methods of modulating the ex-
+pression of ACE2 and TMPRSS2 in the body, as these are the
+molecules associated with the entry of SARS-CoV-2 in the cell.
+Upon binding to ACE2 to gain entry into the body, the
+SARS-CoV-2 virus subsequently downregulates ACE2 ex-
+pression, exacerbating respiratory issues and negatively
+impacting organ function. Under non-pathological conditions,
+ACE2 is necessary for maintaining respiratory health. Thus,
+increasing ACE2 expression in the body after SARS-CoV-2
+infection may help mitigate the symptoms of COVID-19.
+Some studies have found that treatment with recombinant hu-
+man ACE2 helped to improve lung impairment after COVID-
+19 infection (Gheblawi et al. 2020; Vaduganathan et al. 2020).
+Others have suggested that treatment of soluble ACE2 may
+create a biological decoy for SARS-CoV-2, leaving the
+membrane-bound ACE2 intact (Leow 2020; Lumbers et al.
+2020). Additionally, as discussed earlier, estrogen can upreg-
+ulate the expression of ACE2, thus creating a protective mech-
+anism against some of the complications during COVID-19
+infection (Bukowska et al. 2017). Therefore, estrogen treat-
+ment may be a potential avenue for COVID-19 in post-
+menopausal females. Furthermore, given that the positive ef-
+fects of estradiol administration on ACE2 expression was ob-
+served in the atrial tissue of elderly males, estrogen treatment
+may even be a viable therapeutic option for older populations
+of male patients (Bukowska et al. 2017).
+TMPRSS2 is affected by ARs; thus, modulating AR ex-
+pression may present therapeutic options for COVID-19.
+Inhibition of ARs can be achieved through AR antagonists,
+inhibitors to androgen synthesis, and antigonadotropins
+J Neuroimmune Pharmacol (2021) 16:38–47
+43
+(Goren et al. 2020). However, due to the possible protective
+effects of estrogen, further research on the use of
+antigonadotropins is necessary. Therapies targeting ARs are
+especially important for prostate cancer patients, due to their
+high expression of TMPRSS2. A study of prostate cancer
+patients found that those who were receiving androgen-
+deprivation therapies were less likely to develop COVID-19;
+and, there were no fatalities among the patients receiving
+androgen-deprivation therapies (Montopoli et al. 2020).
+These results provide preliminary evidence regarding the ben-
+efits of targeting the androgen receptor to mitigate COVID-19
+risk. Inhibiting TMRSS2 directly is another option for
+COVID-19 therapies. Camostat mesylate has been widely
+studied as an inhibitor to TMPRSS2, and studies have shown
+that it can be effective in preventing infection by SARS-CoV-
+2 (Montopoli et al. 2020; Vaduganathan et al. 2020). Another
+study showed that combining camostat mesylate with inhibi-
+tors of other proteases was successful in blocking SARS-
+CoV-2 into the body (Gheblawi et al. 2020) (Tables 1 and 2).
+Conclusions
+In conclusion, several reports point to the sex and gender
+differences in COVID-19 outcomes. Though the current evi-
+dence does not suggest a sex or gender difference COVID-19
+Fig. 2 Schematic describing
+possible mechanisms by which
+SARS-CoV-2 infection leads to
+different outcome in males and
+females. Red for worsening and
+green for protective
+Table 1 Influence of Sex
+Hormones on ACE2 throughout
+the Body
+Organ
+Sex Hormones
+Effect on ACE2
+Impact on COVID-19
+Lungs
+17β-estradiol
+Lower levels of ACE2 mRNA
+Protective effects against COVID-19
+Heart
+Estrogen
+Inhibitory effect on ACE2 activity
+Protective effects against COVID-19
+Testosterone
+Stimulatory effect on ACE2
+activity
+Increased vulnerability to adverse
+outcomes of COVID-19
+Kidney
+Estrogen/Estradiol
+Inhibitory effect on ACE2 activity
+and expression
+Protective effects against COVID-19
+This table details the differential effects of male and female sex hormones on the activity and expression of ACE2
+in the lungs, heart, and kidney. These organs are important targets for SARS-CoV-2, so elucidating the differential
+effects of sex hormones on ACE2 in these organs is a necessary step in developing effective therapeutics (Liu et al.
+2010; Dalpiaz et al. 2015; Ruggieri et al. 2016)
+44
+J Neuroimmune Pharmacol (2021) 16:38–47
+infection, male patients tend to have both higher severity and
+fatality rates. These disparities may be due to higher levels of
+ACE2 and TMPRSS2 in males, as well as hormonal influ-
+ences on the immune response. Gender differences in behav-
+ior can also contribute to the greater severity and fatality in
+COVID-19 observed among men. Men tend to make up a
+greater proportion of smokers and patients with COVID-19-
+associated comorbidities, while also being less likely to seek
+out medical health for illness. The combination of these fac-
+tors could lead to poorer COVID-19 outcomes. SARS-CoV-2
+relies on ACE2 and TMPRSS2 to enter the body; thus, treat-
+ment targeting the levels of these proteins could be possible
+therapies for COVID-19 infection. Supplementing ACE2
+levels in the body through treatment with soluble ACE2
+may be able to mitigate severe symptoms, while TMPRSS2
+inhibitors can prevent SARS-CoV-2 entry altogether.
+Treatment with estrogen has been shown to increase ACE2
+levels, but further research needs to be done regarding its
+effectiveness in COVID-19 cases. Understanding of these
+sex and gender differences is necessary, as it can help identify
+vulnerable populations and develop specific and effective
+therapeutic strategies.
+Acknowledgements This study was supported by grants from NIH
+(AG050431, AG069229, NS108025, and AT010980), the Zenith
+Fellows Award (ZEN-17-438829) from Alzheimer’s Association and
+merit awards (1I01BX003033 and 1I01BX005002) from US
+Department of Veterans Affairs to KP. Moreover, KP is the recipient of
+a Research Career Scientist Award (1IK6 BX004982) from the
+Department of Veterans Affairs.
+Compliance with Ethical Standards
+Conflict of Interest
+None.
+References
+Ambrosino I, Barbagelata E, Ortona E, Ruggieri A, Massiah G, Giannico
+OV, Politi C, Moretti AM (2020) Gender differences in patients with
+COVID-19: a narrative review. Monaldi Arch Chest Dis 90(2).
+https://doi.org/10.4081/monaldi.2020.1389
+Archer SL, Huang JM, Hampl V, Nelson DP, Shultz PJ, Weir EK (1994)
+Nitric oxide and cGMP cause vasorelaxation by activation of a
+charybdotoxin-sensitive K channel by cGMP-dependent protein ki-
+nase. Proc Natl Acad Sci U S A 91:7583–7587
+Banks I (2001) No man’s land: men, illness, and the NHS. BMJ 323:
+1058–1060
+Bukowska A, Spiller L, Wolke C, Lendeckel U, Weinert S, Hoffmann J,
+Bornfleth P, Kutschka I, Gardemann A, Isermann B, Goette A
+(2017) Protective regulation of the ACE2/ACE gene expression by
+estrogen in human atrial tissue from elderly men. Exp Biol Med
+(Maywood) 242:1412–1423
+Cai H (2020) Sex difference and smoking predisposition in patients with
+COVID-19. Lancet Respir Med 8:e20
+Cai G, Bosse Y, Xiao F, Kheradmand F, Amos CI (2020) Tobacco
+smoking increases the lung gene expression of ACE2, the receptor
+of SARS-CoV-2. Am J Respir Crit Care Med 201:1557–1559
+Cao Y, Zhang M, Guo Y, Zhang Y (2020) The overlooked chamber in
+coronavirus disease 2019. ESC Heart Fail. https://doi.org/10.1002/
+ehf2.12976
+Chappell MC, Marshall AC, Alzayadneh EM, Shaltout HA, Diz DI
+(2014) Update on the Angiotensin converting enzyme 2-
+Angiotensin (1–7)-MAS receptor axis: fetal programing, sex differ-
+ences, and intracellular pathways. Front Endocrinol (Lausanne) 4:
+201
+Dalpiaz PL, Lamas AZ, Caliman IF, Ribeiro RF Jr, Abreu GR, Moyses
+MR, Andrade TU, Gouvea SA, Alves MF, Carmona AK, Bissoli NS
+(2015) Sex hormones promote opposite effects on ACE and ACE2
+activity, hypertrophy and cardiac contractility in spontaneously hy-
+pertensive rats. PLoS One 10:e0127515
+Everett B, Zajacova A (2015) Gender differences in hypertension and
+hypertension awareness among young adults. Biodemography Soc
+Biol 61:1–17
+Fish EN (2008) The X-files in immunity: sex-based differences predis-
+pose immune responses. Nat Rev Immunol 8:737–744
+Gagliardi MC, Tieri P, Ortona E, Ruggieri A (2020) ACE2 expression
+and sex disparity in COVID-19. Cell Death Discov 6:37
+Garg S et al (2020) Hospitalization rates and characteristics of patients
+hospitalized with laboratory-confirmed coronavirus disease 2019 -
+COVID-NET, 14 States, March 1–30, 2020. MMWR Morb Mortal
+Wkly Rep 69:458–464
+Table 2
+How Sex Alters Expression of Binding Targets of SARS-CoV-
+2
+ACE2
+TMPRSS2
+Female Sex
+Hormon-
+es:
+Estrogen
+Estradiol
+Inhibitory effect on renal
+ACE2 activity and
+expression
+Female sex hormones have
+little effect on TMPRSS2
+expression
+Inhibitory effect on
+cardiac ACE2 activity
+Inhibitory effect on
+bronchial ACE2
+mRNA
+Therapeutic
+administration of
+estrogen may
+upregulate ACE2 to
+compensate for
+downregulation by
+SARS-CoV-2
+Male Sex
+Hormon-
+es:
+Testosterone
+Androgens
+Overall ACE2 activity is
+higher in males
+Males have higher expression
+of androgen receptors,
+which play a role in
+transcription of TMPRSS2
+Renal ACE2 activity and
+expression is higher in
+males
+Stimulatory effect on
+cardiac ACE2 activity
+ACE2 is found in testes
+Plasma concentrations of
+ACE2 are higher in
+males
+This table provides a summary regarding how biological sex influences
+the expression and activity of ACE2 and TMPRSS2, the mediators of
+entry of SARS-CoV-2 into the body (Liu et al. 2010; Soro-Paavonen et al.
+2012; Dalpiaz et al. 2015; Garg et al. 2020; Goren et al. 2020; Montopoli
+et al. 2020; Sama et al. 2020; Stelzig et al. 2020; Wambier et al. 2020;
+Wang and Xu 2020)
+J Neuroimmune Pharmacol (2021) 16:38–47
+45
+Gargaglioni LH, Marques DA (2020) DA (2020) Let’s talk about sex in
+the context of COVID-19. J Appl Physiol (1985) 128:1533–1538
+Gebhard C, Regitz-Zagrosek V, Neuhauser HK, Morgan R, Klein SL
+(2020) Impact of sex and gender on COVID-19 outcomes in
+Europe. Biol Sex Differ 11:29
+Gheblawi M, Wang K, Viveiros A, Nguyen Q, Zhong JC, Turner AJ,
+Raizada MK, Grant MB, Oudit GY (2020) Angiotensin-Converting
+Enzyme 2: SARS-CoV-2 Receptor and Regulator of the Renin-
+Angiotensin System: Celebrating the 20th Anniversary of the
+Discovery of ACE2. Circ Res 126:1456–1474
+Giefing-Kroll C, Berger P, Lepperdinger G, Grubeck-Loebenstein B
+(2015) How sex and age affect immune responses, susceptibility
+to infections, and response to vaccination. Aging Cell 14:309–321
+Goren A, McCoy J, Wambier CG, Vano-Galvan S, Shapiro J, Dhurat R,
+Washenik K, Lotti T (2020) What does androgenetic alopecia have
+to do with COVID-19? An insight into a potential new therapy.
+Dermatol Ther 33(4):e13365
+Grasselli G et al (2020) Baseline characteristics and outcomes of 1591
+patients infected with SARS-CoV-2 admitted to ICUs of the
+Lombardy Region, Italy. JAMA 323:1574–1581
+Guan WJ et al (2020) Clinical characteristics of coronavirus disease 2019
+in China. N Engl J Med 382:1708–1720
+Hoffmann M, Kleine-Weber H, Schroeder S, Kruger N, Herrler T,
+Erichsen S, Schiergens TS, Herrler G, Wu NH, Nitsche A, Muller
+MA, Drosten C, Pohlmann S (2020) SARS-CoV-2 cell entry de-
+pends on ACE2 and TMPRSS2 and Is blocked by a clinically prov-
+en protease inhibitor. Cell 181:271-280 e278
+Hou H, Wang T, Zhang B, Luo Y, Mao L, Wang F, Wu S, Sun Z (2020)
+Detection of IgM and IgG antibodies in patients with coronavirus
+disease 2019. Clin Transl Immunol 9:e01136
+Huang C et al (2020) Clinical features of patients infected with 2019
+novel coronavirus in Wuhan, China. Lancet 395:497–506
+Jain U (2020) Effect of COVID-19 on the organs. Cureus 12:e9540
+Jin JM, Bai P, He W, Wu F, Liu XF, Han DM, Liu S, Yang JK (2020)
+Gender differences in patients with COVID-19: focus on severity
+and mortality. Front Public Health 8:152
+Klein SL, Flanagan KL (2016) Sex differences in immune responses. Nat
+Rev Immunol 16:626–638
+Klein SL, Marriott I, Fish EN (2015) Sex-based differences in immune
+function and responses to vaccination. Trans R Soc Trop Med Hyg
+109:9–15
+Krueger A, Gunn JKL, Watson J, Smith AE, Lincoln R, Huston SL,
+Dirlikov E, Robinson S (2020) Characteristics and outcomes of
+contacts of COVID-19 patients monitored using an automated
+symptom monitoring tool - maine, May-June 2020. MMWR Morb
+Mortal Wkly Rep 69:1026–1030
+Leow MKS (2020) Clarifying the controversial risk-benefit profile of
+soluble ACE2 in COVID-19. Crit Care 24:396
+Liu J, Ji H, Zheng W, Wu X, Zhu JJ, Arnold AP, Sandberg K (2010) Sex
+differences in renal angiotensin converting enzyme 2 (ACE2) activ-
+ity are 17beta-oestradiol-dependent and sex chromosome-indepen-
+dent. Biol Sex Differ 1:6
+Liu X, Chen Y, Tang W, Zhang L, Chen W, Yan Z, Yuan P, Yang M,
+Kong S, Yan L, Qiao J (2020) Single-cell transcriptome analysis of
+the novel coronavirus (SARS-CoV-2) associated gene ACE2 ex-
+pression in normal and non-obstructive azoospermia (NOA) human
+male testes. Sci China Life Sci 63:1006–1015
+Lumbers ER, Delforce SJ, Pringle KG, Smith GR (2020) The lung, the
+heart, the novel coronavirus, and the renin-angiotensin system; The
+need for clinical trials. Front Med (Lausanne) 7:248
+Machhi J, Herskovitz J, Senan AM, Dutta D, Nath B, Oleynikov MD,
+Blomberg WR, Meigs DD, Hasan M, Patel M, Kline P, Chang RC,
+Chang L, Gendelman HE, Kevadiya BD (2020) The Natural history,
+pathobiology, and clinical manifestations of SARS-CoV-2 infec-
+tions. J Neuroimmune Pharmacol 15:359–386
+MacRitchie AN, Jun SS, Chen Z, German Z, Yuhanna IS, Sherman TS,
+Shaul PW (1997) Estrogen upregulates endothelial nitric oxide syn-
+thase gene expression in fetal pulmonary artery endothelium. Circ
+Res 81:355–362
+Martinez-Rojas MA, Vega-Vega O, Bobadilla NA (2020) Is the kidney a
+target of SARS-CoV-2? Am J Physiol Renal Physiol 318:F1454–
+F1462
+Montopoli M, Zumerle S, Vettor R, Rugge M, Zorzi M, Catapano CV,
+Carbone GM, Cavalli A, Pagano F, Ragazzi E, Prayer-Galetti T,
+Alimonti A (2020) Androgen-deprivation therapies for prostate can-
+cer and risk of infection by SARS-CoV-2: a population-based study
+(N = 4532). Ann Oncol 31:1040–1045
+Pahan P, Pahan K (2020) Smooth or risky revisit of an old malaria drug
+for COVID-19? J Neuroimmune Pharmacol 15:174–180
+Pampel FC (2006) Global patterns and determinants of sex differences in
+smoking. Int J Comp Sociol 47:466–487
+Pinto BGG, Oliveira AER, Singh Y, Jimenez L, Goncalves ANA, Ogava
+RLT, Creighton R, Schatzmann Peron JP, Nakaya HI (2020) ACE2
+expression is increased in the lungs of patients with comorbidities
+associated with severe COVID-19. J Infect Dis 222:556–563
+Rimmelzwaan GF, Baars MM, de Lijster P, Fouchier RA, Osterhaus AD
+(1999) Inhibition of influenza virus replication by nitric oxide. J
+Virol 73:8880–8883
+Ruggieri A, Anticoli S, D’Ambrosio A, Giordani L, Viora M (2016) The
+influence of sex and gender on immunity, infection and vaccination.
+Ann Ist Super Sanita 52:198–204
+Sama IE, Ravera A, Santema BT, van Goor H, Ter Maaten JM, Cleland
+JGF, Rienstra M, Friedrich AW, Samani NJ, Ng LL, Dickstein K,
+Lang CC, Filippatos G, Anker SD, Ponikowski P, Metra M, van
+Veldhuisen DJ, Voors AA (2020) Circulating plasma concentrations
+of angiotensin-converting enzyme 2 in men and women with heart
+failure and effects of renin-angiotensin-aldosterone inhibitors. Eur
+Heart J 41:1810–1817
+Saura M, Zaragoza C, McMillan A, Quick RA, Hohenadl C, Lowenstein
+JM, Lowenstein CJ (1999) An antiviral mechanism of nitric oxide:
+inhibition of a viral protease. Immunity 10:21–28
+Sharma A, Garcia G Jr, Wang Y, Plummer JT, Morizono K,
+Arumugaswami V, Svendsen CN (2020) Human iPSC-derived
+cardiomyocytes are susceptible to SARS-CoV-2 infection. Cell
+Rep Med 1:100052
+Soro-Paavonen A, Gordin D, Forsblom C, Rosengard-Barlund M, Waden
+J, Thorn L, Sandholm N, Thomas MC, Groop PH, FinnDiane Study
+G (2012) Circulating ACE2 activity is increased in patients with
+type 1 diabetes and vascular complications. J Hypertens 30:375–383
+Stelzig KE, Canepa-Escaro F, Schiliro M, Berdnikovs S, Prakash YS,
+Chiarella SE (2020) Estrogen regulates the expression of SARS-
+CoV-2 receptor ACE2 in differentiated airway epithelial cells. Am
+J Physiol Lung Cell Mol Physiol 318:L1280–L1281
+Stokes EK, Zambrano LD, Anderson KN, Marder EP, Raz KM, El Burai
+Felix S, Tie Y, Fullerton KE (2020) Coronavirus disease 2019 case
+surveillance - United States, January 22-May 30, 2020. MMWR
+Morb Mortal Wkly Rep 69:759–765
+Team TNCPERE (2020) The epidemiological characteristics of an out-
+break of 2019 novel coronavirus disease (COVID-19). China CDC
+Weekly 2:113–122
+Tian S, Hu N, Lou J, Chen K, Kang X, Xiang Z, Chen H, Wang D, Liu N,
+Liu D, Chen G, Zhang Y, Li D, Li J, Lian H, Niu S, Zhang L, Zhang
+J (2020) Characteristics of COVID-19 infection in Beijing. J Infect
+80:401–406
+Townsend EA, Meuchel LW, Thompson MA, Pabelick CM, Prakash YS
+(2011) Estrogen increases nitric-oxide production in human bron-
+chial epithelium. J Pharmacol Exp Ther 339:815–824
+Vaduganathan M, Vardeny O, Michel T, McMurray JJV, Pfeffer MA,
+Solomon SD (2020) Renin-angiotensin-aldosterone system inhibi-
+tors in patients with Covid-19. N Engl J Med 382:1653–1659
+46
+J Neuroimmune Pharmacol (2021) 16:38–47
+Vickers C, Hales P, Kaushik V, Dick L, Gavin J, Tang J, Godbout K,
+Parsons T, Baronas E, Hsieh F, Acton S, Patane M, Nichols A,
+Tummino P (2002) Hydrolysis of biological peptides by human
+angiotensin-converting enzyme-related carboxypeptidase. J Biol
+Chem 277:14838–14843
+Walter LA, McGregor AJ (2020) Sex- and gender-specific observations
+and implications for COVID-19. West J Emerg Med 21:507–509
+Wambier CG, Goren A, Vano-Galvan S, Ramos PM, Ossimetha A, Nau
+G, Herrera S, McCoy J (2020) Androgen sensitivity gateway to
+COVID-19 disease severity. Drug Dev Res 81:771–776
+Wang Z, Xu X (2020) scRNA-seq profiling of human testes reveals the
+presence of the ACE2 receptor, a target for SARS-CoV-2 Infection
+in spermatogonia&nbsp;leydig and sertoli cells. Cells 9(4):920
+Wink DA, Hines HB, Cheng RY, Switzer CH, Flores-Santana W, Vitek
+MP, Ridnour LA, Colton CA (2011) Nitric oxide and redox mech-
+anisms in the immune response. J Leukoc Biol 89:873–891
+Wortham JM et al (2020) Characteristics of persons who died with
+COVID-19 - United States, February 12-May 18, 2020. MMWR
+Morb Mortal Wkly Rep 69:923–929
+Yanez ND, Weiss NS, Romand JA, Treggiari MM (2020) COVID-19
+mortality risk for older men and women. BMC Public Health 20:
+1742
+Yuen KS, Ye ZW, Fung SY, Chan CP, Jin DY (2020) SARS-CoV-2 and
+COVID-19: The most important research questions. Cell Biosci 10:
+40
+Zaman MA, Oparil S, Calhoun DA (2002) Drugs targeting the renin-
+angiotensin-aldosterone system. Nat Rev Drug Discov 1:621–636
+Zhou F, Yu T, Du R, Fan G, Liu Y, Liu Z, Xiang J, Wang Y, Song B, Gu
+X, Guan L, Wei Y, Li H, Wu X, Xu J, Tu S, Zhang Y, Chen H, Cao
+B (2020) Clinical course and risk factors for mortality of adult in-
+patients with COVID-19 in Wuhan, China: a retrospective cohort
+study. Lancet 395:1054–1062
+Publisher’s Note Springer Nature remains neutral with regard to jurisdic-
+tional claims in published maps and institutional affiliations.
+J Neuroimmune Pharmacol (2021) 16:38–47
+47

@@ -1,0 +1,1820 @@
+Coronavirus Disease (COVID-19) – Statistics 
+and Research 
+by Max Roser, Hannah Ritchie and Esteban Ortiz-Ospina 
+Cite this research 
+Note: To inform yourself and understand the risk to the public we recommend to 
+rely on your government body responsible for health and the World Health 
+Organization – their site is here. 
+The mission of Our World in Data is to make data and research on the 
+world’s largest problems understandable and accessible. 
+Read more about our mission → 
+While most of our work focuses on large problems that humanity has faced for a 
+long time – such as child mortality, natural disasters, poverty and almost 100 
+other problems (see here) – this article focuses on a new, emerging global 
+problem: the ongoing outbreak of the coronavirus disease [COVID-19]. 
+The outbreak started in late 2019 and developed into a global pandemic by 
+March 2020. 
+This article covers a developing situation and the Our World in Data team is 
+regularly updating it: The last update was made on March 14, 2020 (21:00 
+London time). 
+About this page 
+Limitations of current research and limitations of our presentation of 
+current research 
+The purpose of this article on COVID-19 is to aggregate existing research, bring 
+together the relevant data and allow readers to make sense of the published 
+data and early research on the coronavirus outbreak. 
+Most of our work focuses on established problems, for which we can refer to 
+well-established research and data. COVID-19 is different. All data and research 
+on the virus is preliminary; researchers are rapidly learning more about a new 
+and evolving problem. It is certain that the research we present here will be 
+revised in the future. But based on our mission we feel it is our role to present 
+clearly what the current research and data tells us about this emerging problem 
+and especially to provide an understanding of what can and cannot be said 
+based on this available knowledge. 
+As always in our work, one important strategy of dealing with this problem is to 
+always link to the underlying original research and data so that everyone can 
+understand how this data was produced and how we arrive at the statements we 
+make. But scrutiny of all reported research and data is very much required. We 
+welcome your feedback. In the current situation we read and consider all 
+feedback, but can not promise to reply to all. 
+Our World in Data relies on data from the World Health Organization 
+In this document and the associated charts we report and visualize the data from 
+the ‘Situation Reports’, which the World Health Organization (WHO) publishes 
+daily. The WHO reports this data for each single day and they can be found here 
+at the WHO’s site. 
+According to the WHO the data published in these reports is correct as of 10am 
+(CET; Geneva time) each time. 
+We – the Our World in Data team – went back through all the daily Situation 
+Reports and found several minor errors in WHO’s data. We immediately notified 
+the WHO and are in close contact with the WHO’s team to correct the errors that 
+we pointed out to them. We document all errors we found. 
+We should emphasize that while there are errors in the published WHO data, all 
+of these errors are minor and do not affect our or the public’s understanding of 
+the evolving COVID-19 outbreak in a significant way. As can be seen in our 
+documentation these errors should be corrected (and will be), but they are small. 
+Here is our detailed documentation of where the WHO’s data is sourced from 
+and how we corrected its data – we also provide several options to download 
+all corrected data there. 
+Why do we rely on the data from the World Health Organization? 
+The World Health Organization is the UN agency concerned with global health. 
+National health agencies report their data on COVID-19 to the World Health 
+Organization who collects and aggregates this data from countries around the 
+world. 
+The most up-to-date data for any particular country is therefore typically earlier 
+available via the national health agencies than via the WHO. 
+This lag between nationally available data and the WHO data is not very long as 
+the WHO publishes new data daily. 
+We rely on the WHO data for two reasons. It is the authoritative source for this 
+information. And as they collect data from around the world the WHO data 
+allows us to compare what is happening in different countries, it provides a 
+global perspective. 
+Not only the World Health Organization publishes COVID-19 data 
+A number of other organizations – including Johns Hopkins University and other 
+research teams – publish their own lists of the number of confirmed cases and 
+deaths. Johns Hopkins also publishes data on ‘recovered cases’ while the WHO 
+does not. 
+At the end of this page we link to their visualizations and list links to other data 
+sources. 
+Cases of COVID-19 
+The number of total cases is what we want to know, but their number is not known 
+To understand the scale of the COVID-19 outbreak, and respond appropriately, 
+we would want to know how many people are infected by COVID-19. We would 
+want to know the total number of cases. 
+However, the total number of COVID-19 cases is not known. When media 
+outlets claim to report the ‘number of cases’ they are not being precise and omit 
+to say that it is the number of confirmed cases they speak about. 
+The total number of cases is not known, not by us at Our World in Data, nor by 
+any other research, governmental or reporting institution. 
+Confirmed cases is what we do know 
+What we do know is the number of confirmed cases. 
+A confirmed case is “a person with laboratory confirmation of COVID-19 
+infection” as World Health Organization (WHO) explains.1 
+Confirmed cases are therefore only a subset of the total number of cases. It is a 
+count of only those people who have COVID-19 and for whom a lab has 
+confirmed this diagnosis. 
+The WHO’s daily Situation Reports list the number of confirmed cases and we 
+rely on these reported numbers for the regular updates of our own datasets and 
+their visualizations presented below. 
+Why is the number of confirmed cases lower than the number of total cases? 
+The number of confirmed cases is lower than the number of total cases because 
+not everyone is tested. Not all cases have a “laboratory confirmation”, testing is 
+what makes the difference between the number of confirmed and total cases. 
+All countries have been struggling to test a large number of cases, which meant 
+that not every person that should have been tested, has in fact been tested. 
+Since an understanding of testing for COVID-19 is crucial for an interpretation of 
+the reported numbers of confirmed cases we have looked into the testing for 
+COVID-19 in more detail. 
+You find our work on testing further below in this document (click here to scroll 
+there). 
+Growth of cases: How long did it take for the number of confirmed cases to 
+double? 
+In the section below we present the latest data on the number of confirmed 
+cases by country. 
+But in an outbreak of an infectious disease it is important to not only study the 
+number of cases, but also the growth rate at which the number of cases is 
+increasing. 
+This is because even if the current numbers of cases and deaths are small when 
+compared with other diseases, a fast growth rate can lead to very large numbers 
+rapidly. 
+To report the rate of change we focus on the question: How long did it take for 
+the number of confirmed cases to double? 
+Let’s take an example: if the number of confirmed cases as of today is 1000, and 
+there were only 500 cases three days ago then we would say that it took three 
+days for the number of confirmed cases to double.2 
+The doubling time of cases has changed and it will change in the future. It would 
+be wrong to extrapolate current growth into the future.3 
+It is important to understand what it means for cases to double. As long as cases 
+are doubling at a constant rate the growth is exponential. We humans tend to 
+think in linear growth processes even when the growth is exponential, as 
+psychological research has shown for decades. Below we give some intuition 
+about exponential growth and provide the referenced psychological research on 
+this. 
+Understanding exponential growth 
+It is helpful to remind ourselves of the nature of exponential growth. 
+If during an outbreak the number of cases is in fact doubling and this doubling 
+time stays constant, then the outbreak is spreading exponentially. 
+Under exponential growth 500 cases grow to more than 1 million cases after 11 
+doubling times.4 And after 10 more doubling times it would be 1 billion cases. 
+This is in no way a prediction for the number of cases we should expect; it is 
+simply a reminder that exponential growth leads to very large numbers very 
+quickly, even when starting from a low base. And it is important to be reminded 
+of the nature of exponential growth because most of us do not grasp exponential 
+growth intuitively. Psychologists find that humans tend to think in linear growth 
+processes (1, 2, 3, 4) even when this is not appropriately describing the reality in 
+front of our eyes. This bias – to “linearize exponential functions when assessing 
+them intuitively” – is referred to as ‘exponential growth bias’.5 
+Psychological research shows that “neither special instructions about the nature 
+of exponential growth nor daily experience with growth processes” improved the 
+failure to grasp exponential growth processes.6 
+The global average hides more than it reveals: why we show this data country by country 
+Some countries – like China and Korea – have very substantial counter 
+measures in place and new daily confirmed cases have declined. 
+Many other countries do not have comparable measures in place and, as the 
+table shows, numbers are rising fast. 
+Because of these large differences between countries it is crucial to not only 
+study the global situation, but the situation in each country. 
+The global average hides the differences between countries that are 
+successfully reducing the number of new daily confirmed cases and those that 
+do not achieve this. 
+Growth: Country by country view 
+As just explained, it is crucial to not just look at the number of cases, but also 
+their growth over time and to go beyond the global average and study each 
+individual country. 
+For this reason the following table answers the following question for all 
+countries: How long did it take for the number of total confirmed cases to 
+double? 
+The table also shows – country by country – how the total number of confirmed 
+cases has increased and how the number of daily new confirmed has changed 
+over the last 14 days. 
+You can sort the table by any of the columns by clicking on the column header. 
+Data: The data shown here is published by the World Health Organization 
+(WHO). Here is our documentation of the data and an option to download all 
+data. 
+The figures shown are based on the WHO data up to and including 14th 
+March 2020. 
+Location 
+How long did 
+it take for the 
+number 
+of total 
+confirmed 
+cases to 
+double? 
+Total confirmed cases 
+WHO data. Up to date for 
+10 AM (CET) on March 14. 
+Daily new confirmed 
+cases 
+WHO data. Up to date for 
+10 AM (CET) on March 14. 
+World 
+doubled in 
+27 days  
+142,539 totalMarch 14 
++9,766 newMarch 14 
+China 
+doubled in 
+33 days  
+81,021 totalMarch 14 
++30 newMarch 14 
+Italy 
+doubled in 
+5 days  
+17,660 totalMarch 14 
++2,547 newMarch 14 
+Iran 
+doubled in 
+7 days  
+11,364 totalMarch 14 
++1,289 newMarch 14 
+South Korea 
+doubled in 
+13 days  
+8,086 totalMarch 14 
++107 newMarch 14 
+Spain 
+doubled in 
+3 days  
+4,231 totalMarch 14 
++1,266 newMarch 14 
+France 
+doubled in 
+3 days  
+3,640 totalMarch 14 
++780 newMarch 14 
+Location 
+How long did 
+it take for the 
+number 
+of total 
+confirmed 
+cases to 
+double? 
+Total confirmed cases 
+WHO data. Up to date for 
+10 AM (CET) on March 14. 
+Daily new confirmed 
+cases 
+WHO data. Up to date for 
+10 AM (CET) on March 14. 
+Germany 
+doubled in 
+3 days  
+3,062 totalMarch 14 
++693 newMarch 14 
+United States 
+doubled in 
+3 days  
+1,678 totalMarch 14 
++414 newMarch 14 
+Switzerland 
+doubled in 
+3 days  
+1,125 totalMarch 14 
++267 newMarch 14 
+Netherlands 
+doubled in 
+3 days  
+804 totalMarch 14 
++190 newMarch 14 
+United 
+Kingdom 
+doubled in 
+3 days  
+802 totalMarch 14 
++208 newMarch 14 
+Denmark 
+doubled in 
+3 days  
+801 totalMarch 14 
++127 newMarch 14 
+Sweden 
+doubled in 
+3 days  
+775 totalMarch 14 
++155 newMarch 14 
+Norway 
+doubled in 
+3 days  
+750 totalMarch 14 
++261 newMarch 14 
+Japan 
+doubled in 
+8 days  
+716 totalMarch 14 
++41 newMarch 14 
+Belgium 
+doubled in 
+3 days  
+599 totalMarch 14 
++285 newMarch 14 
+Austria 
+doubled in 
+3 days  
+504 totalMarch 14 
++143 newMarch 14 
+Qatar 
+doubled in 
+3 days  
+262 totalMarch 14 
++0 newMarch 14 
+Bahrain 
+doubled in 
+5 days  
+210 totalMarch 14 
++15 newMarch 14 
+Location 
+How long did 
+it take for the 
+number 
+of total 
+confirmed 
+cases to 
+double? 
+Total confirmed cases 
+WHO data. Up to date for 
+10 AM (CET) on March 14. 
+Daily new confirmed 
+cases 
+WHO data. Up to date for 
+10 AM (CET) on March 14. 
+Singapore 
+doubled in 
+14 days  
+200 totalMarch 14 
++13 newMarch 14 
+Australia 
+doubled in 
+4 days  
+197 totalMarch 14 
++57 newMarch 14 
+Malaysia 
+doubled in 
+5 days  
+197 totalMarch 14 
++68 newMarch 14 
+Canada 
+doubled in 
+4 days  
+176 totalMarch 14 
++38 newMarch 14 
+Czech 
+Republic 
+doubled in 
+3 days  
+150 totalMarch 14 
++34 newMarch 14 
+Slovenia 
+doubled in 
+1 day  
+141 totalMarch 14 
++84 newMarch 14 
+Portugal 
+doubled in 
+1 day  
+112 totalMarch 14 
++71 newMarch 14 
+Finland 
+doubled in 
+2 days  
+109 totalMarch 14 
++0 newMarch 14 
+Israel 
+doubled in 
+4 days  
+100 totalMarch 14 
++25 newMarch 14 
+Kuwait 
+doubled in 
+13 days  
+100 totalMarch 14 
++20 newMarch 14 
+Brazil 
+doubled in 
+3 days  
+98 totalMarch 14 
++21 newMarch 14 
+Greece 
+doubled in 
+7 days  
+98 totalMarch 14 
++0 newMarch 14 
+Egypt 
+doubled in 
+7 days  
+93 totalMarch 14 
++26 newMarch 14 
+Location 
+How long did 
+it take for the 
+number 
+of total 
+confirmed 
+cases to 
+double? 
+Total confirmed cases 
+WHO data. Up to date for 
+10 AM (CET) on March 14. 
+Daily new confirmed 
+cases 
+WHO data. Up to date for 
+10 AM (CET) on March 14. 
+Iraq 
+doubled in 
+7 days  
+93 totalMarch 14 
++23 newMarch 14 
+Ireland 
+doubled in 
+2 days  
+90 totalMarch 14 
++20 newMarch 14 
+United Arab 
+Emirates 
+doubled in 
+8 days  
+85 totalMarch 14 
++0 newMarch 14 
+India 
+doubled in 
+6 days  
+82 totalMarch 14 
++8 newMarch 14 
+Estonia 
+doubled in 
+1 day  
+79 totalMarch 14 
++66 newMarch 14 
+Lebanon 
+doubled in 
+5 days  
+77 totalMarch 14 
++11 newMarch 14 
+Thailand 
+doubled in 
+18 days  
+75 totalMarch 14 
++0 newMarch 14 
+Indonesia 
+doubled in 
+1 day  
+69 totalMarch 14 
++35 newMarch 14 
+San Marino 
+doubled in 
+6 days  
+66 totalMarch 14 
++3 newMarch 14 
+Philippines 
+doubled in 
+5 days  
+64 totalMarch 14 
++12 newMarch 14 
+Poland 
+doubled in 
+3 days  
+64 totalMarch 14 
++15 newMarch 14 
+Romania 
+doubled in 
+3 days  
+64 totalMarch 14 
++16 newMarch 14 
+Saudi Arabia 
+doubled in 
+1 day  
+62 totalMarch 14 
++41 newMarch 14 
+Location 
+How long did 
+it take for the 
+number 
+of total 
+confirmed 
+cases to 
+double? 
+Total confirmed cases 
+WHO data. Up to date for 
+10 AM (CET) on March 14. 
+Daily new confirmed 
+cases 
+WHO data. Up to date for 
+10 AM (CET) on March 14. 
+Iceland 
+doubled in 
+8 days  
+61 totalMarch 14 
++0 newMarch 14 
+Vietnam 
+doubled in 
+6 days  
+48 totalMarch 14 
++9 newMarch 14 
+Chile 
+doubled in 
+3 days  
+43 totalMarch 14 
++10 newMarch 14 
+Luxembourg 
+doubled in 
+1 day  
+38 totalMarch 14 
++21 newMarch 14 
+Palestine 
+doubled in 
+6 days  
+35 totalMarch 14 
++4 newMarch 14 
+Argentina 
+doubled in 
+3 days  
+34 totalMarch 14 
++3 newMarch 14 
+Russia 
+doubled in 
+3 days  
+34 totalMarch 14 
++0 newMarch 14 
+Albania 
+doubled in 
+2 days  
+33 totalMarch 14 
++10 newMarch 14 
+Serbia 
+doubled in 
+3 days  
+31 totalMarch 14 
++12 newMarch 14 
+Slovakia 
+doubled in 
+2 days  
+30 totalMarch 14 
++9 newMarch 14 
+Peru 
+doubled in 
+3 days  
+28 totalMarch 14 
++6 newMarch 14 
+Croatia 
+doubled in 
+4 days  
+27 totalMarch 14 
++11 newMarch 14 
+Panama 
+doubled in 
+2 days  
+27 totalMarch 14 
++13 newMarch 14 
+Location 
+How long did 
+it take for the 
+number 
+of total 
+confirmed 
+cases to 
+double? 
+Total confirmed cases 
+WHO data. Up to date for 
+10 AM (CET) on March 14. 
+Daily new confirmed 
+cases 
+WHO data. Up to date for 
+10 AM (CET) on March 14. 
+Algeria 
+doubled in 
+8 days  
+26 totalMarch 14 
++1 newMarch 14 
+Mexico 
+doubled in 
+1 day  
+26 totalMarch 14 
++14 newMarch 14 
+Brunei 
+doubled in 
+1 day  
+25 totalMarch 14 
++13 newMarch 14 
+Georgia 
+doubled in 
+6 days  
+25 totalMarch 14 
++0 newMarch 14 
+Costa Rica 
+doubled in 
+4 days  
+23 totalMarch 14 
++1 newMarch 14 
+Ecuador 
+doubled in 
+9 days  
+23 totalMarch 14 
++6 newMarch 14 
+Belarus 
+doubled in 
+3 days  
+21 totalMarch 14 
++9 newMarch 14 
+Pakistan 
+doubled in 
+5 days  
+21 totalMarch 14 
++1 newMarch 14 
+Hungary 
+doubled in 
+4 days  
+19 totalMarch 14 
++3 newMarch 14 
+Oman 
+doubled in 
+11 days  
+19 totalMarch 14 
++1 newMarch 14 
+South Africa 
+doubled in 
+3 days  
+17 totalMarch 14 
++0 newMarch 14 
+Colombia 
+doubled in 
+3 days  
+16 totalMarch 14 
++7 newMarch 14 
+Latvia 
+doubled in 
+3 days  
+16 totalMarch 14 
++0 newMarch 14 
+Location 
+How long did 
+it take for the 
+number 
+of total 
+confirmed 
+cases to 
+double? 
+Total confirmed cases 
+WHO data. Up to date for 
+10 AM (CET) on March 14. 
+Daily new confirmed 
+cases 
+WHO data. Up to date for 
+10 AM (CET) on March 14. 
+Tunisia 
+doubled in 
+1 day  
+16 totalMarch 14 
++9 newMarch 14 
+Cyprus 
+doubled in 
+1 day  
+14 totalMarch 14 
++8 newMarch 14 
+Malta 
+doubled in 
+2 days  
+12 totalMarch 14 
++3 newMarch 14 
+Azerbaijan 
+doubled in 
+8 days  
+11 totalMarch 14 
++0 newMarch 14 
+Bosnia and 
+Herzegovina 
+doubled in 
+1 day  
+11 totalMarch 14 
++7 newMarch 14 
+Senegal 
+doubled in 
+2 days  
+10 totalMarch 14 
++0 newMarch 14 
+Countries with less than 10 confirmed cases are not shown. Cases from the Diamond Princess cruise ship 
+are also not shown since these numbers are no longer changing over time. 
+Data source: WHO. Download the full dataset. 
+Confirmed COVID-19 cases by country 
+In our visualizations here you can explore the number of total confirmed cases 
+and daily new confirmed cases for all countries with reported cases. 
+These charts are interactive: the data is shown as the worldwide figures by 
+default but can be explored by country – by clicking on + Add Country within 
+the chart. 
+Data: The data shown here is published by the World Health Organization 
+(WHO). We from Our World in Data found several minor errors in the WHO data 
+– we documented these errors, corrected them, reported them to the WHO, and 
+are in close contact with colleagues at the WHO. Here is the documentation of 
+the data and an option to download all data. 
+Explanation of the the large number of cases in China on February 
+17th: You will notice a dramatic increase in the number of confirmed cases on 
+17th February 2020. As the WHO notes in its Situation Report 27, this is the 
+result of a change in reporting methodology to include clinically-diagnosed cases 
+in addition to laboratory-confirmed cases as previously reported. 
+This change in methodology only affected figures in the Hubei province in China, 
+but due to the large number of cases in this region it had a significant impact on 
+global figures too.7 
+The large apparent increase in confirmed cases in China, and globally, on 17th 
+February therefore reflects this change in methodology rather than an actual 
+sudden increase in cases on that particular day. 
+ 
+Total confirmed COVID-19 cases 
+ 
+ 
+Because of limited testing the number of total cases is not known as explained at 
+OurWorldInData.org/Coronavirus 
+The number of confirmed cases is lower than the number of total cases. 
+Add country 
+Jan 21, 2020Jan 31, 2020Feb 10, 2020Feb 20, 2020Mar 1, 2020Mar 14, 
+2020020,00040,00060,00080,000100,000120,000140,000LINEARWorld 
+CC BY 
+Source: World Health Organization daily Situation Reports [COVID-19] 
+Note: The large increase in the number of cases globally and in China on Feb 17 is the result of a change in reporting 
+methodology. 
+Jan 21, 2020 
+Mar 14, 2020 
+ 
+CHART 
+ 
+MAP 
+ 
+DATA 
+ 
+SOURCES 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Daily new confirmed cases of COVID-19 
+ 
+ 
+Because of limited testing the number of total cases is not known as explained at 
+OurWorldInData.org/Coronavirus 
+The number of confirmed cases is lower than the number of total cases. 
+Add country 
+Jan 21, 2020Jan 31, 2020Feb 10, 2020Feb 20, 2020Mar 1, 2020Mar 14, 
+202005,00010,00015,000LINEARWorld 
+CC BY 
+Source: World Health Organization daily Situation Reports [COVID-19] 
+Note: The large number of cases globally and in China on Feb 17 is the result of a change in reporting methodology. 
+Jan 21, 2020 
+Mar 14, 2020 
+ 
+CHART 
+ 
+MAP 
+ 
+DATA 
+ 
+SOURCES 
+ 
+ 
+ 
+ 
+ 
+ 
+Trajectories since the 100th confirmed case 
+Did the number of confirmed cases rise faster in China, Italy, South Korea, or 
+the US? 
+The charts above are not very useful to answer these types of questions, 
+because the outbreak of COVID-19 did not happen at the same day in all 
+countries. 
+The chart shown here is designed to allow these comparisons. 
+This chart allows the reader to compare the trajectory of confirmed cases 
+between countries. The starting point for each country is the day that particular 
+country had reached 100 confirmed cases. 
+China had a particular fast rise. Just 10 days after the 100th confirmed case the 
+country already confirmed the 10,000th case. 
+Other countries saw a much slower increase. The speed at which the number of 
+confirmed cases increased in Singapore and Japan was much slower than in 
+other countries. 
+The grey lines show trajectories for a doubling time of 2 das and a doubling time 
+of 3 days. Countries that follow a steeper rise have seen a doubling time faster 
+than that. 
+The trajectory of China and South Korea shows that the speed at which cases 
+rise is not necessarily constant over time. Both countries saw a rapid initial rise 
+but then implemented severe counter measures (see here). As the chart shows 
+the trajectory became flatter, the speed of the outbreak has decreased. 
+ 
+Total confirmed cases of COVID-19 
+ 
+ 
+The starting point for each country is the day that country had reached 100 confirmed cases. 
+This allows us to compare the trajectory of confirmed cases between countries. 
+Because of limited testing the number of confirmed cases is lower than the number of total cases. 
+Days since the 100th confirmed case01020304050Total confirmed cases of COVID-
+191001,00010,000LOGdoubling every 2 daysdoubling every 3 daysdoubling every 10 
+daysdoubling every 5 daysChinaJapanSouth KoreaUnited 
+StatesSingaporeAustraliaFranceFinlandItalySwedenIranAustriaSwitzerlandCzech 
+RepublicAsiaEuropeNorth AmericaOceania053 
+CC BY 
+Source: WHO COVID-2019 Situation Reports 
+0 
+53 
+ Search 
+ 
+CHART 
+ 
+DATA 
+ 
+SOURCES 
+ 
+ 
+ 
+ 
+ 
+ 
+Deaths from COVID-19 
+What we want to know is the total number of deaths and the mortality risk 
+To understand the mortality risk of the COVID-19 outbreak – the likelihood that 
+someone who catches the disease will die from it – we would want to know the 
+share of people who are infected with the disease that die from it. We want to 
+know the final number of deaths that result for a given infected population. 
+However, in an ongoing outbreak the final outcomes (death or recovery) for all 
+cases is not yet known. The time from symptom onset to death ranges from 2 to 
+8 weeks for COVID-19.8 This means there are individuals who are in the early or 
+mid-stages of infection who will die at a later date. 
+We therefore cannot give a definitive figure for the mortality risk of the disease. 
+Confirmed deaths to date is what we do know 
+What we do know is the total number of confirmed deaths to date. The World 
+Health Organization (WHO) publishes updates on confirmed deaths to date in its 
+‘Situation Reports’, which can be found here at the WHO’s site. 
+This means we can track how the number of deaths is changing over time. It 
+does not inform us of the probability that someone infected with the diseases 
+dies from it – to know this we would need to know the final outcome of all cases 
+of the disease. Some individuals who are currently infected with COVID-19 are 
+likely to die at a later date. 
+Confirmed COVID-19 deaths by country 
+In our visualizations here you can explore the number of total deaths and 
+daily new deaths for all countries with reported deaths. 
+These charts are interactive: the data is shown as the worldwide figures by 
+default but can be explored by country – by clicking on + Add Country within 
+the chart. 
+The data shown here is published by the World Health Organization (WHO). We 
+from Our World in Data found several minor errors in the WHO data – we 
+documented these errors, corrected them, reported them to the WHO, and are in 
+close contact with colleagues at the WHO. Here is the documentation of the data 
+and an option to download all data. 
+ 
+Total confirmed deaths due to COVID-19 
+ 
+ 
+Add country 
+Jan 21, 2020Jan 31, 2020Feb 10, 2020Feb 20, 2020Mar 1, 2020Mar 14, 
+202001,0002,0003,0004,0005,000LINEARWorld 
+CC BY 
+Source: World Health Organization daily Situation Reports [COVID-19] 
+Jan 21, 2020 
+Mar 14, 2020 
+ 
+CHART 
+ 
+MAP 
+ 
+DATA 
+ 
+SOURCES 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Daily new confirmed deaths due to COVID-19 
+ 
+ 
+Add country 
+Jan 21, 2020Jan 31, 2020Feb 10, 2020Feb 20, 2020Mar 1, 2020Mar 14, 
+20200100200300400LINEARWorld 
+CC BY 
+Source: World Health Organization daily Situation Reports [COVID-19] 
+Jan 21, 2020 
+Mar 14, 2020 
+ 
+CHART 
+ 
+MAP 
+ 
+DATA 
+ 
+SOURCES 
+ 
+ 
+ 
+ 
+ 
+ 
+Testing for COVID-19 
+Why is testing important? 
+We want to know the total number of people infected with COVID-19. To know 
+this, it is necessary to have widespread testing. 
+When testing is too low we do not have a clear picture of what’s going on. 
+Testing is crucial as it allows the infected person to avoid infecting others and to 
+quickly receive the care they need. And it is crucial for all of us to understand the 
+prevalence of the disease, to understand how the disease evolves, and to allow 
+us to take evidence-based decisions for counter measures that slow down the 
+spread of the disease.9 
+This last point is very important: Testing is crucial to lower the rate of infection. 
+When infected people do not know that they are infected, they might not stay at 
+home – thereby running the risk of infecting others. 
+Unfortunately, there are two important reasons why testing is still low in many 
+countries affected by COVID-19.  
+First, some people who are infected with COVID-19 have mild symptoms and 
+therefore do not go to get checked (we explain what is known about the 
+symptoms here and also discuss how many suffer from severe and critical 
+symptoms). 
+The second reason is that in many places the capacity for COVID-19 testing is 
+low. 
+How are COVID-19 tests done? 
+The most common diagnostic tests for COVID-19 are the so-called “PCR tests” 
+that use swabbed samples from a patient’s nose and throat. 
+The first PCR tests were developed within two weeks of the disease being 
+identified, and are currently part of the protocol recommended by the WHO.10 
+Here you can find an explainer video on how the tests for coronavirus disease 
+work. 
+What information about test coverage do we currently have? 
+Ideally, we would want to know how many people in the world are being tested 
+for COVID-19 every day, and how the available tests are being allocated. 
+Unfortunately there is no centralized database by the WHO on COVID-19 testing 
+and many countries in the world currently do not publish official reports on tests 
+performed. 
+Several countries however do publish aggregate estimates on the total number 
+of tests performed. These reports are published across individual websites, 
+statistical reports and press releases – often in multiple languages and updated 
+with different periodicity. 
+Because a global overview was not available, we at Our World in Data brought 
+together a large number of data sources from individual national reports. 
+Below we show the most recent data as of 13 March 2020, 09.00 GMT. We will 
+do our best to expand and update these estimates regularly.11 
+Current COVID-19 test coverage estimates 
+The two charts here show the most recent official estimates of tests we have 
+been able to find as of 13 March 2020, 09.00 GMT. 
+Note that the estimates refer to different dates for each country, as indicated in 
+the brackets. 
+The first chart shows the total number of tests up to the specified date. 
+The second chart shows the number of tests relative to the size of the 
+population: it is the number of total COVID-19 tests per million people. 
+The available data shows that South Korea has done many more tests than any 
+other country. This suggests that the number of confirmed cases in Korea is 
+closer to the total number of cases than in other countries. 
+It is therefore particularly encouraging to see that the number of daily confirmed 
+cases in South Korea has decreased – here you find our chart that shows the 
+decline of confirmed new cases in South Korea.  
+The US, on the other hand, has experienced big problems rolling out their 
+testing strategy and according to the US Centers for Disease Control and 
+Prevention, only a total number of 13,624 samples had been tested by 12 
+March, 2020. The total number of tests conducted in South Korea up to the 
+same date was nearly 18-times larger. 
+The low test coverage of the US is even starker if we look relative to the large 
+population of the country. We see many smaller countries have been able to 
+conduct more tests per million people. 
+[NB. We provide two estimates for the US. The estimate labelled “US – CDC 
+samples tested” is from the Centers for Disease Control and Prevention, and 
+refers to the number of tests conducted, not the number of individuals tested. 
+The COVID Tracking Project tracks the cumulative number of people tested in 
+the US by tallying individual state reporting. We report these figures under the 
+label “US – COVID Tracking Project”] 
+The fact that South Korea has managed to expand testing so quickly shows that 
+it is possible. Because testing is crucial it is important that in the coming days 
+other countries follow. 
+Country by country estimates and sources 
+We list estimates country by country, including exact dates and links to the 
+underlying source, in a companion page here. 
+ 
+Total COVID-19 tests performed by country 
+ 
+ 
+Most recent data available from official sources as of 13 March 2020 - 9.00GMT 
+Add country 
+050,000100,000150,000200,000250,000300,000China - Guangdong320,000 (Feb 24, 
+2020)South Korea248,647 (Mar 13, 2020)Italy86,011 (Mar 12, 2020)Russia76,963 (Mar 
+11, 2020)United Kingdom29,764 (Mar 12, 2020)Taiwan16,089 (Mar 13, 2020)United 
+States - CDC samples tested13,624 (Mar 12, 2020)Japan10,205 (Mar 12, 
+2020)Bahrain9,201 (Mar 12, 2020)Australia - New South Wales8,008 (Mar 8, 
+2020)Norway8,000 (Mar 12, 2020)United States - COVID-Tracking project7,934 (Mar 12, 
+2020)France6,628 (Mar 5, 2020)Austria6,582 (Mar 13, 2020)Netherlands6,000 (Mar 7, 
+2020)Thailand5,232 (Mar 12, 2020)Vietnam4,588 (Mar 12, 2020)Canada - Alberta4,288 
+(Mar 12, 2020)Canada - Ontario4,185 (Mar 12, 2020)India4,058 (Mar 6, 
+2020)Malaysia4,010 (Mar 12, 2020)Denmark3,839 (Mar 13, 2020)Slovenia3,058 (Mar 12, 
+2020)Czech Republic2,353 (Mar 12, 2020)Poland2,234 (Mar 12, 2020)Canada - British 
+Columbia2,008 (Mar 6, 2020)Ireland1,784 (Mar 9, 2020)Finland900 (Mar 11, 
+2020)Hungary858 (Mar 13, 2020)Iceland856 (Mar 11, 2020)Slovakia853 (Mar 12, 
+2020)Philippines717 (Mar 12, 2020)Australia - Australian Capital Territory649 (Mar 13, 
+2020)South Africa645 (Mar 11, 2020)Lithuania366 (Mar 13, 2020)Croatia344 (Mar 9, 
+2020)New Zealand338 (Mar 11, 2020)Armenia211 (Mar 9, 2020) 
+CC BY 
+Source: Our World in Data based on official country reports 
+ 
+CHART 
+ 
+DATA 
+ 
+SOURCES 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Total COVID-19 tests performed per million people 
+ 
+ 
+Most recent data available from official sources as of 13 March 2020 - 9.00GMT 
+Add country 
+01,0002,0003,0004,0005,0006,000Bahrain6,164.5 (Mar 12, 2020)South Korea4,831.3 
+(Mar 13, 2020)China - Guangdong2,820.4 (Feb 24, 2020)Iceland2,508.2 (Mar 11, 
+2020)Norway1,514.5 (Mar 12, 2020)Slovenia1,479.6 (Mar 12, 2020)Italy1,420.5 (Mar 12, 
+2020)Austria747.2 (Mar 13, 2020)Taiwan676.6 (Mar 13, 2020)Denmark665.4 (Mar 13, 
+2020)Russia532.6 (Mar 11, 2020)United Kingdom450.8 (Mar 12, 2020)Ireland370.6 (Mar 
+9, 2020)Netherlands350.2 (Mar 7, 2020)Czech Republic222.2 (Mar 12, 2020)Finland163.3 
+(Mar 11, 2020)Slovakia156.8 (Mar 12, 2020)Lithuania129.4 (Mar 13, 2020)Malaysia126.8 
+(Mar 12, 2020)France98.8 (Mar 5, 2020)Hungary87.7 (Mar 13, 2020)Croatia83.4 (Mar 9, 
+2020)Japan80.5 (Mar 12, 2020)Thailand75.8 (Mar 12, 2020)Armenia72 (Mar 9, 2020)New 
+Zealand70.5 (Mar 11, 2020)Poland58.8 (Mar 12, 2020)Vietnam48 (Mar 12, 2020)United 
+States - CDC samples tested41.8 (Mar 12, 2020)United States - COVID-Tracking 
+project24.4 (Mar 12, 2020)South Africa11.4 (Mar 11, 2020)Philippines6.8 (Mar 12, 
+2020)India3 (Mar 6, 2020) 
+CC BY 
+Source: Our World in Data based on official country reports 
+ 
+CHART 
+ 
+DATA 
+ 
+SOURCES 
+ 
+ 
+ 
+ 
+ 
+ 
+The COVID-19 pandemic 
+The name of the disease and the virus 
+The names for the virus and the disease it causes have been announced by the 
+World Health Organization and the International Committee on Taxonomy of 
+Viruses.12 
+The disease is called coronavirus disease. It is abbreviated as COVID-19. 
+The virus is called severe acute respiratory syndrome coronavirus 2 and it is 
+abbreviated as SARS-CoV-2. In the same statement the WHO also explains that 
+they themselves also refer to the virus as “the virus responsible for COVID-19” 
+or “the COVID-19 virus” when communicating with the public. We follow the 
+same conventions here. 
+How did the outbreak start? 
+On 29 December 2019 Chinese authorities identified a cluster of similar cases 
+of pneumonia in the city of Wuhan in China. Wuhan is a city with 11 million 
+inhabitants and is the capital of the Hubei Province. 
+These cases were soon determined to be caused by a novel coronavirus that 
+was later named SARS-CoV-2.13 
+Coronaviruses are a group of viruses that are common in humans and are 
+responsible for up to 30% of common colds.14 Corona is Latin for “crown” – this 
+group of viruses is given its name due to the fact that its surface looks like a 
+crown under an electron microscope. 
+Two outbreaks of new diseases in recent history were also caused by 
+coronaviruses – SARS in 2003 that resulted in around 1,000 deaths15 and MERS 
+in 2012 that resulted in 862 deaths.16 
+The first cases of COVID-19 outside of China were identified on January 13 in 
+Thailand and on January 16 in Japan. 
+On January 23rd the city of Wuhan and other cities in the region were placed 
+on lockdown by the Chinese Government. 
+Since then COVID-19 has spread to many more countries – cases have been 
+reported in all world regions. You can see the latest available data in the 
+dashboards of cases and deaths which are kept up-to-date by Johns Hopkins 
+University and the WHO discussed here. 
+Related work by Our World in Data: 
+ Pneumonia – Severe cases of COVID-19 can progress to 
+pneumonia.17 Our entry on pneumonia provides an overview of the data 
+and research on this disease that kills 2.6 million annually. 
+ The Spanish flu (1918-20): The global impact of the largest influenza pandemic 
+in history – We look at the global death toll and mortality rate of the Spanish flu 
+and compare it with three other large influenza pandemics in the last century. 
+Strategies to respond to COVID-19 
+The intention of early containment 
+A lower peak of the outbreak allows the healthcare system to provide care for more people 
+The total mortality of an epidemic can be high even if the symptoms for the vast 
+majority are mild. While it might not seem intuitive, it is possible for the following 
+two things to be true at the same time: 
+ For the majority of people, symptoms are mild and in some cases similar to the 
+common flu. 
+ An epidemic of the same disease can cause a very high number of deaths. 
+As we discuss here, the symptoms of COVID-19 can be very severe in many 
+cases. Many of these patients require treatment in intensive care units (ICUs). 
+The WHO reports that “about a quarter of severe and critical cases require 
+mechanical ventilation.”18 
+‘Flattening the curve’ 
+This is why early counter measures are important in an epidemic. Their intention 
+is to lower the rate of infection so that the epidemic is spread out over time such 
+that the peak demand on the healthcare system is lower. 
+Containment measures are intended to avoid an outbreak trajectory in which a 
+large number of people get sick at the same time. This is what the visualization 
+shows. 
+This is the reason that limiting the magnitude of peak incidence of an outbreak is 
+important. Health systems can care for more patients across an outbreak when 
+the number of cases is spread out over a long period rather than condensed in a 
+very short period. 
+What such counter measures to the pandemic attempt to avoid is that the 
+number of patients at one point in time is so large that health systems fail to 
+provide the required care for some patients19 
+COVID-19: What are the symptoms? How does the disease 
+progress? 
+If you suspect that you have COVID-19 please see the official guidance, 
+information and advice provided by the WHO or the health agency of your 
+country (COVID-19 information by the National Health Service of the UK is here; 
+and by the US CDC here).  
+Why we need to study data to know the symptoms of COVID-19 
+COVID-19 leads to a number of symptoms, but from what is known currently 
+some symptoms are much more common than others and for this reason we 
+need to look at the available data. 
+The danger of relying solely on text and not on numbers is that crucial nuance 
+can get lost. This is the case for the media coverage of the symptoms of COVID-
+19. 
+Coverage of the disease, even in reputable sources, includes long lists of 
+symptoms without conveying to the reader how common or rare the listed 
+symptoms are – here is a poor example from the BBC. It is crucial to know how 
+common the various symptoms of COVID-19 are, as it allows a better 
+assessment of whether one suffers from the disease or not. This is lost in 
+reporting that relies on text  – especially if the list of potential symptoms is long, 
+and overlaps strongly with many other types of illness. 
+In a simple list of COVID-19 symptoms the reader might see that muscle pain is 
+listed as a symptom and then wrongly conclude that they do not have the 
+disease if they are not suffering from muscle pain. Knowing the frequency of 
+symptoms means knowing that the vast majority of known cases (85% in the 
+sample below) did not suffer from this symptom. 
+The symptoms of COVID-19 
+The WHO described the symptoms of 55,924 laboratory confirmed cases of 
+COVID-19 in China in the period up to February 20.20 
+The visualization here shows this data. 
+It is most crucial to know the common symptoms: fever and a dry cough. 
+As the visualization shows, close to 90% of cases had a fever and two-thirds 
+had a dry cough. 
+The third most common symptom was fatigue. Almost 40% of cases suffered 
+from it. 
+‘Sputum production’ was experienced by every third person. Sputum is not 
+saliva. It is a thick mucus which is coughed up from the lungs (see here).  
+Of the 55,924 cases fewer than 1-in-5 (18.6%) experienced shortness of breath 
+(‘dyspnoea’). An earlier study, reported that a much higher share (55%) of cases 
+suffered from dyspnoea, but this was based on a much smaller number of cases 
+(835 patients).21 
+Many of the most common symptoms are shared with those of the common flu 
+or cold. So it is also good to know which common symptoms of the common flu 
+or the common cold are not symptoms of COVID-19. COVID-19 infection seems 
+to rarely cause a runny nose. 
+How long is the incubation period of COVID-19? 
+The WHO writes “people with COVID-19 generally develop signs and symptoms, 
+including mild respiratory symptoms and fever, on an average of 5-6 days after 
+infection.”22 
+While the mean incubation period is 5 to 6 days, the WHO adds that the 
+incubation period can vary in a wide range of between 1 to 14 days.23  
+This is based on the 55,924 confirmed cases in China. There are reports of 
+cases with longer incubation periods in the media (a case of 27 days is 
+reported here). 
+How long does COVID-19 last? 
+On average the disease lasts two weeks. The WHO reports that “the median 
+time from onset to clinical recovery for mild cases is approximately 2 weeks.”24 
+Again this is based on the 55,924 confirmed cases in China 
+For severe and critical cases it is 3 to 6 weeks according to the same study. 
+And for those who eventually died, the time from symptom onset to death 
+ranged from 2 to 8 weeks. This is important when interpreting the case fatality 
+rate (see below). Measures of the CFR of an ongoing outbreak do (obviously) 
+not include deaths of patients who will eventually die, but have not died yet at 
+the time of measurement. This means that the current CFR would be lower than 
+the eventual CFR. 
+How does COVID-19 progress? 
+The symptoms of the disease develop and change over time. 
+It seems to be common that symptoms start with a fever, followed by a dry 
+cough.25 
+After several days some patients experience shortness of breath. 
+Symptoms can increase in severity as emphasised in the following section. In 
+severe and critical cases it can lead to severe pneumonia, respiratory failure, 
+septic shock, and multiple organ dysfunction or failure. 
+As we discuss in detail below, for some cases COVID-19 leads to death. 
+The severity of the symptoms of COVID-19 
+This visualization shows the severity of symptoms suffered by 44,415 Chinese 
+patients confirmed to have coronavirus in the early period up to February 11.26 
+It is likely that many more cases were so mild that they were not identified as 
+COVID-19. Estimates published by Read et al. (2020) suggest that only around 
+5% of cases in China have been diagnosed and recorded.27 
+Symptoms were categorized as mild, severe, or critical and the research article 
+describes these as follows: 
+Critical cases: Critical cases include patients who suffered respiratory failure, 
+septic shock, and/or multiple organ dysfunction or failure. 
+Severe cases: This includes patients who suffered from shortness of breath, 
+respiratory frequency ≥ 30/minute, blood oxygen saturation ≤93%, PaO2/FiO2 
+ratio <300,28 and/or lung infiltrates >50% within 24–48 hours.  
+Mild cases: The majority (81%) of these coronavirus disease cases were mild 
+cases. Mild cases include all patients without pneumonia or cases of mild 
+pneumonia. 
+ 
+What do we know about the risk of dying from COVID-19? 
+What we want to know is the risk of dying once you are infected with COVID-19. 
+As of early March 2020, this is not known to researchers, and we therefore have 
+to rely on a number of metrics that allow us to get a perspective on the risk of 
+mortality. However, to make sense of these metrics we need to understand their 
+definitions and the challenges in measuring them. This is the focus of the section 
+below. 
+We provide an overview of what we know and what these measures mean, to 
+allow an interpretation of the current knowledge. 
+The definition of the case fatality rate (CFR) 
+Most current discussions of the mortality risk of COVID-19 refer to the case 
+fatality rate (CFR). This is the metric we will focus on, but it is crucial to 
+understand the caveats to this data, and how it differs from alternative 
+measures.29 
+The case fatality rate is the share who died from the disease among individuals 
+diagnosed with the disease. The CFR is calculated by dividing the total number 
+of deaths from a disease by the number of confirmed cases. It is expressed as a 
+percentage and used as a measure of disease severity.  
+In the following section we look at the challenges of estimating the CFR. One of 
+the key challenges is that the number of confirmed cases is often smaller than 
+the number of total cases. The trouble is that often many cases of a disease 
+are never diagnosed. This could be because cases with mild symptoms are 
+often not tested or because not everyone who is sick goes to a hospital where 
+such cases could be diagnosed, or because testing facilities are limited. 
+The case fatality rate is sometimes called case fatality risk or case fatality ratio. 
+The case fatality rate should not be confused with the crude mortality rate from 
+the disease. 
+The crude mortality rate measures the probability that any individual in the 
+population will die from the disease – not just those who are confirmed cases. It 
+is a very different measure. It’s calculated by dividing the number of deaths from 
+the disease by the total population. This crude mortality rate is sometimes also 
+referred to as the crude death rate. 
+This is important to differentiate, because unfortunately people sometimes 
+confuse case fatality rates with crude death rates. A common example is the 
+Spanish flu pandemic in 1918. The often cited estimate by Johnson and Mueller 
+(2002) is that 50 million people died globally from this pandemic and this implies 
+that 2.7% of the world population at the time died. This means 
+the crude mortality rate was 2.7%. But 2.7% is often misreported as 
+the case fatality rate.30 If it was in fact the case that the crude mortality rate was 
+2.7% then the case fatality rate was much higher, since not everyone in the 
+world was infected with the Spanish flu. [We look at the global death count of 
+this pandemic and others here.] 
+Measuring and interpreting the case fatality rate 
+It is important to understand the measurement challenges to understand what 
+the case fatality rate can and cannot tell us about a disease outbreak. 
+There is no single case fatality rate for a disease – it is context-specific, changing with time 
+and location 
+Unfortunately, it is common to report the CFR as a single value. But the CFR is 
+not a biological constant. The CFR is not a value which is tied to the given 
+disease, but is instead reflective of the severity of the disease in a particular 
+context, at a particular time, in a particular population.  
+The probability that someone dies from a disease is not only dependent on the 
+disease itself, but also the social and individual response to it: the level and 
+timing of treatment they receive, and the ability of the given individual to recover 
+from it. 
+This means that the CFR can decrease or increase over time, and that it can 
+vary by location and by the characteristics of the infected population (age, sex, 
+pre-existing conditions). 
+The CFR of COVID-19 differs by location and has changed during the early period of the 
+outbreak 
+In the chart here we see that the case fatality rate of COVID-19 is not constant. 
+This chart was published in the Report of the WHO-China Joint Mission on 
+Coronavirus Disease 2019 (COVID-19), in February 2020.31 
+The plotted values of the COVID-19 CFR here refer to several locations in China 
+during the early stages of the outbreak, from the beginning of January 2020 to 
+20th February 2020. 
+We see that in the earliest stages of the outbreak the CFR was much higher: 
+17.3% across China as a whole (in yellow) and greater than 20% in the centre of 
+the outbreak, in Wuhan (in blue). 
+In the weeks that followed, the CFR declined. The WHO reports that “the 
+standard of care has evolved over the course of the outbreak”. The CFR fell to 
+0.7% for patients with the onset of symptoms after February 1st. 
+We also see that the CFR was different in different locations. By 1st February 
+the CFR in Wuhan was still 5.8% while it was 0.7% across the rest of China. 
+This makes clear that what we said about the CFR more generally is true for the 
+CFR of COVID-19 specifically. The CFR is not only reflective of the disease 
+itself, but specific to where and when people are diagnosed with the disease. It’s 
+therefore incorrect to report it as a single point value for the disease, and instead 
+requires us to also report the time and place. 
+Case fatality ratio for COVID-19 in China over time and by location, as of 20 February 2020 – 
+Figure 4 in WHO (2020)32 
+ 
+The true total number of cases is likely higher than the number of confirmed cases 
+To calculate the probability of dying from a disease, we would need to know two 
+metrics: the number of deaths and the true total number of cases. However, the 
+CFR is calculated from the number of confirmed cases only. 
+This means that if there are cases which are not diagnosed – for example 
+because they are mild or asymptomatic – then the CFR does not provide a good 
+measure of the probability of dying from the disease. If there are a large number 
+of undiagnosed cases, we would overestimate the probability of dying from this 
+disease. The CFR value would be too high. 
+The early data from China suggests that the majority of coronavirus disease 
+cases are mild. 81% of the 44,415 studied Chinese cases during the early period 
+of the outbreak had only mild symptoms (no pneumonia or only mild cases of 
+pneumonia).33 This makes it likely that some cases were so mild that they were 
+never diagnosed as COVID-19. This would mean that the total number of people 
+infected could be significantly higher than the number of diagnosed cases. If this 
+is the case then the probability of dying from the disease is lower than the 
+measured CFR. 
+Early research suggested that this was the case during the early period of the 
+outbreak in Wuhan between 1 and 22 January: estimates published by Read et 
+al. (2020) suggest that there and then 5% of cases had been diagnosed and 
+recorded.34 
+We need to be careful in interpreting the case fatality rate of an ongoing outbreak 
+Once an epidemic or outbreak is over, we can rely on aggregate statistics of 
+cases and deaths to calculate the case fatality rate. 
+But we need to be careful with how to interpret the CFR during an outbreak 
+because the outcome (recovery or death) of a large number of cases is still 
+unknown. 
+If today we calculate the CFR of the coronavirus disease based on the number 
+of people who have died from it, and the number of people diagnosed with 
+having the virus, we will be aggregating people at different stages in the 
+development of the disease. Some people may be in the early stages of the 
+illness; others towards the end. 
+As explained above, in the case of COVID-19 the time from symptom onset to 
+death ranged from 2 to 8 weeks.35 This means that there are many who are sick 
+and will die, but have not died yet. 
+Though they may be now be counted as confirmed cases, those that will go on 
+to die will not yet be included in the current count of the number deaths. This 
+means we would underestimate the eventual case fatality rate of the infected 
+population. 
+Or in other words, the case fatality rate during an outbreak would be just as high 
+as the eventual case fatality rate of this population if none of the current cases 
+die. This would be wrong to assume. 
+This is what happened during the SARS-CoV outbreak in 2003: the CFR was 
+initially reported to be 3-5% during the early stages of the outbreak, but had 
+risen to around 10% by the end.36,37 
+While this was due to the described problem it had two bad consequences for 
+the responses to the outbreak: The low numbers that were published initially 
+resulted in an underestimate of the severity of the outbreak. And the rise of the 
+CFR over time gave the wrong impression that SARS was becoming more 
+deadly over time. 
+Global case fatality rate of COVID-19 
+Based on the discussion of the definition of the case fatality rate (CFR), we 
+should stress again that there is no single figure of CFR for any particular 
+disease. The CFR varies by location, and is typically changing over time. 
+However, with a good understanding of the measure and its limitations, CFR is 
+helpful for understanding what we currently know about the severity of the 
+disease and for responding accordingly. 
+In the period up to and including 9th March 2020, the global Case Fatality 
+Rate for COVID-19 are as follows. 
+Case fatality rate globally = 3.48% 
+[based on 109,578 confirmed cases and 3809 deaths] 
+Case fatality rate in China: 3.86% 
+[based on 80,904 confirmed cases and 3123 deaths] 
+Case fatality rate for the rest of the world: 2.39% 
+[based on 28,674 confirmed and 686 deaths] 
+As explained above, this number has changed and it will continue to change. It’s 
+currently higher than the estimates of a CFR of around 2% that were published 
+until early February. 
+As we’ve discussed above, this does not necessarily represent a worsening of 
+the situation: as we saw during the SARS outbreak, the CFR can rise during an 
+outbreak because the outcome of more cases becomes known.  
+As we also explained above, it would be wrong to assume that this CFR would 
+be true everywhere, because it is a global average of confirmed deaths and 
+cases. The early CFR in Wuhan was very high as we see here; the large 
+number of deaths there in the early period impacts the average. 
+Other studies for the Zhejiang province suggest that the CFR in China outside of 
+Wuhan was likely lower.38 
+Case fatality rate of COVID-19 by age 
+Early data from China suggests that the elderly are most at risk 
+The total population-level estimate of the case fatality rate (CFR) above is useful 
+for understanding the average severity of an outbreak, but does not tell us who 
+within a population is most at risk. But this understanding is crucial in an 
+outbreak. Understanding the relative risk to different sections of a population 
+allows us to focus on the most vulnerable, and improve the allocation of health 
+resources to those who need them most. 
+The Chinese Center for Disease Control and Prevention has published an 
+analysis of recorded cases and deaths in China for the period until February 
+11th 2020 which provides a breakdown of all known cases, deaths and the CFR 
+by specific demographics (age, sex, preexisting condition etc.).39 
+A breakdown of the CFR by age group is shown in the visualization. It shows 
+very large differences of the CFR by age.  
+For many infectious diseases young children are most at risk. We see this for 
+malaria: the majority of deaths (57% globally) are in children under five years of 
+age. The same was true for the largest pandemic in recorded history: During the 
+‘Spanish flu’ in 1918 it was primarily children and young adults who died from 
+the pandemic (we write more about this in the article here). 
+For the COVID-19 cases in China the opposite seems to be true, at least based 
+on the information available at the time of writing. The elderly are at the greatest 
+risk of dying if infected with this virus. 
+Based on the data from China – shown in the visualization – 14.8% of those who 
+are 80 years and older who were infected by COVID-19 died as a result. As 
+explained above, these figures represent the share of people diagnosed as 
+having the disease who die from it. This does not represent the share of people 
+in the entire population who die from it. 
+The case fatality rate for children is much lower. There were no reported deaths 
+in children under 10 years old; 0.2% of those aged 10 to 19 years who were 
+diagnosed with COVID-19 died from it according to the early Chinese data. 
+As we show in the following section, the CFR for people with underlying health 
+conditions is higher than for those without. One possible reason why the elderly 
+might be most at risk is that they are also those who are most likely to have 
+underlying health conditions such as cardiovascular diseases, respiratory 
+diseases or diabetes.  
+Case fatality rate of COVID-19 by preexisting health conditions 
+Early data from China suggests that those with underlying health conditions are at a higher 
+risk 
+The visualization here shows the case fatality rate for populations within China 
+based on their health status or underlying health condition. 
+This is based on the same data from the Center for Disease Control and 
+Prevention’s initial breakdown of cases, deaths and CFR among specific 
+demographics in the population.40 This analysis was based on recorded deaths 
+and cases in China in the period up to February 11th 2020. 
+The researchers found that the CFR for those with an underlying health 
+condition is much higher than for those without. 
+More than 10% of those diagnosed with COVID-19 who already had 
+a cardiovascular disease, died as a result of the virus. Diabetes, chronic 
+respiratory diseases, hypertension, and cancer were all risk factors as well, as 
+we see in the chart. 
+The CFR was 0.9% for those without a preexisting health condition. 
+Above we saw that the elderly are most at risk of dying from COVID-19. This 
+might be partly explained by the fact that they are also most likely to have 
+underlying health conditions such as cardiovascular disease, respiratory disease 
+and diabetes; these health conditions make it more difficult to recover from the 
+COVID-19 infection. 
+ 
+Case fatality rate of COVID-19 compared to other diseases 
+How does the case fatality rate (CFR) of COVID-19 compare to other virus outbreaks and 
+diseases? 
+Once again, we should stress what we discussed above. One has to understand 
+the measurement challenges and the definitions to interpret estimates of the 
+CFR for COVID-19, particularly those relating to an ongoing outbreak. 
+As comparisons, the table shows the case fatality rates for other disease 
+outbreaks. The CFR of SARS-CoV and MERS-CoV were high: 10% and 34%, 
+respectively.41 
+The US seasonal flu has a case fatality rate of approximately 0.1% – much lower 
+than the current CFR for COVID-19. 
+Sources of data shown in the table: 
+SARS-CoV: Venkatesh, S. & Memish, Z.A. (2004). SARS: the new challenge to international health and travel medicine. EMHJ 
+– Eastern Mediterranean Health Journal, 10 (4-5), 655-662, 2004. 
+SARS-CoV and MERS-CoV: Munster, V. J., Koopmans, M., van Doremalen, N., van Riel, D., & de Wit, E. (2020). A novel 
+coronavirus emerging in China—key questions for impact assessment. New England Journal of Medicine, 382(8), 692-694. 
+Seasonal flu: US Centers for Disease Control and Prevention (CDC). Influenza Burden, 2018-19. 
+Ebola: Shultz, J. M., Espinel, Z., Espinola, M., & Rechkemmer, A. (2016). Distinguishing epidemiological features of the 2013–
+2016 West Africa Ebola virus disease outbreak. Disaster Health, 3(3), 78-88. 
+Ebola: World Health Organization (2020). Ebola virus disease: Factsheet. 
+Disease 
+Estimated case fatality rate (CFR) 
+SARS-CoV 
+10% 
+Venkatesh and Memish (2004) 
+Munster et al. (2020) 
+MERS-CoV 
+34% 
+Munster et al. (2020) 
+Seasonal flu (US) 
+0.1% 
+US CDC 
+Ebola 
+50% 
+40% in the 2013-16 outbreak 
+WHO (2020) 
+Shultz et al. (2016) 
+How do case fatality rates from COVID-19 compare to those of the seasonal flu? 
+This question is answered in the visualization here. We compare the CFR during 
+the outbreak of COVID-19 in China with the CFR of the US seasonal flu in 2018-
+19. 
+The case fatality rate of the seasonal flu in the US is around 0.1% to 0.2%, while 
+the case fatality rate for COVID-19, measured in the cited study, was 2.3%. 
+The US data is sourced from the US CDC. Here we present an upper and lower 
+estimate for the 2018-19 flu season. These two figures reflect whether we look 
+at the percentage of deaths out of the number of symptomatic illnesses (giving 
+us 0.1%), or the number of medical visits (giving us 0.2%). In the traditional 
+calculation of CFR, we would tend to focus on the number of symptomatic 
+illnesses. This is analogous to the number of confirmed cases, on which the 
+COVID-19 figures are based. However, the US CDC derives these figures based 
+on disease outbreak modelling which attempts to account for underreporting – 
+you can read more about how it derives its annual flu figures here. 
+This means that some of the biases which tend to underestimate the actual 
+number of cases have been corrected for. This is not the case for the COVID-19 
+figures, so it may be an unfair comparison. 
+Looking at estimates based on the number of medical visits may discount from 
+the US seasonal flu data many of the kind of mild cases that may have been 
+missed in the COVID-19 confirmed cases. However, this is likely to skew the 
+comparison slightly in the other direction: we know that not all of the confirmed 
+cases included in COVID-19 figures were of a severity such that they would 
+have received a medical visit in the absence of the heightened surveillance of 
+the outbreak. 
+So, here we present both figures of the US seasonal flu figures: the CFR based 
+on symptomatic illnesses, and those based on medical visits (shown in square 
+brackets). It’s likely that the fairest comparison to COVID-19 lies somewhere 
+between these two values. 
+You can find the data for the reported cases, medical visits and deaths from the 
+US Centers for Disease Control and Prevention (CDC) here. The 
+CDC reports 35,520,883 symptomatic cases of influenza in the US and 34,157 
+deaths from the flu. To calculate the CFR based on symptomatic illnesses, we 
+divide the number of deaths by the number of confirmed cases and find a case 
+fatality rate of 0.1%.42 
+The CFRs for COVID-19 are again based on the numbers reported by 
+the Chinese Center for Disease Control and Prevention.43 As before, the Chinese 
+data refers to recorded deaths and confirmed cases in China as of February 
+11th 2020. 
+As calculated above, the global CFR for COVID-19 continues to change over 
+time, and the global average CFR based on the WHO data is 3.4% (as of 9th 
+March 2020). 
+While the CFR for COVID-19 is much higher than the CFR of the seasonal flu 
+the two diseases are similar in the profile of the fatality rate by age: elderly 
+populations have higher case fatality rates. 
+However, the CFR of COVID-19 is much higher for all age groups, including 
+young people. On top of each bar we have indicated how much higher the CFR 
+for COVID-19 is for each age group. 
+ 
+Data and dashboards from other sources 
+The World Health Organization (WHO), researchers from Johns Hopkins 
+University, and other institutions all maintain datasets on the number of cases, 
+deaths, and recoveries from the disease. 
+These are presented in a number of useful dashboards and websites listed 
+below. 
+Johns Hopkins data on COVID-19 
+A dashboard is published and hosted by researchers at the Center for Systems 
+Science and Engineering, Johns Hopkins University. It shows the number and 
+location of confirmed COVID-19 cases, deaths, and recoveries in all affected 
+countries. 
+The researchers have the intention to “continue hosting and managing the tool 
+throughout the entirety of the COVID-19 outbreak”. 
+Scientific Paper: The background paper for the Johns Hopkins’ dashboard was 
+published by Dong, Du, and Gardner (2020) in The Lancet Infectious 
+Disease.44 This paper also includes a comparison of this data with the data 
+reported by the WHO and the Chinese CDC. 
+Data: All collected data in this effort from the Johns Hopkins University is made 
+freely available by the researchers through this GitHub repository. You can 
+download all the data shown in the dashboard. Information on the sources of 
+their data can also be found directly there. 
+Link: Here is the Johns Hopkins dashboard. A mobile friendly version of the 
+embedded dashboard is here. 
+WHO data on COVID-19 
+The World Health Organization (WHO) publishes a dashboard similar to that of 
+Johns Hopkins above. 
+The WHO dashboard on global cases and deaths is embedded here. In this 
+dashboard it is possible to see up-to-date country specific data by selecting the 
+country in the top right. 
+In addition to this dashboard, the WHO publishes daily Situation 
+Reports which can be found here. It is the daily Situation reports that we rely on 
+in our own published datasets on case and death numbers. Unlike the daily 
+Situation Reports, the WHO dashboard is updated three times per day: any 
+inconsistencies between the WHO dashboard and the data we present will be 
+explained by this fact. 
+As we explained above, the Our World in Data team found several minor errors 
+in the WHO data – we documented these errors, corrected them, reported them 
+to the WHO, and are in close contact with colleagues at the WHO. Here is the 
+documentation of our adjustments to the WHO data and an option to download 
+all data. 
+nCoV-2019 Data Working Group data 
+The nCoV-2019 Data Working Group, which includes colleagues from the 
+University of Oxford, publishes epidemiological data from the outbreak via 
+this global dashboard. From this dashboard it is possible to obtain the underlying 
+data which includes demographic and epidemiological descriptions of a long list 
+of individual cases. 
+Their data on the list of cases includes individual travel history and key dates for 
+each patient – date of onset of symptoms, date of hospitalisation and date of 
+laboratory confirmation of whether the person was infected with the COVID-19 
+virus or not. 
+This data is intended to be helpful in the estimation of key statistics for the 
+disease: Incubation period, basic reproduction number (R0), age-stratified risk, 
+risk of importation. 
+In previous disease outbreaks such global individual data was not openly 
+available. 
+Data from the Chinese Center for Disease Control and Prevention 
+The Chinese Center for Disease Control and Prevention publishes data via their 
+dedicated site Tracking the epidemic. 
+References 
+1. See any Situation Report by the WHO – for example Situation Report 50. 
+The WHO also speaks of ‘suspected cases’ and ‘probable cases’, but the 
+WHO Situation Reports do not provide figures on ‘probable cases’, and only 
+report ‘suspected cases’ for Chinese provinces (‘suspected cases’ by country 
+is not available). 
+In Situation Report 50 they define these as follows: 
+Suspect case 
+A. A patient with acute respiratory illness (fever and at least one 
+sign/symptom of respiratory disease (e.g., cough, shortness of breath), AND 
+with no other etiology that fully explains the clinical presentation AND a history 
+of travel to or residence in a country/area or territory reporting local 
+transmission (See situation report) of COVID-19 disease during the 14 days 
+prior to symptom onset. 
+OR 
+B. A patient with any acute respiratory illness AND having been in contact 
+with a confirmed or probable COVID19 case (see definition of contact) in the 
+last 14 days prior to onset of symptoms; 
+OR 
+C. A patient with severe acute respiratory infection (fever and at least one 
+sign/symptom of respiratory disease (e.g., cough, shortness breath) AND 
+requiring hospitalization AND with no other etiology that fully explains the 
+clinical presentation. 
+Probable case 
+A suspect case for whom testing for COVID-19 is inconclusive. 
+• Inconclusive being the result of the test reported by the laboratory 
+2. Note that this metric is distinct from another way in which a doubling time can 
+be calculated. It is also possible to calculate the doubling time implied by the 
+current daily rate of change. But the reporting of confirmed cases and deaths 
+is very ‘noisy’ – one day the statistical agency does not report new confirmed 
+cases, but the next day it is reporting all the new cases within the last two 
+days for example. Doubling time based on the most recent daily growth rate 
+may therefore be more susceptible to this type of noise from day-to-day 
+variability. 
+3. One way to see that this is true is to ask when the number of cases would be 
+larger than the total world population. To give a concrete example: starting 
+from 140,000 cases it would only take 18 doublings for the number of cases to 
+be larger than the world population. 
+4. 500, 1000, 2000, 4000, 8000, 16,000, 32,000, 64,000, 128,000, 256,000, 
+512,000, 1,024,000 
+5. See for example Stango, Victor, and Jonathan Zinman (2009) – “Exponential 
+growth bias and household finance.” The Journal of Finance 64.6 (2009): 
+2807-2849. 
+6. This is quoted from Wagenaar and Sagaria (1975). Wagenaar, W.A., Sagaria, 
+S.D. Misperception of exponential growth. Perception & Psychophysics 18, 
+416–422 (1975). <a 
+href=”https://doi.org/10.3758/BF03204114″>https://doi.org/10.3758/BF032041
+14</a> 
+7. In its Situation Report 27 (17th February 2020) the WHO notes: “From today, 
+WHO will be reporting all confirmed cases, including both laboratory-
+confirmed as previously reported, and those reported as clinically diagnosed 
+(currently only applicable to Hubei province, China). From 13 February 
+through 16 February, we reported only laboratory confirmed cases for Hubei 
+province as mentioned in the situation report published on 13 February. The 
+change in reporting is now shown in the figures. This accounts for the 
+apparent large increase in cases compared to prior situation reports.“ 
+8. World Health Organization (2020). Report of the WHO-China Joint Mission on 
+Coronavirus Disease 2019 (COVID-19). Available online at: 
+https://www.who.int/docs/default-source/coronaviruse/who-china-joint-
+mission-on-covid-19-final-report.pdf 
+9. For example, the report of the WHO-China Joint Mission on Coronavirus 
+Disease, 16-24 February 2020, online here, explains on page 34: 
+“Development of rapid and accurate point-of-care tests which perform well in 
+field settings are especially useful if the test can be incorporated into presently 
+commercially available multiplex respiratory virus panels. This would markedly 
+improve early detection and isolation of infected patients and, by extension, 
+identification of contacts.” 
+10. 
+The report of the WHO-China Joint Mission on Coronavirus Disease, 16-
+24 February 2020, online here, explains that in addition to PCR tests, there 
+are other diagnostic methods that remain less common, including serological 
+diagnostic tests that rely on antibody assays using a blood sample. According 
+to the WHO-China Joint Mission, the timeline for the development of the PCR 
+tests was as follows: (i) On 29 December 2019 Chinese authorities identified 
+a cluster of similar cases of pneumonia in the city of Wuhan in China; (ii) on 7 
+January, the virus found to cause COVID-19 was initially isolated from a 
+clinical sample; (iii) on 16 January, the first PCR assays for COVID-19 were 
+distributed to Hubei, China. You can find more information on the WHO 
+protocols for COVID-19 laboratory testing in humans 
+here: https://www.who.int/emergencies/diseases/novel-coronavirus-
+2019/technical-guidance/laboratory-guidance 
+11. 
+The Wikipedia page on COVID-19 Testing also compiles available 
+estimates. These often cover more countries, but they are sometimes 
+inaccurate or out of date – as is clear from the sources we documented. 
+The estimates reported in the Wikipedia page were incorrect, or traced back 
+to unreliable sources, such as comments from local officials or experts via 
+social media or newspaper articles. For this reason we followed up all 
+published national data ourselves and do not rely on Wikipedia as a source. 
+12. 
+“Naming the coronavirus disease (COVID-19) and the virus that causes it”. 
+World Health Organization. 
+The ICTV’s page is here: International Committee on Taxonomy of Viruses 
+(ICTV) 
+13. 
+Ren LL, Wang YM, Wu ZQ, et al. (2020) –Identification of a novel 
+coronavirus causing severe pneumonia in human: a descriptive study 
+[published online ahead of print, 2020 Feb 11]. Chin Med J (Engl). 
+2020;10.1097/CM9.0000000000000722. 
+doi:10.1097/CM9.0000000000000722 
+14. 
+Mesel-Lemoine M, Millet J, Vidalain PO, et al. (2012) – A human 
+coronavirus responsible for the common cold massively kills dendritic cells but 
+not monocytes. J Virol. 2012;86(14):7577–7587. doi:10.1128/JVI.00269-
+12 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3416289/ 
+15. 
+Smith RD (2006) – “Responding to global infectious disease outbreaks: 
+lessons from SARS on the role of risk perception, communication and 
+management”. Social Science & Medicine. 63 (12): 3113–23. 
+doi:10.1016/j.socscimed.2006.08.004. Online here. 
+16. 
+This is the death count up to January 2020 according to the WHO here. 
+17. 
+Wang D, Hu B, Hu C, et al. (2020) – Clinical Characteristics of 138 
+Hospitalized Patients With 2019 Novel Coronavirus–Infected Pneumonia in 
+Wuhan, China. JAMA. Published online February 07, 2020. 
+doi:10.1001/jama.2020.1585. Online here. 
+18. 
+World Health Organization (2020). Report of the WHO-China Joint Mission 
+on Coronavirus Disease 2019 (COVID-19). Available online here. See also: 
+Coronavirus: action plan. A guide to what you can expect across the UK. 
+Published 3 Mar. 2020. British government. Online here. 
+19. 
+For a discussion of this principle in a model of the outbreak of COVID-19 
+see Leon Danon, Ellen Brooks-Pollock, Mick Bailey, Matt Keeling (2020) – A 
+spatial model of CoVID-19 transmission in England and Wales: early spread 
+and peak timing. Preprint online here. 
+20. 
+As of 20 February 2020 and based on 55,924 laboratory confirmed cases, 
+typical signs and symptoms include: fever (87.9%), dry cough (67.7%), fatigue 
+(38.1%), sputum production (33.4%), shortness of breath (18.6%), sore throat 
+(13.9%), headache (13.6%), myalgia or arthralgia (14.8%), chills (11.4%), 
+nausea or vomiting (5.0%), nasal congestion (4.8%), diarrhea (3.7%), and 
+hemoptysis (0.9%), and conjunctival congestion (0.8%). World Health 
+Organization (2020). Report of the WHO-China Joint Mission on Coronavirus 
+Disease 2019 (COVID-19). Available online at: 
+https://www.who.int/docs/default-source/coronaviruse/who-china-joint-
+mission-on-covid-19-final-report.pdf 
+21. 
+Chen Wang, Peter W Horby, Frederick G Hayden, George F Gao (2020) – 
+A novel coronavirus outbreak of global health concern. In The Lancet. Volume 
+395, Issue 10223, P470-473, Feb 15, 2020. First published:January 24, 
+2020DOI:https://doi.org/10.1016/S0140-6736(20)30185-9 
+https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30185-
+9/fulltext 
+22. 
+World Health Organization (2020). Report of the WHO-China Joint Mission 
+on Coronavirus Disease 2019 (COVID-19). Available online 
+at: https://www.who.int/docs/default-source/coronaviruse/who-china-joint-
+mission-on-covid-19-final-report.pdf 
+23. 
+World Health Organization (2020). Report of the WHO-China Joint Mission 
+on Coronavirus Disease 2019 (COVID-19). Available online at: 
+https://www.who.int/docs/default-source/coronaviruse/who-china-joint-
+mission-on-covid-19-final-report.pdf 
+24. 
+World Health Organization (2020). Report of the WHO-China Joint Mission 
+on Coronavirus Disease 2019 (COVID-19). Available online at: 
+https://www.who.int/docs/default-source/coronaviruse/who-china-joint-
+mission-on-covid-19-final-report.pdf 
+25. 
+This is not based on published academic research, but the Coronavirus 
+FAQ’s by Dr. Megan Murray who is an infectious disease researcher at 
+Harvard. 
+26. 
+The Novel Coronavirus Pneumonia Emergency Response Epidemiology 
+Team. The Epidemiological Characteristics of an Outbreak of 2019 Novel 
+Coronavirus Diseases (COVID-19) — China, 2020[J]. China CDC Weekly, 
+2020, 2(8): 113-122. Online here: 
+http://weekly.chinacdc.cn/en/article/id/e53946e2-c6c4-41e9-9a9b-
+fea8db1a8f51 
+27. 
+Read JM, Bridgen JR, Cummings DA, Ho A, Jewell CP. Novel coronavirus 
+2019-nCoV: early estimation of epidemiological parameters and epidemic 
+predictions. medRxiv. 2020;2020.01.23.20018549. 
+28. 
+The PaO2/FiO2 ratio is also called the Horowitz Index (see 
+Wikipedia here). It is the ratio between the oxygen level in the blood and the 
+oxygen concentration that is breathed and is a indicator of how the lungs 
+transfer oxygen to the blood of a patient. A level lower than 300 is considered 
+a mild lung injury. 
+29. 
+The US Centers for Disease Control and Prevention (CDC) provide useful 
+resources that look at the various definitions of mortality risk and how they are 
+measured. You find it online here. 
+30. 
+Taubenberger, J. K., & Morens, D. M. (2006). 1918 Influenza: the mother 
+of all pandemics. Revista Biomedica, 17(1), 69-79. 
+31. 
+World Health Organization (2020). Report of the WHO-China Joint Mission 
+on Coronavirus Disease 2019 (COVID-19). Available online 
+at: https://www.who.int/docs/default-source/coronaviruse/who-china-joint-
+mission-on-covid-19-final-report.pdf. 
+32. 
+World Health Organization (2020). Report of the WHO-China Joint Mission 
+on Coronavirus Disease 2019 (COVID-19). Available online at: 
+https://www.who.int/docs/default-source/coronaviruse/who-china-joint-
+mission-on-covid-19-final-report.pdf. 
+33. 
+The Novel Coronavirus Pneumonia Emergency Response Epidemiology 
+Team. The Epidemiological Characteristics of an Outbreak of 2019 Novel 
+Coronavirus Diseases (COVID-19) — China, 2020[J]. China CDC Weekly, 
+2020, 2(8): 113-122. 
+34. 
+Read JM, Bridgen JR, Cummings DA, Ho A, Jewell CP. Novel coronavirus 
+2019-nCoV: early estimation of epidemiological parameters and epidemic 
+predictions. medRxiv. 2020;2020.01.23.20018549. 
+35. 
+World Health Organization (2020). Report of the WHO-China Joint Mission 
+on Coronavirus Disease 2019 (COVID-19). Available online 
+at: https://www.who.int/docs/default-source/coronaviruse/who-china-joint-
+mission-on-covid-19-final-report.pdf 
+36. 
+Ghani, A. C., Donnelly, C. A., Cox, D. R., Griffin, J. T., Fraser, C., Lam, T. 
+H., … & Leung, G. M. (2005). Methods for estimating the case fatality ratio for 
+a novel, emerging infectious disease. American Journal of Epidemiology, 
+162(5), 479-486. 
+37. 
+Wilder-Smith, A., & Freedman, D. O. (2003). Confronting the new 
+challenge in travel medicine: SARS. Journal of Travel Medicine, 10(5), 257-
+258. 
+38. 
+Xu, X. W., Wu, X. X., Jiang, X. G., Xu, K. J., Ying, L. J., Ma, C. L., … & 
+Sheng, J. F. (2020). Clinical findings in a group of patients infected with the 
+2019 novel coronavirus (SARS-Cov-2) outside of Wuhan, China: retrospective 
+case series. bmj, 368. 
+39. 
+Epidemiological group of emergency response mechanism of new 
+coronavirus pneumonia in Chinese Center for Disease Control and 
+Prevention. Epidemiological characteristics of new coronavirus 
+pneumonia. Chinese Journal of Epidemiology, 2020,41 (2020-02-17 ). 
+40. 
+Epidemiological group of emergency response mechanism of new 
+coronavirus pneumonia in Chinese Center for Disease Control and 
+Prevention. Epidemiological characteristics of new coronavirus 
+pneumonia. Chinese Journal of Epidemiology, 2020,41 (2020-02-17). 
+41. 
+Munster, V. J., Koopmans, M., van Doremalen, N., van Riel, D., & de Wit, 
+E. (2020). A novel coronavirus emerging in China—key questions for impact 
+assessment. New England Journal of Medicine, 382(8), 692-694. 
+42. 
+(0.1%=[34,157 / 35,520,883] * 100) 
+The 2018-19 season was not unusual. In the period from 2015-16 to 2018-19, 
+this annual rate of 0.1% did not change much. 
+43. 
+Epidemiological group of emergency response mechanism of new 
+coronavirus pneumonia in Chinese Center for Disease Control and 
+Prevention. Epidemiological characteristics of new coronavirus 
+pneumonia. Chinese Journal of Epidemiology, 2020,41 (2020-02-17 ). 
+44. 
+Ensheng Dong, Hongru Du, Lauren Gardner (2020) – An interactive web-
+based dashboard to track COVID-19 in real time. in The Lancet Infectious 
+Disease. February 19, 2020. DOI: https://doi.org/10.1016/S1473-
+3099(20)30120-1 
+Citation 
+Our articles and data visualizations rely on work from many different people and 
+organizations. When citing this entry, please also cite the underlying data 
+sources. This entry can be cited as: 
+Max Roser, Hannah Ritchie and Esteban Ortiz-Ospina (2020) - "Coronavirus Disease (COVID-19) – 
+Statistics and Research". Published online at OurWorldInData.org. Retrieved from: 
+'https://ourworldindata.org/coronavirus' [Online Resource] 
+BibTeX citation 
+@article{owidcoronavirus, 
+    author = {Max Roser, Hannah Ritchie and Esteban Ortiz-Ospina}, 
+    title = {Coronavirus Disease (COVID-19) – Statistics and Research}, 
+    journal = {Our World in Data}, 
+    year = {2020}, 
+    note = {https://ourworldindata.org/coronavirus} 
+} 
+ 

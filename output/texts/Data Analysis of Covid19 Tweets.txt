@@ -1,0 +1,3728 @@
+Data Analysis of Covid19 Tweets
+March 22, 2021
+0.0.1
+Data Analysis of Covid 19 Tweets
+Task
+• Text Preprocessing
+• Sentiment Analysis
+• Keyword Extraction
+• Entity Extraction
+• etc
+Dataset
+• Credit (Gpreda)
+• https://github.com/gabrielpreda
+[1]: ### EDA Pkgs
+import pandas as pd
+[13]: # Data Viz Pkg
+import matplotlib.pyplot as plt
+import seaborn as sns
+[3]: # Hide warnings
+import warnings
+warnings.filterwarnings('ignore')
+[4]: # Load Dataset
+df = pd.read_csv("data/covid19_tweets.csv")
+[5]: # Preview
+df.head()
+[5]:
+user_name
+user_location
+\
+0
+￿￿￿￿￿￿
+astroworld
+1
+Tom Basile ￿￿
+New York, NY
+2
+Time4fisticuffs
+Pewee Valley, KY
+3
+ethel mertz
+Stuck in the Middle
+4
+DIPR-J&K
+Jammu and Kashmir
+1
+user_description
+user_created
+\
+0
+wednesday addams as a disney princess keepin i…
+2017-05-26 05:46:42
+1
+Husband, Father, Columnist & Commentator. Auth…
+2009-04-16 20:06:23
+2
+#Christian #Catholic #Conservative #Reagan #Re…
+2009-02-28 18:57:41
+3
+#Browns #Indians #ClevelandProud #[]_[] #Cavs …
+2019-03-07 01:45:06
+4
+￿ Official Twitter handle of Department of Inf…
+2017-02-12 06:45:15
+user_followers
+user_friends
+user_favourites
+user_verified
+\
+0
+624
+950
+18775
+False
+1
+2253
+1677
+24
+True
+2
+9275
+9525
+7254
+False
+3
+197
+987
+1488
+False
+4
+101009
+168
+101
+False
+date
+text
+\
+0
+2020-07-25 12:27:21
+If I smelled the scent of hand sanitizers toda…
+1
+2020-07-25 12:27:17
+Hey @Yankees @YankeesPR and @MLB - wouldn't it…
+2
+2020-07-25 12:27:14
+@diane3443 @wdunlap @realDonaldTrump Trump nev…
+3
+2020-07-25 12:27:10
+@brookbanktv The one gift #COVID19 has give me…
+4
+2020-07-25 12:27:08
+25 July : Media Bulletin on Novel #CoronaVirus…
+hashtags
+source
+is_retweet
+0
+NaN
+Twitter for iPhone
+False
+1
+NaN
+Twitter for Android
+False
+2
+['COVID19']
+Twitter for Android
+False
+3
+['COVID19']
+Twitter for iPhone
+False
+4
+['CoronaVirusUpdates', 'COVID19']
+Twitter for Android
+False
+Task
+• Text
+– Text Preprocessing
+– Sentiment Analysis
+– Keyword Extraction
+– Entity Extraction
+[6]: # Check Columns
+df.columns
+[6]: Index(['user_name', 'user_location', 'user_description', 'user_created',
+'user_followers', 'user_friends', 'user_favourites', 'user_verified',
+'date', 'text', 'hashtags', 'source', 'is_retweet'],
+dtype='object')
+[7]: # Datatype
+df.dtypes
+2
+[7]: user_name
+object
+user_location
+object
+user_description
+object
+user_created
+object
+user_followers
+int64
+user_friends
+int64
+user_favourites
+int64
+user_verified
+bool
+date
+object
+text
+object
+hashtags
+object
+source
+object
+is_retweet
+bool
+dtype: object
+[8]: # Source/ Value Count/Distribution of the Sources
+df['source'].unique()
+[8]: array(['Twitter for iPhone', 'Twitter for Android', 'Twitter Web App',
+'Buffer', 'TweetDeck', 'Twitter for iPad', 'Africa Newsroom',
+'Blood Donors India', 'TweetCaster for Android',
+'Alexander Higgins', 'IFTTT', 'Hootsuite Inc.', 'Sprout Social',
+'Sprinklr', 'assarofficial', 'IAMBLOG2TWITTER', 'CrowdControlHQ',
+'COVID19-Updates', 'EveryoneSocial', 'Dynamic Signal', 'Instagram',
+'TweetCaster for iOS', 'GlobalPandemic.NET', 'Venrap Radio',
+'HeyOrca', 'Twitter for Advertisers', 'Paper.li',
+'Twitter Media Studio', 'Twitter for Mac', 'dlvr.it',
+'Cheap Bots, Done Quick!', 'Prof. Shanku', 'LaterMedia',
+'SEMrush Social Media Tool', 'Twitterrific for iOS',
+"Sebastian's Twitter Bot", 'Threader_client', 'COVID19FactoidBot',
+'PwC UK SMART', 'tweet pro stiff', 'UK COVID-19 Alerts',
+'Resistbot Open Letters', 'preprint-alert', 'ContentStudio.io',
+'Peeping Moon', 'TweetAutomaticos', 'Orlo', 'AgoraPulse Manager',
+'Meltwater Social', 'Blog2Social APP',
+'Social Genie by Brighter Vision', 'Social Media Publisher App ',
+'VoiceToData', 'Hearsay Social', 'Metricool', 'SocialPilot.co',
+'Loomly', '￿wly', 'Facelift-Cloud', 'Khoros', 'Oktopost',
+'coronaData_Test', 'SocialOomph', 'SmarterQueue',
+'Salesforce - Social Studio', 'Twittimer', 'Dolar Değişti!',
+'COVID19 Update', 'LinkedIn', 'Socialbakers',
+'Bambu by Sprout Social', 'HubSpot', 'National Herald',
+'Twitter Ads', 'twootlk', 'WordPress.com',
+'Twitter Media Studio - LiveCut', 'Covid-19 Bot',
+'Tweetbot for iΟS', 'Zoho Social', 'Mobile Web (M2)',
+'Global Citizen Mobile App', 'whatSaoCarlos', 'Tweetbot for Mac',
+'FS Poster', 'rate_twitte', 'corona-recoveries',
+'The Social Jukebox', 'ContentCal Studio', 'OneUp App',
+3
+'Promo.com', 'TopHashtags', 'autotweet scheduler', 'NepalCorona',
+'Khoros Marketing', 'Hocalwire Social Share', 'DataScienceInfo',
+'crystalwind.ca', 'SNAP-Homeless Times',
+'COVID-19 Information Bot', 'eMartmarket', 'trackingbot2020',
+'MeetEdgar', 'Twidere for Android', 'econ b2b post', 'Aleph ￿',
+'SocialBee.io v2', 'Spreaker', 'ExanteData Robots', 'Mention\xa0',
+'Sked Social', 'Periscope', 'CoronaVirus Bot by Sloth',
+'dailyindia', 'Tweet Suite', 'SurveyCircle Team', 'PTI_Tweets',
+'Swat.io', 'Restream.io', 'Powered by Sprinklr', 'GT_Backend',
+'HN_Comments', '@thedextazlab', 'China Xinhua News', 'ArmeniaITN',
+'Crowdfire App', 'Microsoft Power Platform', 'Bitly', 'Echofon',
+'Ripl App', 'WPwamnwebsitescript', 'corona_stats',
+'CoronaTrackerMY', 'The Tweeted Times', 'Qureet Leads',
+'Threat Intel Hub', 'My Khel', 'Falcon Social Media Management ',
+'Zapier.com', 'Echobox', 'Scoop.it', 'SocialRabbit Plugin',
+'covid19_tracker', 'Cubi.so', 'SocialChamp IO ', 'twittbot.net',
+'pixiv: Post to Twitter', 'drumup.io', 'mpsontwitter.co.uk',
+'Covid19daily', 'SocialFlow', 'Vattel Tracker Dev',
+'Radio.co now playing', 'POST.it - Edit,Share,Rediscover',
+'SocialNewsDesk', nan, 'Phone2Action', 'tweeter_biases',
+'Heropost', 'rhega.net', 'Nuzzel', 'DR Data', 'Seket Aanru LVLII',
+'Grabyo', 'sphere_ja_bot', 'Wildmoka', 'TrackerCV',
+"iContact's Social Tools", 'Igorotage', 'HWD', 'Mailchimp',
+'Sprinklr Publishing', 'Integromat', 'Fabrik.fm',
+'Clearview Social, Inc.', 'Friends Me', 'Stuffed Productions',
+'Revive Social App', 'Flamingo for Android',
+'Microsoft Azure Logic Apps', 'MavSocial App', 'Smarp.',
+'UberSocial for Android', 'Missinglettr', 'Canva', 'Talon Android',
+'Konnect Social', 'Siargao Guide', 'PinkVilla', 'Penname',
+'Kashmir Life', "Monty's Twitter Reposter", 'SnapStream TV Search',
+'WatchDog Uganda', 'True Anthem', 'MarketingSuite', 'Corona-Stats',
+'Twitter for
+iPhone', 'Social Head', 'BookClubProTweet',
+'covid19_counter', 'PromoRepublic', 'PolitiHUB.us', 'Raven Tools',
+'COVID19-Tweet', 'Cancer Health Auto Tweet', 'remote.io',
+'Arena.im', 'Isrg', 'Constant Contact', 'Google', 'VegaLms',
+'DTR Auto Post', 'CoSchedule', 'COVID19 Daily Stats', 'CovidDay',
+'COVID-19MX', 'SmartNews | ￿￿￿￿￿￿￿￿', 'Spire FM', 'eClincher',
+'Typepad', 'Publer ', 'Botbird tweets', 'shankar_live_bot',
+'Shauntv', "Bob's Python tweetbot", 'Sprinklr Publisher',
+'Commun.it Intelligence', 'Nintendo Switch Share',
+"Stalin's Twitter Reposter", 'WeVideo', 'recurpost.com',
+'El Cañonazo de las 9', 'Tweetings for Android', 'JoinDiaspora',
+'Post Planner Inc.', 'DopeyUncle2', 'COVIDRecoveredBot',
+'Qnary.io', 'Canada Covid-19 Stats', 'Twitter Test App P',
+'Nelio Content', 'PlayStation®Network', 'Covid19_MV',
+'Postcron App', 'TtwTimes Top News', 'Chicken Nugget',
+'Plume\xa0for\xa0Android', 'Fenix 2', 'ETRetail.com',
+4
+'Campaign Share', 'Postfity.com', 'newsgovhk', 'Sociality.io',
+'Echofon
+Android', "Rumpet's Twitter Poster", 'PostBeyond',
+'dnh twitter publisher', 'news_by_gatfil', 'Pardot',
+'App for IconicHipster.com', 'CovidUpdatesBot', 'KhuramKTS',
+'NIAAuto', 'fovle', 'Imminent News', 'PublishBestNews',
+'LFALSNAPAP', 'HW news english', 'StreamElements',
+'Mediaproxy LogJam', 'dancehallaudio',
+'Liberal Forum Political Chat', 'NippyTweet',
+'That Best Home Automation', 'Dear_Assistant', 'Bot Libre!',
+'NCoV-19 Tracker', 'tprzechlewski.app', 'DataBlogger',
+'POZ Auto Tweet', 'SocialDog for Twitter', 'AtlantaTechBlogs',
+'ReadyForSocial App', 'Traject Social', 'abrbuzz',
+'Auto-Post (IMW)', 'ME Construction News', 'NetNaija Twiit',
+'TrafficChiefNG', 'EUobserver', 'Flote.app', 'aa.com.tr',
+'Twitterrific for Mac', 'Bizcommunity.com', 'Covid Robot',
+'VoxPop Sync', 'stocktitan', 'StockTwits Web', 'Dr. Kill Pain',
+'SociabbleApp', 'Post to Social by SHIFT1', 'PRNewswire',
+'Hep Auto Tweet', 'Chorus publishing platform',
+'masterdebater.net', 'A Touch of Snark', 'Login CricketCountry',
+"Let's Talk Singapore", 'RiteKit', 'Etsy', 'Zlappo.com',
+'DirectorsTalk Auto Posting', 'GlobalVillageSpace',
+'TeamSight Publisher', 'naalikeram', 'Amplifr', 'News Medical',
+'Agenparl', 'Hacker Noon', 'Salsa Social Publishing', 'feedspora2',
+'Tech_Tee_Shop', 'CensoredTodayPoster', 'Tumblr', 'Weebly App',
+'science faction twitter bot', 'SocialHub by maloon', 'PNSposter',
+'Social Reputation', 'RSS Masher - Dev', 'Planable', 'Trump OwO',
+"Bongani's Auto Poster", 'TTYtter', 'BAPSCharities',
+'thefivedaily', 'RegulatorWatch.com', 'BrentStafford.com',
+'Phil Ammann', 'flapol', 'Squarespace', 'VoiceFeed',
+'Libsyn On-Publish', 'Sharpspring', 'Twitseq', 'Social Press Kit',
+'Lightful', 'Gain Platform', 'OregonCovidApp',
+'Dynamics 365 for Marketing', 'yorkshire-times', 'Contento App',
+'XHNorthAmerica', 'ContentMX', 'opendorse', 'Greenfly',
+'Freshdesk', 'Triberr', 'EdgeTheory', 'Emma Social Connector',
+'POZ Global Auto Tweets', 'likefollowretweet', 'Healio Twitter',
+'Partnermarketing.com', 'EnrichrBot', 'Statusbrew',
+'Zift Platform', 'Constant Contact - Social Posts', 'Tweepsmap',
+'WayScript', 'SoCast Digital', 'allAfrica.com', 'paulcrypto',
+'nwindianabusiness.com', 'tc_covid_bot', 'Newry.ie',
+'SPTK: DVOrangeCounty', 'cmsoc', 'VoterVoice Tweet', 'Rallio',
+'FalconPro3', 'Cloud Campaign', 'RelojesESP', 'Socialchief',
+'SpaceRefTweet', 'PLAYLOADED.COM', 'TD Wealth Social Centre',
+'covid19oceanupdate', 'Janetter Pro for Android',
+'Fortinet Partner Social', 'Emphatic', 'BLOX CMS',
+'Onollo Software', 'GCCHD', 'floridapolitics.com', 'Web lider',
+'SOCi - Simplifying Social Media', 'Contentpilot', 'ayasetenchi',
+'Chimpify', "K's posts", 'Downtime Monkey', 'COVID19TwitterKenya',
+5
+'Quotes as image', 'Lead Accel', 'Streamlabs Twitter',
+'Dynamic Tweets', 'LatelyAI', 'Foursquare', 'Maat_Interface',
+'coronaBot-Purvesh', 'OneCMS Social Connect', 'BTCNbot',
+'InterfaceCDM', 'QuickTake by Bloomberg', 'Fan Page Robot',
+'Hypefury', 'VotepledgeBot', 'covidestimates',
+'Phone2Action Advocacy', 'Enthusiast97', 'NewsAutocorrect',
+'Ohhtweet', 'TheLancsTimes', 'TW Blue', 'Apphi',
+'Canada COVID-19 Bot', 'standard3d', 'chirr.app',
+'GearGuide Twitter', 'SlackSocial', 'Pressenza IPA eng',
+'SiteAssist Social Posting', 'ZenRud', 'ThreadReaderApp',
+'Cognitive Website', 'UNIAN.info', 'UNIAN Info',
+'Tech Nation News updates', 'Fenix for Android', 'Percolate',
+'GroupTweet', 'Social Aider', 'CyberSecDN v.2',
+'Inclusibot_Revenge', 'Nolwa-Digital', 'OS X', "Janindu's Bot",
+'Influitive', 'Tweecha Lite', 'SocialShare PRD',
+'Woofy Social Media Scheduler', 'ISN Autotweet',
+'App for TonysTShirts', 'Market Beam', 'PLANOLY', 'COVIDTweetBot',
+'eupdater', 'Newswise Expert Pitch', 'Bigram Poetry',
+'Imbibe Website Publishing', 'PixelTweeter', 'Coosto', 'Nonli',
+'Blackbird Video Platform/Amplify', 'ALCOVID19',
+'Hub Central APP Agencies', 'Marketing Agency', '4strat-foresight',
+'audioBoom', 'Grapevine6', 'GaggleAMP', 'StockBot0001',
+'SocialPost App', 'Right Relevance', 'Social5',
+'COVID Articles on SP Journals', 'coronalivebot',
+'Ontario_Covid19', 'Zymplify', 'Whitley2020', 'ChimpReports_',
+'OnlyPultCom', 'Washington Square Parkerz', 'WashSquarePrkrz',
+'VA COVID-19 Updates', 'twmode', 'www.diolch.wales',
+'COVID-19 Alerts', 'TMZ iPhone Social Application',
+'Elgato Stream Deck', 'Bloglovin', 'Coronavirus tracker bot',
+"Joe's Politics", 'TwitPane for Android', 'EastMojo',
+'Co-Kinetic ', 'Moa Bridge', 'UhmazingPressRelease',
+'Ozclubbers Posts', '15 Minute Fun', 'plague-bot', 'Ryzely',
+'LegendLakeComApp', 'STL.News', 'Tweetlogix', 'WoopSocial',
+'Vaccines and Homeopathy News', 'Lately Social', 'SocialGest',
+'BS-SMAP', 'PressPage Manager', 'Snaps1', 'App Political Hispanic',
+'24liveblog', 'Choqok', 'GovernmentCyberWeb', 'PublishToTwitter',
+'xh_scitech', 'WP to Twitter EPR', 'Ground News',
+'Twitter Web Client', 'uwf.london', 'Posting Platform',
+'WP to Twitter IAR', 'Total Travel TAG', '_stranger_twitterbot_',
+'Paiger', 'CGS Tech Tweeter', ' Xinhua Sports', 'TanPaulus27',
+'Mastodon-Twitter Crossposter', 'TS Auto Tweet', 'RH Auto Tweet',
+'Twibble.io', 'Portal de CNMG', 'Revive Old NatCorn Posts',
+'The Recycler', 'Kontentino', 'PostPickr', 'HealthBuzz Tweets',
+'CIO Tech Asia Twitter', 'PolitiTweet Alerts', 'Africa News Hub',
+'Dram Scotland', 'oneindia entertainment', 'gifincric',
+'The Shirt List', 'Hail — Create Curate Communicate',
+"Hamish's Twitter Reposter", 'Sane Auto Tweet', 'forafriendbot',
+6
+'Boma Marketing', 'Fox XRIO 2 News ', 'trumpDigest', 'CivilDialog',
+'Do It Later', 'ActivewearShopping', 'peetm', 'covid19statusbot',
+'Academia Meme Stack', 'The Unshackled',
+'Unshackled Content Poster', 'The Tweeted Times Mobile',
+'BT Production Site', 'Freebie-Depot', 'CareerIndia_Tweet_Counts',
+'LOOKBOOK.nu', 'FPTraffic', 'William Travis Hardman',
+'SPTK: PutnamDV', 'Daily Voice Suffolk County', 'Boost Old Posts',
+'TheWhiteHouse', 'Twitter VIT App for iOS', 'CletusDroo',
+'iHeartMedia Publishing', 'Metigy', 'WIZS 1450 AM',
+'Clarabridge Engage', 'NewsFromDonbass', 'Plurk',
+'feather for iOS
+', 'Partisan Issues?', 'POZ Army Auto Tweets',
+'InfoBlaze Southeast Asia', 'Conservative Daily News',
+'MomoRScrape', 'Sendible', 'News Users', 'twidered',
+' autopo.st - @Radio_Lichfield', 'apherald', 'InfoBlaze India',
+'JustVent.LIVE', 'CyberSecDN v.7', 'SameraVinson', 'Hiplay',
+'doctroidbot', 'Poshmark', 'rtweet_token_sc', 'Paradym Social',
+'covid-19data', 'Covid19MT', 'Cawbird', 'Auto tweets',
+'Blaq for BlackBerry® 10', 'CoronaWatchUSA', 'oysttyer',
+'Radiology: AI app'], dtype=object)
+[9]: # Source/ Value Count/Distribution of the Sources
+df['source'].value_counts()
+[9]: Twitter Web App
+56891
+Twitter for Android
+40179
+Twitter for iPhone
+35472
+TweetDeck
+8543
+Hootsuite Inc.
+7321
+…
+Emphatic
+1
+JustVent.LIVE
+1
+Unshackled Content Poster
+1
+DopeyUncle2
+1
+The Shirt List
+1
+Name: source, Length: 610, dtype: int64
+[10]: # Plot the top value_counts
+df['source'].value_counts().nlargest(30)
+[10]: Twitter Web App
+56891
+Twitter for Android
+40179
+Twitter for iPhone
+35472
+TweetDeck
+8543
+Hootsuite Inc.
+7321
+Twitter for iPad
+4336
+Buffer
+2728
+Sprout Social
+1833
+7
+Instagram
+1759
+IFTTT
+1545
+dlvr.it
+681
+GlobalPandemic.NET
+679
+LinkedIn
+628
+COVID19-Updates
+625
+Twitter Media Studio
+596
+WordPress.com
+537
+HubSpot
+513
+Sprinklr
+497
+FS Poster
+414
+Dynamic Signal
+391
+Resistbot Open Letters
+390
+Cheap Bots, Done Quick!
+335
+Paper.li
+322
+Twitter for Advertisers
+317
+Blood Donors India
+281
+IAMBLOG2TWITTER
+266
+Alexander Higgins
+225
+Zoho Social
+224
+The Social Jukebox
+216
+Fabrik.fm
+209
+Name: source, dtype: int64
+[11]: # Plot the top value_counts
+df['source'].value_counts().nlargest(30).plot(kind='bar')
+[11]: <AxesSubplot:>
+8
+[14]: # Plot the top value_counts
+plt.figure(figsize=(20,10))
+df['source'].value_counts().nlargest(30).plot(kind='bar')
+plt.xticks(rotation=45)
+plt.show()
+9
+Text Analysis of tweet
+[15]: #!pip install neattext
+[16]: # Load Text Cleaning Package
+import neattext.functions as nfx
+[17]: # Methods/Attrib
+dir(nfx)
+[17]: ['BTC_ADDRESS_REGEX',
+'CURRENCY_REGEX',
+'CURRENCY_SYMB_REGEX',
+'Counter',
+'DATE_REGEX',
+'EMAIL_REGEX',
+'EMOJI_REGEX',
+'HASTAG_REGEX',
+'MASTERCard_REGEX',
+'MD5_SHA_REGEX',
+'MOST_COMMON_PUNCT_REGEX',
+'NUMBERS_REGEX',
+'PHONE_REGEX',
+'PoBOX_REGEX',
+'SPECIAL_CHARACTERS_REGEX',
+'STOPWORDS',
+'STOPWORDS_de',
+10
+'STOPWORDS_en',
+'STOPWORDS_es',
+'STOPWORDS_fr',
+'STOPWORDS_ru',
+'STOPWORDS_yo',
+'STREET_ADDRESS_REGEX',
+'TextFrame',
+'URL_PATTERN',
+'USER_HANDLES_REGEX',
+'VISACard_REGEX',
+'__builtins__',
+'__cached__',
+'__doc__',
+'__file__',
+'__generate_text',
+'__loader__',
+'__name__',
+'__numbers_dict',
+'__package__',
+'__spec__',
+'_lex_richness_herdan',
+'_lex_richness_maas_ttr',
+'clean_text',
+'defaultdict',
+'digit2words',
+'extract_btc_address',
+'extract_currencies',
+'extract_currency_symbols',
+'extract_dates',
+'extract_emails',
+'extract_emojis',
+'extract_hashtags',
+'extract_html_tags',
+'extract_mastercard_addr',
+'extract_md5sha',
+'extract_numbers',
+'extract_pattern',
+'extract_phone_numbers',
+'extract_postoffice_box',
+'extract_shortwords',
+'extract_special_characters',
+'extract_stopwords',
+'extract_street_address',
+'extract_urls',
+'extract_userhandles',
+'extract_visacard_addr',
+'fix_contractions',
+11
+'generate_sentence',
+'hamming_distance',
+'inverse_df',
+'lexical_richness',
+'markov_chain',
+'math',
+'nlargest',
+'normalize',
+'num2words',
+'random',
+'re',
+'read_txt',
+'remove_bad_quotes',
+'remove_btc_address',
+'remove_currencies',
+'remove_currency_symbols',
+'remove_custom_pattern',
+'remove_custom_words',
+'remove_dates',
+'remove_emails',
+'remove_emojis',
+'remove_hashtags',
+'remove_html_tags',
+'remove_mastercard_addr',
+'remove_md5sha',
+'remove_multiple_spaces',
+'remove_non_ascii',
+'remove_numbers',
+'remove_phone_numbers',
+'remove_postoffice_box',
+'remove_puncts',
+'remove_punctuations',
+'remove_shortwords',
+'remove_special_characters',
+'remove_stopwords',
+'remove_street_address',
+'remove_urls',
+'remove_userhandles',
+'remove_visacard_addr',
+'replace_bad_quotes',
+'replace_currencies',
+'replace_currency_symbols',
+'replace_dates',
+'replace_emails',
+'replace_emojis',
+'replace_numbers',
+'replace_phone_numbers',
+12
+'replace_special_characters',
+'replace_term',
+'replace_urls',
+'string',
+'term_freq',
+'to_txt',
+'word_freq',
+'word_length_freq']
+[20]: df['text'].iloc[2]
+[20]: '@diane3443 @wdunlap @realDonaldTrump Trump never once claimed #COVID19 was a
+hoax. We all claim that this effort to… https://t.co/Jkk8vHWHb3'
+0.0.2
+Noise
+• remove mentions/userhandles
+• remove hashtags
+• urls
+• emojis
+• special char
+[21]: df.head()
+[21]:
+user_name
+user_location
+\
+0
+￿￿￿￿￿￿
+astroworld
+1
+Tom Basile ￿￿
+New York, NY
+2
+Time4fisticuffs
+Pewee Valley, KY
+3
+ethel mertz
+Stuck in the Middle
+4
+DIPR-J&K
+Jammu and Kashmir
+user_description
+user_created
+\
+0
+wednesday addams as a disney princess keepin i…
+2017-05-26 05:46:42
+1
+Husband, Father, Columnist & Commentator. Auth…
+2009-04-16 20:06:23
+2
+#Christian #Catholic #Conservative #Reagan #Re…
+2009-02-28 18:57:41
+3
+#Browns #Indians #ClevelandProud #[]_[] #Cavs …
+2019-03-07 01:45:06
+4
+￿ Official Twitter handle of Department of Inf…
+2017-02-12 06:45:15
+user_followers
+user_friends
+user_favourites
+user_verified
+\
+0
+624
+950
+18775
+False
+1
+2253
+1677
+24
+True
+2
+9275
+9525
+7254
+False
+3
+197
+987
+1488
+False
+4
+101009
+168
+101
+False
+date
+text
+\
+0
+2020-07-25 12:27:21
+If I smelled the scent of hand sanitizers toda…
+13
+1
+2020-07-25 12:27:17
+Hey @Yankees @YankeesPR and @MLB - wouldn't it…
+2
+2020-07-25 12:27:14
+@diane3443 @wdunlap @realDonaldTrump Trump nev…
+3
+2020-07-25 12:27:10
+@brookbanktv The one gift #COVID19 has give me…
+4
+2020-07-25 12:27:08
+25 July : Media Bulletin on Novel #CoronaVirus…
+hashtags
+source
+is_retweet
+0
+NaN
+Twitter for iPhone
+False
+1
+NaN
+Twitter for Android
+False
+2
+['COVID19']
+Twitter for Android
+False
+3
+['COVID19']
+Twitter for iPhone
+False
+4
+['CoronaVirusUpdates', 'COVID19']
+Twitter for Android
+False
+[22]: df['text'].apply(nfx.extract_hashtags)
+[22]: 0
+[]
+1
+[]
+2
+[#COVID19]
+3
+[#COVID19]
+4
+[#CoronaVirusUpdates, #COVID19]
+…
+179103
+[#WearAMask]
+179104
+[#COVID19]
+179105
+[]
+179106
+[#COVID19]
+179107
+[]
+Name: text, Length: 179108, dtype: object
+[23]: df['extracted_hashtags'] = df['text'].apply(nfx.extract_hashtags)
+[24]: df[['extracted_hashtags','hashtags']]
+[24]:
+extracted_hashtags
+hashtags
+0
+[]
+NaN
+1
+[]
+NaN
+2
+[#COVID19]
+['COVID19']
+3
+[#COVID19]
+['COVID19']
+4
+[#CoronaVirusUpdates, #COVID19]
+['CoronaVirusUpdates', 'COVID19']
+…
+…
+…
+179103
+[#WearAMask]
+['WearAMask']
+179104
+[#COVID19]
+['COVID19']
+179105
+[]
+NaN
+179106
+[#COVID19]
+['COVID19']
+179107
+[]
+NaN
+[179108 rows x 2 columns]
+14
+[25]: # Cleaning Text
+df['clean_tweet'] = df['text'].apply(nfx.remove_hashtags)
+[26]: df[['text','clean_tweet']]
+[26]:
+text
+\
+0
+If I smelled the scent of hand sanitizers toda…
+1
+Hey @Yankees @YankeesPR and @MLB - wouldn't it…
+2
+@diane3443 @wdunlap @realDonaldTrump Trump nev…
+3
+@brookbanktv The one gift #COVID19 has give me…
+4
+25 July : Media Bulletin on Novel #CoronaVirus…
+…
+…
+179103
+Thanks @IamOhmai for nominating me for the @WH…
+179104
+2020! The year of insanity! Lol! #COVID19 http…
+179105
+@CTVNews A powerful painting by Juan Lucena. I…
+179106
+More than 1,200 students test positive for #CO…
+179107
+I stop when I see a Stop\n\n@SABCNews\n@Izinda…
+clean_tweet
+0
+If I smelled the scent of hand sanitizers toda…
+1
+Hey @Yankees @YankeesPR and @MLB - wouldn't it…
+2
+@diane3443 @wdunlap @realDonaldTrump Trump nev…
+3
+@brookbanktv The one gift
+has give me is an …
+4
+25 July : Media Bulletin on Novel
+\n@kansa…
+…
+…
+179103
+Thanks @IamOhmai for nominating me for the @WH…
+179104
+2020! The year of insanity! Lol!
+https://t.c…
+179105
+@CTVNews A powerful painting by Juan Lucena. I…
+179106
+More than 1,200 students test positive for
+a…
+179107
+I stop when I see a Stop\n\n@SABCNews\n@Izinda…
+[179108 rows x 2 columns]
+[27]: df['clean_tweet'] = df['clean_tweet'].apply(lambda x: nfx.remove_userhandles(x))
+[28]: df[['text','clean_tweet']]
+[28]:
+text
+\
+0
+If I smelled the scent of hand sanitizers toda…
+1
+Hey @Yankees @YankeesPR and @MLB - wouldn't it…
+2
+@diane3443 @wdunlap @realDonaldTrump Trump nev…
+3
+@brookbanktv The one gift #COVID19 has give me…
+4
+25 July : Media Bulletin on Novel #CoronaVirus…
+…
+…
+179103
+Thanks @IamOhmai for nominating me for the @WH…
+179104
+2020! The year of insanity! Lol! #COVID19 http…
+179105
+@CTVNews A powerful painting by Juan Lucena. I…
+15
+179106
+More than 1,200 students test positive for #CO…
+179107
+I stop when I see a Stop\n\n@SABCNews\n@Izinda…
+clean_tweet
+0
+If I smelled the scent of hand sanitizers toda…
+1
+Hey
+and
+- wouldn't it have made more sen…
+2
+Trump never once claimed
+was a hoax. W…
+3
+The one gift
+has give me is an appreciatio…
+4
+25 July : Media Bulletin on Novel
+\n
+…
+…
+…
+179103
+Thanks
+for nominating me for the
+challen…
+179104
+2020! The year of insanity! Lol!
+https://t.c…
+179105
+A powerful painting by Juan Lucena. It's a t…
+179106
+More than 1,200 students test positive for
+a…
+179107
+I stop when I see a Stop\n\n \n \n \n \n \n \n…
+[179108 rows x 2 columns]
+[29]: df['clean_tweet'].iloc[10]
+[29]: '49K+ Covid19 cases still no response from \n
+cancel the compartment exa…
+https://t.co/kV2ZKmumu1'
+[30]: # Cleaning Text: Multiple WhiteSpaces
+df['clean_tweet'] = df['clean_tweet'].apply(nfx.remove_multiple_spaces)
+[31]: df['clean_tweet'].iloc[10]
+[31]: '49K+ Covid19 cases still no response from cancel the compartment exa…
+https://t.co/kV2ZKmumu1'
+[32]: # Cleaning Text : Remove urls
+df['clean_tweet'] = df['clean_tweet'].apply(nfx.remove_urls)
+[33]: # Cleaning Text: Punctuations
+df['clean_tweet'] = df['clean_tweet'].apply(nfx.remove_puncts)
+[34]: df[['text','clean_tweet']]
+[34]:
+text
+\
+0
+If I smelled the scent of hand sanitizers toda…
+1
+Hey @Yankees @YankeesPR and @MLB - wouldn't it…
+2
+@diane3443 @wdunlap @realDonaldTrump Trump nev…
+3
+@brookbanktv The one gift #COVID19 has give me…
+4
+25 July : Media Bulletin on Novel #CoronaVirus…
+…
+…
+179103
+Thanks @IamOhmai for nominating me for the @WH…
+16
+179104
+2020! The year of insanity! Lol! #COVID19 http…
+179105
+@CTVNews A powerful painting by Juan Lucena. I…
+179106
+More than 1,200 students test positive for #CO…
+179107
+I stop when I see a Stop\n\n@SABCNews\n@Izinda…
+clean_tweet
+0
+If I smelled the scent of hand sanitizers toda…
+1
+Hey and
+wouldnt it have made more sense to ha…
+2
+Trump never once claimed was a hoax We all cl…
+3
+The one gift has give me is an appreciation f…
+4
+25 July : Media Bulletin on Novel
+…
+…
+179103
+Thanks for nominating me for the challenge I n…
+179104
+2020 The year of insanity Lol
+179105
+A powerful painting by Juan Lucena Its a trib…
+179106
+More than 1200 students test positive for at m…
+179107
+I stop when I see a Stop
+[179108 rows x 2 columns]
+0.0.3
+Sentiment Analysis
+[35]: from textblob import TextBlob
+[40]: def get_sentiment(text):
+blob = TextBlob(text)
+sentiment_polarity = blob.sentiment.polarity
+sentiment_subjectivity = blob.sentiment.subjectivity
+if sentiment_polarity > 0:
+sentiment_label = 'Positive'
+elif sentiment_polarity < 0:
+sentiment_label = 'Negative'
+else:
+sentiment_label = 'Neutral'
+result = {'polarity':sentiment_polarity,
+'subjectivity':sentiment_subjectivity,
+'sentiment':sentiment_label}
+return result
+[38]: # Text
+ex1 = df['clean_tweet'].iloc[0]
+[41]: get_sentiment(ex1)
+[41]: {'polarity': -0.25, 'subjectivity': 0.25, 'sentiment': 'Negative'}
+[42]: df['sentiment_results'] = df['clean_tweet'].apply(get_sentiment)
+17
+[43]: df['sentiment_results']
+[43]: 0
+{'polarity': -0.25, 'subjectivity': 0.25, 'sen…
+1
+{'polarity': 0.5, 'subjectivity': 0.5, 'sentim…
+2
+{'polarity': 0.0, 'subjectivity': 0.0, 'sentim…
+3
+{'polarity': 0.0, 'subjectivity': 0.3571428571…
+4
+{'polarity': 0.0, 'subjectivity': 0.0, 'sentim…
+…
+179103
+{'polarity': 0.2, 'subjectivity': 0.2, 'sentim…
+179104
+{'polarity': 0.8, 'subjectivity': 0.7, 'sentim…
+179105
+{'polarity': 0.3, 'subjectivity': 1.0, 'sentim…
+179106
+{'polarity': 0.26325757575757575, 'subjectivit…
+179107
+{'polarity': 0.0, 'subjectivity': 0.0, 'sentim…
+Name: sentiment_results, Length: 179108, dtype: object
+[44]: df['sentiment_results'].iloc[0]
+[44]: {'polarity': -0.25, 'subjectivity': 0.25, 'sentiment': 'Negative'}
+[45]: pd.json_normalize(df['sentiment_results'].iloc[0])
+[45]:
+polarity
+subjectivity sentiment
+0
+-0.25
+0.25
+Negative
+[47]: df = df.join(pd.json_normalize(df['sentiment_results']))
+[48]: df.head()
+[48]:
+user_name
+user_location
+\
+0
+￿￿￿￿￿￿
+astroworld
+1
+Tom Basile ￿￿
+New York, NY
+2
+Time4fisticuffs
+Pewee Valley, KY
+3
+ethel mertz
+Stuck in the Middle
+4
+DIPR-J&K
+Jammu and Kashmir
+user_description
+user_created
+\
+0
+wednesday addams as a disney princess keepin i…
+2017-05-26 05:46:42
+1
+Husband, Father, Columnist & Commentator. Auth…
+2009-04-16 20:06:23
+2
+#Christian #Catholic #Conservative #Reagan #Re…
+2009-02-28 18:57:41
+3
+#Browns #Indians #ClevelandProud #[]_[] #Cavs …
+2019-03-07 01:45:06
+4
+￿ Official Twitter handle of Department of Inf…
+2017-02-12 06:45:15
+user_followers
+user_friends
+user_favourites
+user_verified
+\
+0
+624
+950
+18775
+False
+1
+2253
+1677
+24
+True
+2
+9275
+9525
+7254
+False
+3
+197
+987
+1488
+False
+18
+4
+101009
+168
+101
+False
+date
+text
+\
+0
+2020-07-25 12:27:21
+If I smelled the scent of hand sanitizers toda…
+1
+2020-07-25 12:27:17
+Hey @Yankees @YankeesPR and @MLB - wouldn't it…
+2
+2020-07-25 12:27:14
+@diane3443 @wdunlap @realDonaldTrump Trump nev…
+3
+2020-07-25 12:27:10
+@brookbanktv The one gift #COVID19 has give me…
+4
+2020-07-25 12:27:08
+25 July : Media Bulletin on Novel #CoronaVirus…
+hashtags
+source
+is_retweet
+\
+0
+NaN
+Twitter for iPhone
+False
+1
+NaN
+Twitter for Android
+False
+2
+['COVID19']
+Twitter for Android
+False
+3
+['COVID19']
+Twitter for iPhone
+False
+4
+['CoronaVirusUpdates', 'COVID19']
+Twitter for Android
+False
+extracted_hashtags
+\
+0
+[]
+1
+[]
+2
+[#COVID19]
+3
+[#COVID19]
+4
+[#CoronaVirusUpdates, #COVID19]
+clean_tweet
+\
+0
+If I smelled the scent of hand sanitizers toda…
+1
+Hey and
+wouldnt it have made more sense to ha…
+2
+Trump never once claimed was a hoax We all cl…
+3
+The one gift has give me is an appreciation f…
+4
+25 July : Media Bulletin on Novel
+sentiment_results
+polarity
+subjectivity
+\
+0
+{'polarity': -0.25, 'subjectivity': 0.25, 'sen…
+-0.25
+0.250000
+1
+{'polarity': 0.5, 'subjectivity': 0.5, 'sentim…
+0.50
+0.500000
+2
+{'polarity': 0.0, 'subjectivity': 0.0, 'sentim…
+0.00
+0.000000
+3
+{'polarity': 0.0, 'subjectivity': 0.3571428571…
+0.00
+0.357143
+4
+{'polarity': 0.0, 'subjectivity': 0.0, 'sentim…
+0.00
+0.000000
+sentiment
+0
+Negative
+1
+Positive
+2
+Neutral
+3
+Neutral
+4
+Neutral
+[49]: df['sentiment'].value_counts()
+19
+[49]: Neutral
+75490
+Positive
+74154
+Negative
+29464
+Name: sentiment, dtype: int64
+[50]: df['sentiment'].value_counts().plot(kind='bar')
+[50]: <AxesSubplot:>
+[51]: # Plot with seaborn
+sns.countplot(df['sentiment'])
+[51]: <AxesSubplot:xlabel='sentiment', ylabel='count'>
+20
+[ ]: ### Keyword Extraction
++ For Positive and Negative Sentiment
++ General
+[56]: positive_tweet = df[df['sentiment'] == 'Positive']['clean_tweet']
+[53]: neutral_tweet = df[df['sentiment'] == 'Neutral']['clean_tweet']
+negative_tweet = df[df['sentiment'] == 'Negative']['clean_tweet']
+[54]: positive_tweet
+[54]: 1
+Hey and
+wouldnt it have made more sense to ha…
+6
+How Will Change Work in General (and recruitin…
+8
+Praying for good health and recovery of
+12
+￿￿— no one will be safe from until everyone i…
+13
+Lets all protect ourselves from Its real and t…
+…
+179096
+We were really bummed we couldn’t cop one of t…
+179103
+Thanks for nominating me for the challenge I n…
+179104
+2020 The year of insanity Lol
+179105
+A powerful painting by Juan Lucena Its a trib…
+179106
+More than 1200 students test positive for at m…
+Name: clean_tweet, Length: 74154, dtype: object
+21
+[60]: # Remove Stopwords and Convert to Tokens
+positive_tweet_list = positive_tweet.apply(nfx.remove_stopwords).tolist()
+[57]: negative_tweet_list = negative_tweet.apply(nfx.remove_stopwords).tolist()
+neutral_tweet_list = neutral_tweet.apply(nfx.remove_stopwords).tolist()
+[61]: positive_tweet_list
+[61]: ['Hey wouldnt sense players pay respects A…',
+'Change Work General (and recruiting specifically) via/',
+'Praying good health recovery',
+'￿￿— safe safe commit ensure…',
+'Lets protect real numbers climbing fast Continent Lets n…',
+'Second wave Flandersback',
+'COVID Update: infection rate Florida following natural curve experts predicted
+initial cu…',
+'Good Patriots Volunteer Election Judge Polls open without…',
+'comprehensive review amp Analysis: key ways WASH help reduce transmission…',
+'crosses 2 lakh mark 150055 ppp recovered far positive today 6988/total…',
+'Actor father MrGKReddy tested positive 15/20 days s…',
+'safe place visit guests said hotel meticulous applying hand sanitation als…',
+'CEO live WSU talking “The effects Covid19 students”…',
+'Actionables healthy recovery',
+'understood hadnt missed meeting In…',
+'released new podcast episodes week: Technology Platforms Conduct Telehealth
+Visits C…',
+'reports 1142 positive cases 29 deaths Saturday Death toll rises 3806 reports
+ANI quot…',
+'Venezuelas Economy/Budget tied Oil like Louisianas Funny rightwing example
+of…',
+'reporting yesterday 1145 people died USA 73K new cases reported Serio…',
+'People relatives died file class action lawsuit Sinclair Broadcasting',
+'4249584 cases 148521 deaths reported United States date 1257 new cases 31…',
+': ￿agree mask powerful accessories fight t…',
+'miss isopropyl alcohol Ethanol hand sanitizer smells like poured tequila hands
+￿',
+'GVMC sanitation staff carrying regular sanitation activities city clean
+prevent spread…',
+'Local government sales tax revenue dropped 27 percent yeartoyear second
+quarter thanks shutdo…',
+'Look Lil’ Donny Micro Dick astounding achievement brilliance + cognitive
+capabilities Somebody…',
+'Check Angels beautiful mask hair bow designs',
+'1 municipality reports new fatality compared yesterday 1 new fatality located
+0 fa…',
+'current situation calls awareness stress facilitate families our…',
+'economic measures governments taking respond Key actions taken 193 countries
+22
+listed…',
+'“ everyone’s fight covered major disasters like vi…',
+'“I think government hugely overestimated danger disease” wonder he’d brave
+en…',
+'Ireland built COVID19 contract tracing app successful U states want use it…',
+'Rakesh Sharma best business Coach India Website:',
+'( year safe distancing requirements result o…',
+'Learn new things period 2d 3d animations training ongoing Click link join
+What…',
+'literally head decisions safety government creating conf…',
+'PR : father MrGKReddy tested positive 15/20 days s…',
+'debates ensue reopening schools ￿amid Young Leader says…',
+'Companies protect workforce’s physical mental health crisis use smart
+technology…',
+'Highest number new cases yesterday',
+'CM Madhya Pradesh tested positive COVID Scindia tested',
+'Bihar witnesses biggest singleday spike 2803 new cases',
+'Lunch away mass tourists invaded quickly pandemic',
+'Weve captured snapshot amazing VCSE response pandemic Salford want thank…',
+'22000 nonprofits eventually close doors good result current economic crisis
+acco…',
+'Wells Fargo Tightens Purse Strings Ride Coronavirus Pandemic READ MORE:',
+'informative interesting ￿Lots think especially school age kids…',
+'Veteran Affairs reports 252 new cases 13 new deaths bringing total confirmed
+cases 35563 1980 to…',
+'Irish home / commercial building model perfect breathing groung virus trade
+treat…',
+'residents – develop symptoms mild ones book test immediately at…',
+'Actor father Mr GK Reddy tested positive couple weeks ago f…',
+'Sounds like Plandemic second life Here’s thread it’s run debunks major cl…',
+'know better Trump…',
+'affected social anxiety wearing face mask amazing feel slightly hidden fro…',
+'Vietnam’s high level preparedness prevent Covid19 spread: Deputy PM',
+'Republican Group Uses Trumps Words Searing SwingState Ad…',
+'course absolutely diabolical government triple…',
+'Learning fun interesting surprisingly easy Let’s join WLF Nigeria Ambassadors
+promote learning a…',
+'*Excellent data charts map CV progressing societies also…',
+'coincidence influenza cases unusually down…',
+'7813 new positive cases reported 24hours',
+'(1) quick estimates Arizona post apex recovery rate: 7/03: 3849 7d avg Peak
+Confirmed Cases…',
+'Trump hates looking like loser — right looks like biggest losers history:
+oped…',
+'Private hospitals treatment rates ￿General Ward 2300 HDU 3300 ICU 6500 ICU
+ventilator 11500 In…',
+'epidemic Im giving $80 $1000 person looking able round i…',
+23
+'395 new cases 3 new deaths Uzbekistan [13:22 GMT]',
+'“Until day medical vaccine food best vaccine chaos” David Beasley Am…',
+'Yes “we’re learning day” amp “we’re listening science”…',
+'Puerto Rico reports 573 new cases 10 new deaths bringing total confirmed cases
+14540 201 total de…',
+'1142 positive cases 2137 patients recovered/discharged/migrated 29 deaths
+Delhi today are…',
+'Dying Dying huge difference usi…',
+'design recovery plans humancentered mindset likely best position th…',
+'unlike federal government largely depends funding fees collects citizenship
+gree…',
+'Rutlands supporting testing',
+'time beloved survivors a…',
+'100% feeling good 0% symptoms￿Long ￿￿￿￿￿',
+'New York retail',
+'Delhi reported 1142 new cases 29 deaths today taking total number cases 129531
+death tally 3806',
+'Successful mattolson21 thinking: FEET ce…',
+'tested positive says latest test result negative',
+'1000 deaths fourth day row questions global supply chains ability to…',
+'1142 positive cases 2137 patients recovered/discharged/migrated 29 deaths
+today a…',
+'Check latest article: Supply Chain Risks Thwart Successful COVID19 Vaccine…',
+'PR : father MrGKReddy tested positive 15/20 days s…',
+'7813 new cases 52 deaths 53681 samples tested 3208 discharged E…',
+'uncle tested positive lost 3 family members wear masksocial distance',
+'Venrap Radio Playing Venrap Radio Stay safe love Download app listen on…',
+'Absolutely wouldnt standing 3rd position worldwide 12 lakh cas…',
+'update 7/25/2020: *Nearly 40 countries report record singleday increases
+infections *US records o…',
+'insurance face possible economic burdens pandemic Tens millions America…',
+'Undercover inspectors deployed sure anti measures foll…',
+'Hospital cleaners porters amp catering staff unsung heroes Tell pay fair
+wage…',
+'AP records 7813 new cases 24 hours taking tally 88671 52 deaths wer…',
+'Economies participating AsiaPacific Economic Cooperation ( reaffirmed
+prioritization economic…',
+'WORLD SHORTENED BUSY PEOPLE',
+'reaffirms economic recovery priorities movement essential goods',
+'Cautious optimism Arizona plateauing Potential good news',
+'Want Test It’s Easier Wealthier Whiter Neighborhoods',
+'realized trump amp win (God Forbid) finally stripped ACA…',
+'Pleased share interesting results worldwide survey impact bariatric surgery
+Need rob…',
+'Warning death trap: second spike has…',
+'Cs term hadn’t heard Good advice',
+'| 1142 positive cases 2137 patients recovered/discharged/migrated 29 deaths
+24
+today are…',
+'Great yesterday',
+'Yes real',
+'pleased announce inclusion Virology Laboratory University Nigeria Teaching
+Hospital Enugu…',
+'Great tips friends',
+'football jersey count MD NFL opting care',
+'Pandemic push N Carolina families home school | Miami Herald',
+'Government (Tabla player) countries',
+'everything’s changing start playing version Sweet Caroline games Th…',
+'use sources guidance use CDC things fact check sour…',
+'brilliant people awake accepting mainstream narrative',
+'100% feeling good Sounds like soul song',
+'Thanks \u2066 stressing personal responsibility limiting spread',
+'development worrying continue monitored closely RKI exacerbati…',
+'new beginning 6yrs ago wonderful new addition family Marley brought muc…',
+'vaccine face coverings stay feels like massive shift a…',
+'Dr Ebrahim Janahi CEO Tamkeen confirmed supporting sectors affected
+coronavirus pandemic reac…',
+'183 coronavirus cases linked AlTaqwa College Melbourne commentary nearly non
+existent Imagine th…',
+'Yes hoody mask far followers dont real friends l…',
+'Absolutely Exceptional situations need extraordinary solutions fight battle
+usual measu…',
+'Oh yes sure perfectly happy selfcertification',
+'Hello Twitter Delighted share great innovators creators thought leaders Visit
+website an…',
+'Amazing took regret choice hey better late never…',
+'took weeks limited population members test positive weve followed…',
+'Wow surprised impressed Mia understands rule (for waiting brother Fraser p…',
+'new way lifeuntil Nov 4 day election lockdown charade meani…',
+'help fight important threats addressing issues sanitization Pandemic A…',
+'can’t coffee shop (re)imagine outdoor space early morning reading…',
+'today 77 new cases 5 new death active cases 881',
+'textile reusable mask proven ability inactivate new coronavirus responsible
+fo…',
+'mishandling pandemic response lead excess deaths premature death losing
+game…',
+'reports 7813 new cases Saturday tally goes 88671 death toll increase…',
+'Great reminder important nature – physically e…',
+'1005 new cases 18 new deaths United States [13:16 GMT]',
+'best teachers dont ignore chaos world outside classroom writes Instead us…',
+'Latest updates covid19 Qatar',
+'enjoy',
+'new cases Sorsogon include teenagers',
+'intersect ways Right expected bring severe flood…',
+'recovery home requires space prevent infection living roof 1 i…',
+25
+'Fiji active cases novel coronavirus disease/COVID19',
+'Barcelona legend Xavi Hernandez tested positive head coach Qatars Al Sadd said
+soc…',
+'government Rajasthan poor pro Look kind slum sitting what…',
+'University Kentucky working Somerset Community College create new advancements
+mask filtrati…',
+'safely restart nonemergent pandemic Join 910:30am EDT o…',
+'love wicked ￿\u200d￿ ￿\u200d￿ ￿\u200d￿ ￿\u200d￿ ',
+'Wearing Sunscreen year kills',
+'Trump cared protecting adults school children pandemic protec…',
+'thing distinct',
+'60 countries reported disruptions childrens immunizations Decades progress …',
+'Running Balance SMART number recharge online care',
+'online retail sector busier outbreak 10 easy steps improving y…',
+'dont wanna miss',
+'retail stores limiting hours deep cleaning limit wages',
+'Andhra Pradesh 25/07/2020 New positive cases 7813 New discharges 3320 Ne…',
+'started inviting worlds Phase III clinical trials Heres how…',
+'Surely carried correct risk assessments allow children play football are…',
+'Amazing partnership period provide knowledge an…',
+'Revovered corona B+ve plasma donor interested donate plasma DM urgently
+required',
+'institutions forging ahead oncampus inperson classes + activities fall terms
+making…',
+'know Dutch government legally mandate parents send children school c…',
+'7813 new cases 52 deaths 53681 samples tested 3208 discharged E…',
+'Compared rest California labor force Asian Americans high school…',
+'strength idolo',
+'okay can’t visit granny nursing home doors visit',
+'Inline UKs goals promoting quality mentorship opportunities young persons ￿￿
+w…',
+'Wear Mask Stay safe safe',
+'resuming movie shootings latest interview',
+'know foreseen far better position lo…',
+'Delhi Update Jul 25 New Cases 1142 Total 129531 July 43452 (3354% total)
+Deaths 29 Total 3806 Disch…',
+'Catalonia Spain reports 1493 new cases ￿￿',
+'ALERT: Pregnant women risk death Kenyas COVID19 curfew Global Pandemic News
+|',
+'look interests interests…',
+'latest Islam Islamism',
+'vilifying amp (Republicans premium stock) catering w…',
+'reports 7813 new cases Saturday tally goes 88671 death toll increase…',
+'total 52 confirmed deaths',
+'Wear face cover pay £100 fine New laws imposed London Lol Chose cover',
+'AP records 7813 new cases 24 hours taking tally 88671 52 deaths wer…',
+'statistics gives info performing better fight',
+26
+'increased testing samples Covid19 fatality rate significantly dropped 235%
+Saturday an…',
+'CM tested positive Theres news bcoz ministers wel…',
+'(6) rise level knowledge acquiring new helpful informatio…',
+'students tested positive coronavirus taking ACT Oklahoma high school…',
+'Andhra Pradesh registered singleday spike 7813 positive cases amp 52 deaths
+24…',
+'dealing COVID19 outbreak survey developed psychologists world p…',
+'Actor father MrGKReddy tested positive 15/20 days s…',
+'resuming movie shootings latest interview',
+'press knock “change tone” week Trump It’s…',
+'New Personal View: Need sustainable biobanking networks diseases epidemic
+potential',
+'worsened dire opioid crisis fewer social supports people battling addictions
+mu…',
+'￿Corona Alert | arrivals Chennai tested positive Covid19 raising total Sri
+Lanka 2768…',
+'wants sure 150K dead end July 7/24: 148490 dea…',
+'America land free home brave land acquiescent home f…',
+'RFK Jr soars Phenomenal read LACK scientific testing development',
+'imagine right state mind voting LUMP MASS theyre membe…',
+'Hello Lets hit 1k followers Twitter Kindly retweet follow ￿',
+'district administration announcing complete 5 pm Saturday till 6 Monday h…',
+'Cheap spray costs pennies end Britains nightmare',
+'hit area major spread amp hospitals need',
+'SRV Group Hospitals dedicated making neighborhood healthy book appointmentr
+SRV experts 86…',
+'293 new cases 3 new deaths Uzbekistan [13:11 GMT]',
+'helping families use opportunity teach young people global challenges
+including t…',
+'Spike Cases Far Outpaces Testing Expansion',
+'tested positive says latest test result negative',
+'update July 25: New Cases 1142 Total 129531 Deaths 29 Total 3806 Discharged
+2137 Total 113…',
+'STRANGE NEW BEGINNING ※7/25/2020',
+'(3) quick route fix success price pay success desire…',
+'pandemic mass hysteria believe kill k…',
+'Thinking clip wasn’t addressing that’s head went heard love s…',
+'da hot dance moves amp view message link(need suggestionsthanks )…',
+'Long LOOK Good | Carl Vernon',
+'pandemic live responsible people protect life save life’s',
+'ICU District Headquarters Hospital sealed patient tests positive',
+'soon unblocked debit card danger bank pandemic',
+'Stay safe washing hands',
+'aka I’ll sending 900people like amp retweet $300$900 CashA…',
+'Love businesses come creative ways stay open',
+'SRV Group Hospitals dedicated making neighborhood healthy book appointmentr
+27
+SRV experts 72…',
+'Fear effective strategy Protect children doesnt care use…',
+'Dont concentrate Ive lost friends amp important message Check th…',
+'Actor father MrGKReddy tested positive 15/20 days s…',
+'Social distancing necessity today GUCECs grand complex opengrounds social
+distancing easy Book be…',
+'pandemic live responsible people protect life save life’s',
+'Twitter great Florida Gator Grateful Lord TRIBE 1st generation student n…',
+'Don’t stuck fear *failure wanna rise potential life count st…',
+'1142 positive cases 2137 patients recovered/discharged/migrated 29 deaths
+Delhi today are…',
+'DPH July 24 Viral Tests (PCR/Molecular)1382444 (+45506*) + PCR/Mol Ca…',
+'1142 new cases reduction 1024 active cases 2137 recov…',
+'worry called killed 14500…',
+'Making interactive dashboard teams final data preparation having…',
+'published Promote Good Hygiene Habits Kids',
+'amp father MrGKReddy tested positive 1520 days f…',
+'Webinar went recording soon available sharing lets…',
+'Thankfully epidemiologist working w/ daily basis amp recognized symptoms right
+away also…',
+'awesome ￿ try consider collaboration Trust going b…',
+'happening neighboring 200 daily deaths June number daily…',
+'Dear little logic argument testing result cases of…',
+'follow true freedom fighter',
+'Shivraj Singh Chouhan Says Completely Healthy Getting Admitted COVID19
+Hospital Bhopal…',
+'ALERT: Federal Agents Use Tear Gas Clear Portland Protest Global Pandemic News
+|',
+'tests positive CM announced Twitter ha…',
+'Dogs sniff saliva 1000 people healthy infected',
+'youre going let denial old man run country fing ground hope vet…',
+'Surprised need thought virus disappeari…',
+'14 day% New Cases Florida 648% growth new cases 14 days Texas 545% growth new
+cases 14…',
+'Properly stated: Ladies gentlemen live clown planet Tata',
+'New preprint: Country distancing reveals effectiveness travel restrictions
+COVID19',
+'According data Pakistan successfully flattened curve 81% Coronavirus patients
+hav…',
+'New preprint: Anxiety perceived risk COVID19 outbreak',
+'Bangladesh records 38 new COVID19 deaths',
+'Yesterday conference met referees gave plan safe spec…',
+'New Study Highlights Impact Pandemic Families’ Mental Health – NBC Chicago',
+'New preprint: analysis mortality Ontario cremation data: Rise cremations
+COVI…',
+'Nearly 16 crore samples tested India far country registered 13 lakh positive
+c…',
+28
+'Canadian driver stop locations tested free',
+'New preprint: Epidemiological cohort study finds association COVID19
+GuillainBarre sy…',
+'Evidence airborne transmission main route spread SARSCoV2 infection policy
+implicat…',
+'Excellent analysis failure perfect example Late…',
+'Survey week outbreak Italy suggest people highly resilient especiall…',
+'Know Location Social Webinar Series Episode 2 Whitefield Bengaluru
+conversation Home buyers Ash…',
+'ur normal hardworking patriotic taxpaying Republican u r required abide law ur
+insan…',
+'New preprint: Infectivity susceptibility risk factors associated SARSCoV2
+transmission under…',
+'problem Shocked brought America knees Sad…',
+'love borders',
+'2020 right ￿',
+'New COVID19 mutation helps outbreaks spread quicker: expert',
+'TODAY testing 3pm Burke High School',
+'Covid19 stressing 8 ways sleep better',
+'New preprint: Mathematical modelling dynamics containment COVID19 Ukraine',
+'10 cases confirmed',
+'New preprint: SARSCoV2 serosurvey Health Care Workers Veneto Region',
+'story saying good dead South Africa hard feel anguish left b…',
+'5144 new cases 58 new deaths India [13:05 GMT]',
+'Win Big Trump Reduces Drug costs Seniors benefit huge Medicare people costs
+down…',
+'New preprint: Sentiment Informed Timeseries Analyzing AI (SITALA) curb spread
+COVID19 Houston',
+'￿Did miss webinar share new growth opportunities connected the…',
+'New preprint: Concerns quality life access care productivity general
+population during…',
+'ICYMI: Youssef Belhaissi tv host amp union leader fired workers MED1 TV sought
+better sa…',
+'Colly Sweetness love daddy (Official Video) African story written Colly
+Sweetness',
+'It’s important washing hands time return home kill virus you’ve picked
+outside…',
+'David Turner CEO Webhelp discusses clear phases resulting crisis inform CX…',
+'Positive cases increased safe today Friends Let’s protect',
+'getting rid contract cleaners important theyve',
+'joke real numbers allowed reveal',
+'New preprint: Severe COVID19 associated elevated serum IgA antiphospholipid
+IgAantibodies',
+'stunning example need real leadership senior levels government Flattening
+curve doesnt m…',
+'Usually high summer hens stags inter railers tourists enjoying f…',
+'Narcissists psychopaths likely refuse wear masks Surprised woman screaming
+29
+h…',
+'New preprint: Reducing COVID19 hospitalization risk behavior change',
+'Delicious rosemilk cake cake loverstry pls likeshare subscribe chann…',
+'Texas Hospital Says Man 30 Died Attending ‘Covid Party’ New York Times',
+'9615 new confirmed cases reported 24 hours Info MoHFW',
+'Supreme Court right decision houses worship shut casinos multiplex movi…',
+'Half worlds users Africa Tech solutions help people affected jo…',
+'New preprint: Comparative Evaluation 19 Reverse Transcription LoopMediated
+Isothermal Amplification As…',
+'Peace better holding grudge Life short ￿',
+'knew ways',
+'New preprint: COVID19 Vulnerability Transgender Women HIV Infection Eastern
+an…',
+'Washing hands best ways protect millions people refugee c…',
+'latest update (',
+'New preprint: Development quantumdot lateral flow immunoassay strip based
+portable fluorescence smar…',
+'trip shops 10 days mandatory mask wearing lawseen people wearin…',
+'Change Work General (and recruiting specifically) via/',
+'New preprint: Presence SARSCoronavirus2 sewage',
+'singleuse masks gloves amp bottles sanitizer ending streets seas amp wil…',
+'2020 submission deadline amp solutions ￿July 31st for…',
+'Actor father tested positive 15/20 days fat…',
+'I’m lies propaganda divert attention away…',
+'New preprint: Tissuespecific interferoninducible expression nonfunctional ACE2
+endogenou…',
+'Man better sense humor good ￿hoax…',
+'Tens thousands Americans infected daily millions face imminent eviction
+peaceful p…',
+'set children free Education Automation learn want learn they…',
+'New preprint: Coexpression Mitochondrial Genes ACE2 Cornea Involved COVID19
+Infection',
+'Inspirational life',
+'world map: countries cases deaths',
+'thoughts improve healthcare services county Complete short survey hel…',
+'case need reminding ￿ ￿ ￿ pivotal achieving control o…',
+'Initial results twophase trials vaccine conducted trial sites UK showed has…',
+'Updated preprint: Potent Neutralizing Antibodies Directed Multiple Epitopes
+SARSCoV2 Spike',
+'Amen Trump administration inadequate appointees ignored early warnings
+misled…',
+'remember people susceptible long circulating riskIts all…',
+'Actor Father MrGKReddy Tested positive 15/20 Days s…',
+'FIXED: starting today draconian new rules protesters…',
+'great summary evidence limitations information transmission schools',
+'feeling anxious normal ￿Here destressing techniques help rig…',
+'Hong Kongs situation remains grave new cases hit record',
+30
+'Real deaths figures',
+'chart showing number new cases cases plus average number daily new cases…',
+'love ￿￿￿',
+'Wash Hands Clean Hands Save Lives ￿Download FREE Google Play Store:',
+'Lessons learned past epidemics sexual reproductive health learn ￿ …',
+'everyones health amp wear mask simple action sure covers nose mouth amp…',
+'Qatar’s announced today recorded 398 new cases 330 recoveries 4326 people
+tested…',
+'GOP bureaucrat like Steve ( ) loved paid',
+'Victorias coronavirus cases rise 7744 people die COVID19 stup…',
+'know disabled people cant wear mask makes import…',
+'new makes smile Mask friends Stay safe (Wonder allows…',
+'NHS test trace service help manage risk vital employers play part…',
+'NHS test trace service help manage risk vital employers play part…',
+'remember heading avoid big crowds social distance wear mask help stop…',
+'AstraZenecas eagerly awaited COVID19 vaccine passes large test confirmation
+needed',
+'Landlordtenant mediation program launched new program aims provide housing
+security tenants c…',
+'thats going easy forget come sudden job loss abrupt shi…',
+'long interesting thread re: kids',
+'way achieve high levels engagement pre w…',
+'Stay safe weekend',
+'We’ve busy week talking partners amp advocating local MPs amp CrossBorder
+Commissioners abou…',
+'Dogs sniff saliva 1000 people healthy infected',
+'25/07/20: R=10 cusp second wave cautious dil…',
+'India conducted 420 lakh tests day highest far tests million rises 11485:
+Health Ministry',
+'Bishop John Hsane Hgyi Pathein joins church social workers moral support
+people quarantined 21 da…',
+'Bishop John Hsane Hgyi Pathein joins church social workers moral support
+people quarantined 21 da…',
+'Bishop John Hsane Hgyi Pathein joins church social workers moral support
+people quarantined 21 da…',
+'Bishop John Hsane Hgyi Pathein joins church social workers moral support
+people quarantined 21 da…',
+'Government Hospitals entire treatment FREE COST…',
+'attitude civilization right with…',
+'Herere lessons learnt outbreak hope best prepared t…',
+'giving medical treatment people who’ve tested positive',
+'point Spanish flu substantial portion death young people those…',
+'suggest main different seasonal flu vaccination immunity seasonal fl…',
+'stick rules rate infection fall￿￿',
+'85 million Canadians quickly employment revive recovery Dr Ather Akbari…',
+'COVID19 crisis keeps growing Rio Grande Valley increase cases overwhelming
+medical systems…',
+31
+'forced “believe” scam logical school reopenin…',
+'confident business secure Check steps taki…',
+'latest government advice',
+'latest CWR World News',
+'ICYMI: offering nocost inhome testing eligible residents live area zip code…',
+'woods ￿Please practice safe social distancing',
+'sure swing FREE check (Conditions apply)',
+'It’s long lockdown nails perfect matter takes Don’t judge ￿…',
+'Thanks Yuqiang Liu Laboratory Director State Key Laboratory Crop Genetics amp
+Germplasm Enhancement of…',
+'clearly exposed cracks worldwide urgently need invest thes…',
+'disrupted medically necessary health interventions like surgeries basic…',
+'New COVID19 Data 20200725 08:00:00 EDT',
+'trying work beat Trumps America busy creating mo…',
+'Deep immune profiling patients reveals distinct immunotypes therapeutic
+implications:',
+'￿￿￿Pandas Found Moment COVID19 Shutdowns Baby – Check amazing video ￿￿￿￿￿…',
+'Health Services (Seha) starts conducting new clinical trials phase III
+inactivated vaccine to…',
+'latest numbers COVID19 Canada Saturday July 25',
+'Nan second ordered dish ordered 335 lakh times',
+'\U0001f7e7 Total Confirmed: 15762007 \U0001f7e9 Total Recovered: 9123433
+\U0001f7e5 Total Deaths: 640276 update: 20200725 12:00 (…',
+'Studies shown mask mandates correlated mitigating cases Learn whats sto…',
+'safe follow strict guidance surface Limiti…',
+'queue Ikea like queuing Disney think youre near theres mile go…',
+'Join crossfunctional panel Gartner experts 7/27 free Panel Discussion: Adapt
+Cust…',
+'fighting lines offering free subscriptions help maintain mindfuln…',
+'far',
+'Alabama Cases: 74365 +1669 Tests: 627344 +9333 Cumulative positive: 118%
+Hospitalized Total: 915…',
+'okay feel okay Support Line provides 24/7 and…',
+'long til YouTube 23pm: Speak listen m…',
+'help key times mind clean sanitize toys amp games Learn more…',
+'digital accelerant decade recent survey shows 95% companies seeking new w…',
+'15% reduction transaction costs — great way bank track for…',
+'hope citizens note warning',
+'help stay pandemic new resource page added to…',
+'parts world colliding ongoing HIV epidemic latest UNAIDS report shows…',
+'travel: ensure coverage cost',
+'pandemic sold tickets money place heaving no…',
+'Me: Comfort today Comfort: I’m feeling comfortable sir Me: I’m feeling
+bashabl…',
+'religion absolute bullshit insists social distancing PPE pandemic youre
+goin…',
+'Calling clean air safe cycling A6 Levenshulme Government literally giving
+32
+money away emerg…',
+'Canada drug imports better China',
+'Wake America New Jersey close gym defiantly stayed open amid judge rules:…',
+'Update Biggest single day spike 2984 new cases 39 deaths reported i…',
+'Nice Read Rea…',
+'fixed November 3rd demand Congress act sto…',
+'New fashion accessory arrived ￿',
+'predicted 2020’s accessories include: ￿Umbrellas ￿Bike helmets ￿Goggles ￿
+Fac…',
+'going Texas visit parents new told t…',
+'good vibes need survive Arellano family ￿￿￿',
+'video Pandemic: Transparency Challenges New England discussion f…',
+'UK demand new food products soars lockdown',
+'missed hearing chatting super tal…',
+'masks effective positive tests numbers climbing',
+'￿New visa measures support student visa Covid19 IMMIGRATION EXPERTS ￿
+9999467686 8448587890 ￿ 01206…',
+'5144 new cases 58 new deaths India [12:58 GMT]',
+'￿Weekly Update (25/07/2020) Global Confirmed Cases: 15759651 ￿￿4113224 ￿￿
+2287475 ￿￿1337024 ￿￿…',
+'Dont expect safe “Treat decisions meet…',
+'Total Cases 2768 Active Cases 654 New Cases 4 Hospitals 84 Total Recoverd 2103
+Total Deaths 11 Updat…',
+'conclude IFR Spanish Flu depends infected assume attack rate…',
+'Actor father MrGKReddy tested positive 15/20 days father tes…',
+'total 39539 confirmed cases',
+'recent video Content Engagement Manager talks patient…',
+'thing learnt tonight Crowd numbers proves it’s keeping Crows supporters away',
+'Madhya Pradesh Chief Minister Tests Positive Nation in…',
+'Rollen Quail Farm best quality fresh jumbo brown coturnix hatching Shipped
+y…',
+'come aint packs young White men women nonsense life…',
+'NEGATIVE WORD POSITIVE',
+'POLICE Update ￿ Total positive: 8232 ￿ Total discharges: 6314 ￿ Total de…',
+'Actor Father MrGKReddy Tested positive 15/20 Days s…',
+'going Houston visit parents new they…',
+'happy baseball 60 game season causing major fantasy league anxiety ￿Changing
+r…',
+'Nigeria live pandemic year says DG',
+'MIDDAY BULLETIN | 25 July ￿ 38 new cases1 recovery amp 1 death reported today
+till 9pm ￿ The to…',
+'India’s poultry industry lost 13 billion rupees ($182 million) weeks
+speculation social media…',
+'Amazing read “A child’s brain needs words lessons organized activities: needs
+love friend…',
+'politics gets way pandemic it’s heartening world’s scientists stand each…',
+'Honble CM Madhya Pradesh Shri Shivraj Singh Chouhan Ji tested positive Praying
+33
+speedy recovery',
+'good sitting enjoying pre haunts',
+'happening globally brought large profit logistics bus…',
+'brought fore kinder India New Sunday Express Magazine finds reading…',
+'Good old British common sense wear mask shop staff won’t wear ￿￿\u200d￿ good
+old conside…',
+'means presenting pretty femme (pre pixie cut wearing makeup want whe…',
+'new article mask anxiety share help struggling anxiety wearing mask',
+'New overalls ￿￿￿￿￿',
+'important doesnt mean cant FUN Shop Safely',
+'social sector spending instance don’t think technology India matured r…',
+'LIVE Join panel discussion launch Fiscal Data Explorer Listen to…',
+'pandemic millions patients need diagnostic imaging procedures New IAEA
+guidelines bee…',
+'political cost running amok high politician stake Government b…',
+'Bridal company western Japan providing free venues outfits planning support
+couples wedding ceremo…',
+'blows mind parents literally care can’t wait send children to…',
+'Actor father MrGKReddy tested positive 15/20 days s…',
+'live happily secure identity doesn’t affect don’t speak Demonizi…',
+'Look Eat drink wisely Nourish flourish App…',
+'Tune shortly latest Austin',
+'Culture Secretary Oliver Dowden announced July gyms leisure centres able
+reopen strict…',
+'people lost jobs unable loved ones people cant it…',
+'Check latest updates here:',
+'It’s mysterious GOP militants eager send kids height…',
+'Actor Father MrGKReddy Tested positive 15/20 Days s…',
+'Actor father MrGKReddy tested positive 15/20 days s…',
+'beautiful chaos midsummer garden metaphor life moment things gratef…',
+'7100 Americans confirmed dead Friday',
+'community best country love country Covid 19 helping team Love Stay safe
+Spe…',
+'Dont forget openly admits intentionally misconstrue numbers right on…',
+'held online launch New lots new features youll definitely need check it…',
+'featured video paper high covertness amp high transmissibility COVID19 high
+chanc…',
+'joke perfumes perceive right way',
+'started wearing masks people wearing years ￿',
+'puts stress lives self care extremely important think…',
+'Societal upheaval COVID19 pandemic underscores need new AI data regulations',
+'tests positive : total 2768',
+'Cerina Air Purifier AIPowered air purification contemporary indoors',
+'Access online education reflects reproduces amplifies existing economic
+(dis)advantages provides benefi…',
+'684 new cases 4 new deaths Kuwait [12:52 GMT]',
+'COVID19 case data tally July 25 Total confirmed cases 78000 recoveries hit
+34
+25000',
+'price gouging best Zovirax store shelf £485 demanded (not automatically
+offere…',
+'CNN: surpasses 4 million reported coronavirus cases hospitalizations near
+record',
+'Good job lot little man silver spoon mouth',
+'45 deaths COVID19 young protect vuln…',
+'EU launches EUR 3 Million program combat COVID19 Central Asia European
+External Action Service…',
+'Vietnam detects coronavirus case nearly 100 days',
+'Uh yes doctor tell learn new aspects day knew facts always…',
+'Goodbye Youve sweet times books',
+'7100 Americans confirmed dead Friday dont care',
+'BIO’s Dr McMurryHeath Warns Executive Order “Cripple Small Innovative
+Companies” Working Eradicate COVID1…',
+'Uh yes doctor tell learn new aspects day knew facts…',
+'7100 Americans confirmed dead Friday dont care',
+'7 days fixed wing deployed 13 police forces',
+'vacation took test Vacation nearly results',
+'think best thing mask wearers Remember society laugh think wei…',
+'Yep 4mil cases 111% unemployment Consumer confidence lowest Great Recession',
+'Congratulations PhD level graduates successfully completing studies mark
+milesto…',
+'weather mild sunny Today a: 2020 amp season en…',
+'Counties close facetoface birth registration services staff public safe',
+'working home weve online course Understand amp Access Tools availabl…',
+'Actor father MrGKReddy tested positive 15/20 days s…',
+'wonder Lai Mohammed means stopping BBNaija COVID19 watch opening p…',
+'symptoms coronavirus weeks testing positive Follow',
+'Local stations country set air Fauci conspiracy theory weekend CNN m…',
+'Families St Basils Homes Aged residents fear loved ones coronavirus outbreak
+grows…',
+'UAE icon giving ￿￿helped world fight support packages s…',
+'Good morning weather mild sunny Today a: 2020 amp…',
+'asked occupation replied: forced stay insidewhile outsiders enjoying my…',
+'order recover economically start support British jobs Im banning in…',
+'pleased recent news emanating Abia State like returned the…',
+'remembers advert ￿￿\u200d￿ ￿￿funniest best advert ma…',
+'amazing player Super Bowl champion giving shot championship hea…',
+'UPDATE: New cases Kuwait (+684 tot 63309) El Salvador (+429 tot 14221) Uni…',
+'peak season we’re encourage people follow social distancing help stop t…',
+'3 easy steps Stop acting like 3 stooges',
+'Day day worse claiming eminent personalities Scared',
+'friends Walter worse kind cancerhe c…',
+'arrange bed patient temple premises important Ahead Mega Ram Temple…',
+'Allcure Lifescience delivering rich quality Hand Sanitizers details contact
+contact leave your…',
+35
+'good Best Products Lowest price looking solution vis…',
+'Early elections rages Political opportunism/cynicism runs deep midst global
+cri…',
+'According official responsible collecting uploading daily provincial tests
+government…',
+'Cant believe visited Scotland skipping entire mainland going straight Orkney
+t…',
+'experience March bothered look like the…',
+'party going',
+'man like medical colleagues hero',
+'Exactly Kate difficult concept board suffer with…',
+'HEY Shut start right ~',
+'precisely supposed buy facemask let shop buy facemask…',
+'cant believe photos real school ￿look cut scifi film a…',
+'Tokyo reports 260 cases day record high ※7/24/2020',
+'2020 look like pull bankjob straight clown',
+'Selling babies R200 colours available DM information Durban based',
+'thought Lets reduce social distancing 1metre youre lucky Light blue touch
+paper a…',
+'ALERT: Newsom economic task force starstudded cast cant solve reopening Global
+Pandemic News |…',
+'Australia welcomes Vietnams ban wildlife imports markets amid new health
+fears',
+'nails coffin need randomized study looking question publish…',
+'district reports 1000+ positive cases 24 hours 1204 positive ca…',
+'Meet heroes Elizabeth head childrens nursing Barnet Royal Free Hosp…',
+'Despite differences we’re way beat ￿￿amp played great role combating…',
+'mild obesity raises severe COVID19 risks',
+'Highest total confirmed cases 357117 cases followed 1…',
+'think surely Government Local Authorities callous incompetent in…',
+'attitude civilization right with…',
+'protect courthouse burn masks protect transm…',
+'World COVID19 vaccine 2020 end early 2021 claims pharma cos',
+'Stay safe Antwerp sees epidemic flare need respect social distancing
+faceprotection…',
+'latest Georgia numbers shows highest single day counts new cases we’ve far
+481…',
+'1 new case Gibraltar [12:47 GMT]',
+'drug treats cough COVID19 Ehanire discloses advising healthy foods righ…',
+'Shinjuku recorded 50 cases Setagaya Nakano Itabashi 15 cases day',
+'saw lovely ad 100y/o granny talking new greatgrandson hopes fa…',
+'health staff carrying checkup swab test urban primary health centre Kharghar
+o…',
+'needs Glastonbury create festival home Check latest video:',
+'staff finally got accurate information evidence reveal…',
+'Big Breaking ￿CM tests positive man bla…',
+'Depopulation Agenda: Melinda Gates wants deliver coronavirus vaccine based
+36
+racial groups blacks fir…',
+'Absolute expert courtesy the…',
+'Good day Beautiful People wish refreshing weekend Remember maintain social
+distancing wea…',
+'live New England Hawaii NY wants stay heck q…',
+'proud moment IMS team eminent faculty members Modern Medicine Ayurveda c…',
+'Wear mask socially distance',
+'use new Mode video meet app Microsoft Teams place basketball fans courtside
+in…',
+'“blunt” gives U happiness U smoke inducing U employees come wo…',
+'Humanity best reached helped we’d better place now…',
+'new normal: Construction strict COVID19 regulations',
+'Cultural continuity maintained educating children ways culture educated the…',
+'Home starting place love hope dreams',
+'genuine question works (advisors secretary etc) read an…',
+'total 4248492 Covid19 Positive cases reported date United States and…',
+'Washington demanding Australian government participate aggressively
+provocations South…',
+'equitable future',
+'Remember wear mask safe',
+'17319 MT Fresh Ginger exported Manu LCS (',
+'LIVE | Indias testing hits record high 420000 samples day Catch latest upda…',
+'wearing Mask important amp stop arent dead homeless people big cities dyin…',
+'beginning develop huge fondness online conferences experience better inperson
+ones…',
+'says cool it’s today',
+'– UK 12:42:GMT: Total number labconfirmed cases 297914 positive test res…',
+'worked happily',
+'nice discussion',
+'need Blood Plasma Group: B+ (B Positive) Patient Name: Rakesh Singhal63 yrs
+Male H…',
+'Stories powerful told shared inspire people calling stories rural health amp
+social w…',
+'slow return passengers lockdown means TfL require additional £29bn
+financial…',
+'Lol international flight individual charter plane ￿ resell ticket high price
+Business',
+'Spain’s mistake: reopening mild success rely tourism New cases breaking Hawaii
+d…',
+'confirmed tested statement',
+'pets tested positive Corona carrying traitor pets',
+'Ive saying long time funny style red…',
+'Vietnam recorded local transmission case 3 months',
+'total 4518 confirmed deaths',
+'want free hand sanitizer Download medsearch zambia ￿￿app location neare…',
+'It’s getting real Texas',
+'said right kids don’t school want tax money',
+37
+'easily win second round opponent popular exjustice minist…',
+'dey talk EnoughisEnough cos kindly support brothers business Retweets goes…',
+'Good insights summary responses pandemic Good proactive wide range soci…',
+'Hi COVID19 Complete Info stats',
+'WaPo good interactive list subset national numbers',
+'(apparently Dom Cummings hates app sees enemy￿thats true then) Help slow
+spread of…',
+'2 new cases Turks Caicos Islands [12:41 GMT]',
+'Km beats climbing higher going work digital platforms',
+'India records highestever tests single day Nearly 16 crore samples tested far
+in…',
+'think irritating lady ‘ got…',
+'Sinclair owns 200 local television stations nearly 100 markets conspiracy
+spread faster',
+'Hi thanks sharing check online map latest and…',
+'detects domestic case 3 months',
+'David Kriesels explanations findings plots interpretation aids shed light w…',
+'important wear mask right way covering nose amp mouth completely control
+spread of…',
+'people talking “God you” “God protect you” That’s super nice an…',
+'Lord good love discipline forgive set free time',
+'Today Im donating high antibody blood plasma hope helps people fights
+against…',
+'Actor father MrGKReddy tested positive 15/20 days s…',
+'Hola Amego ￿￿tweet describes PERFECT Mexican STAND SLIM size ZERO amp ener…',
+'understand virus attend meetings read reports listen scientists did…',
+'inactivates created Portugal￿￿￿ ',
+'Haha',
+'5000year historical timeline went obsolete 3 months￿dig amp thrilled buy
+‘Timeline o…',
+'Clinical Characteristics Covid 19 Subscribe videos health medicine :…',
+'survivor fingers amputated: ‘This happen you’ “It sho…',
+'pointed “low death rate” Oman understand deaths lag new cases month
+(someone…',
+'Actor father MrGKReddy tested positive 15/20 days s…',
+'Worth share',
+'700000 new infections days reloads: Graphics sad records re…',
+'return ‘old normal’ says health chief cases 15 million',
+'opportunity brought right wrongs lost politicians eager return normal…',
+'belief GOD higher power transfer good morals easy Morality cho…',
+'Brilliant minds giving insight post Worth read reality check reminder…',
+'Stop spreading deny lies Covid spiking states Amercians banned…',
+'Actor father MrGKReddy tested positive 15/20 days s…',
+'got good resources/arguments masks arent bad good idea ￿',
+'Africans capable liberating Africans poverty war',
+'coronavirus: vaccine likely wont widely available months 2021 says',
+'New study shows microvascular lesions 11/16 (69%) patients severe ￿…',
+38
+'Dear Twitter experts charge generated conflicting information dont you…',
+'Shivraj Singh Chouhan tests COVID positive',
+'Vietnam Lauded Coronavirus Fight Local Case 100 Days READ MORE:',
+'drug treats cough COVID19 Ehanire discloses advising healthy foods righ…',
+'real man afraid tell world dating real man points gal friends Kind…',
+'Barcelona Legend Xavi Tests Positive COVID19 Fans Wish ‘Midfield Maestro’
+Speedy Recovery (See Tweets)…',
+'want hold stimulus package selfish reasons hotel prec…',
+'Higher government spending isn’t ideal “crowds out” business investment 1
+reason im thrille…',
+'Republicans forcing $600 cliff better prepared this…',
+'Fascinating amp insightful Rachel Davis Inspiring confidence amp selfbelief
+children music…',
+'￿Thanks fabricated figur…',
+'Thank campaigning swim clubs running today',
+'American school systems need ignore guidelines follow original White Hous…',
+'lot questions circulating momstobe questions What…',
+'￿￿￿￿Available ￿￿…',
+'Listening carers speaking it’s clear need support people are…',
+'Challenge posed new diseases like de facto empirical ground zero entail
+high…',
+'￿Oh ￿news ￿￿￿good esp ￿',
+'Home Reflector test resultsgtgtgt Shot funds equipment lenses lighting
+equipment…',
+'Impeachment better different today dead 148498 4248759 every…',
+'HI everybody follow link know seller music promote rated social m…',
+'going old normal pandemic changed way live lives World…',
+'competent president (eg Hillary) disaster manageable like rest worl…',
+'randomized clinical trial convalescent plasma reported Li et al JAMA suggests
+that…',
+'Quick reminder there’s special ICU “bed” it’s nurses techs RTs doctors a…',
+'people watching',
+'Masks accessory necessity brands design experts crafting lifesaving a…',
+'COVID claims 25 lives infects 798 others: Murad Shah',
+'fully expect annual Trump Games year “celebrate”…',
+'213 new cases 1 new death State Palestine [12:36 GMT]',
+'Updated thread children amp Summary: schools reopen safely community
+transmiss…',
+'Damn John Roberts trying help save lives People right church sit close sing…',
+'Pre COVID selfie CHALLENGE I’ll join trend Post selfie preferably pic took
+right the…',
+'masks eyebrow raise new polite smile walk passed folk supermarket',
+'“Together management shortterm response seize historical unique opportunity…',
+'Walmart wants customers wear mask 24 hours',
+'need Thermometer R500 + Currier Available Bulks want number poster Whats…',
+'Thank ￿wendybibsqueak72 ￿love Love Miss Ruby ￿￿￿￿￿￿',
+'Maybe pay attention tweets interesting table showing…',
+39
+'rules protests legal gathering church isnt assembling congregation…',
+'contribution initiative highly appreciated dm information',
+'Good',
+'life nowadays thanks',
+'Impacted Counter Efforts Great read amp',
+'eating help restaurant owners scared restaurant new tech c…',
+'Dont expect safe Stay gt1m washing hands Wear mask Stop s…',
+'MOISTURISER HAND SANITIZER SALE Enjoy instant clean natural hand sanitizer',
+'youre going weekend remember social distancing',
+'“To able meet financial needs women diversifying activities include animal
+husba…',
+'case werent aware capitalism beating socialism',
+'Best Proper way Wear Viral Face Shield Federal Ministry Health Lets inform
+Public ad…',
+'agents plans Chinese students Know More:',
+'wonder people shoplift fear identified…',
+'￿1336861 total confirmed cases ￿849432 cases cured/recovered ￿15849068
+samples tested He…',
+'lifelong Seinfeldesque germaphobe reassuring resear…',
+'White neighborhoods access testing sites—even disease hitting Black Hispanic
+co…',
+'COVID19: 2984 fresh cases active cases cross',
+'Kuwait reports 684 new cases 692 new recoveries',
+'government needs step save American businesses going spiral second Great
+Depre…',
+'Heres hashes people r getting tired seeing evidence Wayfair Maddy mcann etc
+not…',
+'According women talked (and internal social media) got case One…',
+'SRASCoV2 experiments available kind research…',
+'latest 1310 report shows link risk dying new…',
+'Thanks initiatives fight…',
+'Face masks: important pandemic Read ()',
+'unprecedented situation important care loved ones Check f…',
+'advocating teachers Youre comfortable teachers returning school the…',
+'Awhad undergoing treatment Deenanath hospital test reports came positive said
+family mem…',
+'Luckily understand incompetence allowed death rates of…',
+'sharing stories coping health social economic impacts Special Initiatives…',
+'CORONAVIRUS VACCINE TRACKER latest complete list head link:…',
+'CORONAVIRUS VACCINE TRACKER latest complete list head link:…',
+'',
+'CORONAVIRUS VACCINE TRACKER latest complete list head link:…',
+'CORONAVIRUS VACCINE TRACKER latest complete list head link:…',
+'MrsWilks￿ Hi all:I’m loving Jason Donovan FaceMask arrived post this…',
+'John cares kissing trumps ass Texans going hun…',
+'JOB ALERT: number exciting job openings THET like join team dedicated…',
+'getting stressed news 8 ways sleep better',
+40
+'Interesting (recent) graphic amp cases especially kids 1019yrs amp parents age
+group…',
+'Returning new normal ￿',
+'Heres list doctors available teleconsultation 9am 5 pm telemedicine OPD Sir
+Sun…',
+'Hero lets fight battle togather Information: 02617161111',
+'accuses PM ‘politicizing’ laugh here’s party monetizing pa…',
+'Appreciation liner COVID ICU SHL dedicated team working day night cas…',
+'said you’re currently market new job time research company expectati…',
+'best bit advice ￿￿￿￿',
+'people whove died reopened \u2066',
+'vets busy spreading/catching hope VA hospitals improved trained one…',
+'course time look time people die needlessly…',
+'5year old girl returning Russia confirmed latest cases Viet Nam bringing
+patient tally to…',
+'quest cure critical look therapy being…',
+'Horse barred trainers high temperature RTE https://c',
+'130 new cases 5 new deaths Senegal [12:30 GMT]',
+'thats delivery guys wear masks id try Thanks thanks…',
+'warns impact business right latest:…',
+'didnt civil discourse',
+'Free testing TODAY July 25 8a2p Brooke County 9a4p Logan County Bring ID
+under…',
+'Despite suspension routine transfers 81 incarcerated people moved New Orleans
+jails Lear…',
+'Feel feelings valid Talk journal meditate li…',
+'dont actually lets second best way (actually best way) and…',
+'noticed giant software company (Inc) occupies special place amp',
+'Hi thanks sharing check online map the…',
+'New COVID19 Data 20200725 07:30:00 EDT',
+'leaders thinking ahead comes states start ease lockdown restrictions
+implemen…',
+'wear face mask social distancing possible public settings amazing article
+written…',
+'View ￿Important Abandon Display Selfishness Possess Great…',
+'Hurry Book orders place disinfecting safe safety provide…',
+'Madhya Pradesh Chief Minister tests positive',
+'￿triggered collapse global economic activity responses governments lower
+income count…',
+'Vietnam detects coronavirus case nearly 100 days',
+'quick easy way support continue support Young People…',
+'“Why small businesses use cause marketing build brand” Mr Luvneet Amin
+Director Pinnacle Ma…',
+'MP CM Shivraj Singh Chouhan tests positive COVID19',
+'756K Cases 315K Recoveries 12K Deaths',
+'Health officials refugee camps confirmed 4 suspected cases turned positive…',
+'NEW ALBUM DEATH DROPPING AUGUST 9TH',
+41
+'milestone Ive drawn climate skeptic trolls fascinating watching fate as…',
+'guy line ahead convenience store told look better face mask Covid C…',
+'UK Government preparations continue premises given permission reopen…',
+'Good getting gyms running leisure sector smashing today…',
+'Hope there’s spike numbers stay stubborn new cases England 4000 new cases…',
+'Congratulations California Los Angeles’ diligent efforts fun fuck safety
+place…',
+'Covid19 lethal Destroys body kills life business social relations Dont drop
+guard MNO2020…',
+'Wow messing interferon vs Receptor story Tissuespecific interferoninducible
+expres…',
+'Incredible Twitter thread Premier League managers Simpsons characters goes
+viral',
+'new high cases testing hospitals filling people…',
+'cases + lower death rate = herd immunity operational time rebuke fear exhort
+living t…',
+'Selling Tupperware convenient homeware today Based limpopo ￿Nationwide
+Contact i…',
+'trending odd banned places didnt read book consid…',
+'Politicize face masks free speech charades bullshit want POLITICIZE W…',
+'test sure negative',
+'latest Neville Hobson Daily Thanks',
+'children 35 test positive Cuttack city',
+'coming Cult Personality attractive DISTANCE…',
+'reasonable lived China considered leader like cap…',
+'Arts cultural industries worth far economy far enjoyable fish arent t…',
+'Hi — trigger global food crisis push people into…',
+'￿￿— safe safe commit ensure…',
+'Cancel neet exam 2020 critical situation moment conducting exam safe way
+possible stude…',
+'“raids authorities pushed prices slowly production units set major textile
+fir…',
+'Covid caught surprise asymptomatic findings weeks ey…',
+'total 726 confirmed deaths',
+'Xavi recovering isolation testing positive',
+'reasonable lived China considered leader like captor Referri…',
+'reasonable lived China considered leader like cap…',
+'cases 400K State partners Target 7 new testing sites',
+'CORONA KAVACH insurance best economical KAVACH insurance @ Rs 150 (incl GS…',
+'normal humans knew sharing Twitter constitutional scholars',
+'Maybe change country Great Britain Ge…',
+'nationwide lockdown lifted vital good hygiene handwashing practices main…',
+'9 previously reported cluster French high school Notable effect holiday
+period…',
+'Protect home Clean frequently touched surfaces',
+'Interesting read ￿￿',
+'humans/nature ( benefit unprecedented triggered',
+42
+'Obama tried lower drug costs Republican pharmaceutical company fit its…',
+'Washing hands frequently helps removing killing diseasecausing germs',
+'great convo Imperial Prof Justin Stebbing thinks',
+'MEDTECH: unique effort researchers innovated novel portable rapid device de…',
+'currently cases PA day',
+'“young healthy people currently walk faces better of…',
+'new opportunity involved research vaccine',
+'faces possible fine taking photos fans',
+'Brief impact Girls Adolescent Girls Young',
+'7 study describes cluster high school Israel demonstrating potential mass
+transmi…',
+'2803 new cases reported taking total number cases 36314: State Health
+Department',
+'Day 136 Reported Cases 15759 million Record High July 23 2827K 9 Day rolling
+average 24175…',
+'125 new cases 2 new deaths Madagascar [12:25 GMT]',
+'Heres list doctors available teleconsultation 9am 5 pm telemedicine OPD Sir
+Sun…',
+'microscopic virus called world it’s knees challenging human capacity amp it’s
+social fabri…',
+'Conspiracy theories necessary avenue truth Second question Fauci serv…',
+'Ba vision life saver send contributions account details below: BAN…',
+'Nearly 16 cr samples tested far taking Tests Million (TPM) 11485 Persistent
+inc…',
+'35 new deaths reported 24 hours Info Ministry Health Family Welfare',
+'attitude civilization right wit…',
+'said *better* regard shielding eld…',
+'Amazing 3min video created Canadian teenager accurate view lot feeling the…',
+'Pretty handled thing',
+'deaths 1100 day row sees 49000 new cases',
+'best decisions pandemic mandatory face coverings/masks closed public places
+done…',
+'common mistakes people getting masks t…',
+'patients tested positive died Saturday deaths death to…',
+'It’s going beautiful weekend NJ don’t forget taking break young…',
+'positive mask hide resting bitch face',
+'excited Book Number seller Education amp Covid right Amazon @',
+'use new Mode video meet app Microsoft Teams place basketball fans courtside
+in…',
+'total number infections worldwide quickly nearing 16 million 10 million
+patients recovered…',
+'1 Updated thread children summarising latest research Summary: schools reopen
+safe…',
+'important: ‘people safe virus’ he’s failure killed 145k (amp…',
+'legitimately increasing nearly 40 cases 14 days Yihh ￿',
+'adequate hospital facilities Promoting home isolation mild/asymptomatic cases
+167 case…',
+43
+'Strategic Communication Group reported Saturday new recordhigh number
+cases1284…',
+'￿￿ ￿ ￿fans truly love Joe ￿￿ ￿ ￿takes mi…',
+'Looks like ISPs trying reintroduce data caps working home Care actually…',
+'giving gift support unique gift idea way ensure expecting fam…',
+'Good afternoon quick question apparent £12m+ cost contact tracing app …',
+'South Africans hostage kubi cant fly coastal provinces joy mxm 2020',
+'FREE business webinar providing COVIDsecure guidance people work run
+￿restaurants ￿pubs ￿bars ￿caf…',
+'Stop spread pf purchase affordable Human sanitizing machine schools hospitals
+…',
+'COVID19 difficult tests faced humanity modern history globe despera…',
+'gyms reopening todaywonder people working sweat ￿',
+'Delighted speakers \u2066 Return Sports great efforts sporting bodi…',
+'Pressure Grows Mayor Streets Outdoor Classes New York City',
+'reaffirmed strong commitment supporting Cambodia achieve development
+priorities mitigate…',
+'masks amp clean hands help aerosols aren’t discussing ocular transmission Pink
+eye isn’t novel…',
+'Vert good interview Denise Brown DSRSG MarcAndre Franche new ways of…',
+'Major Ruling Freedom…',
+'“The outbreak meant access essential Read how…',
+'Tales: Temporary Quarantine Longterm Segregation | Seriously Sensitive
+Pollution',
+'healthy coping isolation: Stay contact family amp friends reach regularly
+those…',
+'control risk infection: ￿ safe distance ￿ Wash hands moment home…',
+'lies preventable deaths UK citizens criminal negligence …',
+'urgent need global stakeholders cooperate simultaneously managing direct
+consequences of…',
+'humanitarian services crucial lifeline amp means access food amp health Dag…',
+'148 new cases Switzerland [12:19 GMT]',
+'patients tested positive died Saturday deaths death to…',
+'73400 New Cases Nearing SingleDay Record',
+'73400 New Cases Nearing SingleDay Record',
+'73400 New Cases Nearing SingleDay Record',
+'Production Disposable Nitrile Gloves Demanding Profitable Business Ideas',
+'Saturday July 25: Latest developments coronavirus Michigan',
+'attitude civilization right wi…',
+'COVID19 killed 635000 people world infected 155 million',
+'garden grow planted “victory garden” like post photo I’d love',
+'Good question UK surveys suggesting drug use ￿ peak lockdown (April/May)
+allowed o…',
+'lagi loh 1 hours FREE CP Bio DMCome join',
+'Isnt strange people refuse wear masks happy wear tinfoil hats',
+'Case Study: Psychological Contract Follow latest HR news insights world of…',
+'Nurses doctors amp health professionals frontlines response great risk
+44
+infect…',
+'patients tested positive died Saturday deaths death to…',
+'AlSadd coach Barcelona captain Xavi Hernandez tests positive ahead Qatar
+league restart',
+'patients tested positive died Saturday deaths death to…',
+'right wing fascists power saw virus way seize control feb stop',
+'Facing budget shortfalls nearly 100 Texas mayors plead Congre… READ MORE:',
+'best thing wearing mask able lip sync want public transport',
+'BREAKING NEWS: testers town battle spike',
+'new normal',
+'Learning loss real death friend teacher traumatic set years Fr…',
+'new unfamiliar territory comes running business time COVID19 like a…',
+'Despite Challenges Primary Care Practice Improves Patient Digital Tools',
+'Coronavirus outbreak latest: July 19 2020 READ MORE:',
+'Establishing triage stations healthcare facilities important protect health
+workers amp stop spread…',
+'university recovered tested negative memorable pic to…',
+'Repost: ￿New Normal Etiquettes follow workplaces',
+'em laugh em remember Good cat',
+'UNITED CHINESE COMMUNIST PARTY LIVE FREE DIE',
+'great believer domestic tourism recreating historical reality norm…',
+'Today Minister Public Health inaugurated new ward Baalbek Govt Hospital built
+amp…',
+'Brunei active cases novel coronavirus disease/COVID19',
+'wore living safe life',
+'true Professor Pantsdown BBC Acorn computer predict 500000 deaths Askin…',
+'song educative',
+'BREAKING NEWS: testers town battle spike',
+'Regular physical activity benefits body mind reduce high blood pressure help
+manage weight an…',
+'It’s important tested straight away symptoms appointments available t…',
+'hoping short lived series (a bit surprising I’ve seen)',
+'promised election campaign ‘miracle’ getting forge new Britain bu…',
+'￿￿￿￿￿￿￿￿￿￿￿￿￿￿￿￿￿￿Tests (PCR): 339157 Tests (RDT): 312402 Positive: 18483
+Recovered: 13053 Isolation: 5…',
+'Heres weekend reading ways COVID19 changed sustainability investing m…',
+'Indian Institute Technology Kharagpur Saturday said researchers developed
+portable diagnostic devi…',
+'doesnt reek desperation mean sure years ago b…',
+'said help God social media',
+'lockdown changed lives ways obvious area emerg…',
+'blooming beats nature refreshing weekend Can’t wait enjoy…',
+'I’m pretty sure that’s spread masks don’t work don’t practice social
+distancing',
+'Ji Kindly DM contact details patient resolve matter priority…',
+'flight pandemic critical times admit sanitary precaution…',
+'Exactly preexisting condition good p…',
+45
+'Zostels Travel Survey 2020 indicates 317% Indians willing travel 2020',
+'outlined actions successful ￿ transmission amp saving lives Let’s use tools
+have…',
+'symptoms dont leave home test Remember symptoms￿￿ High temperature…',
+'round COVID vaccine',
+'Wearing mask good preventive measure protect infection I…',
+'Here’s it’s important infections long term health ef…',
+'crime century this: 148000 Americans dead 42 mi…',
+'READ: Airborne Transmission SARSCoV2—Theoretical Considerations amp Available
+Evidence',
+'total 217797 confirmed cases',
+'contacted contact tracers phone text message important follow advi…',
+'PM reaction covid19 like child getting new session books got excited later got
+bo…',
+'50000 nursing home residents died Proper protection increased testing
+virtua…',
+'India records highestever 42 lakh COVID tests single day Nearly 16 crore
+samples tested far…',
+'Discovering separated quiet london routes revelation …',
+'stay 2M everbody thats fine Try countries…',
+'manager Xavi announced tested positive coronavirus',
+'Okay want control Population step',
+'Solo mining bring nice piece BTC effective way earn CryptoTab mining itself…',
+'Picture doctors Hawari Hospital main hospital hospital trea…',
+'PUERTO RICO COVID19 DAILY UPDATE: July 25 2020 244 new confirmed cases (PCR
+tests) 294 new possible cases…',
+'nice trip fall Soak rich',
+'spokesperson Ministry Health: yesterday 2316 new confirmed cases id…',
+'Didn’t Lancet find indicators prevalent China way sooner reported',
+'busy Speeded rate work finished enzyme playlist Continuing project Hopin…',
+'10 causes death (annual average) vs (so far) Heart disease: 647K Cancer: 599K
+Accidents: 1…',
+'IV remember old times check fight ￿',
+'promask amp antimask incredible dares compromise way ends nonm…',
+'flood situation worsening 100 people die far 32m marooned',
+'DAILY SNAPSHOT: Total Cases inched 239000 7:00 pm 4400 New Cases reported
+region…',
+'Leading health officials warned obese people 40% likely die relate…',
+'Leading health officials warned obese people 40% likely die relate…',
+'denial: great American nightmare \u2066 uses google mobility data
+establishes…',
+'Care Homes set 870 beds suspected cases Home isolation allowed mild amp
+asymptomati…',
+'Datuk Dr Noor Hisham Abdullah said case related Construction Company
+Cluster…',
+'23 positive cases today highest June 16th month ago Ya Allah protect i…',
+'Crises kind impact women girls differently gender inequality spoke women…',
+46
+'Dr Ashley Bloomfield like Dr SmashLee Boom Field man lead NZ Covid19 crisis
+conti…',
+'Sinclair Media Group TV stations air “Plandemic” story story sure t…',
+'brother lives Los Angeles keeps insisting Im likeno thanks would…',
+'Percent increase bit misleading Look absolute numbers',
+'￿￿— safe safe commit ensure…',
+'Bhubaneswar Municipal Corporation (BMC) Saturday said 111 people tested
+positive COVID19 the…',
+'Nice masks fun stylish people fussy wear mask save life…',
+'nations world we’ve deaths tim…',
+'question Scotlands Nicola Sturgeon fear Boris Johnson positive regard for…',
+'better reason people shouldnt forced crowded office buildings',
+'half positive cases comes South Africa Open ears bantu ba se South Africa',
+'Kindly share details whatsapp message email icmrhqds[at]sansad[dot]nic[dot]in
+p…',
+'minister CM gets affected admitted best private hospitals best amenit…',
+'Capitalism people planet puts profit/money pandemic tur…',
+'Thanks highlighting impact families…',
+'1500 beds added Covid Hospitals Bhubaneswar: Anu Garg Observer Bhubaneswar',
+'Best thing kids: Vice President Mike Pence discusses reopening schools
+colleges: way can’t…',
+'Themes coming impact amp lockdown children young people amp adults Worries
+future…',
+'Dear Hank amp Doug net worth increased $11 BILLION past 4 months ended
+employee appreci…',
+'Help Worcestershire’s shops safe wear face covering stores supermarkets latest
+COVID19 g…',
+'109 new cases 1 new death Nepal [12:08 GMT]',
+'trials going far',
+'thing SAFE',
+'chart matters shows likely Florida ELSE…',
+'Taking care Children Special Needs times held:…',
+'Covid heat rises N R MLA Tanveer Sait action',
+'latest Rettew Creative Daily Thanks',
+'Landlordtenant mediation program launched new program aims provide housing
+security tenants c…',
+'Great rv trip family VA PA outside rv VA state quarantine lis…',
+'Allison Hanes: Challenging myths published @',
+'you’re looking week don’t forget tweetchat live Tuesday 7/28 3pm EST wi…',
+'We’re prepping deep clean afternoon advance reopening soon che…',
+'Great thread applies medical appointments Doctors patients need honest fair
+o…',
+'COVID19 Reports 25/07/2020 11:07 (UTC) Confirmed Cases: 15729173 Recovered:
+9068334 Deaths: 640150',
+'13225 new cases 122 deaths wrote letter wait…',
+'UAE: returning special flights know need ge…',
+'big setback head coach great tests positive Sadd are…',
+47
+'Oh look youve managed use pandemic true obsession controlling p…',
+'Todays global extrapolation chart available',
+'Fyapena nomba Politicians holding rallies ate people love SMH',
+'2803 new positive cases reported 36314 total cases',
+'Ministry Public Health announces 398 new confirmed cases (Covid 19) 330 cases
+recovered',
+'magic crystal showing outbreak humm yes…',
+'reported 1487 new infections Saturday recorded 24 deaths caused
+debilitating…',
+'Day 1￿1￿Memes amp Images ￿￿￿￿fun ￿',
+'subject pleaseid like buy takes soooo long…',
+'Register Free:',
+'\u2066 true reality nightmare America 146000 deaths 4 million cases of…',
+'MP CM Shivraj Singh Chouhan tests positive coronavirus',
+'SMEs risk failing impacts emerging economies…',
+'football club coach Xavi Hernandez tested positive posted Instagram he’ll r…',
+'realted death tally JK crosses 300 mark 5 new deaths today',
+'handled outbreak better country mentioned article',
+'Spain discovered dexamethasone useful UK Spain succ…',
+'Listen recent episode podcast: Whats Diana Laufenberg',
+'Sallah orders available High taste affordablewe offer home deliveries kaduna
+Message 08…',
+'Superior Court considers impact COVID19 pandemic tenants obligations pay rent
+recent…',
+'confirms 684 new cases deaths',
+'new clusters identified Bukit Tiram Kuching Health DG',
+'coach great tests positive',
+…]
+[ ]: # Tokenization
+for line in positive_tweet_list:
+#
+print(line)
+for token in line.split():
+print(token)
+[64]: pos_tokens = [token for line in positive_tweet_list
+for token in line.split()]
+[66]: neg_tokens = [token for line in negative_tweet_list
+for token in line.split()]
+neut_tokens = [token for line in neutral_tweet_list
+for token in line.split()]
+[67]: pos_tokens
+[67]: ['Hey',
+'wouldnt',
+'sense',
+'players',
+'pay',
+48
+'respects',
+'A…',
+'Change',
+'Work',
+'General',
+'(and',
+'recruiting',
+'specifically)',
+'via/',
+'Praying',
+'good',
+'health',
+'recovery',
+'￿￿',
+'—',
+'safe',
+'safe',
+'commit',
+'ensure…',
+'Lets',
+'protect',
+'real',
+'numbers',
+'climbing',
+'fast',
+'Continent',
+'Lets',
+'n…',
+'Second',
+'wave',
+'Flandersback',
+'COVID',
+'Update:',
+'infection',
+'rate',
+'Florida',
+'following',
+'natural',
+'curve',
+'experts',
+'predicted',
+'initial',
+'cu…',
+'Good',
+'Patriots',
+'Volunteer',
+'Election',
+49
+'Judge',
+'Polls',
+'open',
+'without…',
+'comprehensive',
+'review',
+'amp',
+'Analysis:',
+'key',
+'ways',
+'WASH',
+'help',
+'reduce',
+'transmission…',
+'crosses',
+'2',
+'lakh',
+'mark',
+'150055',
+'ppp',
+'recovered',
+'far',
+'positive',
+'today',
+'6988/total…',
+'Actor',
+'father',
+'MrGKReddy',
+'tested',
+'positive',
+'15/20',
+'days',
+'s…',
+'safe',
+'place',
+'visit',
+'guests',
+'said',
+'hotel',
+'meticulous',
+'applying',
+'hand',
+'sanitation',
+'als…',
+'CEO',
+'live',
+'WSU',
+50
+'talking',
+'“The',
+'effects',
+'Covid19',
+'students”…',
+'Actionables',
+'healthy',
+'recovery',
+'understood',
+'hadnt',
+'missed',
+'meeting',
+'In…',
+'released',
+'new',
+'podcast',
+'episodes',
+'week:',
+'Technology',
+'Platforms',
+'Conduct',
+'Telehealth',
+'Visits',
+'C…',
+'reports',
+'1142',
+'positive',
+'cases',
+'29',
+'deaths',
+'Saturday',
+'Death',
+'toll',
+'rises',
+'3806',
+'reports',
+'ANI',
+'quot…',
+'Venezuelas',
+'Economy/Budget',
+'tied',
+'Oil',
+'like',
+'Louisianas',
+'Funny',
+'rightwing',
+'example',
+51
+'of…',
+'reporting',
+'yesterday',
+'1145',
+'people',
+'died',
+'USA',
+'73K',
+'new',
+'cases',
+'reported',
+'Serio…',
+'People',
+'relatives',
+'died',
+'file',
+'class',
+'action',
+'lawsuit',
+'Sinclair',
+'Broadcasting',
+'4249584',
+'cases',
+'148521',
+'deaths',
+'reported',
+'United',
+'States',
+'date',
+'1257',
+'new',
+'cases',
+'31…',
+':',
+'￿',
+'agree',
+'mask',
+'powerful',
+'accessories',
+'fight',
+'t…',
+'miss',
+'isopropyl',
+'alcohol',
+'Ethanol',
+'hand',
+'sanitizer',
+52
+'smells',
+'like',
+'poured',
+'tequila',
+'hands',
+'￿',
+'GVMC',
+'sanitation',
+'staff',
+'carrying',
+'regular',
+'sanitation',
+'activities',
+'city',
+'clean',
+'prevent',
+'spread…',
+'Local',
+'government',
+'sales',
+'tax',
+'revenue',
+'dropped',
+'27',
+'percent',
+'yeartoyear',
+'second',
+'quarter',
+'thanks',
+'shutdo…',
+'Look',
+'Lil’',
+'Donny',
+'Micro',
+'Dick',
+'astounding',
+'achievement',
+'brilliance',
+'+',
+'cognitive',
+'capabilities',
+'Somebody…',
+'Check',
+'Angels',
+'beautiful',
+'mask',
+'hair',
+53
+'bow',
+'designs',
+'1',
+'municipality',
+'reports',
+'new',
+'fatality',
+'compared',
+'yesterday',
+'1',
+'new',
+'fatality',
+'located',
+'0',
+'fa…',
+'current',
+'situation',
+'calls',
+'awareness',
+'stress',
+'facilitate',
+'families',
+'our…',
+'economic',
+'measures',
+'governments',
+'taking',
+'respond',
+'Key',
+'actions',
+'taken',
+'193',
+'countries',
+'listed…',
+'“',
+'everyone’s',
+'fight',
+'covered',
+'major',
+'disasters',
+'like',
+'vi…',
+'“I',
+'think',
+'government',
+'hugely',
+'overestimated',
+54
+'danger',
+'disease”',
+'wonder',
+'he’d',
+'brave',
+'en…',
+'Ireland',
+'built',
+'COVID19',
+'contract',
+'tracing',
+'app',
+'successful',
+'U',
+'states',
+'want',
+'use',
+'it…',
+'Rakesh',
+'Sharma',
+'best',
+'business',
+'Coach',
+'India',
+'Website:',
+'(',
+'year',
+'safe',
+'distancing',
+'requirements',
+'result',
+'o…',
+'Learn',
+'new',
+'things',
+'period',
+'2d',
+'3d',
+'animations',
+'training',
+'ongoing',
+'Click',
+'link',
+'join',
+'What…',
+'literally',
+'head',
+55
+'decisions',
+'safety',
+'government',
+'creating',
+'conf…',
+'PR',
+':',
+'father',
+'MrGKReddy',
+'tested',
+'positive',
+'15/20',
+'days',
+'s…',
+'debates',
+'ensue',
+'reopening',
+'schools',
+'￿',
+'amid',
+'Young',
+'Leader',
+'says…',
+'Companies',
+'protect',
+'workforce’s',
+'physical',
+'mental',
+'health',
+'crisis',
+'use',
+'smart',
+'technology…',
+'Highest',
+'number',
+'new',
+'cases',
+'yesterday',
+'CM',
+'Madhya',
+'Pradesh',
+'tested',
+'positive',
+'COVID',
+'Scindia',
+'tested',
+'Bihar',
+56
+'witnesses',
+'biggest',
+'singleday',
+'spike',
+'2803',
+'new',
+'cases',
+'Lunch',
+'away',
+'mass',
+'tourists',
+'invaded',
+'quickly',
+'pandemic',
+'Weve',
+'captured',
+'snapshot',
+'amazing',
+'VCSE',
+'response',
+'pandemic',
+'Salford',
+'want',
+'thank…',
+'22000',
+'nonprofits',
+'eventually',
+'close',
+'doors',
+'good',
+'result',
+'current',
+'economic',
+'crisis',
+'acco…',
+'Wells',
+'Fargo',
+'Tightens',
+'Purse',
+'Strings',
+'Ride',
+'Coronavirus',
+'Pandemic',
+'READ',
+'MORE:',
+'informative',
+'interesting',
+57
+'￿',
+'Lots',
+'think',
+'especially',
+'school',
+'age',
+'kids…',
+'Veteran',
+'Affairs',
+'reports',
+'252',
+'new',
+'cases',
+'13',
+'new',
+'deaths',
+'bringing',
+'total',
+'confirmed',
+'cases',
+'35563',
+'1980',
+'to…',
+'Irish',
+'home',
+'/',
+'commercial',
+'building',
+'model',
+'perfect',
+'breathing',
+'groung',
+'virus',
+'trade',
+'treat…',
+'residents',
+'–',
+'develop',
+'symptoms',
+'mild',
+'ones',
+'book',
+'test',
+'immediately',
+'at…',
+'Actor',
+'father',
+58
+'Mr',
+'GK',
+'Reddy',
+'tested',
+'positive',
+'couple',
+'weeks',
+'ago',
+'f…',
+'Sounds',
+'like',
+'Plandemic',
+'second',
+'life',
+'Here’s',
+'thread',
+'it’s',
+'run',
+'debunks',
+'major',
+'cl…',
+'know',
+'better',
+'Trump…',
+'affected',
+'social',
+'anxiety',
+'wearing',
+'face',
+'mask',
+'amazing',
+'feel',
+'slightly',
+'hidden',
+'fro…',
+'Vietnam’s',
+'high',
+'level',
+'preparedness',
+'prevent',
+'Covid19',
+'spread:',
+'Deputy',
+'PM',
+'Republican',
+'Group',
+'Uses',
+59
+'Trumps',
+'Words',
+'Searing',
+'SwingState',
+'Ad…',
+'course',
+'absolutely',
+'diabolical',
+'government',
+'triple…',
+'Learning',
+'fun',
+'interesting',
+'surprisingly',
+'easy',
+'Let’s',
+'join',
+'WLF',
+'Nigeria',
+'Ambassadors',
+'promote',
+'learning',
+'a…',
+'*Excellent',
+'data',
+'charts',
+'map',
+'CV',
+'progressing',
+'societies',
+'also…',
+'coincidence',
+'influenza',
+'cases',
+'unusually',
+'down…',
+'7813',
+'new',
+'positive',
+'cases',
+'reported',
+'24hours',
+'(1)',
+'quick',
+'estimates',
+'Arizona',
+'post',
+60
+'apex',
+'recovery',
+'rate:',
+'7/03:',
+'3849',
+'7d',
+'avg',
+'Peak',
+'Confirmed',
+'Cases…',
+'Trump',
+'hates',
+'looking',
+'like',
+'loser',
+'—',
+'right',
+'looks',
+'like',
+'biggest',
+'losers',
+'history:',
+'oped…',
+'Private',
+'hospitals',
+'treatment',
+'rates',
+'￿',
+'General',
+'Ward',
+'2300',
+'HDU',
+'3300',
+'ICU',
+'6500',
+'ICU',
+'ventilator',
+'11500',
+'In…',
+'epidemic',
+'Im',
+'giving',
+'$80',
+'$1000',
+'person',
+'looking',
+'able',
+61
+'round',
+'i…',
+'395',
+'new',
+'cases',
+'3',
+'new',
+'deaths',
+'Uzbekistan',
+'[13:22',
+'GMT]',
+'“Until',
+'day',
+'medical',
+'vaccine',
+'food',
+'best',
+'vaccine',
+'chaos”',
+'David',
+'Beasley',
+'Am…',
+'Yes',
+'“we’re',
+'learning',
+'day”',
+'amp',
+'“we’re',
+'listening',
+'science”…',
+'Puerto',
+'Rico',
+'reports',
+'573',
+'new',
+'cases',
+'10',
+'new',
+'deaths',
+'bringing',
+'total',
+'confirmed',
+'cases',
+'14540',
+'201',
+'total',
+'de…',
+62
+'1142',
+'positive',
+'cases',
+'2137',
+'patients',
+'recovered/discharged/migrated',
+'29',
+'deaths',
+'Delhi',
+'today',
+'are…',
+'Dying',
+'Dying',
+'huge',
+'difference',
+'usi…',
+'design',
+'recovery',
+'plans',
+'humancentered',
+'mindset',
+'likely',
+'best',
+'position',
+'th…',
+'unlike',
+'federal',
+'government',
+'largely',
+'depends',
+'funding',
+'fees',
+'collects',
+'citizenship',
+'gree…',
+'Rutlands',
+'supporting',
+'testing',
+'time',
+'beloved',
+'survivors',
+'a…',
+'100%',
+'feeling',
+'good',
+'0%',
+'symptoms￿',
+63
+'Long',
+'￿￿',
+'￿￿￿',
+'New',
+'York',
+'retail',
+'Delhi',
+'reported',
+'1142',
+'new',
+'cases',
+'29',
+'deaths',
+'today',
+'taking',
+'total',
+'number',
+'cases',
+'129531',
+'death',
+'tally',
+'3806',
+'Successful',
+'mattolson21',
+'thinking:',
+'FEET',
+'ce…',
+'tested',
+'positive',
+'says',
+'latest',
+'test',
+'result',
+'negative',
+'1000',
+'deaths',
+'fourth',
+'day',
+'row',
+'questions',
+'global',
+'supply',
+'chains',
+'ability',
+'to…',
+'1142',
+'positive',
+64
+'cases',
+'2137',
+'patients',
+'recovered/discharged/migrated',
+'29',
+'deaths',
+'today',
+'a…',
+'Check',
+'latest',
+'article:',
+'Supply',
+'Chain',
+'Risks',
+'Thwart',
+'Successful',
+'COVID19',
+'Vaccine…',
+'PR',
+':',
+'father',
+'MrGKReddy',
+'tested',
+'positive',
+'15/20',
+'days',
+'s…',
+'7813',
+'new',
+'cases',
+'52',
+'deaths',
+'53681',
+'samples',
+'tested',
+'3208',
+'discharged',
+'E…',
+'uncle',
+'tested',
+'positive',
+'lost',
+'3',
+'family',
+'members',
+'wear',
+'masksocial',
+65
+'distance',
+'Venrap',
+'Radio',
+'Playing',
+'Venrap',
+'Radio',
+'Stay',
+'safe',
+'love',
+'Download',
+'app',
+'listen',
+'on…',
+'Absolutely',
+'wouldnt',
+'standing',
+'3rd',
+'position',
+'worldwide',
+'12',
+'lakh',
+'cas…',
+'update',
+'7/25/2020:',
+'*Nearly',
+'40',
+'countries',
+'report',
+'record',
+'singleday',
+'increases',
+'infections',
+'*US',
+'records',
+'o…',
+'insurance',
+'face',
+'possible',
+'economic',
+'burdens',
+'pandemic',
+'Tens',
+'millions',
+'America…',
+'Undercover',
+'inspectors',
+'deployed',
+66
+'sure',
+'anti',
+'measures',
+'foll…',
+'Hospital',
+'cleaners',
+'porters',
+'amp',
+'catering',
+'staff',
+'unsung',
+'heroes',
+'Tell',
+'pay',
+'fair',
+'wage…',
+'AP',
+'records',
+'7813',
+'new',
+'cases',
+'24',
+'hours',
+'taking',
+'tally',
+'88671',
+'52',
+'deaths',
+'wer…',
+'Economies',
+'participating',
+'AsiaPacific',
+'Economic',
+'Cooperation',
+'(',
+'reaffirmed',
+'prioritization',
+'economic…',
+'WORLD',
+'SHORTENED',
+'BUSY',
+'PEOPLE',
+'reaffirms',
+'economic',
+'recovery',
+'priorities',
+'movement',
+67
+'essential',
+'goods',
+'Cautious',
+'optimism',
+'Arizona',
+'plateauing',
+'Potential',
+'good',
+'news',
+'Want',
+'Test',
+'It’s',
+'Easier',
+'Wealthier',
+'Whiter',
+'Neighborhoods',
+'realized',
+'trump',
+'amp',
+'win',
+'(God',
+'Forbid)',
+'finally',
+'stripped',
+'ACA…',
+'Pleased',
+'share',
+'interesting',
+'results',
+'worldwide',
+'survey',
+'impact',
+'bariatric',
+'surgery',
+'Need',
+'rob…',
+'Warning',
+'death',
+'trap:',
+'second',
+'spike',
+'has…',
+'Cs',
+'term',
+'hadn’t',
+'heard',
+'Good',
+68
+'advice',
+'|',
+'1142',
+'positive',
+'cases',
+'2137',
+'patients',
+'recovered/discharged/migrated',
+'29',
+'deaths',
+'today',
+'are…',
+'Great',
+'yesterday',
+'Yes',
+'real',
+'pleased',
+'announce',
+'inclusion',
+'Virology',
+'Laboratory',
+'University',
+'Nigeria',
+'Teaching',
+'Hospital',
+'Enugu…',
+'Great',
+'tips',
+'friends',
+'football',
+'jersey',
+'count',
+'MD',
+'NFL',
+'opting',
+'care',
+'Pandemic',
+'push',
+'N',
+'Carolina',
+'families',
+'home',
+'school',
+'|',
+'Miami',
+'Herald',
+'Government',
+69
+'(Tabla',
+'player)',
+'countries',
+'everything’s',
+'changing',
+'start',
+'playing',
+'version',
+…]
+[68]: # Get Most Commonest Keywords
+from collections import Counter
+[73]: def get_tokens(docx,num=30):
+word_tokens = Counter(docx)
+most_common = word_tokens.most_common(num)
+result = dict(most_common)
+return result
+[74]: get_tokens(pos_tokens)
+[74]: {'cases': 10310,
+'new': 9947,
+'amp': 5298,
+'positive': 3888,
+'people': 3655,
+'New': 3325,
+'deaths': 3292,
+'COVID19': 2745,
+'pandemic': 1929,
+'total': 1783,
+'reported': 1773,
+'safe': 1677,
+'today': 1661,
+'confirmed': 1522,
+'latest': 1468,
+'like': 1455,
+'time': 1455,
+'|': 1454,
+'good': 1449,
+'tested': 1398,
+'need': 1393,
+'24': 1380,
+'coronavirus': 1362,
+'day': 1331,
+'number': 1270,
+'right': 1266,
+70
+'reports': 1264,
+'India': 1230,
+'Total': 1227,
+'2020': 1222}
+[75]: most_common_pos_words = get_tokens(pos_tokens)
+most_common_neg_words = get_tokens(neg_tokens)
+most_common_neut_words = get_tokens(neut_tokens)
+[80]: # Plot with seaborn
+neg_df = pd.DataFrame(most_common_neg_words.items(),columns=['words','scores'])
+[81]: neg_df
+[81]:
+words
+scores
+0
+cases
+2245
+1
+amp
+2033
+2
+people
+1801
+3
+pandemic
+895
+4
+spread
+870
+5
+daily
+760
+6
+like
+754
+7
+COVID19
+748
+8
+slow
+734
+9
+new
+723
+10
+risk
+713
+11
+deaths
+679
+12
+symptoms
+621
+13
+day
+604
+14
+Help
+573
+15
+time
+568
+16
+long
+550
+17
+y…
+547
+18
+health
+534
+19
+identify
+533
+20
+sooner
+529
+21
+know
+527
+22
+selfreporting
+522
+23
+virus
+516
+24
+dead
+510
+25
+hard
+489
+26
+mask
+478
+27
+going
+475
+28
+bad
+474
+29
+Trump
+459
+71
+[83]: plt.figure(figsize=(20,10))
+sns.barplot(x='words',y='scores',data=neg_df)
+plt.xticks(rotation=45)
+plt.show()
+[84]: # Plot with seaborn
+pos_df = pd.DataFrame(most_common_pos_words.items(),columns=['words','scores'])
+plt.figure(figsize=(20,10))
+sns.barplot(x='words',y='scores',data=pos_df)
+plt.xticks(rotation=45)
+plt.show()
+72
+[86]: # Plot with seaborn
+neut_df = pd.DataFrame(most_common_neut_words.
+,→items(),columns=['words','scores'])
+plt.figure(figsize=(20,10))
+sns.barplot(x='words',y='scores',data=neut_df)
+plt.xticks(rotation=45)
+plt.show()
+73
+[87]: ### Word Cloud
+from wordcloud import WordCloud
+[93]: def plot_wordcloud(docx):
+plt.figure(figsize=(20,10))
+mywordcloud = WordCloud().generate(docx)
+plt.imshow(mywordcloud,interpolation='bilinear')
+plt.axis('off')
+plt.show()
+[92]: pos_docx = ' '.join(pos_tokens)
+neg_docx = ' '.join(neg_tokens)
+neu_docx = ' '.join(neut_tokens)
+[91]: plot_wordcloud(pos_docx)
+[94]: plot_wordcloud(neg_docx)
+74
+[95]: plot_wordcloud(neu_docx)
+[96]: plot_wordcloud(pos_docx)
+75
+[ ]: #### Thanks For Watching
+### Jesus Saves @JCharisTech
+### By Jesse E.Agbe(JCharis)
+76

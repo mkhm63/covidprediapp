@@ -1,0 +1,921 @@
+ 
+Journal for Lesson and Learning Studies 
+Volume 5, Number 1, 2022 pp. 61-70 
+P-ISSN: 2615-6148 E-ISSN : 2615-7330 
+Open Access: https://doi.org/10.23887/jlls.v5i1.40303  
+ 
+Corresponding author 
+*E-mail addresses:  heryadarmautami@gmail.com (Ketut Herya Darma Utami) 
+ 
+Challenges In Learning English Online During the Covid-19 
+Pandemic in Non-English Department Students 
+ 
+Ketut Herya Darma Utami1*, Luh Putu Dian Kresnawati2, Ni Wayan Monik 
+Rismadewi3 
+1,2,3 Universitas Pendidikan Ganesha, Singaraja, Indonesia 
+ 
+ 
+A B S T R A K 
+Ada 
+beberapa 
+tantangan 
+yang 
+dihadapi 
+dalam 
+melaksanakan 
+pembelajaran online, seperti kurang familiar dengan pembelajaran 
+online. Tujuan dari penelitian ini adalah untuk menganalisis tantangan 
+yang dihadapi mahasiswa jurusan Pendidikan Non-Bahasa Inggris dalam 
+pembelajaran bahasa Inggris online selama masa pandemi Covid 19. 
+Desain penelitian yang digunakan adalah deskriptif kualitatif. Data 
+diperoleh dari 412 mahasiswa jurusan Pendidikan Non-Bahasa Inggris. 
+Teknik pengumpulan data yang digunakan adalah angket dan 
+wawancara. Kuesioner dibuat dalam bentuk google form dan diisi oleh 
+responden secara online, sedangkan teknik wawancara terstruktur 
+dilakukan dengan menggunakan aplikasi Zoom. Kegiatan analisis data 
+adalah 
+reduksi 
+data, 
+penyajian 
+data, 
+dan 
+penarikan 
+kesimpulan/verifikasi. Hasil penelitian menunjukkan bahwa tantangan 
+terbesar datang dari komponen masalah psikologis siswa seperti; 
+terbatasnya kesempatan untuk berinteraksi dengan dosen dan rekan 
+secara langsung, kurangnya umpan balik atau klarifikasi dari dosen atau 
+rekan kerja, pembelajaran lebih mandiri untuk memecahkan masalah, 
+dan kurangnya kegiatan yang berpusat pada siswa. Tantangan besar 
+lainnya adalah dari masalah teknis seperti jaringan internet yang tidak 
+mendukung, dan akses internet yang terbatas atau koneksi internet yang 
+tidak stabil. 
+ 
+A B S T R A C T 
+Several challenges are faced in implementing online learning, such as being less familiar with online 
+learning. This study aimed to analyze the challenges faced by students majoring in Non-English 
+Education in online English learning during the Covid 19 pandemic. The research design used was 
+descriptive and qualitative. Data were obtained from 412 students majoring in Non-English Education. 
+Data collection techniques used are questionnaires and interviews. The questionnaire was made in a 
+google form and filled out by respondents online, while the structured interview technique was carried 
+out using the Zoom application. Data analysis activities include data reduction, presentation, and 
+conclusion drawing/verification. The results showed that the biggest challenge came from students' 
+psychological problems, such as; limited opportunities to interact with lecturers and colleagues 
+directly, lack of feedback or clarification from lecturers or colleagues, more independent learning to 
+solve problems, and lack of student-centered learning activities. Another big challenge is technical 
+problems such as an unsupported internet network, limited internet access, or an unstable internet 
+connection. 
+ 
+1. INTRODUCTION 
+ COVID-19 is an infectious disease caused by a type of coronavirus that was first discovered in 
+Wuhan, China, in December 2019. The first confirmed case of COVID-19 in Indonesia was in early March 
+2020. The impact of this pandemic is not only on the economy and transportation, but also in the world of 
+education (Fortuna et al., 2020; Maatuk et al., 2021). As an effort to prevent the spread of COVID-19, WHO 
+recommends to stop the activities that will potentially cause crowds (Alchamdani et al., 2020; Indrawati et 
+al., 2020). Therefore, the Indonesian government issued a social distancing policy, which was 
+subsequently issued by the Ministry of Education and Culture Circular Letter, Directorate of Higher 
+A R T I C L E    I N F O 
+Article history: 
+Received October 14, 2021 
+Revised October 20, 2021 
+Accepted March 20, 2022 
+Available online April 25, 2022 
+Kata Kunci: 
+Covid 19 Pandemic, Online 
+Learning, Challenges 
+Keywords: 
+Covid 19 Pandemic, Online 
+Learning, Challenges 
+ 
+This is an open access article under 
+the CC BY-SA license.  
+Copyright © 2022 by Author. 
+Published by Universitas Pendidikan 
+Ganesha. 
+Journal for Lesson and Learning Studies Vol. 5, No. 1, Tahun 2022, pp. 61-70 
+62 
+ 
+ 
+JLLS P-ISSN: 2615-6148 E-ISSN : 2615-7330  
+Education No. 1 of 2020 regarding the prevention of the spread of COVID-19 in the world of Education 
+(Churiyah et al., 2020; Yunita et al., 2021). In this circular, the Ministry of Education and Culture instructs 
+to conduct distance learning and study from home (Study From Home / SFH). This policy became known 
+as online or in-network learning (Lase et al., 2021; Syauqi et al., 2020). The determination of learning from 
+home or online learning due to the Covid-19 pandemic has provided an overview of the continuity of the 
+world of education in the future through technological assistance (Khatoony & Nezhadmehr, 2020; 
+Mpungose, 2021; Wijaya et al., 2020). Along with changes in the learning system due to the impact of the 
+pandemic, learning was carried out through distance learning using online media, either using mobile 
+phones, PCs, or laptops. Online learning is learning which use the internet network with accessibility, 
+connectivity, flexibility and ability to spawn various types learning interactions (Kimkong Heng & 
+Koemhong Sol, 2020; Rhim & Han, 2020). This online learning need device support like a smartphone or 
+telephone android, laptop, computer, tablet, and iphone that can be used to access information anytime 
+and anywhere (Khatoony & Nezhadmehr, 2020; Wijaya et al., 2020). The change in the learning system to 
+online makes lecturers and students feel nervous. It must be challenging for them while doing virtual class 
+all with technology.  
+The COVID-19 pandemic has changed the learning system from conventional systems to learning 
+with electronic media and online applications (Mpungose, 2021; Tang et al., 2021). It is very essential for 
+online learning because that is carried out remotely with the help of electronic devices such as tablets, 
+smart phones, laptops, and computers that require an internet connection (Aini et al., 2020; Faizah et al., 
+2021; Maulana, 2021). Online teaching and learning incorporates the use of the internet to deliver 
+material to students in the form of video tutorials, presentations and texts. Its main aim is to impart 
+knowledge to students and enable them to learn at their own pace. Meanwhile online classes can be 
+conducted through video conferences, and assignments can be submitted using Google media  (Djamdjuri 
+et al., 2020; Nikdel Teymori & Fardin, 2020). The teaching and learning process from elementary to 
+tertiary education levels currently uses technology-based learning, starting from the learning process, 
+seminars, and real work lectures carried out online. This is also in line who has developed Schoology 
+based E-learning to support the learning process of High school students in Sumatera Selatan (Supratman 
+& Purwaningtias, 2018). The high school students even have been introduced to technology-based 
+learning before the pandemic begin. The result showed that, Schoology based E-learning give another 
+innovation for the teacher to share the material, discussion, and assignment to the students by the 
+features available in this learning platform. 
+Even though online learning is the most appropriate solution during a pandemic, however, the 
+use of technology in education is a challenge and even a threat for institutions that are not accustomed to 
+using technology. There are several challenges faced in implementing online learning, such as; First, less 
+familiar with online learning, because online learning is not familiar to many families in Indonesia, both in 
+cities and villages. Learning from home is a new thing for many Indonesian families and even a surprise, 
+especially for parents who work outside the home (Fikri et al., 2021; Rachmat & Krisnadi, 2020). Second, 
+psychological problems of students, when students in Indonesia are accustomed to the face-to-face 
+learning process in class. Online learning causes psychological problems for students, where they are 
+accustomed to interacting physically with teachers, as well as their peers (Arizona et al., 2020; Primasari 
+& Zulela, 2021). Third, limited mastery of technology, because there are still many teachers or students 
+who have not mastered technology. There are still many teachers and students who have not been able to 
+maximally use online media designed with information technology (Hutauruk & Sidabutar, 2020; 
+Windhiyana, 2020). Fourth, limited facilities and infrastructure, limited facilities and infrastructure are 
+also a trigger for the slow process of online education. Facilities and infrastructure are the main support 
+for the implementation of online learning. If the facilities do not meet, it will automatically hinder the pace 
+of development of online learning (Amalia et al., 2020; Rachmat & Krisnadi, 2020). Fifth, limited internet 
+access is an obstacle in online learning. In addition to limited internet access, limited budgets, limited 
+quotas, and the declining purchasing power of the people due to economic difficulties during the Covid-19 
+pandemic are other obstacles in online learning. 
+The results of the studies show several challenges related to the unsupported infrastructure, the 
+unstable internet networks and the cost of buying quotas. These are the biggest troubles often faced by 
+the students while doing online learning because tools and connection are the prime to accelerate with 
+the process of online learning. As consequence, most students cannot follow online learning well. Many 
+students claim to be bored and less focused when studying online (Arizona et al., 2020; Fikri et al., 2021). 
+Other related studies that raised issue about challenges of online learning, who exposed students’ 
+motivation of online learning during pandemic (Cahyani et al., 2020). Another challenge is a less 
+conducive learning atmosphere, which causes students to not be able to focus on learning, so there must 
+be cooperation and parental support so that students can continue to study quietly (Irfan et al., 2020; 
+Journal for Lesson and Learning Studies Vol. 5, No. 1, Tahun 2022, pp. 61-70 
+63 
+ 
+ 
+Ketut Herya Darma Utami / Challenges In Learning English Online During the Covid-19 Pandemic in Non-English Department 
+Students 
+Maatuk et al., 2021). There are several obstacles faced in online learning, including the limitations of 
+teachers in explaining learning materials related to the variety of learning methods carried out. Another 
+obstacle that occurs is related to learning time which makes it difficult to explain, explain, strengthen, 
+enrich learning materials, and clarify materials (Hermanto et al., 2021; Kimkong Heng & Koemhong Sol, 
+2020). Teachers have limited time in providing explanations to students satisfactorily because it is quite 
+difficult to give them online. In technical terms, some students have devices that do not have certain 
+features such as videos and certain document opening features so that students have limitations in getting 
+materials and doing assignments and projects given. 
+In line with the challenges of online learning, the unsupported infrastructure; there are some 
+children who do not have a smartphone or laptop, unsupported features on smartphone or laptop, non-
+android cellphone, and even some students do not master technology (Anugrahana, 2020). By those 
+challenges found in several research, the researcher curious to conduct the same research to identify the 
+challenges felt by non-English Education Department students in carrying out the online learning process 
+in English courses. English course as one of the personality development courses in universities cannot be 
+separated from the application of this online learning system. English courses are given to former 
+students as a general course (MKU) at Undiksha. The courses given in the first semester (1 or 2) with 2 
+credits point are applied as general courses in universities, where English is very important to be 
+mastered by all students which is intended as a medium for personality development. English has become 
+a world language, which means that many countries in the world consider English as their second 
+language (Mauliate et al., 2019; Mohammadi et al., 2020; Pakpahan et al., 2021). This shows how 
+important English is to learn. The finding of this research are expected to provide some insights about the 
+factors that could become challenges felt by non-English Education Department students in carrying out 
+the online learning process in English courses. Thus, the lecturer, students, other related stake holder 
+could prepared themselves to enhance the efficacy of online learning during the pandemic. The purpose of 
+this study is to identify and describe the challenges faced by students majoring in non-English Education 
+Department in online English learning during the Covid 19 pandemic. 
+ 
+2. METHODS 
+The present research used qualitative approach where the result presented descriptively. 
+Qualitative research is a multi-method that focuses, includes interpretation, a natural approach to the 
+subject matter (Sugiyono, 2018). The data required in this study was primary data obtained from 412 
+students majoring in non-English department who took general English courses/MPK as the research 
+sample. The techniques of the data collection were questionnaires and interviews. The questionnaire that 
+was used was an open questionnaire where the researcher had provided answer choices but the 
+respondents were able to write down additional information to clarify and elaborate the answers. The 
+questionnaire was made in the form of a Google form and was distributed to all respondents online. The 
+data were also taken from structured interviews techniques were carried out with research subjects. In 
+this technique, the researcher used an interview guide instrument that consisted of several questions that 
+had been prepared in advance by the researcher. In this study, the interviews were conducted several 
+times through Zoom meeting as a triangulation technique so that the data obtained is more valid. After the 
+data were gathered, descriptive qualitative analysis was conducted. This technique was used to interpret 
+the meaning of the data obtained. All data was transcribed from questionnaire and interviews. The data 
+obtained from the questionnaire results was classified and given meaning to draw conclusions. The 
+processes of data analysis in this study were, that the data was selected, determined, then simplified, and 
+finally interpreted descriptively. In addition, data reduction was carried out to avoid bias in the research 
+results. 
+ 
+3. RESULTS AND DISCUSSION 
+RESULT 
+To get the data, the questionnaires that had been distributed to the respondents, as well as the 
+results of structured interviews, were analyzed descriptively to interpret the data. The questioner given, 
+consisted of 5 choices range; Strongly Disagree (SD), Disagree (D), Uncertainly (U), Agree (A), and 
+Strongly Agree (SA). Based on data analysis shows a significant number where the first component item 
+shows 120 (29%) and 111 (27%) students answer strongly disagree and disagree, that learning English 
+online is a new method for them. It can be concluded that online learning methods is starting to be 
+accepted and starting to become a habit in the current learning system. From the results of the interviews, 
+several students also mention that they have been using the online method since the beginning of the 
+Journal for Lesson and Learning Studies Vol. 5, No. 1, Tahun 2022, pp. 61-70 
+64 
+ 
+ 
+JLLS P-ISSN: 2615-6148 E-ISSN : 2615-7330  
+pandemic, which was early March 2020. They are required to be able to follow online learning methods in 
+all courses using various learning platforms according to the requirement of the lecturer. The difficulty in 
+adapting to online learning is in line with the statement of the third statement, namely that they are easily 
+turns to other sites other than the learning site provided. From the questionnaire data, 31% of students 
+answered disagree, and 22% answered doubtful. This is supported by a number of different situations, 
+such as the device they use when learning online, and the reason they are easily redirected to other sites. 
+Boredom in attending online lectures sometimes occurs, especially for those who are not familiar with 
+presenting material in a virtual way. The description of the results of the questionnaire related to 
+students' psychological problems in online learning is presented in Table 1.  
+ 
+Table 1. Students’ Responds toward Psychological Problems 
+Component item 
+SD 
+D 
+U 
+A 
+SA 
+I have interactions (discussing material with groups and 
+making conversations with colleagues) which are limited 
+to learning English online 
+6 
+(1%) 
+38 
+(9%) 
+106 
+(26%) 
+192 
+(47%) 
+70 
+(17%) 
+I have limited opportunities to interact with lecturers 
+and students directly and freely 
+21 
+(5%) 
+53 
+(13%) 
+66 
+(16%) 
+149 
+(36%) 
+123 
+(30%) 
+I received less feedback or clarification from lecturers or 
+colleagues on online English learning 
+11 
+(3%) 
+61 
+(15%) 
+47 
+(11%) 
+75 
+(18%) 
+218 
+(53%) 
+I was led to learn more independently and solve my own 
+problems during online English learning 
+13 
+(3%) 
+33 
+(8%) 
+99 
+(24%) 
+170 
+(41%) 
+97 
+(24%) 
+I feel that all activities in learning English online, such as 
+giving materials, assignments, and discussions, are only 
+centered and sourced from the lecturer 
+22 
+(5%) 
+82 
+(20%) 
+141 
+(34%) 
+\113 
+(28%) 
+54 
+(13%) 
+I feel less motivated and active in learning English online 
+37 
+(9%) 
+89 
+(22%) 
+147 
+(36%) 
+80 
+(19%) 
+59 
+(14%) 
+I think it's better to get a direct explanation than to read 
+a long explanation of the material 
+6 
+(1%) 
+20 
+(5%) 
+85 
+(21%) 
+157 
+(38%) 
+144 
+(35%) 
+ 
+Observing the exposure of the results of the questionnaire related to the psychological problems 
+of students in online learning, it can be seen that students do feel some things psychologically. In general, 
+based on data obtained from both questionnaires and interviews, students tend to feel isolated and 
+unmotivated. To confirm this, the results of the questionnaire with statement items related to the 
+opportunity to get limited interaction in online learning can be seen from the percentage of the following 
+answer choices: 1% of students chose strongly disagree, 9% chose disagree, 26% chose uncertanly, 47 % 
+chose agree and 17% chose strongly agree. These results indicate that most students agree that learning 
+English online provides fewer opportunities to interact. outside the network) perceived by students. It 
+should be noted that the interaction referred to in this study is interaction in the form of feedback or 
+clarification and discussion involving students and lecturers as well as between students themselves. 
+In addition to the lack of interaction, learning motivation is also an important finding in this 
+study. In terms of learning motivation, based on data analysis, something interesting was found. From the 
+results of questionnaires and interviews, it is known that students feel 2 contradictory things, on the one 
+hand learning English online can motivate students to learn. The conclusion drawn can be seen from the 
+acquisition of student answers on the questionnaire statement items related to learning English by 
+reducing the asking for learning. The results of the questionnaire show that there are 9% of students who 
+answered strongly disagree, while 22% of students answered disagree, 36% of students answered 
+uncertainly, 19% of students answered agree and 14% of students answered strongly agree. This is 
+corroborated by the results of interviews where students said that there are features of learning activities 
+found on online learning platforms that can increase student interest in learning. For example, the use of 
+quizzes or evaluations with an automatic and transparent scoring system so that students can see for 
+themselves the development of their learning outcomes without having to wait for the evaluation results 
+from the lecturer. This is what gives them their own motivation to take part in learning. Students' 
+Responses to the Limitations of Technology Mastery are presented in Table 2.  
+ 
+Table 2. Students’ Respond toward Limited Mastery of Technology 
+Component item 
+SD 
+D 
+U 
+A 
+SA 
+I have lack skills to use hardware (hardware: 
+mobile phones, computers, etc.) to support online 
+85 
+(21%) 
+131 
+(32%) 
+97 
+(23%) 
+67 
+(16%) 
+32 
+(8%) 
+Journal for Lesson and Learning Studies Vol. 5, No. 1, Tahun 2022, pp. 61-70 
+65 
+ 
+ 
+Ketut Herya Darma Utami / Challenges In Learning English Online During the Covid-19 Pandemic in Non-English Department 
+Students 
+Component item 
+SD 
+D 
+U 
+A 
+SA 
+learning. 
+I have lack skills in operating applications 
+(schoology, edmodo, google classroom, etc.) used in 
+online English learning 
+86 
+(21%) 
+162 
+(39%) 
+88 
+(21%) 
+45 
+(11%) 
+31 
+(8%) 
+ 
+In terms of mastery of technology, the components of limited mastery of technology are divided 
+into two, namely limited skills in operating hardware; laptops, computers, smart devices, etc., as well as 
+limited skills in software applications; learning platforms (edmodo, goggle meet, zoom, schoology, etc.). In 
+accordance with the tabulated data, the problem of mastering technology in this case such as hardware 
+and software is not a challenge faced by most Undiksha students. This is evident from the tabulation 
+results which show a significant percentage, where 131 (32%) students disagree with the statement that 
+mentions their lack of mastery or proficiency in operating hardware and 162 (39%) students disagree 
+with the statement that mentions lack of mastery. or their proficiency in software applications. So from 
+this third component, it can be concluded that mastery of technology in this case students' skills in using 
+hardware and software applications, is not a big obstacle for them in participating in online learning. 
+Student Responses to Limited Facilities and Infrastructure are presented in Table 3. 
+ 
+Table 3. Students’ Respond toward Limited Facilities and Infrastructure 
+Component item 
+SD 
+D 
+U 
+A 
+SA 
+I find it difficult to access textbooks that are used in the 
+form of e-books to support online English learning 
+45 
+(11%) 
+101 
+(25%) 
+118 
+(29%) 
+105 
+(25%) 
+43 
+(10%) 
+I have limitations in buying quota and accessing 
+material resources during online English learning 
+24 
+(6%) 
+42 
+(10%) 
+63 
+(15%) 
+114 
+(28%) 
+168 
+(41%) 
+I'm having trouble opening documents or getting 
+materials and working on assigned tasks and projects 
+because there are features that aren't available on the 
+device I'm using. 
+49 
+(12%) 
+118 
+(29%) 
+115 
+(28%) 
+93 
+(22%) 
+37 
+(9%) 
+ 
+ In addition to having difficulty accessing learning resources, data from the tabulation of 
+questionnaires and interviews conducted with students also showed that students were also faced with 
+economic problems, where 168 (41%) students stated strongly agree and 114 (28%) students agreed 
+with the second component item. They have a limited budget in purchasing quotas to access material 
+resources during online English learning. Large-scale restrictions imposed by the government have a 
+broad impact on the production process, distribution, and other operational activities which ultimately 
+disrupt economic performance, increase unemployment and poverty, thus affecting the economic 
+condition of the community. This also has an impact on the field of online education. Many 
+parents/students cannot afford internet quota, which is a supporting component in the online learning 
+process. The next limitation is the difficulty of opening documents, doing tasks and projects given because 
+there are features that do not exist on the device used. Although the data from the questionnaire tends to 
+be sloping, but based on the results of interviews, they said that there are some applications that cannot 
+be downloaded through their smart devices, due to various factors, one of which is the small storage 
+capacity of their smartphone. In addition, because all courses are carried out online, and all lecturers try 
+to provide the best material or teaching, often the smart devices they use for online lectures become 
+errors and slow, due to insufficient storage power and even materials or the assignments given by the 
+lecturers cannot be downloaded. Student Responses to Internet Access Limitations are presented in Table 
+4.  
+ 
+Table 4. Students’ Respond toward Limited Internet Access 
+Component item 
+SD 
+D 
+U 
+A 
+SA 
+I have difficulty with internet connection while 
+participating in online learning (sudden disconnection of 
+internet network) 
+20 
+(5%) 
+33 
+(8%) 
+95 
+(23%) 
+142 
+(34%) 
+122 
+(30%) 
+I feel that learning is ineffective and takes up internet 
+quota when interacting with lecturers because I have to 
+wait for one party to finish before the other party can 
+comment 
+27 
+(7%) 
+47 
+(11%) 
+88 
+(21%) 
+108 
+(26%) 
+142 
+(35%) 
+ 
+Journal for Lesson and Learning Studies Vol. 5, No. 1, Tahun 2022, pp. 61-70 
+66 
+ 
+ 
+JLLS P-ISSN: 2615-6148 E-ISSN : 2615-7330  
+From the data from the tabulation of the questionnaire, it can be concluded that limited internet 
+access is also another obstacle in the online learning process. There are two statement component items 
+related to internet limitations which are stated in the questionnaire. The first component is that students 
+experience difficulties in terms of the internet network while participating in online learning (sudden 
+disconnection of the internet network). It can be seen in the table, that 142 (34%) students agreed, and 
+another 122 (30%) strongly agreed. This is reinforced by the results of interviews conducted at random, 
+where most of the students experienced internet network problems. Students gave an example, when 
+conducting lectures using Zoom, or Google Meet, the network suddenly disconnected. This situation 
+makes students find it difficult to understand what is conveyed by the lecturer and other friends as a 
+whole. This shows that the internet network is the main thing in online learning. 
+      
+Discussion  
+The interviews also show that students adjust to online learning, especially when responding to 
+lecturers and when conspiring. Adapting according to students are not accustomed to studying for hours 
+in front of a screen. These challenges provide an evaluation for lecturers to create fun online learning 
+variations to overcome the above challenges (Hanif et al., 2018; Maatuk et al., 2021). Constraints in online 
+learning on the third point, namely the use of a pedagogical approach that requires more effort in 
+motivating and activating students in online learning. To encourage students, lecturers can always create 
+new, exciting, and fun online learning so that the challenges students face (Gillett-Swan, 2017; Hermanto 
+et al., 2021; Irfan et al., 2020). In addition, students feel that not all their questions or desires can be 
+facilitated by the online learning system considering the technical limitations mentioned above. It is 
+directly related to previous research that states that online learning causes psychological problems in 
+students who are accustomed to interacting physically with teachers and their peers (Fikri et al., 2021; 
+Mastoah & Zulaela, 2020; Rigianti, 2020). This obstacle is caused by limited time providing explanations to 
+students online because it is difficult to give them online.  
+On the other hand, online English learning also reduces students' learning motivation. It returns 
+to technical problems that often occur in online learning, such as internet connection problems that cause 
+learning to be ineffective. From the results of the interviews, it was also found that the quality of the video 
+or audio was not particularly supportive, thus making their concentration dispersed when online learning 
+was carried out. They were distracted by the technical obstacles they faced. It indirectly triggers a 
+decrease in student interest in learning. The decrease in students' learning motivation is also influenced 
+by the absence of direct interaction with their peers (Agustin et al., 2020; Aisiah & Firza, 2019). Limited 
+internet access is an obstacle in online learning (Fikri et al., 2021; Primasari & Zulela, 2021). Another 
+related study that did the same research also found the same problem. Some of the challenges are related 
+to unsupported infrastructure, unstable internet networks, and the cost of purchasing quotas. In addition, 
+these limitations are the biggest challenges in online learning (Sadikin & Hamidah, 2020; Suni Astini, 
+2020; Surahman et al., 2020; Widodo & Nursaptini, 2020). So in online learning, a network or internet 
+connection becomes the primary support/key to smooth online learning. As a result of the previous 
+limitations, students felt that learning was ineffective and consumed internet quota when interacting with 
+lecturers or friends because they had to wait for one party to finish before the other party could comment. 
+Based on students' responses to the limitations of mastery of technology, students stated that the 
+ability to use laptops or intelligent devices was not a big problem. According to them, their daily life is 
+always in contact with these devices. They can also quickly learn how to access various learning platforms 
+through tutorials on YouTube. This finding is also in line with previous research that says that the 
+teaching and learning process from primary education to higher education uses technology-based 
+learning, starting from the learning process, seminars, and actual work lectures carried out online 
+(Barakhsanova et al., 2020; Hendawi & Nosair, 2020; Li et al., 2018). Especially now that students have 
+been introduced to technology-based learning (Cohn, 2016; Liao et al., 2018; Wang, 2020). So, they are 
+already familiar with the use of technology. Some of them also study self-taught and with peers. It gives 
+satisfaction when they can master how to apply an application independently. 
+In carrying out online learning, facilities and infrastructure are very important to support the 
+smooth running of online learning (Fu & Hwang, 2018; Patricia, 2020; Shishigu et al., 2018). Online 
+learning is carried out remotely with the help of electronic devices such as tablets, smartphones, laptops, 
+and computers that require an internet connection (Nurrohma & Adistana, 2019; Palevi et al., 2020; 
+Maulana Reza Palevi et al., 2020). If these tools cannot be met, online learning cannot be adequately 
+implemented. The learning system is carried out online. Learning resources are also obtained online. 
+However, in Indonesia, the facilities and infrastructure for online learning are still minimal. Therefore, 
+many students have difficulty accessing the textbooks used in the form of e-books to support online 
+English learning. It can be seen from the questionnaire tabulation data, which shows that some students 
+Journal for Lesson and Learning Studies Vol. 5, No. 1, Tahun 2022, pp. 61-70 
+67 
+ 
+ 
+Ketut Herya Darma Utami / Challenges In Learning English Online During the Covid-19 Pandemic in Non-English Department 
+Students 
+still have difficulty accessing textbooks in the form of e-books to support online learning. It is reinforced 
+by the results of unstructured interviews carried out with students, where students also say they have 
+limitations in terms of facilities and infrastructure. Students have difficulty accessing learning resources in 
+the form of e-books to support online English learning. 
+ 
+4. CONCLUSION 
+ Based on the results of data analysis, it was found that students find learning English online 
+challenging. The main challenge comes from the psychological aspect. Another challenge is technical 
+issues. These problems cause various problems such as the sudden interruption of lecture time in the 
+middle of a lecture, unclear audio/image during discussions and virtual lectures, etc. It automatically 
+burdens many quotas, and the interactions that occur during the learning process become ineffective. 
+ 
+5. REFERENCES 
+ Agustin, M., Puspita, R. D., Nurinten, D., & Nafiqoh, H. (2020). Tipikal Kendala Guru PAUD dalam Mengajar 
+pada Masa Pandemi Covid 19 dan Implikasinya. Jurnal Obsesi : Jurnal Pendidikan Anak Usia Dini, 
+5(1), 334–345. https://doi.org/10.31004/obsesi.v5i1.598. 
+Aini, Q., Putra, P. O. H., Budiarto, M., & Rahardja, U. (2020). Exploring E-learning Challenges During the 
+Global COVID-19 Pandemic: A Review. Jurnal Sistem Informasi (Journal of Information System), 
+16(2), 57–65. https://doi.org/10.21609/jsi.v16i2.1011. 
+Aisiah, A., & Firza, F. (2019). Kendala yang Dihadapi Mahasiswa Jurusan Sejarah dalam Menulis Proposal 
+Skripsi. Diakronika, 18(2). https://doi.org/10.24036/diakronika/vol18-iss2/70. 
+Alchamdani, A., Fatmasari, F., Rahmadani Anugrah, E., Putri Sari, N., Putri, F., & Astina, A. (2020). The 
+Impact of Covid19 Pandemic on Online Learning Process in the College at Southeast Sulawesi. 
+Jurnal Kesehatan Lingkungan, 12(1si), 129. https://doi.org/10.20473/jkl.v12i1si.2020.129-136. 
+Amalia, R. U., Isnaeni, B., & Hanafi, Y. (2020). Analisis kendala peserta didik dalam pembelajaran online 
+materi biologi di SMP Negeri 3 Bantul. Bio Education, 5(2), 10–15. 
+Anugrahana, A. (2020). Hambatan, Solusi dan Harapan: Pembelajaran Daring Selama Masa Pandemi 
+Covid-19 Oleh Guru Sekolah Dasar. Scholaria: Jurnal Pendidikan Dan Kebudayaan, 10(3). 
+https://doi.org/10.24246/j.js.2020.v10.i3.p282-289. 
+Arizona, K., Abidin, Z., & Rumansyah, R. (2020). Pembelajaran Online Berbasis Proyek Salah Satu Solusi 
+Kegiatan Belajar Mengajar Di Tengah Pandemi Covid-19. Jurnal Ilmiah Profesi Pendidikan, 5(1). 
+https://doi.org/10.29303/jipp.v5i1.111. 
+Barakhsanova, E. A., Prokopyev, M. S., Olesova, S. G., Olesov, N. P., Lukina, T. N., Sorochinskiy, M. A., & 
+Tatarinov, F. F. (2020). Transdisciplinary Approach To the Learning Process Organization in the 
+E-Learning Information Environment of a College. International Transaction Journal of 
+Engineering 
+Management 
+\& 
+Applied 
+Sciences 
+\& 
+Technologies, 
+11(3), 
+1–12. 
+https://doi.org/10.14456/ITJEMAST.2020.53. 
+Cahyani, A., Listiana, I. D., & Larasati, S. P. D. (2020). Motivasi Belajar Siswa SMA pada Pembelajaran 
+Daring di Masa Pandemi Covid-19. IQ (Ilmu Al-Qur’an): Jurnal Pendidikan Islam, 3(01), 123–140. 
+https://doi.org/10.37542/iq.v3i01.57. 
+Churiyah, M., Sholikhan, S., Filianti, F., & Sakdiyyah, D. A. (2020). Indonesia Education Readiness 
+Conducting Distance Learning in Covid-19 Pandemic Situation. International Journal of 
+Multicultural 
+and 
+Multireligious 
+Understanding, 
+7(6), 
+491. 
+https://doi.org/10.18415/ijmmu.v7i6.1833. 
+Cohn, J. (2016). “Devilish Smartphones” and the “Stone-Cold” Internet: Implications of the Technology 
+Addiction Trope in College Student Digital Literacy Narratives. Computers and Composition, 42. 
+https://doi.org/10.1016/j.compcom.2016.08.008. 
+Djamdjuri, S., Dewi, & Kamilah, A. (2020). Whatsapp Media in Online Learning During Covid-19 Pandemic. 
+English Journal, 14(2), 69. https://doi.org/10.32832/english.v14i2.3792. 
+Faizah, U., Ambarwati, R., & Rahayu, D. A. (2021). From offline to online learning: Various efforts to secure 
+the learning process during covid-19 outbreaks. Journal of Physics: Conference Series, 1747(1). 
+https://doi.org/10.1088/1742-6596/1747/1/012002. 
+Fikri, M., Ananda, M. Z., & Faizah, N. (2021). Kendala Dalam Pembelajaran Jarak Jauh di Masa Pandemi 
+Covid-19 : Sebuah Kajian Kritis. Jurnal Education and Development, 9(1), 145–148. 
+https://doi.org/10.37081/ed.v9i1.2290. 
+Fortuna, A. P., Rida, A. M., Maharani, L. S. P., Ardiansyah, R., & Sari, A. A. (2020). A needs analysis of digital 
+connecting book in education in the pandemic era. ACM International Conference Proceeding 
+Journal for Lesson and Learning Studies Vol. 5, No. 1, Tahun 2022, pp. 61-70 
+68 
+ 
+ 
+JLLS P-ISSN: 2615-6148 E-ISSN : 2615-7330  
+Series. https://doi.org/10.1145/3452144.3452154. 
+Fu, Q. K., & Hwang, G. J. (2018). Trends in mobile technology-supported collaborative learning: A 
+systematic review of journal publications from 2007 to 2016. Computers and Education, 119(July 
+2017), 129–143. https://doi.org/10.1016/j.compedu.2018.01.004. 
+Gillett-Swan, J. (2017). The Challenges of Online Learning: Supporting and Engaging the Isolated Learner. 
+Journal of Learning Design, 10(1). https://doi.org/10.5204/jld.v9i3.293. 
+Hanif, M., Asrowi, A., & Sunardi, S. (2018). Students’ Access to and Perception of Using Mobile 
+Technologies in the Classroom: the Potential and Challenges of Implementing Mobile Learning. 
+Journal 
+of 
+Education 
+and 
+Learning 
+(EduLearn), 
+12(4). 
+https://doi.org/10.11591/edulearn.v12i4.8398. 
+Hendawi, M., & Nosair, M. R. (2020). Students’ technological awareness at the College of Education, Qatar 
+University. 
+Cypriot 
+Journal 
+of 
+Educational 
+Sciences, 
+15(4), 
+749–765. 
+https://doi.org/10.18844/cjes.v15i4.5057. 
+Hermanto, Y. B., Agustini, V., & Srimulyani. (2021). The Challenges of Online Learning During the Covid-19 
+Pandemic. Jurnal Pendidikan Dan Pengajaran, 54(1). https://doi.org/10.23887/jpp.v54i1.29703. 
+Hutauruk, A., & Sidabutar, R. (2020). Kendala pembelajaran daring selama masa pandemi di kalangan 
+mahasiswa pendidikan matematika: Kajian kualiatatif deskriptif. Journal of Mathematics 
+Education and Applied, 02(01), 45–51. https://doi.org/10.36655/sepren.v2i1.364. 
+Indrawati, M., Prihadi, C., & Siantoro, A. (2020). The Covid-19 Pandemic Impact on Children’s Education in 
+Disadvantaged and Rural Area Across Indonesia. International Journal of Education (IJE), 8(4), 19–
+33. https://doi.org/10.5121/ije.2020.8403. 
+Irfan, M., Kusumaningrum, B., Yulia, Y., Widodo, S. A., Info, A., Learning, O., & Learning, M. (2020). 
+Challenges During the Pandemic: Use of E-Learning in Mathematics Learning in Higher Education. 
+Infinity: 
+Journal 
+of 
+Mathematics 
+Education, 
+9(2), 
+147–158. 
+https://doi.org/10.22460/infinity.v9i2.p147-158. 
+Khatoony, S., & Nezhadmehr, M. (2020). EFL teachers’ challenges in integration of technology for online 
+classrooms during Coronavirus (COVID-19) pandemic in Iran. AJELP: Asian Journal of English 
+Language and Pedagogy, 8(2), 1–16. https://doi.org/10.37134/ajelp.vol8.sp.1.2020. 
+Kimkong Heng, & Koemhong Sol. (2020). Online learning during COVID-19: Key challenges and 
+suggestions to enhance effectiveness. Cambodian Education Forum (CEF), December, 1–15. 
+https://doi.org/10.1371/journal.pone.0248758. 
+Lase, D., Zega, T. G. C., & Daeli, D. O. (2021). Parents’ Perceptions of Distance Learning during COVID-19 
+Pandemic 
+in 
+Rural 
+Indonesia. 
+SSRN 
+Electronic 
+Journal, 
+13(2), 
+101–111. 
+https://doi.org/10.2139/ssrn.3890610. 
+Li, J., Zhang, X., & Hu, Z. (2018). The design and application of flip classroom teaching based on computer 
+technology. International Journal of Emerging Technologies in Learning, 13(10), 95–107. 
+https://doi.org/10.3991/ijet.v13i10.9453. 
+Liao, S., Hong, J.-C., Wen, M.-H., Pan, Y.-C., & Wu, Y.-. (2018). Applying Technology Acceptance Model (TAM) 
+to explore Users’ Behavioral Intention to Adopt a Performance Assessment System for E-book 
+Production. EURASIA Journal of Mathematics, Science and Technology Education, 14(10). 
+https://doi.org/10.29333/ejmste/93575. 
+Maatuk, A. M., Elberkawi, E. K., Aljawarneh, S., Rashaideh, H., & Alharbi, H. (2021). The COVID-19 
+Pandemic and E-learning: Challenges and Opportunities from the Perspective of Students and 
+Instructors. Journal of Computing in Higher Education, 1–18. https://doi.org/10.1007/s12528-
+021-09274-2. 
+Mastoah, I., & Zulaela. (2020). Kendala Orang Tua Dalam Mendampingi Anak Belajar Pada Masa Covid 19 
+Di 
+Kota 
+Serang. 
+As-Sibyan: 
+Jurnal 
+Pendidikan 
+Anak 
+Usia 
+Dini, 
+5(2), 
+121–128. 
+https://doi.org/10.32678/as-sibyan.v5i2.3663. 
+Maulana, H. A. (2021). Psychological Impact of Online Learning during the COVID-19 Pandemic: A Case 
+Study on Vocational Higher Education. Indonesian Journal of Learning Education and Counseling, 
+3(2), 130–139. https://doi.org/10.31960/ijolec.v3i2.833. 
+Mauliate, H. D., Rahmat, A., & Wachidah, S. (2019). Evaluation the Lesson Plan of English Language 
+Learning in Junior High School, Seraphine Bakti Utama West Jakarta. International Journal of 
+Scientific 
+Research 
+and 
+Management, 
+7(07), 
+1078–1086. 
+https://doi.org/10.18535/ijsrm/v7i7.el02. 
+Mohammadi, M., Moenikia, M., & Zahed-Babelan, A. (2020). The role of advance organizer on English 
+language learning as a second language. Procedia - Social and Behavioral Sciences, 2(2). 
+https://doi.org/10.1016/j.sbspro.2010.03.747. 
+Mpungose, C. B. (2021). Lecturers’ reflections on use of Zoom video conferencing technology for e-
+Journal for Lesson and Learning Studies Vol. 5, No. 1, Tahun 2022, pp. 61-70 
+69 
+ 
+ 
+Ketut Herya Darma Utami / Challenges In Learning English Online During the Covid-19 Pandemic in Non-English Department 
+Students 
+learning at a South African university in the context of coronavirus. African Identities. 
+https://doi.org/10.1080/14725843.2021.1902268. 
+Nikdel Teymori, A., & Fardin, M. A. (2020). COVID-19 and Educational Challenges: A Review of the Benefits 
+of 
+Online 
+Education. 
+Annals 
+of 
+Military 
+and 
+Health 
+Sciences 
+Research, 
+18(3). 
+https://doi.org/10.5812/amh.105778. 
+Nurrohma, R. I., & Adistana, G. A. Y. P. (2019). Penerapan Model Pembelajaran Problem Based Learning 
+dengan Media E-Learning Melalui Aplikasi Edmodo pada Mekanika Teknik. Jurnal Ilmu 
+Pendidikan, 1(3), 294–302. https://doi.org/10.31004/edukatif.v3i4.544. 
+Pakpahan, S. F., Sartika, I. D., & Purba, Srilasima Pakpahan, E. S. (2021). An Analysis Of The Activities In 
+English Textbook (2017 Revise Edition) Of 11” Grade Senior High School Entitled “Stop Bullying 
+Now” 
+Published 
+By 
+Kemendikbud. 
+Jurnal 
+Ilmu 
+Sosial 
+Dan 
+Pendidikan, 
+5(1). 
+https://doi.org/10.36312/jisip.v5i1.1752. 
+Palevi, M. R., Saputri, P. A., & Vebrianto, R. (2020). Ruang kelas virtual: pembelajaran dengan pemanfaatan 
+permainan 
+online 
+Hago. 
+JPPI 
+(Jurnal 
+Penelitian 
+Pendidikan 
+Indonesia), 
+6(1). 
+https://doi.org/10.29210/02019410. 
+Palevi, Maulana Reza, Saputri, P. A., & Saridewi, I. A. (2020). Ruang Kelas Virtual: Pembelajaran dengan 
+Pemanfaatan Permainan Online Hago. JPPI (Jurnal Penelitian Pendidikan Indonesia), 6(1), 7–13. 
+https://doi.org/10.29210/02019410. 
+Patricia, A. (2020). College Students’ Use and Acceptance of Emergency Online Learning Due to COVID-19. 
+International 
+Journal 
+of 
+Educational 
+Research 
+Open, 
+1(1), 
+100011. 
+https://doi.org/10.1016/j.ijedro.2020.100011. 
+Primasari, I. F. N. D., & Zulela. (2021). Kendala Pembelajaran Jarak Jauh (PJJ) Secara Online Selama Masa 
+Pandemik Covid-19 di Sekolah Dasar. JIKAP PGSD: Jurnal Ilmiah Ilmu Kependidikan, 5(1), 64–73. 
+https://doi.org/10.26858/jkp.v5i1.16820. 
+Rachmat, A., & Krisnadi, I. (2020). Analisis Efektifitas Pembelajaran Daring (Online) Untuk Siswa SMK 
+Negeri 8 Kota Tangerang Pada Saat Pandemi Covid 19. Jurnal Pendidikan, 1(1), 1–7. 
+https://doi.org/10.31004/basicedu.v5i1.669. 
+Rhim, H. C., & Han, H. (2020). Teaching online: foundational concepts of online learning and practical 
+guidelines. 
+Korean 
+Journal 
+of 
+Medical 
+Education, 
+32(3), 
+175–183. 
+https://doi.org/10.3946/kjme.2020.171. 
+Rigianti, H. A. (2020). Kendala Pembelajaran Daring Guru Sekolah Dasar Di Banjarnegara. Elementary 
+School: 
+Jurnal 
+Pendidikan 
+Dan 
+Pembelajaran 
+Ke-SD-An, 
+7(2). 
+https://doi.org/10.31316/esjurnal.v7i2.768. 
+Sadikin, A., & Hamidah, A. (2020). Pembelajaran Daring di Tengah Wabah Covid-19. Biodik, 6(2), 109–119. 
+https://doi.org/10.22437/bio.v6i2.9759. 
+Shishigu, A., Hailu, A., & Anibo, Z. (2018). Problem-based learning and conceptual understanding of college 
+female students in physics. Eurasia Journal of Mathematics, Science and Technology Education, 
+14(1), 145–154. https://doi.org/10.12973/ejmste/78035. 
+Sugiyono. (2018). Metode penelitian kuatintatif , kualitatif dan R & D. In Bandung: Alfabeta. 
+Suni Astini, N. K. (2020). Tantangan Dan Peluang Pemanfaatan Teknologi Informasi Dalam Pembelajaran 
+Online 
+Masa 
+Covid-19. 
+Cetta: 
+Jurnal 
+Ilmu 
+Pendidikan, 
+3(2), 
+241–255. 
+https://doi.org/10.37329/cetta.v3i2.452. 
+Supratman, E., & Purwaningtias, F. (2018). Pengembangan Media Pembelajaran E-Learning Berbasis 
+Schoology. 
+Jurnal 
+Informatika: 
+Jurnal 
+Pengembangan 
+IT 
+(JPIT), 
+3(3). 
+https://doi.org/10.30591/jpit.v3i3.958. 
+Surahman, E., Santaria, R., & Setiawan, E. I. (2020). Tantangan Pembelajaran Daring Di Indonesia. Kelola: 
+Journal of Islamic Education Management, 5(2). https://doi.org/10.24256/kelola.v5i2.1397. 
+Syauqi, K., Munadi, S., & Triyono, M. B. (2020). Students’ perceptions toward vocational education on 
+online learning during the COVID-19 pandemic. International Journal of Evaluation and Research 
+in Education (IJERE), 9(4), 881. https://doi.org/10.11591/ijere.v9i4.20766. 
+Tang, Y. M., Chen, P. C., Law, K. M. Y., Wu, C. H., Lau, Y., Guan, J., He, D., & Ho, G. T. S. (2021). Comparative 
+analysis of Student’s live online learning readiness during the coronavirus (COVID-19) pandemic 
+in 
+the 
+higher 
+education 
+sector. 
+Computers 
+& 
+Education, 
+168. 
+https://doi.org/10.1016/j.compedu.2021.104211. 
+Wang, Y. H. (2020). Design-based research on integrating learning technology tools into higher education 
+classes 
+to 
+achieve 
+active 
+learning. 
+Computers 
+and 
+Education, 
+156(May), 
+103935. 
+https://doi.org/10.1016/j.compedu.2020.103935. 
+Widodo, A., & Nursaptini, N. (2020). Problematika pembelajaran daring dalam perspektif mahasiswa. ELSE 
+(Elementary School Education Journal): Jurnal Pendidikan Dan Pembelajaran Sekolah Dasar, 4(2). 
+Journal for Lesson and Learning Studies Vol. 5, No. 1, Tahun 2022, pp. 61-70 
+70 
+ 
+ 
+JLLS P-ISSN: 2615-6148 E-ISSN : 2615-7330  
+https://doi.org/10.30651/else.v4i2.5340. 
+Wijaya, T. T., Ying, Z., Purnama, A., & Hermita, N. (2020). Indonesian students’ learning attitude towards 
+online learning during the coronavirus pandemic. Psychology, Evaluation, and Technology in 
+Educational Research, 3(1). https://doi.org/10.33292/petier.v3i1.56. 
+Windhiyana, E. (2020). Dampak Covid-19 Terhadap Kegiatan Pembelajaran Online Di Perguruan Tinggi 
+Kristen Di Indonesia. Perspektif Ilmu Pendidikan, 34(1), 1–8. https://doi.org/10.21009/pip.341.1. 
+Yunita, V. M., Sunardi, & Kristiyanto, A. (2021). Special Education Teachers ’ Perceptions Toward Online 
+Learning During the Covid-19 Pandemic. JPI (Jurnal Pendidikan Indonesia), 10(2), 202–211. 
+https://doi.org/10.23887/jpi-undiksha.v10i2.29773. 
+ 
+ 
+ 
+ 
+ 
+ 

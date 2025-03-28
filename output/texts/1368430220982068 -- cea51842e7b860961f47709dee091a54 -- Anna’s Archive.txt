@@ -1,0 +1,524 @@
+G 
+P 
+I
+R
+Group Processes &
+Intergroup Relations
+https://doi.org/10.1177/1368430220982068
+Group Processes & Intergroup Relations
+2021, Vol. 24(2) 270­–275
+© The Author(s) 2020
+Article reuse guidelines: 
+sagepub.com/journals-permissions
+DOI: 10.1177/1368430220982068
+journals.sagepub.com/home/gpi
+Conspiracy theories began to emerge immediately 
+after the first news of the COVID-19 outbreak 
+(van Bavel et al., 2020), and many of these stemmed 
+from existing tensions within and between groups. 
+For example, from early on during the pandemic, 
+some people believed that COVID-19 was deliber-
+ately manufactured by the Chinese to wage war on 
+the USA (or vice versa). As the pandemic pro-
+gressed, others believed that COVID-19 was a 
+hoax or was exaggerated by left-wingers as part of 
+a plot to derail Donald Trump’s reelection cam-
+paign. These conspiracy theories persist, and 
+recently a vocal minority of “antimaskers” in 
+Western countries have protested against what they 
+view as a direct attack from powerful authorities on 
+their civil liberties. In this article, I will explain why 
+people believe in conspiracy theories like these, and 
+why conspiracy theories are likely to appeal to 
+people during the pandemic. I will also explore the 
+potential dangers of COVID-19 conspiracy theo-
+ries for individuals, groups, and societies, and 
+explain what might be done about them.
+Why People Believe in 
+Conspiracy Theories
+Conspiracy theories attempt to explain significant 
+events and circumstances as the malevolent acts 
+of secret and powerful groups (Douglas et  al., 
+COVID-19 conspiracy theories
+Karen M. Douglas1
+Abstract
+Conspiracy theories started to appear on social media immediately after the first news about 
+COVID-19. Is the virus a hoax? Is it a bioweapon designed in a Chinese laboratory? These conspiracy 
+theories typically have an intergroup flavour, blaming one group for having some involvement in 
+either manufacturing the virus or controlling public opinion about it. In this article, I will discuss 
+why people are attracted to conspiracy theories in general, and why conspiracy theories seem to have 
+flourished during the pandemic. I will discuss what the consequences of these conspiracy theories 
+are for individuals, groups, and societies. I will then discuss some potential strategies for addressing 
+the negative consequences of conspiracy theories. Finally, I will consider some open questions for 
+research regarding COVID-19 conspiracy theories, in particular focusing on the potential impact of 
+these conspiracy theories for group processes and intergroup relations.
+Keywords
+conspiracy beliefs, conspiracy theories, COVID-19, disinformation, misinformation
+Paper received 9 October 2020; revised version accepted 26 November 2020.
+1University of Kent, UK
+Corresponding author:
+Karen M. Douglas, School of Psychology, University of 
+Kent, Keynes College, Canterbury, CT2 7NP, UK. 
+Email: k.douglas@kent.ac.uk
+982068 GPI0010.1177/1368430220982068Group Processes & Intergroup RelationsDouglas
+research-article2020
+Article
+Douglas	
+271
+2017; Douglas et al., 2019). The psychological lit-
+erature on this topic has grown rapidly in the past 
+15 years, and suggests that people are drawn to 
+conspiracy theories when important psychologi-
+cal needs are not being met. The first set of needs 
+are epistemic, including the desire to satisfy curi-
+osity and avoid uncertainty. For example, research 
+has linked conspiracy beliefs with the search for 
+patterns and meaning even when no such pat-
+terns exist (van Prooijen et al., 2018), and with 
+lower levels of education (Douglas et al., 2016). 
+The second set of needs are existential, including 
+the desire to restore a threatened sense of secu-
+rity and control (see also Kruglanski et al., 2021, 
+for further discussion of threats to self). For 
+instance, people are more likely to believe con-
+spiracy theories when they are anxious or worried 
+(Grzesiak-Feldman, 2013), and when they feel 
+that they have no power (Abalakina-Paap et al., 
+1999). The third set of needs are social, including 
+the desire to hold one’s self and one’s groups in 
+positive regard. For instance, people are more 
+likely to believe in conspiracy theories if they 
+need to feel unique compared to others (Lantian 
+et al., 2017), feel a need to belong (Graeupner & 
+Coman, 2017), or feel that their group is underap-
+preciated (Cichocka et al., 2016) or under threat 
+(Jolley et al., 2018).
+During a pandemic, people’s psychological 
+needs are likely to be particularly frustrated. 
+Uncertainties are high, and people are worried and 
+fearful for their future and the future of their loved 
+ones. They are seeking information to answer 
+important questions about the outlook for the 
+coming months. Furthermore, the information 
+landscape is complex, and people are frequently 
+confronted with contradictory information. One 
+week people are asked to “eat out to help out” 
+local restaurants, and the next they are being asked 
+to stay indoors. Also, people have endured (and in 
+many cases are still enduring) lengthy periods of 
+social isolation, restricting their access to social 
+support that can help with both physical and men-
+tal health (Jetten et al., 2017). They are also worried 
+that the actions of powerful outgroups such as 
+governments are making things worse. In general, 
+too, research suggests that conspiracy theories 
+tend to prosper in times of crisis as people look 
+for ways to cope with difficult and uncertain cir-
+cumstances (van Prooijen & Douglas, 2017). The 
+time is therefore ripe for conspiracy theories to 
+flourish.
+Consequences of Conspiracy 
+Theories
+Conspiracy theories are consequential, and in 
+many studies have been linked to climate denial, 
+vaccine refusal, political apathy, apathy in the 
+workplace, prejudice, crime, and violence (see 
+Douglas et al., 2019, for a review; see also Rutjens 
+et al., 2021, for further discussion on science skep-
+ticism). Recent research suggests that conspiracy 
+theories about COVID-19 are no exception, and, 
+in particular, that they have negative consequences 
+for people’s intentions to comply with govern-
+ment recommendations. For example, Romer and 
+Jamieson (2020) measured belief in COVID-19 
+conspiracy theories in the US and found that these 
+beliefs were negatively associated with perceived 
+threat of the pandemic, taking preventive actions 
+(e.g., wearing a mask), and intentions to vaccinate 
+against COVID-19 if a vaccine became available. 
+Barua et al. (2020) similarly found that belief in 
+conspiracy theories negatively predicted preven-
+tive intentions in a sample of Bangladeshi 
+respondents. Imhoff and Lamberty (2020) found 
+that the relationship between COVID-19 conspir-
+acy beliefs and preventive intentions depended on 
+the nature of the conspiracy theory. Specifically, 
+“hoax”-related conspiracy theories predicted 
+refusal to engage in preventive behaviours, 
+whereas conspiracy theories about the virus being 
+manufactured in a laboratory seemed to promote 
+more self-centred prepping behaviour. Finally, 
+Biddlestone, Green, and Douglas (2020) demon-
+strated that people with an individualist (vs. col-
+lectivist) cultural orientation displayed lower 
+intentions to engage in COVID-19 preventive 
+behaviours, a relationship mediated by belief in 
+COVID-19 conspiracy theories.
+Research has identified other negative conse-
+quences of COVID-19 conspiracy theories. For 
+example, Jolley and Paterson (2020) showed that 
+272	
+Group Processes & Intergroup Relations 24(2)
+belief in the conspiracy theory that 5G phone 
+masts spread COVID-19 predicted greater will-
+ingness to vandalise 5G masts and to commit vio-
+lence more generally as a means to get things 
+done. Several preprints available on PsychArXiv.
+com have also described negative consequences 
+of COVID-19 conspiracy theories. These include 
+support for alternative remedies such as hydroxy-
+chloroquine (Bertin et al., 2020), consuming gar-
+lic and colloidal silver (Teovanović et al., 2020), 
+and self-serving behaviours such as stockpiling 
+(Bai, 2020). Like political, climate change, and 
+antivaccine conspiracy theories, COVID-19 con-
+spiracy theories therefore also appear to do harm. 
+At a time when communities need to focus on 
+efforts to halt the spread of the virus and prevent 
+further deaths, conspiracy theories spreading 
+within and between communities appear to be 
+damaging those efforts.
+Addressing the Impact of 
+Conspiracy Theories
+In general, it is difficult to address the conse-
+quences of conspiracy theories because such theo-
+ries are often multilayered, nebulous, and therefore 
+resistant to disconfirmation (e.g., Lewandowsky 
+et al., 2012). Also, belief in conspiracy theories is 
+often driven by strongly held social and political 
+identities, and the ties of these group member-
+ships are difficult to break (Uscinski et al., 2016). 
+As people become more attached to a group that 
+holds conspiracy beliefs, it is likely that they will be 
+persuaded to act upon their beliefs and cause fur-
+ther harm, as has been the case with “antimaskers” 
+protesting across the US, often joined by antivac-
+cine activists and “QAnon” supporters who 
+believe that the Democrats are at the centre of a 
+paedophile ring and that Republican President 
+Donald Trump is leading the fight against them. 
+Such social movements, driven strongly by con-
+spiracy theories, have the potential to lead to acts 
+of violence and terrorism (Douglas et al., 2019). 
+However, appealing to larger group memberships 
+may be an effective strategy for dealing with 
+conspiracy theories. For example, Biddlestone, 
+Green and Douglas (2020) showed that whilst 
+individualists were more likely to believe COVID-
+19 conspiracy theories, thus demonstrating reluc-
+tance to engage in preventive behaviours, this was 
+not the case for collectivists. People with a collec-
+tivist cultural orientation were in fact more likely to 
+show intentions to engage in preventive behav-
+iours. Promoting collectivism, or a “we are in this 
+together” approach, may therefore be a way to 
+both reduce susceptibility to conspiracy theories 
+and improve people’s COVID-19 response.
+Another challenge in dealing with COVID-
+19 conspiracy theories is that people are likely to 
+reject direct counterarguments from govern-
+ments and authorities because these groups are 
+perceived to be part of the conspiracy, and their 
+actions are considered as evidence of their con-
+spiracy. As the “other” or outgroup, they are 
+also viewed as a group that cannot be trusted to 
+pass on helpful, honest, and reliable information 
+because they are perceived to have self-serving 
+motives. It also does not help that conspiracy 
+theories are often touted by leaders and people 
+in positions of trust and authority (see also 
+Antonakis, 2021, for further discussion of lead-
+ership during times of crisis). When trusted 
+sources of information argue in favour of con-
+spiracy theories, damaging ideas can easily gain 
+momentum. One promising line of research 
+may therefore be to employ “trusted messen-
+gers” to reduce the impact of conspiracy theo-
+ries. In other words, combating the conspiracy 
+theory may be likely to have more success if the 
+counterarguments come from trusted sources 
+such as valued ingroup members, instead of 
+outgroup members who are typically associated 
+with mistrust (Nisbet, 2009). For example, if a 
+long-standing member of an online conspiracy 
+forum argues against COVID-19 conspiracy 
+theories, other members of the forum are more 
+likely to listen to these arguments compared to 
+arguments coming from government represent-
+atives or scientists.
+Another promising line of research suggests 
+that “inoculating” people with factual informa-
+tion can stem the influence of conspiracy theo-
+ries. Jolley and Douglas (2017) showed that for 
+believers in antivaccine conspiracy theories, direct 
+Douglas	
+273
+anticonspiracy arguments increased intentions to 
+vaccinate a fictional child when these arguments 
+were presented prior to conspiracy theories. 
+However, once the conspiracy theories were 
+established, they were difficult to correct with 
+anticonspiracy arguments. A related strategy may 
+be preexposure warnings—that is, if people are 
+explicitly warned up front that the information 
+they are about to see may be inaccurate or mis-
+leading, they may be more able to resist it 
+(Lewandowsky et al., 2012). This appears to be an 
+effective strategy as long as the warnings explain 
+that misinformation can have lasting effects. 
+Similar interventions that present the facts about 
+COVID-19 or prewarn people about misleading 
+information and therefore enable them to spot 
+conspiracy theories before they fall for them, may 
+be effective strategies against COVID-19 con-
+spiracy theories.
+Future Research
+COVID-19 conspiracy theories are likely to have 
+consequences for group processes and inter-
+group relations that are as yet unexplored. First, 
+as people further disidentify with society and its 
+institutions and view themselves as outsiders, 
+this is likely to further fuel mistrust and cynicism 
+and increase people’s feelings of isolation and 
+marginalisation. People are also likely to feel 
+powerless rather than powerful as a result of 
+consuming 
+conspiracy 
+theories 
+(Jolley 
+& 
+Douglas, 2014), and this may further limit their 
+access to the benefits of group membership. For 
+example, people are likely to lose touch with 
+social connections that help them maintain their 
+mental and physical health at difficult times 
+(Jetten et al., 2017). Increased social isolation is 
+also associated with increased conspiracy belief 
+(Graeupner & Coman, 2017), and so as people 
+endure longer periods of lockdown and restric-
+tions on social gatherings during the pandemic, a 
+vicious cycle may follow.
+Second, belief in COVID-19 conspiracy theo-
+ries largely stems from, but can also potentially 
+fuel, intergroup tensions. For example, if people 
+perceive that China deliberately caused the virus, 
+this may increase feelings of negativity towards 
+Chinese people. These feelings—further driven 
+by fear, loss of control, and narcissistic feelings 
+about the morality of one’s own group (see 
+Biddlestone, Cichocka, et al., 2020, for a review)—
+may lead to prejudice, hostility, and discrimination 
+toward the alleged conspirators. These effects 
+have been demonstrated consistently in the case 
+of anti-Semitic conspiracy theories, which fuel 
+prejudice and discrimination towards Jews. 
+However, these negative effects can even general-
+ise to groups who are not viewed as part of the 
+conspiracy. Therefore, conspiracy theories about 
+one group can generalise and cause more general 
+discriminatory approaches toward other disliked 
+outgroups (see Biddlestone, Cichocka et al., 2020). 
+In a similar vein, conspiracy theories about groups 
+can also have implications for the legitimisation 
+of injustice. Conspiracy theories give people an 
+“other” to blame for their predicament and may 
+therefore perform a system-justifying function, 
+deflecting blame from dysfunctional societal 
+problems and instead blaming a few “bad 
+apples”—an outgroup—for the ills of society 
+(Jolley et al., 2018). Exploring these mechanisms 
+in the context of COVID-19 would be a useful 
+avenue for future research.
+Another interesting question in the current 
+context is whether people who would not nor-
+mally be attracted to conspiracy theories have 
+become receptive to them during this time, also 
+beginning to believe conspiracy theories about 
+unrelated events. For example, if a person 
+believes that COVID-19 is a hoax, will they now 
+be more likely than before to entertain the notion 
+that climate change is a hoax? Research shows 
+that belief in one conspiracy theory tends to 
+coincide with belief in others (see Douglas et al., 
+2019). This occurs because conspiracy theories 
+typically cohere with the general proposition that 
+important things are covered up or hidden from 
+the public. For people who believe in one con-
+spiracy theory, other conspiracies therefore also 
+seem more plausible. This raises the worrying 
+possibility that COVID-19 conspiracy theories 
+could lead people down the “rabbit hole” to pur-
+sue other conspiracy theories.
+274	
+Group Processes & Intergroup Relations 24(2)
+Conclusions
+Conspiracy theories flourish in times of crisis 
+when people feel threatened, uncertain, and inse-
+cure. The COVID-19 pandemic has created the 
+perfect circumstances for conspiracy theories, 
+and research suggests that they are having nega-
+tive consequences for people’s compliance with 
+preventive behaviours. Most of these conspiracy 
+theories stem from existing tensions between 
+groups, and as the pandemic continues, conspir-
+acy theories are likely to further fuel these ten-
+sions. A significant challenge for researchers is 
+how to deal with these conspiracy theories and 
+their associated effects.
+Funding 
+The author received no financial support for the 
+research, authorship, and/or publication of this article.
+ORCID iD 
+Karen M. Douglas 
+ https://orcid.org/0000-0002 
+-0381-6924
+References
+Abalakina-Paap, M., Stephan, W. G., Craig, T., & 
+Gregory, L. (1999). Beliefs in conspiracies. 
+Political Psychology, 20, 637–647. https://doi.
+org/10.1111/0162-895X.00160
+Antonakis, J. (2021). Leadership to defeat COVID-19. 
+Group Processes & Intergroup Relations, 24, 210–215. 
+https://doi.org/10.1177/1368430220981418
+Bai, H. (2020). Who bought all the toilet paper? Conspiracy 
+theorists are more likely to stockpile during the COVID-
+19 pandemic. Retrieved from https://psyarxiv.
+com/z2g34/
+Barua, Z., Barua, S., Aktar, S., Kabir, N., & Li, M. 
+(2020). Effects of misinformation on COVID-19 
+individual responses and recommendations for 
+resilience of disastrous consequences of misinfor-
+mation. Progress in Disaster Science, 8, Article 100119. 
+https://doi.org/10.1016/j.pdisas.2020.100119
+Bertin, P., Nera, K., & Delouvee, S. (2020). Conspiracy 
+beliefs, rejection of vaccination, and support for hydroxychlo-
+roquine: A conceptual replication-extension in the COVID-
+19 pandemic context. Retrieved from https://psyarxiv.
+com/rz78/
+Biddlestone, M., Cichocka, A., Zezelj, I., & Bilewicz, M. 
+(2020). Conspiracy theories and intergroup relations. 
+In M. Butter & P. Knight (Eds.), Routledge handbook of 
+conspiracy theories (pp. 219–230). Routledge.
+Biddlestone, M., Green, R., & Douglas, K. M. (2020). 
+Cultural orientation, power, belief in conspiracy 
+theories, and intentions to reduce the spread of 
+COVID-19. British Journal of Social Psychology, 59, 
+663–673. https://doi.org/10.1111/bjso.12397
+Cichocka, A., Marchlewska, M., & Golec de Zavala, A. 
+(2016). Does self-love or self-hate predict con-
+spiracy beliefs? Narcissism, self-esteem and the 
+endorsement of conspiracy theories. Social Psycho-
+logical and Personality Science, 7, 157–166. https://
+doi.org/10.1177/1948550615616170
+Douglas, K. M., Sutton, R. M., Callan, M., Dawtry, 
+R., & Harvey, A. (2016). Someone is pulling 
+the strings: Hypersensitive agency detection and 
+belief in conspiracy theories. Thinking and Reason-
+ing, 22, 57–77. https://doi.org/10.1080/1354678
+3.2015.1051586
+Douglas, K. M., Sutton, R. M., & Cichocka, A. (2017). 
+The psychology of conspiracy theories. Cur-
+rent Directions in Psychological Science, 26, 538–542. 
+https://doi.org/10.1177/0963721417718261
+Douglas, K. M., Uscinski, J. E., Sutton, R. M., 
+Cichocka, A., Nefes, T., Ang, C. S., & Deravi, F. 
+(2019). Understanding conspiracy theories. Politi-
+cal Psychology, 40, 3–35. https://doi.org/10.1111/
+pops.12568
+Graeupner, D., & Coman, A. (2017). The dark side 
+of meaning-making: How social exclusion leads 
+to superstitious thinking. Journal of Experimen-
+tal Social Psychology, 69, 218–222. https://doi.
+org/10.1016/j.jesp.2016.10.003
+Grzesiak-Feldman, M. (2013). The effect of high-
+anxiety situations on conspiracy thinking. Current 
+Psychology, 32, 100–118. https://doi.org/10.1007/
+s12144-013-9165-6
+Imhoff, R., & Lamberty, P. (2020). A bioweapon or a 
+hoax? The link between distinct conspiracy beliefs 
+about the coronavirus disease (COVID-19) out-
+break and pandemic behavior. Social Psychological 
+and Personality Science. Advance online publication. 
+https://doi.org/10.1177/1948550620934692
+Jetten, J., Haslam, S. A., Cruwys, T., Greenaway, K. 
+H., Haslam, C., & Steffens, N. K. (2017). Advanc-
+ing the social identity approach to health and 
+well-being: Progressing the social cure research 
+agenda. European Journal of Social Psychology, 47, 
+789–802. https://doi.org/10.1002/ejsp.2333
+Jolley, D., & Douglas, K. M. (2014). The effects of anti-
+vaccine conspiracy theories on vaccination inten-
+tions. PLoS ONE, 9. https://doi.org/10.1371/
+journal.pone.0089177
+Jolley, D., & Douglas, K. M. (2017). Prevention is bet-
+ter than cure: Addressing anti-vaccine conspiracy 
+Douglas	
+275
+theories. Journal of Applied Social Psychology, 47, 
+459–469. https://doi.org/10.1111/jasp.12453
+Jolley, D., Douglas, K. M., & Sutton, R. M. (2018). 
+Blaming a few bad apples to save a threatened 
+barrel: The system-justifying function of con-
+spiracy theories. Political Psychology, 39, 465–478. 
+https://doi.org/10.1111/pops.12404
+Jolley, D., & Paterson, J. L. (2020). Pylons ablaze: Exam-
+ining the role of 5G COVID-19 conspiracy beliefs 
+and support for violence. British Journal of Social 
+Psychology, 59, 628–640. https://doi.org/10.1111/
+bjso.12394
+Kruglanski, A., Molinario, E., & Lemay, E. (2021). 
+Coping with COVID-19-induced threats to self. 
+Group Processes and Intergroup Relations, 24, 284–289. 
+https://doi.org/10.1177/1368430220982074
+Lantian, A., Muller, D., Nurra, C., & Douglas, K. M. 
+(2017). “I know things they don’t know!”: The 
+role of need for uniqueness in belief in conspiracy 
+theories. Social Psychology, 48, 160–173. https://
+doi.org/10.1027/1864-9335/a000306
+Lewandowsky, S., Ecker, U. K. H., Seifert, C. M., 
+Schwarz, N., & Cook, J. (2012). Misinforma-
+tion and its correction: Continued influence 
+and successful debiasing. Psychological Science in 
+the Public Interest, 13, 106–131. https://doi.org/ 
+10.1177/1529100612451018
+Nisbet, M. C. (2009). Communicating climate change: 
+Why frames matter for public engagement. Envi-
+ronment, 51, 12–23. https://doi.org/10.3200/
+ENVT.51.2.12-23
+Romer, D., & Jamieson, K. H. (2020). Conspiracy 
+theories as barriers to controlling the spread of 
+COVID-19 in the US. Social Science and Medicine, 
+263, Article 113356. https://doi.org/10.1016/j.
+socscimed.2020.113356
+Rutjens, B., van der Linden, S., & van der Lee, R. 
+(2021). Science skepticism in times of COVID-19. 
+Group Processes & Intergroup Relations, 24, 276–283. 
+https://doi.org/10.1177/1368430220981415
+Teovanović, P., Lukić, P., Zupan, Z., Lazić, A., 
+Ninković, M., & Žeželj, I. (2020). Irrational beliefs 
+differentially predict adherence to guidelines and pseudo-
+scienific practices during the COVID-19 pandemic. 
+Retrieved from https://psyarxiv.com/gefhn/
+Uscinski, J. E., Klofstad, C., & Atkinson, M. D. 
+(2016). What drives conspiratorial beliefs? The 
+role of informational cues and predispositions. 
+Political Research Quarterly, 69, 57–71. https://doi.
+org/10.1177/1065912915621621
+Van Bavel, J., Baicker, K., Boggio, P. S., Capraro, V., 
+Cichocka, A., Cikara, M., Crockett, M. J., Crum, 
+A. J., Douglas, K. M., Druckman, J. N., Drury, 
+N., Dube, O., Ellemers, N., Finkel, E. J., Fowler, 
+J. H., Gelfand, M., Han, S., Haslam, S. A., Jetten, 
+J., . . . Willer, R. (2020). Using social and behav-
+ioural science to support COVID-19 pandemic 
+response. Nature Human Behaviour, 4, 460–471. 
+https://doi.org/10.1038/s41562-020-0884-z
+Van Prooijen, J.-W., & Douglas, K. M. (2017). Conspir-
+acy theories as a part of history: The role of soci-
+etal crisis situations. Memory Studies, 10, 323–333. 
+https://doi.org/10.1177/1750698017701615
+Van Prooijen, J.-W., Douglas, K. M., & de Inocencio, 
+C. (2018). Connecting the dots: Pattern percep-
+tion predicts belief in conspiracies and the super-
+natural. European Journal of Social Psychology, 48, 
+320–335. https://doi.org/10.1002/ejsp.2331

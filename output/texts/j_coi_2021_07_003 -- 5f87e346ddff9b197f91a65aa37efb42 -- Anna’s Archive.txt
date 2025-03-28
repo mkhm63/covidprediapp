@@ -1,0 +1,809 @@
+COVID-19 vaccines
+Duduzile Ndwandwe1 and Charles S Wiysonge1,2,3
+COVID-19 is a pandemic of unprecedented proportions in
+recent human history. Less than 18 months since the onset of
+the pandemic, there are close to two hundred million conﬁrmed
+cases and four million deaths worldwide. There have also been
+massive efforts geared towards ﬁnding safe and effective
+vaccines. By July 2021 there were 184 COVID-19 vaccine
+candidates in pre-clinical development, 105 in clinical
+development, and 18 vaccines approved for emergency use by
+at least one regulatory authority. These vaccines include whole
+virus live attenuated or inactivated, protein-based, viral vector,
+and nucleic acid vaccines. By mid-2021 three billion doses of
+COVID-19 vaccine have been administered around the world,
+mostly in high-income countries. COVID-19 vaccination
+provides hope for an end to the pandemic, if and only if there
+would be equal access and optimal uptake in all countries
+around the world.
+Addresses
+1 Cochrane South Africa, South African Medical Research Council,
+Parow Valley, 7501, Cape Town, South Africa
+2 Division of Epidemiology and Biostatistics, Faculty of Medicine and
+Health Sciences, Stellenbosch University, Tygerberg, 7505, Cape Town,
+South Africa
+3 School of Public Health and Family Medicine, Faculty of Health
+Sciences, University of Cape Town, Observatory, 7925, Cape Town,
+South Africa
+Corresponding author:
+Ndwandwe, Duduzile (Duduzile.ndwandwe@mrc.ac.za)
+Current Opinion in Immunology 2021, 71:111–116
+This review comes from a themed issue on Vaccines
+Edited by Charles S Wiysonge and Sara Cooper
+https://doi.org/10.1016/j.coi.2021.07.003
+0952-7915/ã 2021 The Author(s). Published by Elsevier Ltd. This is an
+open access article under the CC BY license (http://creativecommons.
+org/licenses/by/4.0/).
+Background
+As many countries continue to battle with new infec-
+tions caused by coronavirus disease 2019 (COVID-19),
+vaccine development has been accelerated to achieve
+immunity to the virus and stop transmission [1,2].
+The process of vaccine development is usually long
+and tedious (Figure 1). The recent advances in
+COVID-19 vaccine development have indicated that
+research innovations are accumulative, building on
+already existing knowledge. This allows for the pan-
+demic speed at which the COVID-19 vaccines have
+been rapidly developed. Vaccines are biological pre-
+parations that provide active acquired immunity to a
+particular infectious disease. They do so by stimulat-
+ing an immune response to an antigen, a molecule
+found on the pathogen [3]. Vaccines date back to the
+era of Edward Jenner who developed the smallpox
+vaccine in 1796 [4].
+COVID-19 vaccines
+In the history of vaccines, COVID-19 vaccines have
+accelerated at an unimaginable speed. Currently, there
+are 184 candidate vaccines in preclinical development
+and 104 in clinical stages of development [5]. Recent
+data indicate that there are 18 COVID-19 vaccines
+approved and are currently in use around the world
+[5,6]. The COVID-19 vaccines are in four primary
+categories using different platforms: (1) whole virus
+vaccines, (2) protein-based vaccines, (3) viral vector
+vaccines, and (4) nucleic acid vaccines (Appendix A)
+[7].
+Whole virus vaccines
+Whole virus vaccines use a weakened (attenuated) or
+inactivated form of the severe acute respiratory
+syndrome coronavirus 2 (SARS-CoV-2) to trigger pro-
+tective immunity. Live attenuated vaccines use a
+weakened form of the virus, which can still grow
+and replicate but does not cause illness [7]. Inacti-
+vated vaccines contain viruses whose genetic material
+has been destroyed by heat, chemicals, or radiation, so
+they cannot infect cells and replicate but can still
+trigger an immune response [8]. Both types of whole
+virus vaccines are tried and tested vaccine approaches,
+which form the basis of many existing vaccines. Exist-
+ing live attenuated virus vaccines include measles, oral
+poliovirus, and yellow fever vaccines; and inactivated
+vaccines include inactivated polio and seasonal inﬂu-
+enza vaccines [9].
+There are currently 16 inactivated and two live atten-
+uated candidate SARS-CoV-2 vaccines in clinical
+development [5]. The advantages of live-attenuated
+SARS-CoV-2 vaccine candidates include targeting and
+stimulating robust mucosal and cellular immunity,
+which is essential for protection without the need
+for adjuvants [10,11]. However, this type of vaccine
+has some disadvantages. SARS-CoV-2 is excreted in
+the feces of infected patients [12,13] and there is
+concern that live-attenuated SARS-CoV-2 vaccines
+may be excreted in the feces of vaccines, possibly
+leading to SARS-CoV-2 transmission to unvaccinated
+individuals. The use of live-attenuated SARS-CoV-2
+Available online at www.sciencedirect.com
+ScienceDirect
+www.sciencedirect.com 
+Current Opinion in Immunology 2021, 71:111–116
+vaccine may also increase the risk of recombination
+between the vaccine strain and circulating wild-type
+virus, generating new viral variants. In addition,
+production and formulation of a live attenuated
+SARS-CoV-2 vaccine is labor-intensive and requires
+rigorous quality control, which would slow down large-
+scale vaccine production. At least two SARS-CoV-2
+inactivated candidate vaccines have been approved for
+emergency use [5,6].
+Protein-based vaccines
+There are two types of protein-based vaccines, that is,
+subunit and virus-like particle vaccines [14]. Protein
+subunit vaccines consist of viral antigenic fragments
+produced by recombinant protein techniques [15].
+They are easy to produce, and relatively safe and
+well-tolerated compared to whole virus vaccines.
+The limitation of protein subunit vaccines is their
+low immunogenicity [16]. Therefore, adjuvants are
+usually 
+used 
+together 
+with 
+subunit 
+vaccines 
+to
+improve immunogenicity. Existing subunit vaccines
+include those against whooping cough, Streptococcus
+pneumoniae, and Haemophilus inﬂuenzae type b [7].
+There are currently 33 SARS-CoV-2 protein subunit
+candidate vaccines in clinical development [5],
+with at least one that has been shown in phase III
+clinical trials to induce high titers of neutralizing
+antibodies [17].
+Beyond subunit vaccines, other protein-based SARS-
+CoV-2 candidate vaccines use empty virus shells that
+mimic the coronavirus structure but are not infectious
+because they lack genetic material; referred to as ‘virus-
+like particles’ [14]. There are currently ﬁve virus-like
+particle vaccines in clinical development [5]. Existing
+vaccines that use this technology include human papillo-
+mavirus vaccines [18].
+Viral vector vaccine
+Viruses survive and replicate by invading their host’s
+cells and hijacking their protein-making machinery, so
+it reads the virus genetic code and makes new viruses
+[12]. These virus particles contain antigens, molecules
+that can trigger an immune response [12]. A similar
+principle underpins viral vector vaccines, where the
+host cells only receive a code to make speciﬁc antigens.
+The viral vector acts as a delivery system, providing a
+means to invade the cell and insert the code for SARS-
+CoV-2 antigens. The virus used as a vector is chemically
+weakened so that it cannot cause disease. In this way,
+the body can mount an immune response safely, with-
+out developing the disease [16,19]. Viruses that have
+been used as vectors include the adenovirus (that
+causes common cold), measles virus, and vaccinia virus.
+There are two categories of viral vectors; those that can
+still replicate within cells and those that cannot because
+key genes have been disabled [7,9,19]. Before the
+112 
+Vaccines
+Figure 1
+Pre-clinical
+development
+Clinical development
+Monitoring
+5 – 10 years
+~ 3 years
+~ 3 years
+~ 3 years
+6 – 9 months
+6 – 9 months
+COVID-19
+Conventional
+Phase I
+Phase II
+Phase IV
+Phase 
+III
+Basic
+science
+Laboratory and
+animal studies
+To assess the
+safety, side effects,
+and best dose on a
+small number
+(<100) of healthy
+people
+To determine
+common short-
+term side effects
+and assess the
+immunogenicity of
+  the vaccine in 
+several hundred
+people
+To assess the safety and
+efficacy of the vaccine in
+thousands of people
+Post-marketing
+surveillance
+Current Opinion in Immunology
+COVID-19 vaccine development compared to conventional vaccine development.
+Current Opinion in Immunology 2021, 71:111–116 
+www.sciencedirect.com
+onset of SARS-CoV-2, only one viral vector vaccine
+had been approved for use in human population
+against Ebola virus disease [20]. The Ebola vaccine
+uses the vesicular stomatitis virus as a replicating viral
+vector. One drawback with viral vector vaccines is that
+if people have been previously exposed to the viral
+vector and have developed an immune response against
+it this could potentially blunt the vaccine’s effective-
+ness [14].
+There are currently 16 non-replicating and two replicat-
+ing viral vector candidate SARS-CoV-2 vaccines in clini-
+cal development [5]. Various viral vector SARS-CoV-2
+candidate vaccines, all using non-replicating viral vectors,
+have been approved by regulatory authorities around the
+world for emergency use [5,6].
+Nucleic acid vaccines
+SARS-CoV-2 
+nucleic 
+acid 
+vaccines 
+use 
+genetic
+instructions, in the form of deoxyribonucleic acid
+(DNA) or ribonucleic acid (RNA), for a SARS-CoV-
+2 protein that prompts an immune response. Before
+COVID-19, this platform was unproven, as no existing
+licensed vaccine used this technology. DNA vaccines
+use a piece of DNA encoding the antigen, which is ﬁrst
+inserted into a bacterial plasmid. Bacterial plasmids
+are circular pieces of DNA used to store and share
+genes that may beneﬁt their survival [11]. Plasmids
+can replicate the main chromosomal DNA indepen-
+dently and provide a simple tool for transferring genes
+between cells. Because of this, they are already widely
+used in genetic engineering. This allows for the host
+machinery to translate the antigen message into
+protein inside cells [19]. RNA vaccines, on the other
+hand, encode the antigen of interest in a messenger
+RNA (mRNA) or self-amplifying RNA, which is a
+molecular template used by cellular factories to pro-
+duce proteins [11,19]. The RNA can be injected by
+itself, encapsulated within nanoparticles, or driven
+into cells using some of the same techniques devel-
+oped for DNA vaccines. Once the DNA or RNA is
+inside the cell and starts producing antigens, these are
+then displayed on its surface, where they can be
+detected by the immune system, triggering a response.
+This response includes killer T cells (which look for
+and kill infected cells) and antibody-producing B cells
+and helper T cells that support antibody production
+[9,16].
+There are currently at least 10 DNA and 18 RNA candi-
+date vaccines in clinical development [5]. Several
+mRNA 
+vaccines 
+against 
+SARS-CoV-2 
+have 
+been
+approved for emergency use around [5,6]. This is
+the ﬁrst time in the history of vaccinology that a nucleic
+acid vaccine has been approved for use in public health
+programs.
+COVID-19 vaccine rollout
+By mid-2021 more than three billion doses of COVID-19
+vaccines had been administered worldwide, and 24% of
+the world population had received at least one dose of a
+COVID-19 vaccine [21]. By the same time, more than
+40 million COVID-19 vaccine doses were being adminis-
+tered each day worldwide. Countries that had vaccinated
+at least 50% of their citizens against COVID-19 by mid-
+2021 include the United Kingdom, Chile, Uruguay,
+Israel, Bahrain, Hungary, Italy, Spain, Germany, United
+States of America, and France. However, only 1% of
+people 
+in 
+low-income 
+countries 
+had 
+received 
+a
+COVID-19 vaccine dose by end of June 2021. In Africa,
+only 53 million vaccine doses had been administered [21].
+Conclusion
+Advances 
+in 
+COVID-19 
+vaccines 
+are 
+encouraging
+because this is the ﬁrst time that vaccine development
+has accelerated at this speed. Research advances incorpo-
+rating vaccinology have ensured that the most critical
+public health intervention is developed timeously. Points
+to consider for future COVID-19 vaccines include the
+development of heat stable vaccines, which can be
+administered easily in low resource tropical settings.
+Countries all over the world, regardless of political ideol-
+ogies, can unite and work together to achieve fast and
+successful COVID-19 vaccine rollout worldwide.
+Authors’ contributions
+Duduzile Ndwandwe conceived and wrote the ﬁrst draft
+of the article, Charles S Wiysonge contributed important
+intellectual input to subsequent versions of the article,
+and both authors read and approved the ﬁnal version of
+the article for submission.
+Conﬂict of interest statement
+Charles S Wiysonge is one of the editors of this themed
+issue on Vaccines. Duduzile Ndwandwe declares no
+competing interests.
+Acknowledgements
+The publication cost for this article was paid with funds from the South
+African Medical Research Council (project code: 43500). The views
+expressed in this article are those of the authors. They do not necessarily
+reflect the views or policies of the South African Medical Research Council,
+Cochrane, or other institutions that the authors are affiliated with.
+COVID-19 vaccines Ndwandwe and Wiysonge 
+113
+www.sciencedirect.com 
+Current Opinion in Immunology 2021, 71:111–116
+Appendix A
+See Table A1.
+114 
+Vaccines
+Table A1
+Characteristics of COVID-19 vaccines in advanced stage of clinical development
+Developers 
+Type of candidate vaccine 
+Vaccine platform
+description
+Number
+of doses
+Schedule 
+Route of
+administration
+Phase
+Inovio
+Pharmaceuticals + International
+Vaccine Institute + Advaccine
+(Suzhou) Biopharmaceutical Co.,
+Ltd
+INO-4800 + electroporation 
+Viral vector
+(Non-replicating)
+2 
+Day 0 + 28 
+ID 
+Phase
+2/3
+AnGes + Takara Bio + Osaka
+University
+AG0301-COVID19 
+DNA based
+vaccine
+2 
+Day 0 + 14 
+IM 
+Phase
+2/3
+ReiThera + Leukocare + Univercells GRAd-COV2 (Replication
+defective Simian Adenovirus
+(GRAd) encoding S)
+Viral vector
+(Non-replicating)
+1 
+Day 0 
+IM 
+Phase
+2/3
+Clover Biopharmaceuticals
+Inc./GSK/Dynavax
+SCB-2019 + AS03 or CpG
+1018 adjuvant plus alum
+adjuvant (Native like Trimeric
+subunit Spike Protein vaccine)
+Protein subunit 
+2 
+Day 0 + 21 
+IM 
+Phase
+2/3
+CSL Ltd. + Seqirus + University of
+Queensland
+MF59 adjuvanted SARS-CoV-2
+Sclamp vaccine
+Protein subunit 
+2 
+Day 0 + 28 
+IM 
+Phase
+2/3
+Vaxxinity 
+UB-612 (Multitope peptide
+based S1-RBD-protein based
+vaccine)
+Protein subunit 
+2 
+Day 0 + 28 
+IM 
+Phase
+2/3
+Medicago Inc. 
+Coronavirus-like particle
+COVID-19 (CoVLP)
+Virus like particle 
+2 
+Day 0 + 21 
+IM 
+Phase
+2/3
+Shifa Pharmed Industrial Co 
+COVID-19 inactivated vaccine 
+Inactivated Virus 
+2 
+Day 0 + 14 
+IM 
+Phase
+2/3
+Sinopharm + China National Biotec
+Group Co + Wuhan Institute of
+Biological Products
+Inactivated SARS-CoV-2
+vaccine (Vero cell)
+Inactivated virus 
+2 
+Day 0 + 21 
+IM 
+Phase
+3
+Sinopharm + China National Biotec
+Group Co + Beijing Institute of
+Biological Products
+Inactivated SARS-CoV-2
+vaccine (Vero cell), vaccine
+name BBIBP-CorV
+Inactivated virus 
+2 
+Day 0 + 21 
+IM 
+Phase
+3
+Gamaleya Research Institute;
+Health Ministry of the Russian
+Federation
+Gam-COVID-Vac Adeno-based
+(rAd26-S + rAd5-S)
+Viral vector
+(Non-replicating)
+2 
+Day 0 + 21 
+IM 
+Phase
+3
+Janssen Pharmaceutical 
+Ad26.COV2.S 
+Viral vector
+(Non-replicating)
+12 
+Day 0 or Day 0 + 56 IM 
+Phase
+3
+Novavax 
+SARS-CoV-2 rS/Matrix
+M1-adjuvant (Full length
+recombinant SARS CoV-2
+glycoprotein nanoparticle
+vaccine adjuvanted with Matrix
+M) NVX-CoV2373
+Protein subunit 
+2 
+Day 0 + 21 
+IM 
+Phase
+3
+Anhui Zhifei Longcom
+Biopharmaceutical + Institute of
+Microbiology, Chinese Academy
+of Sciences
+Recombinant SARS-CoV-2
+vaccine (CHO Cell)
+Protein subunit 
+23 
+Day 0 + 28 or Day
+0 + 28 + 56
+IM 
+Phase
+3
+CureVac AG 
+CVnCoV vaccine 
+RNA based
+vaccine
+2 
+Day 0 + 28 
+IM 
+Phase
+3
+Institute of Medical Biology +
+Chinese Academy of Medical
+Sciences
+SARS-CoV-2 vaccine (vero cells) Inactivated virus 
+2 
+Day 0 + 28 
+IM 
+Phase
+3
+Research Institute for Biological
+Safety Problems, Rep of
+Kazakhstan
+QazCovid-in1-COVID-19
+inactivated vaccine
+Inactivated virus 
+2 
+Day 0 + 21 
+IM 
+Phase
+3
+Zydus Cadila 
+nCov vaccine 
+DNA based
+vaccine
+3 
+Day 0 + 28 + 56 
+ID 
+Phase
+3
+Bharat Biotech International Limited Whole-virion inactivated SARS-
+CoV-2 vaccine (BBV152);
+covaxin
+Inactivated virus 
+2 
+Day 0 + 14 
+IM 
+Phase
+3
+Sanoﬁ Pasteur + GSK 
+VAT00002: SARS-CoV-2 S
+protein with adjuvant
+Protein subunit 
+2 
+Day 0 + 21 
+IM 
+Phase
+3
+Current Opinion in Immunology 2021, 71:111–116 
+www.sciencedirect.com
+References and recommended reading
+Papers of particular interest, published within the period of review,
+have been highlighted as:
+ 
+of special interest
+ of outstanding interest
+1.
+
+Rabaan AA, Al-Ahmed SH, Sah R, Tiwari R, Yatoo MI, Patel SK,
+Pathak M, Malik YS, Dhama K, Singh KP et al.: SARS-CoV-2/
+COVID-19 and advances in developing potential therapeutics
+and vaccines to counter this emerging pandemic. Ann Clin
+Microbiol Antimicrob 2020, 19:40
+The study highlights the recent advances to COVID-19 vaccines in efforts
+to curb the current pandemic. The paper elaborates on the biology of the
+SARS-CoV-2 and how potential therapeutics could work against this
+virus.
+2. 
+Uttarilli A, Amalakanti S, Kommoju PR, Sharma S, Goyal P,
+Manjunath GK, Upadhayay V, Parveen A, Tandon R, Prasad KS
+et al.: Super-rapid race for saving lives by developing COVID-
+19 vaccines. J Integr Bioinform 2021, 18:27-43.
+3.
+
+Sell S: How vaccines work: immune effector mechanisms and
+designer vaccines. Expert Rev Vaccines 2019, 18:993-1015
+The study highlights the fundamentals of how vaccines work at a mole-
+cular level.
+4.
+
+Ellis H: James Phipps, ﬁrst to be vaccinated against smallpox
+by Edward Jenner. J Perioper Pract 2021, 31:51-52
+This paper reports on the ﬁrst person to be vaccinated against any
+disease; and in this case it was smallpox. It is relevant to this day to
+understand the history of vaccines in order to appreciate the recent
+vaccine development advances.
+5.
+
+WHO: COVID-19 Vaccine Tracker and Landscape. 2021 https://
+www.who.int/publications/m/item/
+draft-landscape-of-covid-19-candidate-vaccines
+The COVID-19 vaccine tracker and landscape compiles detailed informa-
+tion of each COVID-19 vaccine candidate in development by closely
+monitoring their progress through the pipeline.
+6.
+
+WHO: Status of COVID-19 Vaccines within WHO EUL/PQ
+Evaluation Process. 2021 https://extranet.who.int/pqweb/sites/
+default/ﬁles/documents/Status_COVID_VAX_29June2021.pdf
+The WHO Emergency Use Listing Procedure (EUL) is a risk-based
+procedure for assessing and listing unlicensed vaccines, therapeutics
+and in vitro diagnostics with the ultimate aim of expediting the availability
+of these products to people affected by a public health emergency.
+7.
+
+Nagy A, Alhatlani B: An overview of current COVID-19 vaccine
+platforms. Comput Struct Biotechnol J 2021, 19:2508-2517
+This paper applies structural biology to enable an understanding of
+vaccine platforms.
+8. 
+Gao Q, Bao L, Mao H, Wang L, Xu K, Yang M, Li Y, Zhu L, Wang N,
+Lv Z et al.: Development of an inactivated vaccine candidate for
+SARS-CoV-2. Science 2020, 369:77-81.
+9. 
+Rodrigues AF, Soares HR, Guerreiro MR, Alves PM,
+Coroadinha AS: Viral vaccines and their manufacturing cell
+substrates: new trends and designs in modern vaccinology.
+Biotechnol J 2015, 10:1329-1344.
+10. Fett C, DeDiego ML, Regla-Nava JA, Enjuanes L, Perlman S:
+Complete protection against severe acute respiratory
+syndrome coronavirus-mediated lethal respiratory disease in
+aged mice by immunization with a mouse-adapted virus
+lacking E protein. J Virol 2013, 87:6551-6559.
+11. Frederiksen LSF, Zhang Y, Foged C, Thakur A: The long road
+toward COVID-19 herd immunity: vaccine platform
+technologies and mass immunization strategies. Front
+Immunol 2020, 11:1817.
+12.
+
+Chen Y, Li L: SARS-CoV-2: virus dynamics and host response.
+Lancet Infect Dis 2020, 20:515-516
+COVID-19 vaccines Ndwandwe and Wiysonge 
+115
+Table A1 (Continued )
+Developers 
+Type of candidate vaccine 
+Vaccine platform
+description
+Number
+of doses
+Schedule 
+Route of
+administration
+Phase
+Shenzhen Kangtai Biological
+Products Co., Ltd.
+Inactivated SARS-CoV-2
+vaccine (Vero cell)
+Inactivated virus 
+2 
+Day 0 + 28 
+IM 
+Phase
+3
+Instituto Finlay de Vacunas 
+FINLAY-FR-2 anti-SARS-CoV-2
+vaccine (RBD chemically
+conjugated to tetanus toxoid
+plus adjuvant)
+Protein subunit 
+2 
+Day 0 + 28 
+IM 
+Phase
+3
+Federal Budgetary Research
+Institution State Research Center
+of Virology and Biotechnology
+‘Vector’
+EpiVacCorona (EpiVacCorona
+vaccine based on peptide
+antigens for the prevention of
+COVID-19)
+Protein subunit 
+2 
+Day 0 + 21 
+IM 
+Phase
+3
+Academy of Military Science (AMS),
+Walvax Biotechnology and
+Suzhou Abogen Biosciences
+SARS-CoV-2 mRNA vaccine
+(ARCoV)
+RNA based
+vaccine
+2 
+Day 0 + 14 or Day
+0 + 28
+IM 
+Phase
+3
+Center for Genetic Engineering and
+Biotechnology (CIGB)
+CIGB-66 (RBD + aluminium
+hydroxide)
+Protein subunit 
+3 
+Day 0 + 14 + 28 or
+Day 0 + 28 + 56
+IM 
+Phase
+3
+Valneva, National Institute for Health
+Research, United Kingdom
+VLA2001 
+Inactivated virus 
+2 
+Day 0 + 21 
+IM 
+Phase
+3
+Sinovac Research and
+Development Co., Ltd
+CoronaVac; inactivated SARS-
+CoV-2 vaccine (vero cell)
+Inactivated virus 
+2 
+Day 0 + 14 
+IM 
+Phase
+4
+AstraZeneca + University of Oxford 
+ChAdOx1-S - (AZD1222) 
+Viral vector
+(Non-replicating)
+12 
+Day 0 + 28 
+IM 
+Phase
+4
+CanSino Biological Inc./Beijing
+Institute of Biotechnology
+Recombinant novel coronavirus
+vaccine (Adenovirus type
+5 vector)
+Viral vector
+(Non-replicating)
+1 
+Day 0 
+IM 
+Phase
+4
+Moderna + National Institute of
+Allergy and Infectious Diseases
+(NIAID)
+mRNA-1273 
+RNA based
+vaccine
+2 
+Day 0 + 28 
+IM 
+Phase
+4
+Pﬁzer/BioNTech + Fosun Pharma 
+BNT162b2 (3 LNP-mRNAs), also
+known as ‘Comirnaty’
+RNA based
+vaccine
+2 
+Day 0 + 21 
+IM 
+Phase
+4
+Source: WHO COVID-19 vaccine tracker and landscape [Ref. 5].
+www.sciencedirect.com 
+Current Opinion in Immunology 2021, 71:111–116
+This study elaborates on the virus–host interaction which provides a
+better understanding of how the Covid-19 vaccines work.
+13. Xing YH, Ni W, Wu Q, Li WJ, Li GJ, Wang WD, Tong JN, Song XF,
+Wing-Kin Wong G, Xing QS: Prolonged viral shedding in feces of
+pediatric patients with coronavirus disease 2019. J Microbiol
+Immunol Infect 2020, 53:473-480.
+14. Callaway E: The race for coronavirus vaccines: a graphical
+guide. Nature 2020, 580:576-577.
+15. Hsieh CL, Goldsmith JA, Schaub JM, DiVenere AM, Kuo HC,
+Javanmardi K, Le KC, Wrapp D, Lee AG, Liu Y et al.: Structure-
+based design of prefusion-stabilized SARS-CoV-2 spikes.
+Science 2020, 369:1501-1505.
+16.
+
+Lemaire D, Barbosa T, Rihet P: Coping with genetic diversity: the
+contribution of pathogen and human genomics to modern
+vaccinology. Braz J Med Biol Res 2012, 45:376-385
+This paper illustrates how human genomics can be used to advance
+vaccine development.
+17. Keech C, Albert G, Cho I, Robertson A, Reed P, Neal S, Plested JS,
+Zhu M, Cloney-Clark S, Zhou H et al.: Phase 1-2 trial of a SARS-
+CoV-2 recombinant spike protein nanoparticle vaccine. N Engl
+J Med 2020, 383:2320-2332.
+18. Mavundza EJ, Wiyeh AB, Mahasha PW, Halle-Ekane G,
+Wiysonge CS: A systematic review of immunogenicity, clinical
+efﬁcacy and safety of human papillomavirus vaccines in
+people living with the human immunodeﬁciency virus. Hum
+Vaccin Immunother 2020, 16:426-435.
+19. Rauch S, Jasny E, Schmidt KE, Petsch B: New vaccine
+technologies to combat outbreak situations. Front Immunol
+2018, 9:1963.
+20. Tomori O, Kolawole MO: Ebola virus disease: current vaccine
+solutions. Curr Opin Immunol 2021, 71:27-33.
+21. Mathieu E, Ritchie H, Ortiz-Ospina E, Roser M, Hasell J, Appel C,
+Giattino C, Rode´ s-Guirao L: A global database of COVID-19
+vaccinations. Nat Hum Behav 2021.
+116 
+Vaccines
+Current Opinion in Immunology 2021, 71:111–116 
+www.sciencedirect.com
