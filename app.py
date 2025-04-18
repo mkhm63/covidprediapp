@@ -35,14 +35,9 @@ import classify
 def improved_update_labels_csv(text_dir="output/texts", label_file="output/labels.csv"):
     import pandas as pd
     from spacy import load
-    from spacy.cli import download
     from collections import Counter
 
-    try:
-        nlp = load("en_core_web_sm")
-    except OSError:
-        download("en_core_web_sm")
-        nlp = load("en_core_web_sm")
+    nlp = load("en_core_web_sm")  # Assume model is already installed
 
     country_list = {country.name.lower() for country in pycountry.countries}
     known_regions = {"europe", "asia", "africa", "south america", "north america", "middle east", "australia"}
