@@ -45,20 +45,24 @@ if st.sidebar.button("🤖 Train Classifier & Visualize"):
             clf, vectorizer = classify_texts(texts, y)
 
             label_texts = load_texts_by_label(label_column=label_option)
-            st.write(f"🧾 Labels detected: {list(label_texts.keys())}")
+            detected_labels = list(label_texts.keys())
+            st.write(f"🧾 Labels detected: {detected_labels}")
+
+            selected_label_value = st.selectbox(f"Select a {label_option} to visualize:", detected_labels)
+            filtered_texts = {selected_label_value: label_texts[selected_label_value]}
 
             col1, col2 = st.columns(2)
 
             with col1:
-                st.subheader("Top Keywords by Label")
+                st.subheader(f"Top Keywords for {selected_label_value}")
                 plt.figure(figsize=(12, 6))
-                plot_top_keywords_by_label(label_texts)
+                plot_top_keywords_by_label(filtered_texts)
                 st.pyplot(plt.gcf())
 
             with col2:
-                st.subheader("Word Clouds by Label")
+                st.subheader(f"Word Cloud for {selected_label_value}")
                 plt.figure(figsize=(12, 6))
-                plot_wordclouds_by_label(label_texts)
+                plot_wordclouds_by_label(filtered_texts)
                 st.pyplot(plt.gcf())
 
             st.success("Analysis complete.")
