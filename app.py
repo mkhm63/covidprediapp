@@ -35,6 +35,12 @@ st.sidebar.markdown("---")
 
 label_option = st.sidebar.selectbox("Choose Label Type for Analysis", ["risk_level", "study_type", "region"])
 
+# Initialize session state
+if 'classifier_ready' not in st.session_state:
+    st.session_state.classifier_ready = False
+if 'label_texts' not in st.session_state:
+    st.session_state.label_texts = {}
+
 if st.sidebar.button("🤖 Train Classifier & Visualize"):
     with st.spinner("Training model and generating visualizations..."):
         try:
@@ -44,27 +50,28 @@ if st.sidebar.button("🤖 Train Classifier & Visualize"):
                 st.warning("No texts found. Please upload and extract PDFs first.")
             clf, vectorizer = classify_texts(texts, y)
 
-            label_texts = load_texts_by_label(label_column=label_option)
-            detected_labels = list(label_texts.keys())
-            st.write(f"🧾 Labels detected: {detected_labels}")
-
-            selected_label_value = st.selectbox(f"Select a {label_option} to visualize:", detected_labels)
-            filtered_texts = {selected_label_value: label_texts[selected_label_value]}
-
-            col1, col2 = st.columns(2)
-
-            with col1:
-                st.subheader(f"Top Keywords for {selected_label_value}")
-                plt.figure(figsize=(12, 6))
-                plot_top_keywords_by_label(filtered_texts)
-                st.pyplot(plt.gcf())
-
-            with col2:
-                st.subheader(f"Word Cloud for {selected_label_value}")
-                plt.figure(figsize=(12, 6))
-                plot_wordclouds_by_label(filtered_texts)
-                st.pyplot(plt.gcf())
-
-            st.success("Analysis complete.")
+            st.session_state.label_texts = load_texts_by_label(label_column=label_option)
+            st.session_state.classifier_ready = True
+            st.success("Model trained. Now select a label to visualize.")
         except Exception as e:
             st.error(f"⚠️ Something went wrong: {e}")
+
+# Show selectbox and visualizations after classifier is ready
+if st.session_state.classifier_ready and st.session_state.label_texts:
+    detected_labels = list(st.session_state.label_texts.keys())
+    selected_label_value = st.selectbox(f"Select a {label_option} to visualize:", detected_labels)
+    filtered_texts = {selected_label_value: st.session_state.label_texts[selected_label_value]}
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.subheader(f"Top Keywords for {selected_label_value}")
+        plt.figure(figsize=(12, 6))
+        plot_top_keywords_by_label(filtered_texts)
+        st.pyplot(plt.gcf())
+
+    with col2:
+        st.subheader(f"Word Cloud for {selected_label_value}")
+        plt.figure(figsize=(12, 6))
+        plot_wordclouds_by_label(filtered_texts)
+        st.pyplot(plt.gcf())
