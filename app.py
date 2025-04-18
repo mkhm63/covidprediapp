@@ -37,6 +37,11 @@ def improved_update_labels_csv(text_dir="output/texts", label_file="output/label
     from spacy import load
     from collections import Counter
 
+    try:
+    nlp = load("en_core_web_sm")
+except OSError:
+    from spacy.cli import download
+    download("en_core_web_sm")
     nlp = load("en_core_web_sm")
 
     country_list = {country.name.lower() for country in pycountry.countries}
