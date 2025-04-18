@@ -1,11 +1,12 @@
 streamlit
 pymupdf
-pandas
+numpy==1.23.5
+spacy==3.5.4
+pycountry
 scikit-learn
+pandas
 matplotlib
 seaborn
+thinc==8.1.7
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl
 wordcloud
-spacy==3.7.2
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
-pycountry
-thinc==8.1.8
