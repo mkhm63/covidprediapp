@@ -107,7 +107,7 @@ if 'classifier_ready' not in st.session_state:
 if 'label_texts' not in st.session_state:
     st.session_state.label_texts = {}
 
-if st.sidebar.button("🤖 Train Classifier & Visualize"):
+if st.sidebar.button("Train Classifier & Visualize"):
     with st.spinner("Training model and generating visualizations..."):
         try:
             texts, y = load_texts_with_labels(label_column=label_option)
