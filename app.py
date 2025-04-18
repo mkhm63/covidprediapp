@@ -2,6 +2,8 @@
 import os
 import streamlit as st
 import matplotlib.pyplot as plt
+import spacy
+import pycountry
 
 from extract_text import extract_pdfs_to_txt
 from classify import update_labels_csv, load_texts_with_labels, classify_texts
@@ -26,6 +28,70 @@ if uploaded_files:
 if st.sidebar.button("Extract Text from PDFs"):
     extract_pdfs_to_txt()
     st.success("Text extracted from all PDFs.")
+
+# Monkey patch classify.update_labels_csv to use spacy and pycountry
+import classify
+
+def improved_update_labels_csv(text_dir="output/texts", label_file="output/labels.csv"):
+    import pandas as pd
+    from spacy import load
+    from collections import Counter
+
+    nlp = load("en_core_web_sm")
+
+    country_list = {country.name.lower() for country in pycountry.countries}
+    known_regions = {"europe", "asia", "africa", "south america", "north america", "middle east", "australia"}
+
+    all_files = sorted(f for f in os.listdir(text_dir) if f.endswith(".txt"))
+    data = []
+    for fname in all_files:
+        path = os.path.join(text_dir, fname)
+        with open(path, "r", encoding="utf-8") as f:
+            text = f.read().lower()
+
+        # Detect risk_level
+        if any(term in text for term in ["mortality", "death", "icu"]):
+            risk = "high"
+        elif any(term in text for term in ["hospital", "infection", "spread"]):
+            risk = "medium"
+        else:
+            risk = "low"
+
+        # Detect study_type
+        if any(term in text for term in ["model", "forecast", "simulation"]):
+            study = "modeling"
+        elif any(term in text for term in ["x-ray", "scan", "detection", "diagnostic"]):
+            study = "diagnostic"
+        elif "vaccine" in text:
+            study = "vaccine"
+        else:
+            study = "other"
+
+        # Detect region
+        doc = nlp(text)
+        found = [ent.text.lower() for ent in doc.ents if ent.label_ == "GPE"]
+        locations = Counter(found)
+        region = "global"
+        for loc, _ in locations.most_common():
+            if loc in country_list:
+                region = loc
+                break
+            elif loc in known_regions:
+                region = loc
+                break
+
+        data.append({
+            "filename": fname,
+            "risk_level": risk,
+            "study_type": study,
+            "region": region
+        })
+
+    df = pd.DataFrame(data)
+    df.to_csv(label_file, index=False)
+    print(f"✅ labels.csv auto-filled with detected labels for {len(all_files)} files.")
+
+classify.update_labels_csv = improved_update_labels_csv
 
 if st.sidebar.button("Update Labels Automatically"):
     update_labels_csv()
